@@ -1,0 +1,68 @@
+[0.035s] Invoking command in '/home/hady/teleop/gbot_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop
+[0.086s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.315s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.374s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.377s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.388s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.438s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.494s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.496s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.661s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.737s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.780s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.795s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[0.880s] -- No build type selected, using DEBUG
+[0.882s] -- Looking for include file sys/queue.h
+[1.097s] -- Looking for include file sys/queue.h - found
+[1.098s] -- Looking for include files sys/socket.h, linux/if_addr.h
+[1.311s] -- Looking for include files sys/socket.h, linux/if_addr.h - found
+[1.312s] -- Looking for include files sys/socket.h, linux/rtnetlink.h
+[1.508s] -- Looking for include files sys/socket.h, linux/rtnetlink.h - found
+[1.509s] -- Looking for 4 include files sys/types.h, ..., netinet/ip_icmp.h
+[1.737s] -- Looking for 4 include files sys/types.h, ..., netinet/ip_icmp.h - found
+[1.739s] -- Looking for 3 include files sys/types.h, ..., net/route.h
+[2.024s] -- Looking for 3 include files sys/types.h, ..., net/route.h - found
+[2.026s] -- Looking for include file stdatomic.h
+[2.274s] -- Looking for include file stdatomic.h - found
+[2.275s] -- Looking for usrsctp.h
+[2.525s] -- Looking for usrsctp.h - found
+[2.526s] -- Performing Test have_sa_len
+[2.634s] -- Performing Test have_sa_len - Failed
+[2.637s] -- Performing Test have_sin_len
+[2.760s] -- Performing Test have_sin_len - Failed
+[2.761s] -- Performing Test have_sin6_len
+[2.893s] -- Performing Test have_sin6_len - Failed
+[2.895s] -- Performing Test have_sconn_len
+[3.027s] -- Performing Test have_sconn_len - Failed
+[3.032s] -- Performing Test has_wfloat_equal
+[3.270s] -- Performing Test has_wfloat_equal - Success
+[3.270s] -- Performing Test has_wshadow
+[3.499s] -- Performing Test has_wshadow - Success
+[3.503s] -- Performing Test has_wpointer_aritih
+[3.751s] -- Performing Test has_wpointer_aritih - Success
+[3.755s] -- Performing Test has_wunreachable_code
+[3.991s] -- Performing Test has_wunreachable_code - Success
+[3.992s] -- Performing Test has_winit_self
+[4.224s] -- Performing Test has_winit_self - Success
+[4.228s] -- Performing Test has_wno_unused_function
+[4.464s] -- Performing Test has_wno_unused_function - Success
+[4.465s] -- Performing Test has_wno_unused_parameter
+[4.687s] -- Performing Test has_wno_unused_parameter - Success
+[4.691s] -- Performing Test has_wno_unreachable_code
+[4.929s] -- Performing Test has_wno_unreachable_code - Success
+[4.930s] -- Performing Test has_wstrict_prototypes
+[5.165s] -- Performing Test has_wstrict_prototypes - Success
+[5.166s] -- Compiler flags (CMAKE_C_FLAGS):  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes
+[5.172s] -- Performing Test has_wno_address_of_packed_member
+[5.400s] -- Performing Test has_wno_address_of_packed_member - Success
+[5.403s] -- Performing Test has_wno_deprecated_declarations
+[5.650s] -- Performing Test has_wno_deprecated_declarations - Success
+[5.698s] CMake Error at CMakeLists.txt:52 (FetchContent_MakeAvailable):
+[5.698s]   Unknown CMake command "FetchContent_MakeAvailable".
+[5.699s] 
+[5.699s] 
+[5.699s] -- Configuring incomplete, errors occurred!
+[5.699s] See also "/home/hady/teleop/gbot_ws/build/teleop/CMakeFiles/CMakeOutput.log".
+[5.699s] See also "/home/hady/teleop/gbot_ws/build/teleop/CMakeFiles/CMakeError.log".
+[5.733s] Invoked command in '/home/hady/teleop/gbot_ws/build/teleop' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop

@@ -1,0 +1,355 @@
+[0.036s] Invoking command in '/home/hady/teleop/gbot_ws/build/libdatachannel': /usr/bin/cmake /home/hady/teleop/gbot_ws/libdatachannel -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/libdatachannel
+[0.202s] -- The CXX compiler identification is GNU 11.4.0
+[0.218s] -- Detecting CXX compiler ABI info
+[0.435s] -- Detecting CXX compiler ABI info - done
+[0.475s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.476s] -- Detecting CXX compile features
+[0.479s] -- Detecting CXX compile features - done
+[0.485s] -- Looking for C++ include pthread.h
+[0.710s] -- Looking for C++ include pthread.h - found
+[0.710s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.913s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.915s] -- Found Threads: TRUE  
+[1.037s] -- The C compiler identification is GNU 11.4.0
+[1.063s] -- Detecting C compiler ABI info
+[1.260s] -- Detecting C compiler ABI info - done
+[1.272s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.272s] -- Detecting C compile features
+[1.273s] -- Detecting C compile features - done
+[1.274s] -- No build type selected, using DEBUG
+[1.276s] -- Looking for include file sys/queue.h
+[1.502s] -- Looking for include file sys/queue.h - found
+[1.506s] -- Looking for include files sys/socket.h, linux/if_addr.h
+[1.769s] -- Looking for include files sys/socket.h, linux/if_addr.h - found
+[1.771s] -- Looking for include files sys/socket.h, linux/rtnetlink.h
+[1.981s] -- Looking for include files sys/socket.h, linux/rtnetlink.h - found
+[1.983s] -- Looking for 4 include files sys/types.h, ..., netinet/ip_icmp.h
+[2.192s] -- Looking for 4 include files sys/types.h, ..., netinet/ip_icmp.h - found
+[2.193s] -- Looking for 3 include files sys/types.h, ..., net/route.h
+[2.437s] -- Looking for 3 include files sys/types.h, ..., net/route.h - found
+[2.437s] -- Looking for include file stdatomic.h
+[2.646s] -- Looking for include file stdatomic.h - found
+[2.647s] -- Looking for usrsctp.h
+[2.864s] -- Looking for usrsctp.h - found
+[2.864s] -- Performing Test have_sa_len
+[2.965s] -- Performing Test have_sa_len - Failed
+[2.966s] -- Performing Test have_sin_len
+[3.093s] -- Performing Test have_sin_len - Failed
+[3.094s] -- Performing Test have_sin6_len
+[3.203s] -- Performing Test have_sin6_len - Failed
+[3.204s] -- Performing Test have_sconn_len
+[3.320s] -- Performing Test have_sconn_len - Failed
+[3.321s] -- Performing Test has_wfloat_equal
+[3.582s] -- Performing Test has_wfloat_equal - Success
+[3.586s] -- Performing Test has_wshadow
+[3.821s] -- Performing Test has_wshadow - Success
+[3.822s] -- Performing Test has_wpointer_aritih
+[4.162s] -- Performing Test has_wpointer_aritih - Success
+[4.166s] -- Performing Test has_wunreachable_code
+[4.424s] -- Performing Test has_wunreachable_code - Success
+[4.425s] -- Performing Test has_winit_self
+[4.643s] -- Performing Test has_winit_self - Success
+[4.644s] -- Performing Test has_wno_unused_function
+[4.868s] -- Performing Test has_wno_unused_function - Success
+[4.871s] -- Performing Test has_wno_unused_parameter
+[5.105s] -- Performing Test has_wno_unused_parameter - Success
+[5.106s] -- Performing Test has_wno_unreachable_code
+[5.371s] -- Performing Test has_wno_unreachable_code - Success
+[5.372s] -- Performing Test has_wstrict_prototypes
+[5.615s] -- Performing Test has_wstrict_prototypes - Success
+[5.616s] -- Compiler flags (CMAKE_C_FLAGS):  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes
+[5.632s] -- Performing Test has_wno_address_of_packed_member
+[5.866s] -- Performing Test has_wno_address_of_packed_member - Success
+[5.870s] -- Performing Test has_wno_deprecated_declarations
+[6.120s] -- Performing Test has_wno_deprecated_declarations - Success
+[6.153s] -- Looking for arpa/inet.h
+[6.389s] -- Looking for arpa/inet.h - found
+[6.390s] -- Looking for byteswap.h
+[6.654s] -- Looking for byteswap.h - found
+[6.656s] -- Looking for inttypes.h
+[6.915s] -- Looking for inttypes.h - found
+[6.917s] -- Looking for machine/types.h
+[7.051s] -- Looking for machine/types.h - not found
+[7.052s] -- Looking for netinet/in.h
+[7.301s] -- Looking for netinet/in.h - found
+[7.302s] -- Looking for stdint.h
+[7.674s] -- Looking for stdint.h - found
+[7.674s] -- Looking for stdlib.h
+[7.889s] -- Looking for stdlib.h - found
+[7.890s] -- Looking for sys/int_types.h
+[7.965s] -- Looking for sys/int_types.h - not found
+[7.967s] -- Looking for sys/socket.h
+[8.220s] -- Looking for sys/socket.h - found
+[8.222s] -- Looking for sys/types.h
+[8.487s] -- Looking for sys/types.h - found
+[8.488s] -- Looking for unistd.h
+[8.676s] -- Looking for unistd.h - found
+[8.678s] -- Looking for windows.h
+[8.762s] -- Looking for windows.h - not found
+[8.763s] -- Looking for winsock2.h
+[8.864s] -- Looking for winsock2.h - not found
+[8.864s] -- Looking for sigaction
+[9.112s] -- Looking for sigaction - found
+[9.112s] -- Looking for inet_aton
+[9.367s] -- Looking for inet_aton - found
+[9.367s] -- Looking for inet_pton
+[9.601s] -- Looking for inet_pton - found
+[9.602s] -- Looking for usleep
+[9.820s] -- Looking for usleep - found
+[9.821s] -- Looking for stddef.h
+[10.027s] -- Looking for stddef.h - found
+[10.027s] -- Check size of uint8_t
+[10.193s] -- Check size of uint8_t - done
+[10.194s] -- Check size of uint16_t
+[10.394s] -- Check size of uint16_t - done
+[10.395s] -- Check size of uint32_t
+[10.589s] -- Check size of uint32_t - done
+[10.591s] -- Check size of uint64_t
+[10.845s] -- Check size of uint64_t - done
+[10.845s] -- Check size of int32_t
+[10.985s] -- Check size of int32_t - done
+[10.986s] -- Check size of unsigned long
+[11.173s] -- Check size of unsigned long - done
+[11.174s] -- Check size of unsigned long long
+[11.368s] -- Check size of unsigned long long - done
+[11.368s] -- Performing Test HAVE_INLINE
+[11.578s] -- Performing Test HAVE_INLINE - Success
+[11.766s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found suitable version "3.0.2", minimum required is "1.1.0")  
+[11.782s] -- Could NOT find PCAP (missing: PCAP_LIBRARY) 
+[11.793s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.814s] -- Using the multi-header code from /home/hady/teleop/gbot_ws/libdatachannel/deps/json/include/
+[11.839s] -- Configuring done
+[11.963s] -- Generating done
+[11.990s] -- Build files have been written to: /home/hady/teleop/gbot_ws/build/libdatachannel
+[12.009s] Invoked command in '/home/hady/teleop/gbot_ws/build/libdatachannel' returned '0': /usr/bin/cmake /home/hady/teleop/gbot_ws/libdatachannel -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/libdatachannel
+[12.016s] Invoking command in '/home/hady/teleop/gbot_ws/build/libdatachannel': /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/libdatachannel -- -j8 -l8
+[12.166s] [  0%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/cipher/null_cipher.c.o[0m
+[12.171s] [  0%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/cipher/cipher_test_cases.c.o[0m
+[12.178s] [  1%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/cipher/cipher.c.o[0m
+[12.184s] [  1%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/srtp/srtp.c.o[0m
+[12.188s] [  3%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/cipher/aes_icm_ossl.c.o[0m
+[12.194s] [  5%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/addr.c.o[0m
+[12.198s] [  5%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/cipher/aes_gcm_ossl.c.o[0m
+[12.226s] [  6%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_asconf.c.o[0m
+[12.260s] [  6%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/hash/auth.c.o[0m
+[12.333s] [  8%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/hash/auth_test_cases.c.o[0m
+[12.373s] [  8%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/hash/null_auth.c.o[0m
+[12.405s] [  8%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/agent.c.o[0m
+[12.431s] [  8%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_auth.c.o[0m
+[12.461s] [  8%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/hash/hmac_ossl.c.o[0m
+[12.511s] [ 10%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/kernel/alloc.c.o[0m
+[12.548s] [ 10%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/kernel/crypto_kernel.c.o[0m
+[12.604s] [ 10%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_bsd_addr.c.o[0m
+[12.672s] [ 10%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/kernel/err.c.o[0m
+[12.699s] [ 10%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/crc32.c.o[0m
+[12.757s] [ 12%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/kernel/key.c.o[0m
+[12.770s] [ 13%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/const_time.c.o[0m
+[12.777s] [ 13%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/math/datatypes.c.o[0m
+[12.810s] [ 15%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_callout.c.o[0m
+[12.845s] [ 17%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/replay/rdb.c.o[0m
+[12.895s] [ 17%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/conn.c.o[0m
+[12.940s] [ 17%] [32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/replay/rdbx.c.o[0m
+[12.945s] [ 17%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_cc_functions.c.o[0m
+[13.048s] [ 17%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_crc32.c.o[0m
+[13.107s] [ 17%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/conn_poll.c.o[0m
+[13.121s] [ 18%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/conn_thread.c.o[0m
+[13.230s] [ 18%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/conn_mux.c.o[0m
+[13.283s] [ 20%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_indata.c.o[0m
+[13.302s] [ 22%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/base64.c.o[0m
+[13.418s] [ 22%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_input.c.o[0m
+[13.436s] [ 22%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_output.c.o[0m
+[13.466s] [ 22%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/hash.c.o[0m
+[13.517s] [ 22%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/hmac.c.o[0m
+[13.618s] [ 24%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/ice.c.o[0m
+[13.713s] [ 24%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/juice.c.o[0m
+[13.753s] [ 24%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/log.c.o[0m
+[13.846s] [ 24%] [32m[1mLinking C static library libsrtp2.a[0m
+[13.934s] [ 25%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/random.c.o[0m
+[13.940s] [ 25%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/stun.c.o[0m
+[13.953s] [ 25%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/server.c.o[0m
+[14.024s] [ 27%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/timestamp.c.o[0m
+[14.124s] [ 27%] Built target srtp2
+[14.206s] [ 27%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/udp.c.o[0m
+[14.235s] [ 29%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_pcb.c.o[0m
+[14.237s] [ 29%] [32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/turn.c.o[0m
+[14.260s] [ 29%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_peeloff.c.o[0m
+[14.324s] [ 29%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sha1.c.o[0m
+[14.423s] [ 31%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_ss_functions.c.o[0m
+[14.507s] [ 31%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sysctl.c.o[0m
+[14.616s] [ 31%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_timer.c.o[0m
+[14.628s] [ 32%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_userspace.c.o[0m
+[14.732s] [ 32%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_usrreq.c.o[0m
+[14.754s] [ 32%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctputil.c.o[0m
+[14.756s] [ 34%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet6/sctp6_usrreq.c.o[0m
+[14.980s] [ 34%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_environment.c.o[0m
+[15.048s] [ 34%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_mbuf.c.o[0m
+[15.131s] [ 36%] [32m[1mLinking C static library libjuice.a[0m
+[15.188s] [ 37%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_recv_thread.c.o[0m
+[15.296s] [ 37%] Built target juice
+[15.344s] [ 37%] [32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_socket.c.o[0m
+[17.036s] [ 39%] [32m[1mLinking C static library libusrsctp.a[0m
+[17.414s] [ 39%] Built target usrsctp
+[17.539s] [ 39%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/candidate.cpp.o[0m
+[17.555s] [ 39%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/datachannel.cpp.o[0m
+[17.559s] [ 41%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/configuration.cpp.o[0m
+[17.567s] [ 41%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/channel.cpp.o[0m
+[17.602s] [ 41%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/global.cpp.o[0m
+[17.608s] [ 41%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/description.cpp.o[0m
+[17.646s] [ 43%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/mediahandler.cpp.o[0m
+[17.727s] [ 43%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/message.cpp.o[0m
+[20.064s] [ 44%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/peerconnection.cpp.o[0m
+[21.381s] [ 44%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtcpreceivingsession.cpp.o[0m
+[21.833s] [ 44%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/track.cpp.o[0m
+[24.181s] [ 46%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/websocket.cpp.o[0m
+[25.066s] [ 46%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/websocketserver.cpp.o[0m
+[26.555s] [ 46%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtppacketizationconfig.cpp.o[0m
+[28.323s] [ 48%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtcpsrreporter.cpp.o[0m
+[29.640s] [ 48%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtppacketizer.cpp.o[0m
+[29.728s] [ 48%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtpdepacketizer.cpp.o[0m
+[30.327s] [ 50%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/h264rtppacketizer.cpp.o[0m
+[30.744s] [ 50%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/h264rtpdepacketizer.cpp.o[0m
+[31.083s] [ 50%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/nalunit.cpp.o[0m
+[32.043s] [ 51%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/h265rtppacketizer.cpp.o[0m
+[32.592s] [ 51%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/h265rtpdepacketizer.cpp.o[0m
+[33.577s] [ 51%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/h265nalunit.cpp.o[0m
+[33.727s] [ 53%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/av1rtppacketizer.cpp.o[0m
+[34.135s] [ 53%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtcpnackresponder.cpp.o[0m
+[34.355s] [ 53%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtp.cpp.o[0m
+[36.333s] [ 55%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/capi.cpp.o[0m
+[36.443s] [ 55%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/plihandler.cpp.o[0m
+[36.863s] [ 55%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/pacinghandler.cpp.o[0m
+[37.504s] [ 56%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/rembhandler.cpp.o[0m
+[39.337s] [ 56%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/certificate.cpp.o[0m
+[39.478s] [ 56%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/channel.cpp.o[0m
+[41.131s] [ 58%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/datachannel.cpp.o[0m
+[49.162s] [ 58%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/sctptransport.cpp.o[0m
+[52.198s] [ 60%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/threadpool.cpp.o[0m
+[53.235s] [ 62%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/logcounter.cpp.o[0m
+[53.336s] [ 62%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/peerconnection.cpp.o[0m
+[54.284s] [ 62%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/tls.cpp.o[0m
+[55.360s] [ 62%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/track.cpp.o[0m
+[55.512s] [ 62%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/init.cpp.o[0m
+[55.627s] [ 63%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/utils.cpp.o[0m
+[56.719s] [ 63%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/processor.cpp.o[0m
+[62.550s] [ 63%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/http.cpp.o[0m
+[63.587s] [ 63%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/pollservice.cpp.o[0m
+[63.866s] [ 65%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/pollinterrupter.cpp.o[0m
+[64.917s] [ 67%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/httpproxytransport.cpp.o[0m
+[64.950s] [ 67%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/sha.cpp.o[0m
+[65.997s] [ 67%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/tcpserver.cpp.o[0m
+[66.283s] [ 68%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/icetransport.cpp.o[0m
+[70.385s] [ 70%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/websocket.cpp.o[0m
+[72.419s] [ 70%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/websocketserver.cpp.o[0m
+[73.455s] [ 70%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/verifiedtlstransport.cpp.o[0m
+[74.499s] [ 70%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/transport.cpp.o[0m
+[75.258s] [ 72%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/tlstransport.cpp.o[0m
+[76.012s] [ 72%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/wstransport.cpp.o[0m
+[76.585s] [ 74%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/wshandshake.cpp.o[0m
+[79.369s] [ 74%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/tcptransport.cpp.o[0m
+[80.409s] [ 74%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/dtlstransport.cpp.o[0m
+[80.812s] [ 74%] [32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/dtlssrtptransport.cpp.o[0m
+[84.832s] [ 74%] [32m[1mLinking CXX shared library libdatachannel.so[0m
+[87.375s] [ 74%] Built target datachannel
+[87.416s] [ 74%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/main.cpp.o[0m
+[87.449s] [ 74%] [32mBuilding CXX object CMakeFiles/datachannel-benchmark.dir/test/benchmark.cpp.o[0m
+[87.449s] [ 74%] [32mBuilding CXX object examples/client/CMakeFiles/datachannel-client.dir/main.cpp.o[0m
+[88.550s] [ 74%] [32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/main.cpp.o[0m
+[89.035s] [ 75%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/connectivity.cpp.o[0m
+[89.582s] [ 75%] [32mBuilding CXX object examples/media-sfu/CMakeFiles/datachannel-media-sfu.dir/main.cpp.o[0m
+[90.411s] [ 77%] [32m[1mLinking CXX executable benchmark[0m
+[90.622s] [ 77%] [32mBuilding CXX object examples/media-sender/CMakeFiles/datachannel-media-sender.dir/main.cpp.o[0m
+[91.631s] [ 77%] Built target datachannel-benchmark
+[91.648s] [ 77%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/negotiated.cpp.o[0m
+[91.788s] [ 77%] [32mBuilding CXX object examples/client-benchmark/CMakeFiles/datachannel-client-benchmark.dir/main.cpp.o[0m
+[91.797s] [ 79%] [32mBuilding CXX object examples/media-receiver/CMakeFiles/datachannel-media-receiver.dir/main.cpp.o[0m
+[99.269s] [ 79%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/reliability.cpp.o[0m
+[99.665s] [ 79%] [32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/dispatchqueue.cpp.o[0m
+[100.086s] [ 79%] [32mBuilding CXX object examples/client/CMakeFiles/datachannel-client.dir/parse_cl.cpp.o[0m
+[100.614s] [ 81%] [32m[1mLinking CXX executable client[0m
+[100.705s] [ 82%] [32m[1mLinking CXX executable media-sfu[0m
+[101.037s] [ 84%] [32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/h264fileparser.cpp.o[0m
+[102.118s] [ 86%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/turn_connectivity.cpp.o[0m
+[102.435s] [ 86%] Built target datachannel-client
+[102.480s] [ 86%] Built target datachannel-media-sfu
+[102.796s] [ 86%] [32m[1mLinking CXX executable media-receiver[0m
+[103.358s] [ 86%] [32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/helpers.cpp.o[0m
+[103.615s] [ 86%] Built target datachannel-media-receiver
+[105.656s] [ 86%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/track.cpp.o[0m
+[105.930s] [ 87%] [32m[1mLinking CXX executable media-sender[0m
+[106.706s] [ 87%] [32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/opusfileparser.cpp.o[0m
+[106.872s] [ 87%] Built target datachannel-media-sender
+[108.138s] [ 87%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/capi_connectivity.cpp.o[0m
+[108.425s] [ 89%] [32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/fileparser.cpp.o[0m
+[108.450s] [ 89%] [32mBuilding CXX object examples/client-benchmark/CMakeFiles/datachannel-client-benchmark.dir/parse_cl.cpp.o[0m
+[108.556s] [ 91%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/capi_track.cpp.o[0m
+[108.906s] [ 91%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/websocket.cpp.o[0m
+[108.907s] [ 93%] [32m[1mLinking CXX executable client-benchmark[0m
+[109.472s] [ 93%] Built target datachannel-client-benchmark
+[110.126s] [ 93%] [32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/stream.cpp.o[0m
+[110.671s] [ 94%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/capi_websocketserver.cpp.o[0m
+[111.052s] [ 94%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/websocketserver.cpp.o[0m
+[111.901s] [ 94%] [32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/ArgParser.cpp.o[0m
+[112.921s] [ 96%] [32m[1mLinking CXX executable streamer[0m
+[112.995s] [ 96%] [32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/benchmark.cpp.o[0m
+[113.616s] [ 96%] Built target streamer
+[115.237s] [ 96%] [32m[1mLinking CXX executable tests[0m
+[115.743s] [ 96%] Built target datachannel-tests
+[115.814s] [ 98%] [32mBuilding C object examples/copy-paste-capi/CMakeFiles/datachannel-copy-paste-capi-answerer.dir/answerer.c.o[0m
+[115.945s] [ 98%] [32m[1mLinking C executable answerer-capi[0m
+[116.288s] [ 98%] Built target datachannel-copy-paste-capi-answerer
+[116.366s] [ 98%] [32mBuilding C object examples/copy-paste-capi/CMakeFiles/datachannel-copy-paste-capi-offerer.dir/offerer.c.o[0m
+[116.502s] [100%] [32m[1mLinking C executable offerer-capi[0m
+[116.833s] [100%] Built target datachannel-copy-paste-capi-offerer
+[116.899s] [100%] [32mBuilding CXX object examples/copy-paste/CMakeFiles/datachannel-copy-paste-answerer.dir/answerer.cpp.o[0m
+[118.984s] [100%] [32m[1mLinking CXX executable answerer[0m
+[119.410s] [100%] Built target datachannel-copy-paste-answerer
+[119.487s] [100%] [32mBuilding CXX object examples/copy-paste/CMakeFiles/datachannel-copy-paste-offerer.dir/offerer.cpp.o[0m
+[123.519s] [100%] [32m[1mLinking CXX executable offerer[0m
+[124.774s] [100%] Built target datachannel-copy-paste-offerer
+[124.844s] Invoked command in '/home/hady/teleop/gbot_ws/build/libdatachannel' returned '0': /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/libdatachannel -- -j8 -l8
+[124.861s] Invoking command in '/home/hady/teleop/gbot_ws/build/libdatachannel': /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/libdatachannel
+[124.899s] -- Install configuration: ""
+[124.902s] -- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/libdatachannel.so.0.22.5
+[125.047s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/libdatachannel.so.0.22
+[125.049s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/libdatachannel.so
+[125.051s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/candidate.hpp
+[125.052s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/channel.hpp
+[125.053s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/configuration.hpp
+[125.055s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/datachannel.hpp
+[125.056s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/description.hpp
+[125.057s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/mediahandler.hpp
+[125.058s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtcpreceivingsession.hpp
+[125.059s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/common.hpp
+[125.060s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/global.hpp
+[125.061s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/message.hpp
+[125.061s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/frameinfo.hpp
+[125.062s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/peerconnection.hpp
+[125.062s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/reliability.hpp
+[125.062s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtc.h
+[125.062s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtc.hpp
+[125.062s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtp.hpp
+[125.062s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/track.hpp
+[125.062s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/websocket.hpp
+[125.063s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/websocketserver.hpp
+[125.063s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtppacketizationconfig.hpp
+[125.063s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtcpsrreporter.hpp
+[125.063s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtppacketizer.hpp
+[125.063s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtpdepacketizer.hpp
+[125.063s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h264rtppacketizer.hpp
+[125.063s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h264rtpdepacketizer.hpp
+[125.064s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/nalunit.hpp
+[125.064s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h265rtppacketizer.hpp
+[125.064s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h265rtpdepacketizer.hpp
+[125.064s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h265nalunit.hpp
+[125.064s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/av1rtppacketizer.hpp
+[125.064s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtcpnackresponder.hpp
+[125.065s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/utils.hpp
+[125.065s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/plihandler.hpp
+[125.065s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/pacinghandler.hpp
+[125.065s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rembhandler.hpp
+[125.065s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/version.h
+[125.066s] -- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelTargets.cmake
+[125.067s] -- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelTargets-noconfig.cmake
+[125.068s] -- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelConfig.cmake
+[125.069s] -- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelConfigVersion.cmake
+[125.085s] Invoked command in '/home/hady/teleop/gbot_ws/build/libdatachannel' returned '0': /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/libdatachannel

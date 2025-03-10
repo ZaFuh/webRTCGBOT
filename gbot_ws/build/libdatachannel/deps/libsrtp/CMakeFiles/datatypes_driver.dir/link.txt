@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/datatypes_driver.dir/crypto/test/datatypes_driver.c.o CMakeFiles/datatypes_driver.dir/test/util.c.o -o datatypes_driver  libsrtp2.a /usr/lib/aarch64-linux-gnu/libcrypto.so 

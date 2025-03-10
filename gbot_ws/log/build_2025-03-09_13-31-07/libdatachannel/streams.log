@@ -1,0 +1,64 @@
+[0.026s] Invoking command in '/home/hady/teleop/gbot_ws/build/libdatachannel': /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/libdatachannel -- -j8 -l8
+[0.130s] [ 10%] Built target srtp2
+[0.150s] [ 25%] Built target usrsctp
+[0.171s] [ 39%] Built target juice
+[0.306s] [ 74%] Built target datachannel
+[0.366s] [ 75%] Built target datachannel-client-benchmark
+[0.378s] [ 77%] Built target datachannel-benchmark
+[0.383s] [ 79%] Built target datachannel-media-sfu
+[0.384s] [ 81%] Built target datachannel-media-receiver
+[0.406s] [ 87%] Built target datachannel-tests
+[0.410s] [ 89%] Built target datachannel-media-sender
+[0.435s] [ 91%] Built target datachannel-client
+[0.461s] [ 91%] Built target datachannel-copy-paste-answerer
+[0.462s] [ 93%] Built target datachannel-copy-paste-capi-offerer
+[0.474s] [ 93%] Built target datachannel-copy-paste-offerer
+[0.475s] [ 98%] Built target streamer
+[0.479s] [100%] Built target datachannel-copy-paste-capi-answerer
+[0.520s] Invoked command in '/home/hady/teleop/gbot_ws/build/libdatachannel' returned '0': /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/libdatachannel -- -j8 -l8
+[0.523s] Invoking command in '/home/hady/teleop/gbot_ws/build/libdatachannel': /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/libdatachannel
+[0.547s] -- Install configuration: ""
+[0.547s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/libdatachannel.so.0.22.5
+[0.547s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/libdatachannel.so.0.22
+[0.548s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/libdatachannel.so
+[0.548s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/candidate.hpp
+[0.548s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/channel.hpp
+[0.548s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/configuration.hpp
+[0.548s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/datachannel.hpp
+[0.548s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/description.hpp
+[0.548s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/mediahandler.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtcpreceivingsession.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/common.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/global.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/message.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/frameinfo.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/peerconnection.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/reliability.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtc.h
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtc.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtp.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/track.hpp
+[0.549s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/websocket.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/websocketserver.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtppacketizationconfig.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtcpsrreporter.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtppacketizer.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtpdepacketizer.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h264rtppacketizer.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h264rtpdepacketizer.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/nalunit.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h265rtppacketizer.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h265rtpdepacketizer.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h265nalunit.hpp
+[0.550s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/av1rtppacketizer.hpp
+[0.551s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtcpnackresponder.hpp
+[0.551s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/utils.hpp
+[0.551s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/plihandler.hpp
+[0.551s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/pacinghandler.hpp
+[0.551s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rembhandler.hpp
+[0.551s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/version.h
+[0.551s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelTargets.cmake
+[0.551s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelTargets-noconfig.cmake
+[0.551s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelConfig.cmake
+[0.551s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelConfigVersion.cmake
+[0.554s] Invoked command in '/home/hady/teleop/gbot_ws/build/libdatachannel' returned '0': /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/libdatachannel

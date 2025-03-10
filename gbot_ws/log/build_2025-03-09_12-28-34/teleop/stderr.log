@@ -1,0 +1,39 @@
+[ 11%] Performing download step (git clone) for 'libdatachannel-populate'
+Cloning into 'libdatachannel-src'...
+error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+error: 2234 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Cloning into 'libdatachannel-src'...
+error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+error: 2000 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+Cloning into 'libdatachannel-src'...
+error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+error: 10 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+-- Had to git clone more than once:
+          3 times.
+CMake Error at libdatachannel-subbuild/libdatachannel-populate-prefix/tmp/libdatachannel-populate-gitclone.cmake:31 (message):
+  Failed to clone repository:
+  'https://github.com/paullouisageneau/libdatachannel.git'
+
+
+gmake[2]: *** [CMakeFiles/libdatachannel-populate.dir/build.make:102: libdatachannel-populate-prefix/src/libdatachannel-populate-stamp/libdatachannel-populate-download] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/libdatachannel-populate.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+
+CMake Error at /usr/share/cmake-3.22/Modules/FetchContent.cmake:1087 (message):
+  Build step for libdatachannel failed: 2
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216:EVAL:2 (__FetchContent_directPopulate)
+  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216 (cmake_language)
+  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1259 (FetchContent_Populate)
+  CMakeLists.txt:47 (FetchContent_MakeAvailable)
+
+

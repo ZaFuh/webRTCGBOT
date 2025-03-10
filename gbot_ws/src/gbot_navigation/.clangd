@@ -1,0 +1,8 @@
+CompileFlags:
+  Add:
+    - "-I/usr/include/c++/12"
+    - "-I/usr/include"
+    - "-I/usr/local/include"
+    - "-I/opt/ros/humble/include"
+    - "-I${workspaceFolder}/src/navigation/include"
+

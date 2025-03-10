@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/rtpw.dir/test/rtpw.c.o CMakeFiles/rtpw.dir/test/rtp.c.o CMakeFiles/rtpw.dir/test/util.c.o CMakeFiles/rtpw.dir/test/getopt_s.c.o -o rtpw  libsrtp2.a /usr/lib/aarch64-linux-gnu/libcrypto.so 

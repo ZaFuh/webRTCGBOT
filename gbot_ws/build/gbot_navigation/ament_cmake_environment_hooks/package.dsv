@@ -1,0 +1,4 @@
+source;share/gbot_navigation/local_setup.bash
+source;share/gbot_navigation/local_setup.dsv
+source;share/gbot_navigation/local_setup.sh
+source;share/gbot_navigation/local_setup.zsh

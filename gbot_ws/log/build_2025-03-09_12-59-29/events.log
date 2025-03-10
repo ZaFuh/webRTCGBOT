@@ -1,0 +1,1607 @@
+[0.000000] (-) TimerEvent: {}
+[0.001079] (gbot_navigation) JobQueued: {'identifier': 'gbot_navigation', 'dependencies': OrderedDict()}
+[0.001233] (libdatachannel) JobQueued: {'identifier': 'libdatachannel', 'dependencies': OrderedDict()}
+[0.001354] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.001657] (gbot_navigation) JobStarted: {'identifier': 'gbot_navigation'}
+[0.008270] (libdatachannel) JobStarted: {'identifier': 'libdatachannel'}
+[0.012719] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.019940] (gbot_navigation) JobProgress: {'identifier': 'gbot_navigation', 'progress': 'cmake'}
+[0.020934] (gbot_navigation) JobProgress: {'identifier': 'gbot_navigation', 'progress': 'build'}
+[0.022019] (gbot_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hady/teleop/gbot_ws/build/gbot_navigation', '--', '-j8', '-l8'], 'cwd': '/home/hady/teleop/gbot_ws/build/gbot_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'hady'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('TERMINFO', '/usr/share/terminfo'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/hady/teleop/gbot_ws/libdatachannel'), ('TERM_PROGRAM_VERSION', '1.0.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.mitchellh.ghostty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1332'), ('SYSTEMD_EXEC_PID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7541'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hady'), ('JOURNAL_STREAM', '8:39971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-ghostty'), ('GHOSTTY_SHELL_INTEGRATION_NO_SUDO', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1465,unix/hady:/tmp/.ICE-unix/1465'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '4b87f6b42dc544c8aaa1eb941669cec4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'ghostty'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hady/teleop/gbot_ws/build/gbot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2245589461208410'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.026654] (libdatachannel) JobProgress: {'identifier': 'libdatachannel', 'progress': 'cmake'}
+[0.027199] (libdatachannel) Command: {'cmd': ['/usr/bin/cmake', '/home/hady/teleop/gbot_ws/libdatachannel', '-DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/libdatachannel'], 'cwd': '/home/hady/teleop/gbot_ws/build/libdatachannel', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'hady'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('TERMINFO', '/usr/share/terminfo'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/hady/teleop/gbot_ws/libdatachannel'), ('TERM_PROGRAM_VERSION', '1.0.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.mitchellh.ghostty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1332'), ('SYSTEMD_EXEC_PID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7541'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hady'), ('JOURNAL_STREAM', '8:39971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-ghostty'), ('GHOSTTY_SHELL_INTEGRATION_NO_SUDO', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1465,unix/hady:/tmp/.ICE-unix/1465'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '4b87f6b42dc544c8aaa1eb941669cec4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'ghostty'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hady/teleop/gbot_ws/build/libdatachannel'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2245589461208410'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.033392] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.034626] (teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/hady/teleop/gbot_ws/src/teleop', '-DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop'], 'cwd': '/home/hady/teleop/gbot_ws/build/teleop', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'hady'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('TERMINFO', '/usr/share/terminfo'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/hady/teleop/gbot_ws/libdatachannel'), ('TERM_PROGRAM_VERSION', '1.0.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.mitchellh.ghostty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1332'), ('SYSTEMD_EXEC_PID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7541'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hady'), ('JOURNAL_STREAM', '8:39971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-ghostty'), ('GHOSTTY_SHELL_INTEGRATION_NO_SUDO', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1465,unix/hady:/tmp/.ICE-unix/1465'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '4b87f6b42dc544c8aaa1eb941669cec4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'ghostty'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hady/teleop/gbot_ws/build/teleop'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2245589461208410'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.057866] (teleop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099062] (-) TimerEvent: {}
+[0.183741] (libdatachannel) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.194913] (libdatachannel) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199105] (-) TimerEvent: {}
+[0.230944] (gbot_navigation) StdoutLine: {'line': b'[100%] Built target path_planner\n'}
+[0.247436] (gbot_navigation) CommandEnded: {'returncode': 0}
+[0.248426] (gbot_navigation) JobProgress: {'identifier': 'gbot_navigation', 'progress': 'install'}
+[0.260493] (gbot_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hady/teleop/gbot_ws/build/gbot_navigation'], 'cwd': '/home/hady/teleop/gbot_ws/build/gbot_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'hady'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('TERMINFO', '/usr/share/terminfo'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/hady/teleop/gbot_ws/libdatachannel'), ('TERM_PROGRAM_VERSION', '1.0.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.mitchellh.ghostty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1332'), ('SYSTEMD_EXEC_PID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7541'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hady'), ('JOURNAL_STREAM', '8:39971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-ghostty'), ('GHOSTTY_SHELL_INTEGRATION_NO_SUDO', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1465,unix/hady:/tmp/.ICE-unix/1465'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '4b87f6b42dc544c8aaa1eb941669cec4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'ghostty'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hady/teleop/gbot_ws/build/gbot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2245589461208410'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.287738] (gbot_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.288591] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/lib/gbot_navigation/path_planner\n'}
+[0.289464] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/package_run_dependencies/gbot_navigation\n'}
+[0.289676] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/parent_prefix_path/gbot_navigation\n'}
+[0.289903] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/ament_prefix_path.sh\n'}
+[0.290117] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/ament_prefix_path.dsv\n'}
+[0.290318] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/path.sh\n'}
+[0.290508] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/path.dsv\n'}
+[0.290699] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.bash\n'}
+[0.290840] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.sh\n'}
+[0.291037] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.zsh\n'}
+[0.291224] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.dsv\n'}
+[0.291420] (gbot_navigation) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.dsv\n'}
+[0.292270] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/packages/gbot_navigation\n'}
+[0.292470] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/cmake/gbot_navigationConfig.cmake\n'}
+[0.292586] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/cmake/gbot_navigationConfig-version.cmake\n'}
+[0.292762] (gbot_navigation) StdoutLine: {'line': b'-- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.xml\n'}
+[0.299067] (gbot_navigation) CommandEnded: {'returncode': 0}
+[0.300006] (-) TimerEvent: {}
+[0.325933] (gbot_navigation) JobEnded: {'identifier': 'gbot_navigation', 'rc': 0}
+[0.348843] (teleop) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.388610] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.392187] (teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400358] (-) TimerEvent: {}
+[0.401188] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.413667] (libdatachannel) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.415261] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.432813] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.453055] (libdatachannel) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.453997] (libdatachannel) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.455784] (libdatachannel) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.466830] (libdatachannel) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.478513] (teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.480243] (teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500804] (-) TimerEvent: {}
+[0.602441] (-) TimerEvent: {}
+[0.668330] (teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.702492] (-) TimerEvent: {}
+[0.732197] (libdatachannel) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[0.733339] (libdatachannel) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.751562] (teleop) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.798248] (teleop) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.802798] (-) TimerEvent: {}
+[0.813198] (teleop) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.902976] (-) TimerEvent: {}
+[0.999955] (libdatachannel) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.001220] (libdatachannel) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.003023] (-) TimerEvent: {}
+[1.103462] (-) TimerEvent: {}
+[1.114959] (libdatachannel) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.126268] (libdatachannel) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.203610] (-) TimerEvent: {}
+[1.304127] (-) TimerEvent: {}
+[1.353322] (libdatachannel) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.392401] (libdatachannel) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.393752] (libdatachannel) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.395696] (libdatachannel) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.397890] (libdatachannel) StdoutLine: {'line': b'-- No build type selected, using DEBUG\n'}
+[1.404152] (-) TimerEvent: {}
+[1.404491] (libdatachannel) StdoutLine: {'line': b'-- Looking for include file sys/queue.h\n'}
+[1.504372] (-) TimerEvent: {}
+[1.605037] (-) TimerEvent: {}
+[1.633363] (libdatachannel) StdoutLine: {'line': b'-- Looking for include file sys/queue.h - found\n'}
+[1.634028] (libdatachannel) StdoutLine: {'line': b'-- Looking for include files sys/socket.h, linux/if_addr.h\n'}
+[1.705097] (-) TimerEvent: {}
+[1.805583] (-) TimerEvent: {}
+[1.866442] (libdatachannel) StdoutLine: {'line': b'-- Looking for include files sys/socket.h, linux/if_addr.h - found\n'}
+[1.867243] (libdatachannel) StdoutLine: {'line': b'-- Looking for include files sys/socket.h, linux/rtnetlink.h\n'}
+[1.905652] (-) TimerEvent: {}
+[2.006139] (-) TimerEvent: {}
+[2.105095] (libdatachannel) StdoutLine: {'line': b'-- Looking for include files sys/socket.h, linux/rtnetlink.h - found\n'}
+[2.106200] (-) TimerEvent: {}
+[2.107331] (libdatachannel) StdoutLine: {'line': b'-- Looking for 4 include files sys/types.h, ..., netinet/ip_icmp.h\n'}
+[2.206423] (-) TimerEvent: {}
+[2.307206] (-) TimerEvent: {}
+[2.359901] (libdatachannel) StdoutLine: {'line': b'-- Looking for 4 include files sys/types.h, ..., netinet/ip_icmp.h - found\n'}
+[2.360777] (libdatachannel) StdoutLine: {'line': b'-- Looking for 3 include files sys/types.h, ..., net/route.h\n'}
+[2.407450] (-) TimerEvent: {}
+[2.508372] (-) TimerEvent: {}
+[2.609137] (-) TimerEvent: {}
+[2.631091] (libdatachannel) StdoutLine: {'line': b'-- Looking for 3 include files sys/types.h, ..., net/route.h - found\n'}
+[2.634375] (libdatachannel) StdoutLine: {'line': b'-- Looking for include file stdatomic.h\n'}
+[2.709274] (-) TimerEvent: {}
+[2.809969] (-) TimerEvent: {}
+[2.874858] (libdatachannel) StdoutLine: {'line': b'-- Looking for include file stdatomic.h - found\n'}
+[2.876717] (libdatachannel) StdoutLine: {'line': b'-- Looking for usrsctp.h\n'}
+[2.910087] (-) TimerEvent: {}
+[3.010705] (-) TimerEvent: {}
+[3.111438] (-) TimerEvent: {}
+[3.137162] (libdatachannel) StdoutLine: {'line': b'-- Looking for usrsctp.h - found\n'}
+[3.138588] (libdatachannel) StdoutLine: {'line': b'-- Performing Test have_sa_len\n'}
+[3.211844] (-) TimerEvent: {}
+[3.262129] (libdatachannel) StdoutLine: {'line': b'-- Performing Test have_sa_len - Failed\n'}
+[3.263522] (libdatachannel) StdoutLine: {'line': b'-- Performing Test have_sin_len\n'}
+[3.311903] (-) TimerEvent: {}
+[3.368384] (libdatachannel) StdoutLine: {'line': b'-- Performing Test have_sin_len - Failed\n'}
+[3.369347] (libdatachannel) StdoutLine: {'line': b'-- Performing Test have_sin6_len\n'}
+[3.412023] (-) TimerEvent: {}
+[3.472565] (libdatachannel) StdoutLine: {'line': b'-- Performing Test have_sin6_len - Failed\n'}
+[3.473576] (libdatachannel) StdoutLine: {'line': b'-- Performing Test have_sconn_len\n'}
+[3.512220] (-) TimerEvent: {}
+[3.578089] (libdatachannel) StdoutLine: {'line': b'-- Performing Test have_sconn_len - Failed\n'}
+[3.579062] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wfloat_equal\n'}
+[3.612360] (-) TimerEvent: {}
+[3.713220] (-) TimerEvent: {}
+[3.794707] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wfloat_equal - Success\n'}
+[3.795788] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wshadow\n'}
+[3.813284] (-) TimerEvent: {}
+[3.913997] (-) TimerEvent: {}
+[4.014666] (-) TimerEvent: {}
+[4.033846] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wshadow - Success\n'}
+[4.034315] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wpointer_aritih\n'}
+[4.114835] (-) TimerEvent: {}
+[4.215537] (-) TimerEvent: {}
+[4.261326] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wpointer_aritih - Success\n'}
+[4.265105] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wunreachable_code\n'}
+[4.315651] (-) TimerEvent: {}
+[4.416153] (-) TimerEvent: {}
+[4.481135] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wunreachable_code - Success\n'}
+[4.484410] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_winit_self\n'}
+[4.516246] (-) TimerEvent: {}
+[4.616600] (-) TimerEvent: {}
+[4.700886] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_winit_self - Success\n'}
+[4.704224] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wno_unused_function\n'}
+[4.716653] (-) TimerEvent: {}
+[4.816957] (-) TimerEvent: {}
+[4.907936] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wno_unused_function - Success\n'}
+[4.911279] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wno_unused_parameter\n'}
+[4.917008] (-) TimerEvent: {}
+[5.017384] (-) TimerEvent: {}
+[5.118027] (-) TimerEvent: {}
+[5.163753] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wno_unused_parameter - Success\n'}
+[5.164746] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wno_unreachable_code\n'}
+[5.218156] (-) TimerEvent: {}
+[5.318801] (-) TimerEvent: {}
+[5.391108] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wno_unreachable_code - Success\n'}
+[5.398915] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wstrict_prototypes\n'}
+[5.418964] (-) TimerEvent: {}
+[5.519617] (-) TimerEvent: {}
+[5.620341] (-) TimerEvent: {}
+[5.633928] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wstrict_prototypes - Success\n'}
+[5.634640] (libdatachannel) StdoutLine: {'line': b'-- Compiler flags (CMAKE_C_FLAGS):  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes\n'}
+[5.653677] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wno_address_of_packed_member\n'}
+[5.720496] (-) TimerEvent: {}
+[5.821117] (-) TimerEvent: {}
+[5.867164] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wno_address_of_packed_member - Success\n'}
+[5.871177] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wno_deprecated_declarations\n'}
+[5.921239] (-) TimerEvent: {}
+[6.021850] (-) TimerEvent: {}
+[6.122577] (-) TimerEvent: {}
+[6.125256] (libdatachannel) StdoutLine: {'line': b'-- Performing Test has_wno_deprecated_declarations - Success\n'}
+[6.136148] (libdatachannel) StdoutLine: {'line': b'-- Looking for arpa/inet.h\n'}
+[6.222742] (-) TimerEvent: {}
+[6.323417] (-) TimerEvent: {}
+[6.377249] (libdatachannel) StdoutLine: {'line': b'-- Looking for arpa/inet.h - found\n'}
+[6.377700] (libdatachannel) StdoutLine: {'line': b'-- Looking for byteswap.h\n'}
+[6.423573] (-) TimerEvent: {}
+[6.524226] (-) TimerEvent: {}
+[6.596861] (libdatachannel) StdoutLine: {'line': b'-- Looking for byteswap.h - found\n'}
+[6.598250] (libdatachannel) StdoutLine: {'line': b'-- Looking for inttypes.h\n'}
+[6.624320] (-) TimerEvent: {}
+[6.724909] (-) TimerEvent: {}
+[6.825576] (-) TimerEvent: {}
+[6.863342] (libdatachannel) StdoutLine: {'line': b'-- Looking for inttypes.h - found\n'}
+[6.865574] (libdatachannel) StdoutLine: {'line': b'-- Looking for machine/types.h\n'}
+[6.925651] (-) TimerEvent: {}
+[6.970161] (libdatachannel) StdoutLine: {'line': b'-- Looking for machine/types.h - not found\n'}
+[6.971354] (libdatachannel) StdoutLine: {'line': b'-- Looking for netinet/in.h\n'}
+[7.025781] (-) TimerEvent: {}
+[7.126385] (-) TimerEvent: {}
+[7.227119] (-) TimerEvent: {}
+[7.229098] (libdatachannel) StdoutLine: {'line': b'-- Looking for netinet/in.h - found\n'}
+[7.229475] (libdatachannel) StdoutLine: {'line': b'-- Looking for stdint.h\n'}
+[7.327228] (-) TimerEvent: {}
+[7.427652] (-) TimerEvent: {}
+[7.433035] (libdatachannel) StdoutLine: {'line': b'-- Looking for stdint.h - found\n'}
+[7.434884] (libdatachannel) StdoutLine: {'line': b'-- Looking for stdlib.h\n'}
+[7.527879] (-) TimerEvent: {}
+[7.628547] (-) TimerEvent: {}
+[7.680617] (libdatachannel) StdoutLine: {'line': b'-- Looking for stdlib.h - found\n'}
+[7.682574] (libdatachannel) StdoutLine: {'line': b'-- Looking for sys/int_types.h\n'}
+[7.728673] (-) TimerEvent: {}
+[7.794644] (libdatachannel) StdoutLine: {'line': b'-- Looking for sys/int_types.h - not found\n'}
+[7.795542] (libdatachannel) StdoutLine: {'line': b'-- Looking for sys/socket.h\n'}
+[7.828853] (-) TimerEvent: {}
+[7.929516] (-) TimerEvent: {}
+[8.019564] (libdatachannel) StdoutLine: {'line': b'-- Looking for sys/socket.h - found\n'}
+[8.020035] (libdatachannel) StdoutLine: {'line': b'-- Looking for sys/types.h\n'}
+[8.029607] (-) TimerEvent: {}
+[8.130167] (-) TimerEvent: {}
+[8.230829] (-) TimerEvent: {}
+[8.256660] (libdatachannel) StdoutLine: {'line': b'-- Looking for sys/types.h - found\n'}
+[8.257104] (libdatachannel) StdoutLine: {'line': b'-- Looking for unistd.h\n'}
+[8.331005] (-) TimerEvent: {}
+[8.431691] (-) TimerEvent: {}
+[8.489329] (libdatachannel) StdoutLine: {'line': b'-- Looking for unistd.h - found\n'}
+[8.490895] (libdatachannel) StdoutLine: {'line': b'-- Looking for windows.h\n'}
+[8.531820] (-) TimerEvent: {}
+[8.605703] (libdatachannel) StdoutLine: {'line': b'-- Looking for windows.h - not found\n'}
+[8.607153] (libdatachannel) StdoutLine: {'line': b'-- Looking for winsock2.h\n'}
+[8.631911] (-) TimerEvent: {}
+[8.727767] (libdatachannel) StdoutLine: {'line': b'-- Looking for winsock2.h - not found\n'}
+[8.728713] (libdatachannel) StdoutLine: {'line': b'-- Looking for sigaction\n'}
+[8.731970] (-) TimerEvent: {}
+[8.832432] (-) TimerEvent: {}
+[8.933114] (-) TimerEvent: {}
+[8.983798] (libdatachannel) StdoutLine: {'line': b'-- Looking for sigaction - found\n'}
+[8.984248] (libdatachannel) StdoutLine: {'line': b'-- Looking for inet_aton\n'}
+[9.033297] (-) TimerEvent: {}
+[9.133954] (-) TimerEvent: {}
+[9.206018] (libdatachannel) StdoutLine: {'line': b'-- Looking for inet_aton - found\n'}
+[9.206463] (libdatachannel) StdoutLine: {'line': b'-- Looking for inet_pton\n'}
+[9.234136] (-) TimerEvent: {}
+[9.334798] (-) TimerEvent: {}
+[9.434910] (libdatachannel) StdoutLine: {'line': b'-- Looking for inet_pton - found\n'}
+[9.435440] (-) TimerEvent: {}
+[9.435686] (libdatachannel) StdoutLine: {'line': b'-- Looking for usleep\n'}
+[9.535663] (-) TimerEvent: {}
+[9.636326] (-) TimerEvent: {}
+[9.676864] (libdatachannel) StdoutLine: {'line': b'-- Looking for usleep - found\n'}
+[9.677516] (libdatachannel) StdoutLine: {'line': b'-- Looking for stddef.h\n'}
+[9.736469] (-) TimerEvent: {}
+[9.837133] (-) TimerEvent: {}
+[9.919975] (libdatachannel) StdoutLine: {'line': b'-- Looking for stddef.h - found\n'}
+[9.920427] (libdatachannel) StdoutLine: {'line': b'-- Check size of uint8_t\n'}
+[9.937217] (-) TimerEvent: {}
+[10.037760] (-) TimerEvent: {}
+[10.137861] (libdatachannel) StdoutLine: {'line': b'-- Check size of uint8_t - done\n'}
+[10.138306] (-) TimerEvent: {}
+[10.140136] (libdatachannel) StdoutLine: {'line': b'-- Check size of uint16_t\n'}
+[10.238527] (-) TimerEvent: {}
+[10.339231] (-) TimerEvent: {}
+[10.390519] (libdatachannel) StdoutLine: {'line': b'-- Check size of uint16_t - done\n'}
+[10.391815] (libdatachannel) StdoutLine: {'line': b'-- Check size of uint32_t\n'}
+[10.439354] (-) TimerEvent: {}
+[10.540015] (-) TimerEvent: {}
+[10.640746] (-) TimerEvent: {}
+[10.646751] (libdatachannel) StdoutLine: {'line': b'-- Check size of uint32_t - done\n'}
+[10.648383] (libdatachannel) StdoutLine: {'line': b'-- Check size of uint64_t\n'}
+[10.740917] (-) TimerEvent: {}
+[10.841580] (-) TimerEvent: {}
+[10.907773] (libdatachannel) StdoutLine: {'line': b'-- Check size of uint64_t - done\n'}
+[10.908492] (libdatachannel) StdoutLine: {'line': b'-- Check size of int32_t\n'}
+[10.941701] (-) TimerEvent: {}
+[11.042313] (-) TimerEvent: {}
+[11.142978] (-) TimerEvent: {}
+[11.164740] (libdatachannel) StdoutLine: {'line': b'-- Check size of int32_t - done\n'}
+[11.165233] (libdatachannel) StdoutLine: {'line': b'-- Check size of unsigned long\n'}
+[11.243259] (-) TimerEvent: {}
+[11.343987] (-) TimerEvent: {}
+[11.398055] (libdatachannel) StdoutLine: {'line': b'-- Check size of unsigned long - done\n'}
+[11.406860] (libdatachannel) StdoutLine: {'line': b'-- Check size of unsigned long long\n'}
+[11.444157] (-) TimerEvent: {}
+[11.544828] (-) TimerEvent: {}
+[11.644231] (libdatachannel) StdoutLine: {'line': b'-- Check size of unsigned long long - done\n'}
+[11.644692] (libdatachannel) StdoutLine: {'line': b'-- Performing Test HAVE_INLINE\n'}
+[11.644806] (-) TimerEvent: {}
+[11.745276] (-) TimerEvent: {}
+[11.845959] (-) TimerEvent: {}
+[11.879063] (libdatachannel) StdoutLine: {'line': b'-- Performing Test HAVE_INLINE - Success\n'}
+[11.946102] (-) TimerEvent: {}
+[12.046731] (-) TimerEvent: {}
+[12.071549] (libdatachannel) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found suitable version "3.0.2", minimum required is "1.1.0")  \n'}
+[12.092687] (libdatachannel) StdoutLine: {'line': b'-- Could NOT find PCAP (missing: PCAP_LIBRARY) \n'}
+[12.108619] (libdatachannel) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[12.129738] (libdatachannel) StdoutLine: {'line': b'-- Using the multi-header code from /home/hady/teleop/gbot_ws/libdatachannel/deps/json/include/\n'}
+[12.147173] (-) TimerEvent: {}
+[12.157378] (libdatachannel) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.247573] (-) TimerEvent: {}
+[12.264694] (libdatachannel) StdoutLine: {'line': b'-- Generating done\n'}
+[12.291236] (libdatachannel) StdoutLine: {'line': b'-- Build files have been written to: /home/hady/teleop/gbot_ws/build/libdatachannel\n'}
+[12.316584] (libdatachannel) CommandEnded: {'returncode': 0}
+[12.320072] (libdatachannel) JobProgress: {'identifier': 'libdatachannel', 'progress': 'build'}
+[12.321355] (libdatachannel) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hady/teleop/gbot_ws/build/libdatachannel', '--', '-j8', '-l8'], 'cwd': '/home/hady/teleop/gbot_ws/build/libdatachannel', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'hady'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('TERMINFO', '/usr/share/terminfo'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/hady/teleop/gbot_ws/libdatachannel'), ('TERM_PROGRAM_VERSION', '1.0.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.mitchellh.ghostty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1332'), ('SYSTEMD_EXEC_PID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7541'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hady'), ('JOURNAL_STREAM', '8:39971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-ghostty'), ('GHOSTTY_SHELL_INTEGRATION_NO_SUDO', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1465,unix/hady:/tmp/.ICE-unix/1465'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '4b87f6b42dc544c8aaa1eb941669cec4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'ghostty'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hady/teleop/gbot_ws/build/libdatachannel'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2245589461208410'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[12.347774] (-) TimerEvent: {}
+[12.448902] (-) TimerEvent: {}
+[12.493732] (libdatachannel) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_bsd_addr.c.o\x1b[0m\n'}
+[12.495538] (libdatachannel) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_asconf.c.o\x1b[0m\n'}
+[12.496774] (libdatachannel) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_auth.c.o\x1b[0m\n'}
+[12.500154] (libdatachannel) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_crc32.c.o\x1b[0m\n'}
+[12.509692] (libdatachannel) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_cc_functions.c.o\x1b[0m\n'}
+[12.513316] (libdatachannel) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_callout.c.o\x1b[0m\n'}
+[12.523968] (libdatachannel) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/srtp/srtp.c.o\x1b[0m\n'}
+[12.545085] (libdatachannel) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/addr.c.o\x1b[0m\n'}
+[12.549098] (-) TimerEvent: {}
+[12.634462] (libdatachannel) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_indata.c.o\x1b[0m\n'}
+[12.649349] (-) TimerEvent: {}
+[12.753371] (libdatachannel) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_input.c.o\x1b[0m\n'}
+[12.754164] (-) TimerEvent: {}
+[12.805378] (libdatachannel) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_output.c.o\x1b[0m\n'}
+[12.854479] (-) TimerEvent: {}
+[12.858264] (libdatachannel) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/cipher/cipher.c.o\x1b[0m\n'}
+[12.860942] (libdatachannel) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_pcb.c.o\x1b[0m\n'}
+[12.874925] (libdatachannel) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/agent.c.o\x1b[0m\n'}
+[12.921231] (libdatachannel) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/cipher/cipher_test_cases.c.o\x1b[0m\n'}
+[12.954770] (-) TimerEvent: {}
+[13.059013] (-) TimerEvent: {}
+[13.099567] (libdatachannel) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/cipher/null_cipher.c.o\x1b[0m\n'}
+[13.159251] (-) TimerEvent: {}
+[13.192577] (libdatachannel) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/cipher/aes_icm_ossl.c.o\x1b[0m\n'}
+[13.259498] (-) TimerEvent: {}
+[13.318808] (libdatachannel) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/cipher/aes_gcm_ossl.c.o\x1b[0m\n'}
+[13.332168] (libdatachannel) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_peeloff.c.o\x1b[0m\n'}
+[13.359509] (libdatachannel) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/hash/auth.c.o\x1b[0m\n'}
+[13.360723] (-) TimerEvent: {}
+[13.432862] (libdatachannel) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/hash/auth_test_cases.c.o\x1b[0m\n'}
+[13.443326] (libdatachannel) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sha1.c.o\x1b[0m\n'}
+[13.444353] (libdatachannel) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/hash/null_auth.c.o\x1b[0m\n'}
+[13.461411] (-) TimerEvent: {}
+[13.473109] (libdatachannel) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/hash/hmac_ossl.c.o\x1b[0m\n'}
+[13.502065] (libdatachannel) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/crc32.c.o\x1b[0m\n'}
+[13.509635] (libdatachannel) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/kernel/alloc.c.o\x1b[0m\n'}
+[13.561658] (-) TimerEvent: {}
+[13.568261] (libdatachannel) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/kernel/crypto_kernel.c.o\x1b[0m\n'}
+[13.580707] (libdatachannel) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/kernel/err.c.o\x1b[0m\n'}
+[13.594240] (libdatachannel) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/kernel/key.c.o\x1b[0m\n'}
+[13.646460] (libdatachannel) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_ss_functions.c.o\x1b[0m\n'}
+[13.653602] (libdatachannel) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/const_time.c.o\x1b[0m\n'}
+[13.656464] (libdatachannel) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/math/datatypes.c.o\x1b[0m\n'}
+[13.659076] (libdatachannel) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/replay/rdb.c.o\x1b[0m\n'}
+[13.663139] (libdatachannel) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/conn.c.o\x1b[0m\n'}
+[13.664069] (-) TimerEvent: {}
+[13.673943] (libdatachannel) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sysctl.c.o\x1b[0m\n'}
+[13.741249] (libdatachannel) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object deps/libsrtp/CMakeFiles/srtp2.dir/crypto/replay/rdbx.c.o\x1b[0m\n'}
+[13.764340] (-) TimerEvent: {}
+[13.779515] (libdatachannel) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_timer.c.o\x1b[0m\n'}
+[13.806300] (libdatachannel) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/conn_poll.c.o\x1b[0m\n'}
+[13.810483] (libdatachannel) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_userspace.c.o\x1b[0m\n'}
+[13.813824] (libdatachannel) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_usrreq.c.o\x1b[0m\n'}
+[13.827924] (libdatachannel) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C static library libsrtp2.a\x1b[0m\n'}
+[13.837498] (libdatachannel) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/conn_thread.c.o\x1b[0m\n'}
+[13.864438] (-) TimerEvent: {}
+[13.874202] (libdatachannel) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctputil.c.o\x1b[0m\n'}
+[13.948558] (libdatachannel) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/conn_mux.c.o\x1b[0m\n'}
+[13.963525] (libdatachannel) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet6/sctp6_usrreq.c.o\x1b[0m\n'}
+[13.964629] (-) TimerEvent: {}
+[13.994956] (libdatachannel) StdoutLine: {'line': b'[ 27%] Built target srtp2\n'}
+[14.004233] (libdatachannel) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/base64.c.o\x1b[0m\n'}
+[14.048819] (libdatachannel) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/hash.c.o\x1b[0m\n'}
+[14.064806] (-) TimerEvent: {}
+[14.075953] (libdatachannel) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/ice.c.o\x1b[0m\n'}
+[14.095597] (libdatachannel) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/hmac.c.o\x1b[0m\n'}
+[14.130733] (libdatachannel) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_environment.c.o\x1b[0m\n'}
+[14.164948] (-) TimerEvent: {}
+[14.200771] (libdatachannel) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/juice.c.o\x1b[0m\n'}
+[14.209069] (libdatachannel) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_mbuf.c.o\x1b[0m\n'}
+[14.212832] (libdatachannel) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/log.c.o\x1b[0m\n'}
+[14.265130] (-) TimerEvent: {}
+[14.340294] (libdatachannel) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/random.c.o\x1b[0m\n'}
+[14.365277] (-) TimerEvent: {}
+[14.390014] (libdatachannel) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_recv_thread.c.o\x1b[0m\n'}
+[14.423227] (libdatachannel) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/server.c.o\x1b[0m\n'}
+[14.439234] (libdatachannel) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/stun.c.o\x1b[0m\n'}
+[14.462001] (libdatachannel) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_socket.c.o\x1b[0m\n'}
+[14.465500] (-) TimerEvent: {}
+[14.481686] (libdatachannel) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/turn.c.o\x1b[0m\n'}
+[14.489195] (libdatachannel) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/timestamp.c.o\x1b[0m\n'}
+[14.494071] (libdatachannel) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object deps/libjuice/CMakeFiles/juice.dir/src/udp.c.o\x1b[0m\n'}
+[14.565734] (-) TimerEvent: {}
+[14.666767] (-) TimerEvent: {}
+[14.707991] (libdatachannel) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking C static library libjuice.a\x1b[0m\n'}
+[14.766984] (-) TimerEvent: {}
+[14.847090] (libdatachannel) StdoutLine: {'line': b'[ 37%] Built target juice\n'}
+[14.867051] (-) TimerEvent: {}
+[14.917727] (libdatachannel) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking C static library libusrsctp.a\x1b[0m\n'}
+[14.967182] (-) TimerEvent: {}
+[15.067611] (-) TimerEvent: {}
+[15.083419] (libdatachannel) StdoutLine: {'line': b'[ 39%] Built target usrsctp\n'}
+[15.142763] (libdatachannel) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/global.cpp.o\x1b[0m\n'}
+[15.143109] (libdatachannel) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/message.cpp.o\x1b[0m\n'}
+[15.143322] (libdatachannel) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/channel.cpp.o\x1b[0m\n'}
+[15.143570] (libdatachannel) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/configuration.cpp.o\x1b[0m\n'}
+[15.158570] (libdatachannel) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/candidate.cpp.o\x1b[0m\n'}
+[15.159633] (libdatachannel) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/datachannel.cpp.o\x1b[0m\n'}
+[15.160326] (libdatachannel) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/description.cpp.o\x1b[0m\n'}
+[15.163035] (libdatachannel) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/mediahandler.cpp.o\x1b[0m\n'}
+[15.167808] (-) TimerEvent: {}
+[15.268678] (-) TimerEvent: {}
+[15.369932] (-) TimerEvent: {}
+[15.471007] (-) TimerEvent: {}
+[15.572010] (-) TimerEvent: {}
+[15.673034] (-) TimerEvent: {}
+[15.774164] (-) TimerEvent: {}
+[15.875191] (-) TimerEvent: {}
+[15.976191] (-) TimerEvent: {}
+[16.077275] (-) TimerEvent: {}
+[16.178359] (-) TimerEvent: {}
+[16.279400] (-) TimerEvent: {}
+[16.380508] (-) TimerEvent: {}
+[16.481472] (-) TimerEvent: {}
+[16.582522] (-) TimerEvent: {}
+[16.640924] (libdatachannel) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/peerconnection.cpp.o\x1b[0m\n'}
+[16.682783] (-) TimerEvent: {}
+[16.748864] (libdatachannel) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtcpreceivingsession.cpp.o\x1b[0m\n'}
+[16.783070] (-) TimerEvent: {}
+[16.812500] (libdatachannel) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/track.cpp.o\x1b[0m\n'}
+[16.883352] (-) TimerEvent: {}
+[16.984282] (-) TimerEvent: {}
+[17.085289] (-) TimerEvent: {}
+[17.186360] (-) TimerEvent: {}
+[17.287452] (-) TimerEvent: {}
+[17.364599] (libdatachannel) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/websocket.cpp.o\x1b[0m\n'}
+[17.387755] (-) TimerEvent: {}
+[17.488916] (-) TimerEvent: {}
+[17.589989] (-) TimerEvent: {}
+[17.691048] (-) TimerEvent: {}
+[17.792215] (-) TimerEvent: {}
+[17.894727] (-) TimerEvent: {}
+[17.995772] (-) TimerEvent: {}
+[18.096902] (-) TimerEvent: {}
+[18.198243] (-) TimerEvent: {}
+[18.299287] (-) TimerEvent: {}
+[18.400432] (-) TimerEvent: {}
+[18.501476] (-) TimerEvent: {}
+[18.602529] (-) TimerEvent: {}
+[18.703664] (-) TimerEvent: {}
+[18.804652] (-) TimerEvent: {}
+[18.905736] (-) TimerEvent: {}
+[18.927126] (libdatachannel) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/websocketserver.cpp.o\x1b[0m\n'}
+[19.005976] (-) TimerEvent: {}
+[19.107030] (-) TimerEvent: {}
+[19.208138] (-) TimerEvent: {}
+[19.231654] (libdatachannel) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtppacketizationconfig.cpp.o\x1b[0m\n'}
+[19.308414] (-) TimerEvent: {}
+[19.409482] (-) TimerEvent: {}
+[19.510586] (-) TimerEvent: {}
+[19.611713] (-) TimerEvent: {}
+[19.712801] (-) TimerEvent: {}
+[19.792123] (libdatachannel) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtcpsrreporter.cpp.o\x1b[0m\n'}
+[19.813088] (-) TimerEvent: {}
+[19.914146] (-) TimerEvent: {}
+[20.006090] (libdatachannel) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtppacketizer.cpp.o\x1b[0m\n'}
+[20.014405] (-) TimerEvent: {}
+[20.115541] (-) TimerEvent: {}
+[20.216712] (-) TimerEvent: {}
+[20.317833] (-) TimerEvent: {}
+[20.418908] (-) TimerEvent: {}
+[20.479868] (libdatachannel) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtpdepacketizer.cpp.o\x1b[0m\n'}
+[20.519728] (-) TimerEvent: {}
+[20.600236] (libdatachannel) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/h264rtppacketizer.cpp.o\x1b[0m\n'}
+[20.620030] (-) TimerEvent: {}
+[20.721240] (-) TimerEvent: {}
+[20.822401] (-) TimerEvent: {}
+[20.854506] (libdatachannel) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/h264rtpdepacketizer.cpp.o\x1b[0m\n'}
+[20.922513] (-) TimerEvent: {}
+[21.023055] (-) TimerEvent: {}
+[21.123646] (-) TimerEvent: {}
+[21.224318] (-) TimerEvent: {}
+[21.283561] (libdatachannel) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/nalunit.cpp.o\x1b[0m\n'}
+[21.324486] (-) TimerEvent: {}
+[21.424992] (-) TimerEvent: {}
+[21.521429] (libdatachannel) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/h265rtppacketizer.cpp.o\x1b[0m\n'}
+[21.525149] (-) TimerEvent: {}
+[21.625675] (-) TimerEvent: {}
+[21.726198] (-) TimerEvent: {}
+[21.826817] (-) TimerEvent: {}
+[21.927365] (-) TimerEvent: {}
+[21.973829] (libdatachannel) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/h265rtpdepacketizer.cpp.o\x1b[0m\n'}
+[22.027506] (-) TimerEvent: {}
+[22.128182] (-) TimerEvent: {}
+[22.228673] (-) TimerEvent: {}
+[22.329240] (-) TimerEvent: {}
+[22.429757] (-) TimerEvent: {}
+[22.530324] (-) TimerEvent: {}
+[22.597073] (libdatachannel) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/av1rtppacketizer.cpp.o\x1b[0m\n'}
+[22.601337] (libdatachannel) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/h265nalunit.cpp.o\x1b[0m\n'}
+[22.630611] (-) TimerEvent: {}
+[22.731711] (-) TimerEvent: {}
+[22.832868] (-) TimerEvent: {}
+[22.934151] (-) TimerEvent: {}
+[23.035303] (-) TimerEvent: {}
+[23.136471] (-) TimerEvent: {}
+[23.237679] (-) TimerEvent: {}
+[23.246801] (libdatachannel) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtcpnackresponder.cpp.o\x1b[0m\n'}
+[23.337925] (-) TimerEvent: {}
+[23.439118] (-) TimerEvent: {}
+[23.540288] (-) TimerEvent: {}
+[23.641528] (-) TimerEvent: {}
+[23.742737] (-) TimerEvent: {}
+[23.843904] (-) TimerEvent: {}
+[23.945119] (-) TimerEvent: {}
+[24.046274] (-) TimerEvent: {}
+[24.147334] (-) TimerEvent: {}
+[24.239660] (libdatachannel) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/rtp.cpp.o\x1b[0m\n'}
+[24.247579] (-) TimerEvent: {}
+[24.323466] (libdatachannel) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/capi.cpp.o\x1b[0m\n'}
+[24.347828] (-) TimerEvent: {}
+[24.352476] (libdatachannel) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/plihandler.cpp.o\x1b[0m\n'}
+[24.448118] (-) TimerEvent: {}
+[24.549226] (-) TimerEvent: {}
+[24.650192] (-) TimerEvent: {}
+[24.751307] (-) TimerEvent: {}
+[24.753337] (libdatachannel) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/pacinghandler.cpp.o\x1b[0m\n'}
+[24.851463] (-) TimerEvent: {}
+[24.952128] (-) TimerEvent: {}
+[25.054206] (-) TimerEvent: {}
+[25.155454] (-) TimerEvent: {}
+[25.233118] (libdatachannel) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/rembhandler.cpp.o\x1b[0m\n'}
+[25.255631] (-) TimerEvent: {}
+[25.324780] (libdatachannel) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/certificate.cpp.o\x1b[0m\n'}
+[25.355782] (-) TimerEvent: {}
+[25.456559] (-) TimerEvent: {}
+[25.557961] (-) TimerEvent: {}
+[25.659238] (-) TimerEvent: {}
+[25.714930] (libdatachannel) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/channel.cpp.o\x1b[0m\n'}
+[25.759354] (-) TimerEvent: {}
+[25.859915] (-) TimerEvent: {}
+[25.920293] (libdatachannel) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/datachannel.cpp.o\x1b[0m\n'}
+[25.960066] (-) TimerEvent: {}
+[26.060667] (-) TimerEvent: {}
+[26.161416] (-) TimerEvent: {}
+[26.261991] (-) TimerEvent: {}
+[26.362706] (-) TimerEvent: {}
+[26.463350] (-) TimerEvent: {}
+[26.513778] (libdatachannel) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/dtlssrtptransport.cpp.o\x1b[0m\n'}
+[26.563452] (-) TimerEvent: {}
+[26.663996] (-) TimerEvent: {}
+[26.764871] (-) TimerEvent: {}
+[26.865493] (-) TimerEvent: {}
+[26.966029] (-) TimerEvent: {}
+[27.066881] (-) TimerEvent: {}
+[27.118940] (libdatachannel) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/dtlstransport.cpp.o\x1b[0m\n'}
+[27.167123] (-) TimerEvent: {}
+[27.267610] (-) TimerEvent: {}
+[27.368134] (-) TimerEvent: {}
+[27.468635] (-) TimerEvent: {}
+[27.569126] (-) TimerEvent: {}
+[27.669629] (-) TimerEvent: {}
+[27.770167] (-) TimerEvent: {}
+[27.870784] (-) TimerEvent: {}
+[27.971309] (-) TimerEvent: {}
+[28.071930] (-) TimerEvent: {}
+[28.172452] (-) TimerEvent: {}
+[28.273006] (-) TimerEvent: {}
+[28.373559] (-) TimerEvent: {}
+[28.474070] (-) TimerEvent: {}
+[28.541367] (libdatachannel) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/icetransport.cpp.o\x1b[0m\n'}
+[28.574204] (-) TimerEvent: {}
+[28.613236] (libdatachannel) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/init.cpp.o\x1b[0m\n'}
+[28.674349] (-) TimerEvent: {}
+[28.774972] (-) TimerEvent: {}
+[28.876024] (-) TimerEvent: {}
+[28.943880] (libdatachannel) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/peerconnection.cpp.o\x1b[0m\n'}
+[28.976330] (-) TimerEvent: {}
+[28.980810] (libdatachannel) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/logcounter.cpp.o\x1b[0m\n'}
+[29.076623] (-) TimerEvent: {}
+[29.177638] (-) TimerEvent: {}
+[29.278666] (-) TimerEvent: {}
+[29.379692] (-) TimerEvent: {}
+[29.480954] (-) TimerEvent: {}
+[29.581922] (-) TimerEvent: {}
+[29.682892] (-) TimerEvent: {}
+[29.783917] (-) TimerEvent: {}
+[29.884897] (-) TimerEvent: {}
+[29.985914] (-) TimerEvent: {}
+[30.086957] (-) TimerEvent: {}
+[30.187950] (-) TimerEvent: {}
+[30.288987] (-) TimerEvent: {}
+[30.390063] (-) TimerEvent: {}
+[30.491032] (-) TimerEvent: {}
+[30.592060] (-) TimerEvent: {}
+[30.693068] (-) TimerEvent: {}
+[30.794103] (-) TimerEvent: {}
+[30.895176] (-) TimerEvent: {}
+[30.996137] (-) TimerEvent: {}
+[31.097124] (-) TimerEvent: {}
+[31.198324] (-) TimerEvent: {}
+[31.299625] (-) TimerEvent: {}
+[31.303744] (libdatachannel) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/sctptransport.cpp.o\x1b[0m\n'}
+[31.399759] (-) TimerEvent: {}
+[31.500430] (-) TimerEvent: {}
+[31.604336] (-) TimerEvent: {}
+[31.694964] (libdatachannel) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/threadpool.cpp.o\x1b[0m\n'}
+[31.704444] (-) TimerEvent: {}
+[31.782967] (libdatachannel) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/track.cpp.o\x1b[0m\n'}
+[31.793542] (libdatachannel) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/tls.cpp.o\x1b[0m\n'}
+[31.804581] (-) TimerEvent: {}
+[31.905869] (-) TimerEvent: {}
+[32.007874] (-) TimerEvent: {}
+[32.109383] (-) TimerEvent: {}
+[32.211024] (-) TimerEvent: {}
+[32.312693] (-) TimerEvent: {}
+[32.414405] (-) TimerEvent: {}
+[32.515860] (-) TimerEvent: {}
+[32.617640] (-) TimerEvent: {}
+[32.719285] (-) TimerEvent: {}
+[32.819795] (-) TimerEvent: {}
+[32.920354] (-) TimerEvent: {}
+[33.021213] (-) TimerEvent: {}
+[33.121775] (-) TimerEvent: {}
+[33.222318] (-) TimerEvent: {}
+[33.322911] (-) TimerEvent: {}
+[33.423451] (-) TimerEvent: {}
+[33.450309] (libdatachannel) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/utils.cpp.o\x1b[0m\n'}
+[33.523736] (-) TimerEvent: {}
+[33.624867] (-) TimerEvent: {}
+[33.725868] (-) TimerEvent: {}
+[33.806279] (libdatachannel) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/processor.cpp.o\x1b[0m\n'}
+[33.826103] (-) TimerEvent: {}
+[33.927080] (-) TimerEvent: {}
+[34.028020] (-) TimerEvent: {}
+[34.129050] (-) TimerEvent: {}
+[34.230235] (-) TimerEvent: {}
+[34.331268] (-) TimerEvent: {}
+[34.432387] (-) TimerEvent: {}
+[34.536928] (-) TimerEvent: {}
+[34.640741] (-) TimerEvent: {}
+[34.747687] (-) TimerEvent: {}
+[34.848728] (-) TimerEvent: {}
+[34.950034] (-) TimerEvent: {}
+[34.964750] (libdatachannel) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/sha.cpp.o\x1b[0m\n'}
+[35.050266] (-) TimerEvent: {}
+[35.154432] (-) TimerEvent: {}
+[35.260075] (-) TimerEvent: {}
+[35.329762] (libdatachannel) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/pollinterrupter.cpp.o\x1b[0m\n'}
+[35.360323] (-) TimerEvent: {}
+[35.464022] (-) TimerEvent: {}
+[35.514492] (libdatachannel) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/pollservice.cpp.o\x1b[0m\n'}
+[35.564147] (-) TimerEvent: {}
+[35.665787] (-) TimerEvent: {}
+[35.767400] (-) TimerEvent: {}
+[35.869037] (-) TimerEvent: {}
+[35.970194] (-) TimerEvent: {}
+[36.071843] (-) TimerEvent: {}
+[36.173452] (-) TimerEvent: {}
+[36.277862] (-) TimerEvent: {}
+[36.336551] (libdatachannel) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/http.cpp.o\x1b[0m\n'}
+[36.378014] (-) TimerEvent: {}
+[36.436476] (libdatachannel) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/httpproxytransport.cpp.o\x1b[0m\n'}
+[36.478172] (-) TimerEvent: {}
+[36.578717] (-) TimerEvent: {}
+[36.679213] (-) TimerEvent: {}
+[36.779742] (-) TimerEvent: {}
+[36.880269] (-) TimerEvent: {}
+[36.884588] (libdatachannel) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/tcpserver.cpp.o\x1b[0m\n'}
+[36.980416] (-) TimerEvent: {}
+[37.080944] (-) TimerEvent: {}
+[37.181449] (-) TimerEvent: {}
+[37.281975] (-) TimerEvent: {}
+[37.382478] (-) TimerEvent: {}
+[37.419301] (libdatachannel) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/tcptransport.cpp.o\x1b[0m\n'}
+[37.465777] (libdatachannel) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/tlstransport.cpp.o\x1b[0m\n'}
+[37.482728] (-) TimerEvent: {}
+[37.583447] (-) TimerEvent: {}
+[37.683937] (-) TimerEvent: {}
+[37.784458] (-) TimerEvent: {}
+[37.884993] (-) TimerEvent: {}
+[37.913624] (libdatachannel) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/transport.cpp.o\x1b[0m\n'}
+[37.973366] (libdatachannel) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/verifiedtlstransport.cpp.o\x1b[0m\n'}
+[37.985151] (-) TimerEvent: {}
+[38.085666] (-) TimerEvent: {}
+[38.186212] (-) TimerEvent: {}
+[38.286774] (-) TimerEvent: {}
+[38.370132] (libdatachannel) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/websocket.cpp.o\x1b[0m\n'}
+[38.386939] (-) TimerEvent: {}
+[38.487467] (-) TimerEvent: {}
+[38.585705] (libdatachannel) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/websocketserver.cpp.o\x1b[0m\n'}
+[38.587758] (-) TimerEvent: {}
+[38.646638] (libdatachannel) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/wstransport.cpp.o\x1b[0m\n'}
+[38.687929] (-) TimerEvent: {}
+[38.788639] (-) TimerEvent: {}
+[38.889220] (-) TimerEvent: {}
+[38.989739] (-) TimerEvent: {}
+[39.090250] (-) TimerEvent: {}
+[39.190843] (-) TimerEvent: {}
+[39.291374] (-) TimerEvent: {}
+[39.391934] (-) TimerEvent: {}
+[39.492486] (-) TimerEvent: {}
+[39.495579] (libdatachannel) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/datachannel.dir/src/impl/wshandshake.cpp.o\x1b[0m\n'}
+[39.592668] (-) TimerEvent: {}
+[39.693240] (-) TimerEvent: {}
+[39.793844] (-) TimerEvent: {}
+[39.894487] (-) TimerEvent: {}
+[39.995155] (-) TimerEvent: {}
+[40.095811] (-) TimerEvent: {}
+[40.196456] (-) TimerEvent: {}
+[40.297214] (-) TimerEvent: {}
+[40.398390] (-) TimerEvent: {}
+[40.499649] (-) TimerEvent: {}
+[40.600965] (-) TimerEvent: {}
+[40.702229] (-) TimerEvent: {}
+[40.803404] (-) TimerEvent: {}
+[40.904495] (-) TimerEvent: {}
+[41.010296] (-) TimerEvent: {}
+[41.114017] (-) TimerEvent: {}
+[41.217352] (-) TimerEvent: {}
+[41.320600] (-) TimerEvent: {}
+[41.421795] (-) TimerEvent: {}
+[41.523142] (-) TimerEvent: {}
+[41.624307] (-) TimerEvent: {}
+[41.725417] (-) TimerEvent: {}
+[41.826630] (-) TimerEvent: {}
+[41.927658] (-) TimerEvent: {}
+[42.028656] (-) TimerEvent: {}
+[42.129824] (-) TimerEvent: {}
+[42.231106] (-) TimerEvent: {}
+[42.333910] (-) TimerEvent: {}
+[42.435055] (-) TimerEvent: {}
+[42.536030] (-) TimerEvent: {}
+[42.637031] (-) TimerEvent: {}
+[42.738016] (-) TimerEvent: {}
+[42.839021] (-) TimerEvent: {}
+[42.940055] (-) TimerEvent: {}
+[43.041070] (-) TimerEvent: {}
+[43.142012] (-) TimerEvent: {}
+[43.243020] (-) TimerEvent: {}
+[43.344031] (-) TimerEvent: {}
+[43.444994] (-) TimerEvent: {}
+[43.545965] (-) TimerEvent: {}
+[43.646975] (-) TimerEvent: {}
+[43.747898] (-) TimerEvent: {}
+[43.848833] (-) TimerEvent: {}
+[43.949737] (-) TimerEvent: {}
+[44.050665] (-) TimerEvent: {}
+[44.151574] (-) TimerEvent: {}
+[44.252492] (-) TimerEvent: {}
+[44.353420] (-) TimerEvent: {}
+[44.454334] (-) TimerEvent: {}
+[44.555239] (-) TimerEvent: {}
+[44.656154] (-) TimerEvent: {}
+[44.757104] (-) TimerEvent: {}
+[44.857994] (-) TimerEvent: {}
+[44.958825] (-) TimerEvent: {}
+[45.059757] (-) TimerEvent: {}
+[45.160736] (-) TimerEvent: {}
+[45.261678] (-) TimerEvent: {}
+[45.362605] (-) TimerEvent: {}
+[45.463500] (-) TimerEvent: {}
+[45.564285] (-) TimerEvent: {}
+[45.664731] (-) TimerEvent: {}
+[45.765153] (-) TimerEvent: {}
+[45.865574] (-) TimerEvent: {}
+[45.966067] (-) TimerEvent: {}
+[46.066749] (-) TimerEvent: {}
+[46.167412] (-) TimerEvent: {}
+[46.268081] (-) TimerEvent: {}
+[46.368743] (-) TimerEvent: {}
+[46.469416] (-) TimerEvent: {}
+[46.570102] (-) TimerEvent: {}
+[46.670776] (-) TimerEvent: {}
+[46.771431] (-) TimerEvent: {}
+[46.872090] (-) TimerEvent: {}
+[46.972771] (-) TimerEvent: {}
+[47.073455] (-) TimerEvent: {}
+[47.174134] (-) TimerEvent: {}
+[47.274813] (-) TimerEvent: {}
+[47.375464] (-) TimerEvent: {}
+[47.476133] (-) TimerEvent: {}
+[47.576810] (-) TimerEvent: {}
+[47.677470] (-) TimerEvent: {}
+[47.778149] (-) TimerEvent: {}
+[47.878808] (-) TimerEvent: {}
+[47.979472] (-) TimerEvent: {}
+[48.080167] (-) TimerEvent: {}
+[48.180886] (-) TimerEvent: {}
+[48.281614] (-) TimerEvent: {}
+[48.382284] (-) TimerEvent: {}
+[48.482953] (-) TimerEvent: {}
+[48.583623] (-) TimerEvent: {}
+[48.684267] (-) TimerEvent: {}
+[48.784848] (-) TimerEvent: {}
+[48.885258] (-) TimerEvent: {}
+[48.964357] (libdatachannel) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libdatachannel.so\x1b[0m\n'}
+[48.985386] (-) TimerEvent: {}
+[49.085870] (-) TimerEvent: {}
+[49.186540] (-) TimerEvent: {}
+[49.286970] (-) TimerEvent: {}
+[49.387452] (-) TimerEvent: {}
+[49.487880] (-) TimerEvent: {}
+[49.588379] (-) TimerEvent: {}
+[49.689056] (-) TimerEvent: {}
+[49.789722] (-) TimerEvent: {}
+[49.890134] (-) TimerEvent: {}
+[49.990530] (-) TimerEvent: {}
+[50.090906] (-) TimerEvent: {}
+[50.191357] (-) TimerEvent: {}
+[50.292004] (-) TimerEvent: {}
+[50.392382] (-) TimerEvent: {}
+[50.492747] (-) TimerEvent: {}
+[50.593161] (-) TimerEvent: {}
+[50.693569] (-) TimerEvent: {}
+[50.793998] (-) TimerEvent: {}
+[50.894417] (-) TimerEvent: {}
+[50.994820] (-) TimerEvent: {}
+[51.095231] (-) TimerEvent: {}
+[51.195673] (-) TimerEvent: {}
+[51.288426] (libdatachannel) StdoutLine: {'line': b'[ 74%] Built target datachannel\n'}
+[51.295814] (-) TimerEvent: {}
+[51.325769] (libdatachannel) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object examples/media-receiver/CMakeFiles/datachannel-media-receiver.dir/main.cpp.o\x1b[0m\n'}
+[51.330408] (libdatachannel) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object examples/client/CMakeFiles/datachannel-client.dir/main.cpp.o\x1b[0m\n'}
+[51.339657] (libdatachannel) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object examples/media-sender/CMakeFiles/datachannel-media-sender.dir/main.cpp.o\x1b[0m\n'}
+[51.341839] (libdatachannel) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object examples/media-sfu/CMakeFiles/datachannel-media-sfu.dir/main.cpp.o\x1b[0m\n'}
+[51.350243] (libdatachannel) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/main.cpp.o\x1b[0m\n'}
+[51.354068] (libdatachannel) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-benchmark.dir/test/benchmark.cpp.o\x1b[0m\n'}
+[51.367091] (libdatachannel) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/main.cpp.o\x1b[0m\n'}
+[51.371320] (libdatachannel) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object examples/client-benchmark/CMakeFiles/datachannel-client-benchmark.dir/main.cpp.o\x1b[0m\n'}
+[51.396085] (-) TimerEvent: {}
+[51.497052] (-) TimerEvent: {}
+[51.598037] (-) TimerEvent: {}
+[51.699649] (-) TimerEvent: {}
+[51.800746] (-) TimerEvent: {}
+[51.901826] (-) TimerEvent: {}
+[52.003052] (-) TimerEvent: {}
+[52.104226] (-) TimerEvent: {}
+[52.205435] (-) TimerEvent: {}
+[52.306664] (-) TimerEvent: {}
+[52.407814] (-) TimerEvent: {}
+[52.508917] (-) TimerEvent: {}
+[52.610060] (-) TimerEvent: {}
+[52.711162] (-) TimerEvent: {}
+[52.812319] (-) TimerEvent: {}
+[52.913522] (-) TimerEvent: {}
+[53.014766] (-) TimerEvent: {}
+[53.115976] (-) TimerEvent: {}
+[53.217286] (-) TimerEvent: {}
+[53.318366] (-) TimerEvent: {}
+[53.419457] (-) TimerEvent: {}
+[53.520629] (-) TimerEvent: {}
+[53.621729] (-) TimerEvent: {}
+[53.722767] (-) TimerEvent: {}
+[53.823838] (-) TimerEvent: {}
+[53.925026] (-) TimerEvent: {}
+[54.026085] (-) TimerEvent: {}
+[54.127172] (-) TimerEvent: {}
+[54.228315] (-) TimerEvent: {}
+[54.332706] (-) TimerEvent: {}
+[54.435443] (-) TimerEvent: {}
+[54.538980] (-) TimerEvent: {}
+[54.643409] (-) TimerEvent: {}
+[54.747841] (-) TimerEvent: {}
+[54.852200] (-) TimerEvent: {}
+[54.956231] (-) TimerEvent: {}
+[55.059258] (-) TimerEvent: {}
+[55.163740] (-) TimerEvent: {}
+[55.264826] (-) TimerEvent: {}
+[55.365919] (-) TimerEvent: {}
+[55.467043] (-) TimerEvent: {}
+[55.571575] (-) TimerEvent: {}
+[55.676219] (-) TimerEvent: {}
+[55.780365] (-) TimerEvent: {}
+[55.883788] (-) TimerEvent: {}
+[55.984926] (-) TimerEvent: {}
+[56.086086] (-) TimerEvent: {}
+[56.187241] (-) TimerEvent: {}
+[56.288304] (-) TimerEvent: {}
+[56.389330] (-) TimerEvent: {}
+[56.490470] (-) TimerEvent: {}
+[56.591676] (-) TimerEvent: {}
+[56.692804] (-) TimerEvent: {}
+[56.793975] (-) TimerEvent: {}
+[56.883274] (libdatachannel) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/connectivity.cpp.o\x1b[0m\n'}
+[56.894241] (-) TimerEvent: {}
+[56.998758] (-) TimerEvent: {}
+[57.103434] (-) TimerEvent: {}
+[57.207756] (-) TimerEvent: {}
+[57.312054] (-) TimerEvent: {}
+[57.414780] (-) TimerEvent: {}
+[57.519469] (-) TimerEvent: {}
+[57.624056] (-) TimerEvent: {}
+[57.725476] (-) TimerEvent: {}
+[57.826786] (-) TimerEvent: {}
+[57.928125] (-) TimerEvent: {}
+[58.029249] (-) TimerEvent: {}
+[58.130385] (-) TimerEvent: {}
+[58.231439] (-) TimerEvent: {}
+[58.332515] (-) TimerEvent: {}
+[58.433660] (-) TimerEvent: {}
+[58.534749] (-) TimerEvent: {}
+[58.584756] (libdatachannel) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable media-receiver\x1b[0m\n'}
+[58.634850] (-) TimerEvent: {}
+[58.736618] (-) TimerEvent: {}
+[58.838414] (-) TimerEvent: {}
+[58.940523] (-) TimerEvent: {}
+[59.042375] (-) TimerEvent: {}
+[59.105111] (libdatachannel) StdoutLine: {'line': b'[ 77%] Built target datachannel-media-receiver\n'}
+[59.142526] (-) TimerEvent: {}
+[59.217088] (libdatachannel) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object examples/copy-paste/CMakeFiles/datachannel-copy-paste-offerer.dir/offerer.cpp.o\x1b[0m\n'}
+[59.242679] (-) TimerEvent: {}
+[59.345013] (-) TimerEvent: {}
+[59.445507] (-) TimerEvent: {}
+[59.545287] (libdatachannel) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX executable benchmark\x1b[0m\n'}
+[59.546693] (-) TimerEvent: {}
+[59.647178] (-) TimerEvent: {}
+[59.686593] (libdatachannel) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable media-sfu\x1b[0m\n'}
+[59.747332] (-) TimerEvent: {}
+[59.849028] (-) TimerEvent: {}
+[59.950854] (-) TimerEvent: {}
+[60.053493] (-) TimerEvent: {}
+[60.155006] (-) TimerEvent: {}
+[60.220380] (libdatachannel) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object examples/client/CMakeFiles/datachannel-client.dir/parse_cl.cpp.o\x1b[0m\n'}
+[60.255152] (-) TimerEvent: {}
+[60.325695] (libdatachannel) StdoutLine: {'line': b'[ 81%] Built target datachannel-media-sfu\n'}
+[60.355309] (-) TimerEvent: {}
+[60.361086] (libdatachannel) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object examples/copy-paste/CMakeFiles/datachannel-copy-paste-answerer.dir/answerer.cpp.o\x1b[0m\n'}
+[60.455466] (-) TimerEvent: {}
+[60.556803] (-) TimerEvent: {}
+[60.657358] (-) TimerEvent: {}
+[60.757896] (-) TimerEvent: {}
+[60.812187] (libdatachannel) StdoutLine: {'line': b'[ 81%] Built target datachannel-benchmark\n'}
+[60.836700] (libdatachannel) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/dispatchqueue.cpp.o\x1b[0m\n'}
+[60.837086] (libdatachannel) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[60.858044] (-) TimerEvent: {}
+[60.958731] (-) TimerEvent: {}
+[61.059247] (-) TimerEvent: {}
+[61.159985] (-) TimerEvent: {}
+[61.260638] (-) TimerEvent: {}
+[61.312100] (libdatachannel) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/h264fileparser.cpp.o\x1b[0m\n'}
+[61.360772] (-) TimerEvent: {}
+[61.462320] (-) TimerEvent: {}
+[61.563432] (-) TimerEvent: {}
+[61.608756] (libdatachannel) StdoutLine: {'line': b'[ 84%] Built target datachannel-client\n'}
+[61.643845] (libdatachannel) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object examples/copy-paste-capi/CMakeFiles/datachannel-copy-paste-capi-offerer.dir/offerer.c.o\x1b[0m\n'}
+[61.663575] (-) TimerEvent: {}
+[61.764963] (-) TimerEvent: {}
+[61.793338] (libdatachannel) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C executable offerer-capi\x1b[0m\n'}
+[61.865106] (-) TimerEvent: {}
+[61.967557] (-) TimerEvent: {}
+[62.069371] (-) TimerEvent: {}
+[62.169955] (-) TimerEvent: {}
+[62.270484] (-) TimerEvent: {}
+[62.371001] (-) TimerEvent: {}
+[62.471521] (-) TimerEvent: {}
+[62.572102] (-) TimerEvent: {}
+[62.673155] (-) TimerEvent: {}
+[62.774087] (-) TimerEvent: {}
+[62.845292] (libdatachannel) StdoutLine: {'line': b'[ 86%] Built target datachannel-copy-paste-capi-offerer\n'}
+[62.874198] (-) TimerEvent: {}
+[62.940138] (libdatachannel) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/negotiated.cpp.o\x1b[0m\n'}
+[62.974473] (-) TimerEvent: {}
+[63.076047] (-) TimerEvent: {}
+[63.109343] (libdatachannel) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable answerer\x1b[0m\n'}
+[63.176389] (-) TimerEvent: {}
+[63.278169] (-) TimerEvent: {}
+[63.378709] (-) TimerEvent: {}
+[63.479259] (-) TimerEvent: {}
+[63.579780] (-) TimerEvent: {}
+[63.680295] (-) TimerEvent: {}
+[63.715558] (libdatachannel) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/helpers.cpp.o\x1b[0m\n'}
+[63.780452] (-) TimerEvent: {}
+[63.882187] (-) TimerEvent: {}
+[63.986725] (-) TimerEvent: {}
+[64.087246] (-) TimerEvent: {}
+[64.187787] (-) TimerEvent: {}
+[64.228810] (libdatachannel) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable offerer\x1b[0m\n'}
+[64.287943] (-) TimerEvent: {}
+[64.335939] (libdatachannel) StdoutLine: {'line': b'[ 86%] Built target datachannel-copy-paste-answerer\n'}
+[64.357278] (libdatachannel) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/reliability.cpp.o\x1b[0m\n'}
+[64.388112] (-) TimerEvent: {}
+[64.488649] (-) TimerEvent: {}
+[64.501067] (libdatachannel) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/opusfileparser.cpp.o\x1b[0m\n'}
+[64.588809] (-) TimerEvent: {}
+[64.681957] (libdatachannel) StdoutLine: {'line': b'[ 86%] Built target datachannel-copy-paste-offerer\n'}
+[64.688959] (-) TimerEvent: {}
+[64.726959] (libdatachannel) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object examples/copy-paste-capi/CMakeFiles/datachannel-copy-paste-capi-answerer.dir/answerer.c.o\x1b[0m\n'}
+[64.789118] (-) TimerEvent: {}
+[64.851074] (libdatachannel) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C executable answerer-capi\x1b[0m\n'}
+[64.889275] (-) TimerEvent: {}
+[64.990291] (-) TimerEvent: {}
+[65.014567] (libdatachannel) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable media-sender\x1b[0m\n'}
+[65.090444] (-) TimerEvent: {}
+[65.191104] (-) TimerEvent: {}
+[65.248002] (libdatachannel) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/turn_connectivity.cpp.o\x1b[0m\n'}
+[65.291259] (-) TimerEvent: {}
+[65.305654] (libdatachannel) StdoutLine: {'line': b'[ 91%] Built target datachannel-copy-paste-capi-answerer\n'}
+[65.330350] (libdatachannel) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object examples/client-benchmark/CMakeFiles/datachannel-client-benchmark.dir/parse_cl.cpp.o\x1b[0m\n'}
+[65.391408] (-) TimerEvent: {}
+[65.490279] (libdatachannel) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/track.cpp.o\x1b[0m\n'}
+[65.491548] (-) TimerEvent: {}
+[65.592211] (-) TimerEvent: {}
+[65.692906] (-) TimerEvent: {}
+[65.793582] (-) TimerEvent: {}
+[65.868592] (libdatachannel) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/capi_connectivity.cpp.o\x1b[0m\n'}
+[65.893733] (-) TimerEvent: {}
+[65.994376] (-) TimerEvent: {}
+[66.095045] (-) TimerEvent: {}
+[66.195681] (-) TimerEvent: {}
+[66.296310] (-) TimerEvent: {}
+[66.343288] (libdatachannel) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/capi_track.cpp.o\x1b[0m\n'}
+[66.371028] (libdatachannel) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/fileparser.cpp.o\x1b[0m\n'}
+[66.398866] (-) TimerEvent: {}
+[66.487851] (libdatachannel) StdoutLine: {'line': b'[ 94%] Built target datachannel-media-sender\n'}
+[66.499023] (-) TimerEvent: {}
+[66.567791] (libdatachannel) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/websocket.cpp.o\x1b[0m\n'}
+[66.599229] (-) TimerEvent: {}
+[66.699977] (-) TimerEvent: {}
+[66.800638] (-) TimerEvent: {}
+[66.901314] (-) TimerEvent: {}
+[66.936726] (libdatachannel) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/websocketserver.cpp.o\x1b[0m\n'}
+[67.001499] (-) TimerEvent: {}
+[67.102085] (-) TimerEvent: {}
+[67.202696] (-) TimerEvent: {}
+[67.303386] (-) TimerEvent: {}
+[67.404042] (-) TimerEvent: {}
+[67.504649] (-) TimerEvent: {}
+[67.605289] (-) TimerEvent: {}
+[67.617841] (libdatachannel) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/capi_websocketserver.cpp.o\x1b[0m\n'}
+[67.705475] (-) TimerEvent: {}
+[67.806089] (-) TimerEvent: {}
+[67.906673] (-) TimerEvent: {}
+[68.007227] (-) TimerEvent: {}
+[68.107787] (-) TimerEvent: {}
+[68.208419] (-) TimerEvent: {}
+[68.251262] (libdatachannel) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/datachannel-tests.dir/test/benchmark.cpp.o\x1b[0m\n'}
+[68.308580] (-) TimerEvent: {}
+[68.409151] (-) TimerEvent: {}
+[68.509728] (-) TimerEvent: {}
+[68.515745] (libdatachannel) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/stream.cpp.o\x1b[0m\n'}
+[68.609911] (-) TimerEvent: {}
+[68.710438] (-) TimerEvent: {}
+[68.810990] (-) TimerEvent: {}
+[68.850128] (libdatachannel) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object examples/streamer/CMakeFiles/streamer.dir/ArgParser.cpp.o\x1b[0m\n'}
+[68.911388] (-) TimerEvent: {}
+[69.012445] (-) TimerEvent: {}
+[69.113433] (-) TimerEvent: {}
+[69.214578] (-) TimerEvent: {}
+[69.315755] (-) TimerEvent: {}
+[69.416839] (-) TimerEvent: {}
+[69.518052] (-) TimerEvent: {}
+[69.619144] (-) TimerEvent: {}
+[69.727550] (-) TimerEvent: {}
+[69.828665] (-) TimerEvent: {}
+[69.929772] (-) TimerEvent: {}
+[70.030851] (-) TimerEvent: {}
+[70.131899] (-) TimerEvent: {}
+[70.233138] (-) TimerEvent: {}
+[70.334609] (-) TimerEvent: {}
+[70.435946] (-) TimerEvent: {}
+[70.537127] (-) TimerEvent: {}
+[70.638156] (-) TimerEvent: {}
+[70.739324] (-) TimerEvent: {}
+[70.745084] (libdatachannel) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable streamer\x1b[0m\n'}
+[70.828659] (libdatachannel) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client-benchmark\x1b[0m\n'}
+[70.839662] (-) TimerEvent: {}
+[70.940792] (-) TimerEvent: {}
+[71.041931] (-) TimerEvent: {}
+[71.143158] (-) TimerEvent: {}
+[71.244393] (-) TimerEvent: {}
+[71.344690] (libdatachannel) StdoutLine: {'line': b'[100%] Built target streamer\n'}
+[71.345518] (-) TimerEvent: {}
+[71.380716] (libdatachannel) StdoutLine: {'line': b'[100%] Built target datachannel-client-benchmark\n'}
+[71.445777] (-) TimerEvent: {}
+[71.546908] (-) TimerEvent: {}
+[71.552343] (libdatachannel) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tests\x1b[0m\n'}
+[71.647339] (-) TimerEvent: {}
+[71.748858] (-) TimerEvent: {}
+[71.850432] (-) TimerEvent: {}
+[71.951388] (-) TimerEvent: {}
+[72.052393] (-) TimerEvent: {}
+[72.090697] (libdatachannel) StdoutLine: {'line': b'[100%] Built target datachannel-tests\n'}
+[72.125212] (libdatachannel) CommandEnded: {'returncode': 0}
+[72.127716] (libdatachannel) JobProgress: {'identifier': 'libdatachannel', 'progress': 'install'}
+[72.129425] (libdatachannel) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hady/teleop/gbot_ws/build/libdatachannel'], 'cwd': '/home/hady/teleop/gbot_ws/build/libdatachannel', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'hady'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('TERMINFO', '/usr/share/terminfo'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/hady/teleop/gbot_ws/libdatachannel'), ('TERM_PROGRAM_VERSION', '1.0.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.mitchellh.ghostty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1332'), ('SYSTEMD_EXEC_PID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7541'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hady'), ('JOURNAL_STREAM', '8:39971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-ghostty'), ('GHOSTTY_SHELL_INTEGRATION_NO_SUDO', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1465,unix/hady:/tmp/.ICE-unix/1465'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '4b87f6b42dc544c8aaa1eb941669cec4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'ghostty'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hady/teleop/gbot_ws/build/libdatachannel'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2245589461208410'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[72.152620] (-) TimerEvent: {}
+[72.157486] (libdatachannel) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[72.158760] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/libdatachannel.so.0.22.5\n'}
+[72.199456] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/libdatachannel.so.0.22\n'}
+[72.200891] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/libdatachannel.so\n'}
+[72.201854] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/candidate.hpp\n'}
+[72.202787] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/channel.hpp\n'}
+[72.203571] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/configuration.hpp\n'}
+[72.204311] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/datachannel.hpp\n'}
+[72.205039] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/description.hpp\n'}
+[72.205507] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/mediahandler.hpp\n'}
+[72.206131] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtcpreceivingsession.hpp\n'}
+[72.206558] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/common.hpp\n'}
+[72.206946] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/global.hpp\n'}
+[72.207310] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/message.hpp\n'}
+[72.207673] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/frameinfo.hpp\n'}
+[72.208035] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/peerconnection.hpp\n'}
+[72.208396] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/reliability.hpp\n'}
+[72.208757] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtc.h\n'}
+[72.209117] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtc.hpp\n'}
+[72.209478] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtp.hpp\n'}
+[72.209858] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/track.hpp\n'}
+[72.210241] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/websocket.hpp\n'}
+[72.211640] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/websocketserver.hpp\n'}
+[72.212782] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtppacketizationconfig.hpp\n'}
+[72.216982] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtcpsrreporter.hpp\n'}
+[72.217807] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtppacketizer.hpp\n'}
+[72.219171] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtpdepacketizer.hpp\n'}
+[72.219892] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h264rtppacketizer.hpp\n'}
+[72.220451] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h264rtpdepacketizer.hpp\n'}
+[72.220975] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/nalunit.hpp\n'}
+[72.223489] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h265rtppacketizer.hpp\n'}
+[72.225135] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h265rtpdepacketizer.hpp\n'}
+[72.225620] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/h265nalunit.hpp\n'}
+[72.226281] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/av1rtppacketizer.hpp\n'}
+[72.227298] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rtcpnackresponder.hpp\n'}
+[72.228566] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/utils.hpp\n'}
+[72.229188] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/plihandler.hpp\n'}
+[72.230255] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/pacinghandler.hpp\n'}
+[72.231660] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/rembhandler.hpp\n'}
+[72.232881] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/include/rtc/version.h\n'}
+[72.233794] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelTargets.cmake\n'}
+[72.234485] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelTargets-noconfig.cmake\n'}
+[72.237172] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelConfig.cmake\n'}
+[72.237773] (libdatachannel) StdoutLine: {'line': b'-- Installing: /home/hady/teleop/gbot_ws/install/libdatachannel/lib/cmake/LibDataChannel/LibDataChannelConfigVersion.cmake\n'}
+[72.238539] (libdatachannel) CommandEnded: {'returncode': 0}
+[72.253147] (-) TimerEvent: {}
+[72.256940] (libdatachannel) JobEnded: {'identifier': 'libdatachannel', 'rc': 0}
+[72.353583] (-) TimerEvent: {}
+[72.454640] (-) TimerEvent: {}
+[72.555446] (-) TimerEvent: {}
+[72.656668] (-) TimerEvent: {}
+[72.757803] (-) TimerEvent: {}
+[72.858883] (-) TimerEvent: {}
+[72.960013] (-) TimerEvent: {}
+[73.061206] (-) TimerEvent: {}
+[73.162335] (-) TimerEvent: {}
+[73.263494] (-) TimerEvent: {}
+[73.364612] (-) TimerEvent: {}
+[73.465735] (-) TimerEvent: {}
+[73.566863] (-) TimerEvent: {}
+[73.667888] (-) TimerEvent: {}
+[73.768942] (-) TimerEvent: {}
+[73.870066] (-) TimerEvent: {}
+[73.971155] (-) TimerEvent: {}
+[74.072299] (-) TimerEvent: {}
+[74.173435] (-) TimerEvent: {}
+[74.274585] (-) TimerEvent: {}
+[74.375728] (-) TimerEvent: {}
+[74.476817] (-) TimerEvent: {}
+[74.577864] (-) TimerEvent: {}
+[74.678922] (-) TimerEvent: {}
+[74.780022] (-) TimerEvent: {}
+[74.881217] (-) TimerEvent: {}
+[74.982376] (-) TimerEvent: {}
+[75.083629] (-) TimerEvent: {}
+[75.184773] (-) TimerEvent: {}
+[75.285877] (-) TimerEvent: {}
+[75.387045] (-) TimerEvent: {}
+[75.488210] (-) TimerEvent: {}
+[75.589262] (-) TimerEvent: {}
+[75.690332] (-) TimerEvent: {}
+[75.791402] (-) TimerEvent: {}
+[75.892490] (-) TimerEvent: {}
+[75.993691] (-) TimerEvent: {}
+[76.094864] (-) TimerEvent: {}
+[76.196150] (-) TimerEvent: {}
+[76.297337] (-) TimerEvent: {}
+[76.398389] (-) TimerEvent: {}
+[76.499537] (-) TimerEvent: {}
+[76.600715] (-) TimerEvent: {}
+[76.701841] (-) TimerEvent: {}
+[76.803028] (-) TimerEvent: {}
+[76.904144] (-) TimerEvent: {}
+[77.005280] (-) TimerEvent: {}
+[77.108266] (-) TimerEvent: {}
+[77.209770] (-) TimerEvent: {}
+[77.311087] (-) TimerEvent: {}
+[77.412382] (-) TimerEvent: {}
+[77.513623] (-) TimerEvent: {}
+[77.614793] (-) TimerEvent: {}
+[77.715943] (-) TimerEvent: {}
+[77.817202] (-) TimerEvent: {}
+[77.918415] (-) TimerEvent: {}
+[78.019642] (-) TimerEvent: {}
+[78.120868] (-) TimerEvent: {}
+[78.222117] (-) TimerEvent: {}
+[78.323330] (-) TimerEvent: {}
+[78.424529] (-) TimerEvent: {}
+[78.525775] (-) TimerEvent: {}
+[78.627038] (-) TimerEvent: {}
+[78.728264] (-) TimerEvent: {}
+[78.829479] (-) TimerEvent: {}
+[78.930670] (-) TimerEvent: {}
+[79.031759] (-) TimerEvent: {}
+[79.132838] (-) TimerEvent: {}
+[79.243717] (-) TimerEvent: {}
+[79.344787] (-) TimerEvent: {}
+[79.445889] (-) TimerEvent: {}
+[79.546981] (-) TimerEvent: {}
+[79.647972] (-) TimerEvent: {}
+[79.749031] (-) TimerEvent: {}
+[79.850091] (-) TimerEvent: {}
+[79.951198] (-) TimerEvent: {}
+[80.052430] (-) TimerEvent: {}
+[80.153667] (-) TimerEvent: {}
+[80.254884] (-) TimerEvent: {}
+[80.356150] (-) TimerEvent: {}
+[80.457380] (-) TimerEvent: {}
+[80.558652] (-) TimerEvent: {}
+[80.659885] (-) TimerEvent: {}
+[80.761021] (-) TimerEvent: {}
+[80.862241] (-) TimerEvent: {}
+[80.963431] (-) TimerEvent: {}
+[81.064586] (-) TimerEvent: {}
+[81.165726] (-) TimerEvent: {}
+[81.266948] (-) TimerEvent: {}
+[81.368363] (-) TimerEvent: {}
+[81.469739] (-) TimerEvent: {}
+[81.571272] (-) TimerEvent: {}
+[81.672643] (-) TimerEvent: {}
+[81.773928] (-) TimerEvent: {}
+[81.875148] (-) TimerEvent: {}
+[81.976450] (-) TimerEvent: {}
+[82.077745] (-) TimerEvent: {}
+[82.178981] (-) TimerEvent: {}
+[82.280423] (-) TimerEvent: {}
+[82.381587] (-) TimerEvent: {}
+[82.482795] (-) TimerEvent: {}
+[82.583957] (-) TimerEvent: {}
+[82.685036] (-) TimerEvent: {}
+[82.786112] (-) TimerEvent: {}
+[82.887205] (-) TimerEvent: {}
+[82.988257] (-) TimerEvent: {}
+[83.089325] (-) TimerEvent: {}
+[83.190409] (-) TimerEvent: {}
+[83.291527] (-) TimerEvent: {}
+[83.392684] (-) TimerEvent: {}
+[83.493871] (-) TimerEvent: {}
+[83.595035] (-) TimerEvent: {}
+[83.696210] (-) TimerEvent: {}
+[83.797420] (-) TimerEvent: {}
+[83.898569] (-) TimerEvent: {}
+[83.999716] (-) TimerEvent: {}
+[84.100833] (-) TimerEvent: {}
+[84.201859] (-) TimerEvent: {}
+[84.302960] (-) TimerEvent: {}
+[84.404088] (-) TimerEvent: {}
+[84.505297] (-) TimerEvent: {}
+[84.606570] (-) TimerEvent: {}
+[84.707786] (-) TimerEvent: {}
+[84.808968] (-) TimerEvent: {}
+[84.910103] (-) TimerEvent: {}
+[85.011228] (-) TimerEvent: {}
+[85.112344] (-) TimerEvent: {}
+[85.213452] (-) TimerEvent: {}
+[85.314531] (-) TimerEvent: {}
+[85.415635] (-) TimerEvent: {}
+[85.516738] (-) TimerEvent: {}
+[85.617803] (-) TimerEvent: {}
+[85.718871] (-) TimerEvent: {}
+[85.819960] (-) TimerEvent: {}
+[85.921032] (-) TimerEvent: {}
+[86.022096] (-) TimerEvent: {}
+[86.123148] (-) TimerEvent: {}
+[86.224229] (-) TimerEvent: {}
+[86.325292] (-) TimerEvent: {}
+[86.426374] (-) TimerEvent: {}
+[86.527485] (-) TimerEvent: {}
+[86.628554] (-) TimerEvent: {}
+[86.729588] (-) TimerEvent: {}
+[86.830732] (-) TimerEvent: {}
+[86.931813] (-) TimerEvent: {}
+[87.032887] (-) TimerEvent: {}
+[87.133998] (-) TimerEvent: {}
+[87.235096] (-) TimerEvent: {}
+[87.336200] (-) TimerEvent: {}
+[87.437394] (-) TimerEvent: {}
+[87.538462] (-) TimerEvent: {}
+[87.639517] (-) TimerEvent: {}
+[87.740646] (-) TimerEvent: {}
+[87.841740] (-) TimerEvent: {}
+[87.942840] (-) TimerEvent: {}
+[88.043889] (-) TimerEvent: {}
+[88.144886] (-) TimerEvent: {}
+[88.245983] (-) TimerEvent: {}
+[88.347185] (-) TimerEvent: {}
+[88.448346] (-) TimerEvent: {}
+[88.549553] (-) TimerEvent: {}
+[88.650675] (-) TimerEvent: {}
+[88.751849] (-) TimerEvent: {}
+[88.853006] (-) TimerEvent: {}
+[88.954230] (-) TimerEvent: {}
+[89.055468] (-) TimerEvent: {}
+[89.156647] (-) TimerEvent: {}
+[89.258085] (-) TimerEvent: {}
+[89.359729] (-) TimerEvent: {}
+[89.461049] (-) TimerEvent: {}
+[89.562295] (-) TimerEvent: {}
+[89.663520] (-) TimerEvent: {}
+[89.764702] (-) TimerEvent: {}
+[89.865862] (-) TimerEvent: {}
+[89.967048] (-) TimerEvent: {}
+[90.068239] (-) TimerEvent: {}
+[90.169446] (-) TimerEvent: {}
+[90.270773] (-) TimerEvent: {}
+[90.372015] (-) TimerEvent: {}
+[90.473307] (-) TimerEvent: {}
+[90.574533] (-) TimerEvent: {}
+[90.675770] (-) TimerEvent: {}
+[90.776989] (-) TimerEvent: {}
+[90.878151] (-) TimerEvent: {}
+[90.979286] (-) TimerEvent: {}
+[91.080428] (-) TimerEvent: {}
+[91.181586] (-) TimerEvent: {}
+[91.282656] (-) TimerEvent: {}
+[91.383786] (-) TimerEvent: {}
+[91.484937] (-) TimerEvent: {}
+[91.586070] (-) TimerEvent: {}
+[91.687186] (-) TimerEvent: {}
+[91.788252] (-) TimerEvent: {}
+[91.889498] (-) TimerEvent: {}
+[91.990589] (-) TimerEvent: {}
+[92.091768] (-) TimerEvent: {}
+[92.192937] (-) TimerEvent: {}
+[92.294190] (-) TimerEvent: {}
+[92.395344] (-) TimerEvent: {}
+[92.496578] (-) TimerEvent: {}
+[92.597774] (-) TimerEvent: {}
+[92.698922] (-) TimerEvent: {}
+[92.800113] (-) TimerEvent: {}
+[92.901300] (-) TimerEvent: {}
+[93.002568] (-) TimerEvent: {}
+[93.103863] (-) TimerEvent: {}
+[93.205206] (-) TimerEvent: {}
+[93.306695] (-) TimerEvent: {}
+[93.408023] (-) TimerEvent: {}
+[93.509321] (-) TimerEvent: {}
+[93.610476] (-) TimerEvent: {}
+[93.711709] (-) TimerEvent: {}
+[93.812824] (-) TimerEvent: {}
+[93.913941] (-) TimerEvent: {}
+[94.015078] (-) TimerEvent: {}
+[94.116129] (-) TimerEvent: {}
+[94.217280] (-) TimerEvent: {}
+[94.318336] (-) TimerEvent: {}
+[94.419406] (-) TimerEvent: {}
+[94.520480] (-) TimerEvent: {}
+[94.621531] (-) TimerEvent: {}
+[94.722679] (-) TimerEvent: {}
+[94.823970] (-) TimerEvent: {}
+[94.925269] (-) TimerEvent: {}
+[95.026700] (-) TimerEvent: {}
+[95.127937] (-) TimerEvent: {}
+[95.229242] (-) TimerEvent: {}
+[95.330523] (-) TimerEvent: {}
+[95.431846] (-) TimerEvent: {}
+[95.533129] (-) TimerEvent: {}
+[95.634433] (-) TimerEvent: {}
+[95.735715] (-) TimerEvent: {}
+[95.837037] (-) TimerEvent: {}
+[95.938380] (-) TimerEvent: {}
+[96.039695] (-) TimerEvent: {}
+[96.141034] (-) TimerEvent: {}
+[96.242317] (-) TimerEvent: {}
+[96.343599] (-) TimerEvent: {}
+[96.444928] (-) TimerEvent: {}
+[96.546291] (-) TimerEvent: {}
+[96.647901] (-) TimerEvent: {}
+[96.749258] (-) TimerEvent: {}
+[96.850616] (-) TimerEvent: {}
+[96.951843] (-) TimerEvent: {}
+[97.052915] (-) TimerEvent: {}
+[97.153966] (-) TimerEvent: {}
+[97.255039] (-) TimerEvent: {}
+[97.356118] (-) TimerEvent: {}
+[97.457159] (-) TimerEvent: {}
+[97.558242] (-) TimerEvent: {}
+[97.659403] (-) TimerEvent: {}
+[97.760677] (-) TimerEvent: {}
+[97.861942] (-) TimerEvent: {}
+[97.963060] (-) TimerEvent: {}
+[98.064165] (-) TimerEvent: {}
+[98.165249] (-) TimerEvent: {}
+[98.266317] (-) TimerEvent: {}
+[98.367399] (-) TimerEvent: {}
+[98.468460] (-) TimerEvent: {}
+[98.569527] (-) TimerEvent: {}
+[98.670545] (-) TimerEvent: {}
+[98.771596] (-) TimerEvent: {}
+[98.872685] (-) TimerEvent: {}
+[98.973792] (-) TimerEvent: {}
+[99.074938] (-) TimerEvent: {}
+[99.176005] (-) TimerEvent: {}
+[99.277088] (-) TimerEvent: {}
+[99.378147] (-) TimerEvent: {}
+[99.479215] (-) TimerEvent: {}
+[99.580336] (-) TimerEvent: {}
+[99.681470] (-) TimerEvent: {}
+[99.782533] (-) TimerEvent: {}
+[99.883603] (-) TimerEvent: {}
+[99.984662] (-) TimerEvent: {}
+[100.085711] (-) TimerEvent: {}
+[100.186754] (-) TimerEvent: {}
+[100.287793] (-) TimerEvent: {}
+[100.389317] (-) TimerEvent: {}
+[100.490464] (-) TimerEvent: {}
+[100.591514] (-) TimerEvent: {}
+[100.692572] (-) TimerEvent: {}
+[100.793610] (-) TimerEvent: {}
+[100.894595] (-) TimerEvent: {}
+[100.995650] (-) TimerEvent: {}
+[101.096705] (-) TimerEvent: {}
+[101.197684] (-) TimerEvent: {}
+[101.298719] (-) TimerEvent: {}
+[101.399721] (-) TimerEvent: {}
+[101.500807] (-) TimerEvent: {}
+[101.601854] (-) TimerEvent: {}
+[101.702860] (-) TimerEvent: {}
+[101.803934] (-) TimerEvent: {}
+[101.904928] (-) TimerEvent: {}
+[102.005994] (-) TimerEvent: {}
+[102.107063] (-) TimerEvent: {}
+[102.208121] (-) TimerEvent: {}
+[102.309258] (-) TimerEvent: {}
+[102.410542] (-) TimerEvent: {}
+[102.511743] (-) TimerEvent: {}
+[102.612804] (-) TimerEvent: {}
+[102.717759] (-) TimerEvent: {}
+[102.818962] (-) TimerEvent: {}
+[102.920041] (-) TimerEvent: {}
+[103.021108] (-) TimerEvent: {}
+[103.122213] (-) TimerEvent: {}
+[103.223243] (-) TimerEvent: {}
+[103.324276] (-) TimerEvent: {}
+[103.425419] (-) TimerEvent: {}
+[103.526585] (-) TimerEvent: {}
+[103.627641] (-) TimerEvent: {}
+[103.728708] (-) TimerEvent: {}
+[103.829724] (-) TimerEvent: {}
+[103.930772] (-) TimerEvent: {}
+[104.031918] (-) TimerEvent: {}
+[104.132989] (-) TimerEvent: {}
+[104.234019] (-) TimerEvent: {}
+[104.335076] (-) TimerEvent: {}
+[104.436197] (-) TimerEvent: {}
+[104.537268] (-) TimerEvent: {}
+[104.638273] (-) TimerEvent: {}
+[104.739723] (-) TimerEvent: {}
+[104.840751] (-) TimerEvent: {}
+[104.941765] (-) TimerEvent: {}
+[105.042833] (-) TimerEvent: {}
+[105.143864] (-) TimerEvent: {}
+[105.244918] (-) TimerEvent: {}
+[105.345963] (-) TimerEvent: {}
+[105.447012] (-) TimerEvent: {}
+[105.548071] (-) TimerEvent: {}
+[105.649162] (-) TimerEvent: {}
+[105.750226] (-) TimerEvent: {}
+[105.851331] (-) TimerEvent: {}
+[105.952361] (-) TimerEvent: {}
+[106.053402] (-) TimerEvent: {}
+[106.154371] (-) TimerEvent: {}
+[106.255408] (-) TimerEvent: {}
+[106.356397] (-) TimerEvent: {}
+[106.457481] (-) TimerEvent: {}
+[106.558578] (-) TimerEvent: {}
+[106.659671] (-) TimerEvent: {}
+[106.760765] (-) TimerEvent: {}
+[106.861789] (-) TimerEvent: {}
+[106.962870] (-) TimerEvent: {}
+[107.063904] (-) TimerEvent: {}
+[107.164943] (-) TimerEvent: {}
+[107.266096] (-) TimerEvent: {}
+[107.367930] (-) TimerEvent: {}
+[107.469057] (-) TimerEvent: {}
+[107.570118] (-) TimerEvent: {}
+[107.671164] (-) TimerEvent: {}
+[107.772203] (-) TimerEvent: {}
+[107.873264] (-) TimerEvent: {}
+[107.974339] (-) TimerEvent: {}
+[108.075399] (-) TimerEvent: {}
+[108.176463] (-) TimerEvent: {}
+[108.277568] (-) TimerEvent: {}
+[108.378674] (-) TimerEvent: {}
+[108.479844] (-) TimerEvent: {}
+[108.580986] (-) TimerEvent: {}
+[108.682099] (-) TimerEvent: {}
+[108.783179] (-) TimerEvent: {}
+[108.884142] (-) TimerEvent: {}
+[108.985148] (-) TimerEvent: {}
+[109.086176] (-) TimerEvent: {}
+[109.187274] (-) TimerEvent: {}
+[109.288255] (-) TimerEvent: {}
+[109.389477] (-) TimerEvent: {}
+[109.490521] (-) TimerEvent: {}
+[109.591560] (-) TimerEvent: {}
+[109.692674] (-) TimerEvent: {}
+[109.793811] (-) TimerEvent: {}
+[109.894890] (-) TimerEvent: {}
+[109.996041] (-) TimerEvent: {}
+[110.097166] (-) TimerEvent: {}
+[110.198202] (-) TimerEvent: {}
+[110.299256] (-) TimerEvent: {}
+[110.400268] (-) TimerEvent: {}
+[110.501351] (-) TimerEvent: {}
+[110.602399] (-) TimerEvent: {}
+[110.703450] (-) TimerEvent: {}
+[110.804675] (-) TimerEvent: {}
+[110.905874] (-) TimerEvent: {}
+[111.007256] (-) TimerEvent: {}
+[111.108550] (-) TimerEvent: {}
+[111.209823] (-) TimerEvent: {}
+[111.311027] (-) TimerEvent: {}
+[111.412240] (-) TimerEvent: {}
+[111.514685] (-) TimerEvent: {}
+[111.616477] (-) TimerEvent: {}
+[111.717462] (-) TimerEvent: {}
+[111.818439] (-) TimerEvent: {}
+[111.919453] (-) TimerEvent: {}
+[112.020895] (-) TimerEvent: {}
+[112.123809] (-) TimerEvent: {}
+[112.225052] (-) TimerEvent: {}
+[112.326162] (-) TimerEvent: {}
+[112.427564] (-) TimerEvent: {}
+[112.528889] (-) TimerEvent: {}
+[112.630077] (-) TimerEvent: {}
+[112.731225] (-) TimerEvent: {}
+[112.832370] (-) TimerEvent: {}
+[112.933545] (-) TimerEvent: {}
+[113.034684] (-) TimerEvent: {}
+[113.135737] (-) TimerEvent: {}
+[113.236847] (-) TimerEvent: {}
+[113.338233] (-) TimerEvent: {}
+[113.439091] (-) TimerEvent: {}
+[113.539968] (-) TimerEvent: {}
+[113.640970] (-) TimerEvent: {}
+[113.742277] (-) TimerEvent: {}
+[113.843655] (-) TimerEvent: {}
+[113.944930] (-) TimerEvent: {}
+[114.046247] (-) TimerEvent: {}
+[114.147549] (-) TimerEvent: {}
+[114.248781] (-) TimerEvent: {}
+[114.350019] (-) TimerEvent: {}
+[114.451247] (-) TimerEvent: {}
+[114.552526] (-) TimerEvent: {}
+[114.653776] (-) TimerEvent: {}
+[114.754988] (-) TimerEvent: {}
+[114.856204] (-) TimerEvent: {}
+[114.957439] (-) TimerEvent: {}
+[115.058607] (-) TimerEvent: {}
+[115.159714] (-) TimerEvent: {}
+[115.260848] (-) TimerEvent: {}
+[115.363704] (-) TimerEvent: {}
+[115.464770] (-) TimerEvent: {}
+[115.565877] (-) TimerEvent: {}
+[115.667060] (-) TimerEvent: {}
+[115.768214] (-) TimerEvent: {}
+[115.869484] (-) TimerEvent: {}
+[115.970848] (-) TimerEvent: {}
+[116.072072] (-) TimerEvent: {}
+[116.173441] (-) TimerEvent: {}
+[116.274820] (-) TimerEvent: {}
+[116.376384] (-) TimerEvent: {}
+[116.477932] (-) TimerEvent: {}
+[116.579183] (-) TimerEvent: {}
+[116.680505] (-) TimerEvent: {}
+[116.749771] (teleop) StderrLine: {'line': b"[ 11%] Performing download step (git clone) for 'libdatachannel-populate'\n"}
+[116.751082] (teleop) StderrLine: {'line': b"Cloning into 'libdatachannel-src'...\n"}
+[116.751838] (teleop) StderrLine: {'line': b'HEAD is now at 0b1074a9 Bumped version to 0.20.2\n'}
+[116.752277] (teleop) StderrLine: {'line': b"Submodule 'deps/json' (https://github.com/nlohmann/json.git) registered for path 'deps/json'\n"}
+[116.752674] (teleop) StderrLine: {'line': b"Submodule 'deps/libjuice' (https://github.com/paullouisageneau/libjuice.git) registered for path 'deps/libjuice'\n"}
+[116.753054] (teleop) StderrLine: {'line': b"Submodule 'deps/libsrtp' (https://github.com/cisco/libsrtp.git) registered for path 'deps/libsrtp'\n"}
+[116.753457] (teleop) StderrLine: {'line': b"Submodule 'deps/plog' (https://github.com/SergiusTheBest/plog.git) registered for path 'deps/plog'\n"}
+[116.753821] (teleop) StderrLine: {'line': b"Submodule 'deps/usrsctp' (https://github.com/sctplab/usrsctp.git) registered for path 'deps/usrsctp'\n"}
+[116.754177] (teleop) StderrLine: {'line': b"Cloning into '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/json'...\n"}
+[116.754530] (teleop) StderrLine: {'line': b"Cloning into '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice'...\n"}
+[116.754883] (teleop) StderrLine: {'line': b"Cloning into '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libsrtp'...\n"}
+[116.755232] (teleop) StderrLine: {'line': b"Cloning into '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/plog'...\n"}
+[116.755665] (teleop) StderrLine: {'line': b"Cloning into '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp'...\n"}
+[116.756017] (teleop) StderrLine: {'line': b'error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.\n'}
+[116.756365] (teleop) StderrLine: {'line': b'error: 2545 bytes of body are still expected\n'}
+[116.756936] (teleop) StderrLine: {'line': b'fetch-pack: unexpected disconnect while reading sideband packet\n'}
+[116.757292] (teleop) StderrLine: {'line': b'fatal: early EOF\n'}
+[116.757639] (teleop) StderrLine: {'line': b'fatal: fetch-pack: invalid index-pack output\n'}
+[116.757986] (teleop) StderrLine: {'line': b"fatal: Fetched in submodule path 'deps/json', but it did not contain 9cca280a4d0ccf0c08f47a99aa71d1b0e52f8d03. Direct fetching of that commit failed.\n"}
+[116.758338] (teleop) StderrLine: {'line': b'fatal: \n'}
+[116.758684] (teleop) StderrLine: {'line': b'CMake Error at libdatachannel-subbuild/libdatachannel-populate-prefix/tmp/libdatachannel-populate-gitclone.cmake:52 (message):\n'}
+[116.759034] (teleop) StderrLine: {'line': b'  Failed to update submodules in:\n'}
+[116.759382] (teleop) StderrLine: {'line': b"  '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src'\n"}
+[116.759730] (teleop) StderrLine: {'line': b'\n'}
+[116.760232] (teleop) StderrLine: {'line': b'\n'}
+[116.760586] (teleop) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/libdatachannel-populate.dir/build.make:102: libdatachannel-populate-prefix/src/libdatachannel-populate-stamp/libdatachannel-populate-download] Error 1\n'}
+[116.760939] (teleop) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/libdatachannel-populate.dir/all] Error 2\n'}
+[116.761287] (teleop) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[116.761632] (teleop) StderrLine: {'line': b'\n'}
+[116.761977] (teleop) StderrLine: {'line': b'CMake Error at /usr/share/cmake-3.22/Modules/FetchContent.cmake:1087 (message):\n'}
+[116.762325] (teleop) StderrLine: {'line': b'  Build step for libdatachannel failed: 2\n'}
+[116.762670] (teleop) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[116.763014] (teleop) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216:EVAL:2 (__FetchContent_directPopulate)\n'}
+[116.763557] (teleop) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216 (cmake_language)\n'}
+[116.763912] (teleop) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1259 (FetchContent_Populate)\n'}
+[116.764260] (teleop) StderrLine: {'line': b'  CMakeLists.txt:47 (FetchContent_MakeAvailable)\n'}
+[116.764633] (teleop) StderrLine: {'line': b'\n'}
+[116.764979] (teleop) StderrLine: {'line': b'\n'}
+[116.765329] (teleop) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[116.765737] (teleop) StdoutLine: {'line': b'See also "/home/hady/teleop/gbot_ws/build/teleop/CMakeFiles/CMakeOutput.log".\n'}
+[116.780648] (-) TimerEvent: {}
+[116.818458] (teleop) CommandEnded: {'returncode': 1}
+[116.873689] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 1}
+[116.880776] (-) TimerEvent: {}
+[116.891449] (-) EventReactorShutdown: {}

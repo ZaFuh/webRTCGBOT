@@ -1,0 +1,135 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+-- No build type selected, using DEBUG
+-- Compiler flags (CMAKE_C_FLAGS):  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/hady/teleop/gbot_ws/src/teleop/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hady/teleop/gbot_ws/build/teleop
+[  1%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_callout.c.o[0m
+[  3%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_asconf.c.o[0m
+[  3%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_auth.c.o[0m
+[  5%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_indata.c.o[0m
+[  5%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_bsd_addr.c.o[0m
+[  5%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_cc_functions.c.o[0m
+[  7%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_crc32.c.o[0m
+[  7%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/addr.c.o[0m
+[  8%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/agent.c.o[0m
+[  8%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_input.c.o[0m
+[ 10%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_output.c.o[0m
+[ 10%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_pcb.c.o[0m
+[ 12%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_peeloff.c.o[0m
+[ 12%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sha1.c.o[0m
+[ 12%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/crc32.c.o[0m
+[ 14%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_ss_functions.c.o[0m
+[ 15%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/const_time.c.o[0m
+[ 15%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/conn.c.o[0m
+[ 15%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sysctl.c.o[0m
+[ 17%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_timer.c.o[0m
+[ 19%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_usrreq.c.o[0m
+[ 19%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_userspace.c.o[0m
+[ 21%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/conn_poll.c.o[0m
+[ 21%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctputil.c.o[0m
+[ 21%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/conn_thread.c.o[0m
+[ 22%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet6/sctp6_usrreq.c.o[0m
+[ 24%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/conn_mux.c.o[0m
+[ 24%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_environment.c.o[0m
+[ 26%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_mbuf.c.o[0m
+[ 26%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_recv_thread.c.o[0m
+[ 28%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_socket.c.o[0m
+[ 28%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/base64.c.o[0m
+[ 29%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/hash.c.o[0m
+[ 31%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/hmac.c.o[0m
+[ 31%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/ice.c.o[0m
+[ 33%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/juice.c.o[0m
+[ 33%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/log.c.o[0m
+[ 35%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/random.c.o[0m
+[ 35%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/server.c.o[0m
+[ 35%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/timestamp.c.o[0m
+[ 36%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/stun.c.o[0m
+[ 38%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/turn.c.o[0m
+[ 38%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/udp.c.o[0m
+[ 40%] [32m[1mLinking C static library libjuice.a[0m
+[ 40%] [32m[1mLinking C static library libusrsctp.a[0m
+[ 40%] Built target juice
+[ 40%] Built target usrsctp
+[ 42%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/candidate.cpp.o[0m
+[ 42%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/channel.cpp.o[0m
+[ 43%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/message.cpp.o[0m
+[ 45%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/mediahandler.cpp.o[0m
+[ 45%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/configuration.cpp.o[0m
+[ 45%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/global.cpp.o[0m
+[ 45%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/description.cpp.o[0m
+[ 47%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/datachannel.cpp.o[0m
+[ 47%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/peerconnection.cpp.o[0m
+[ 49%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtcpreceivingsession.cpp.o[0m
+[ 49%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/track.cpp.o[0m
+[ 50%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/websocket.cpp.o[0m
+[ 50%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/websocketserver.cpp.o[0m
+[ 52%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtppacketizationconfig.cpp.o[0m
+[ 52%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtcpsrreporter.cpp.o[0m
+[ 54%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtppacketizer.cpp.o[0m
+[ 54%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtpdepacketizer.cpp.o[0m
+[ 56%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/h264rtppacketizer.cpp.o[0m
+[ 57%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/h264rtpdepacketizer.cpp.o[0m
+[ 59%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/h265rtppacketizer.cpp.o[0m
+[ 59%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/nalunit.cpp.o[0m
+[ 59%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/h265rtpdepacketizer.cpp.o[0m
+[ 61%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/h265nalunit.cpp.o[0m
+[ 61%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/av1rtppacketizer.cpp.o[0m
+[ 63%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtcpnackresponder.cpp.o[0m
+[ 63%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtp.cpp.o[0m
+[ 64%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/capi.cpp.o[0m
+[ 64%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/plihandler.cpp.o[0m
+[ 66%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/pacinghandler.cpp.o[0m
+[ 66%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rembhandler.cpp.o[0m
+[ 68%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/certificate.cpp.o[0m
+[ 68%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/channel.cpp.o[0m
+[ 70%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/datachannel.cpp.o[0m
+[ 70%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/dtlssrtptransport.cpp.o[0m
+[ 71%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/dtlstransport.cpp.o[0m
+[ 71%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/icetransport.cpp.o[0m
+[ 73%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/init.cpp.o[0m
+[ 75%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/peerconnection.cpp.o[0m
+[ 75%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/logcounter.cpp.o[0m
+[ 77%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/sctptransport.cpp.o[0m
+[ 77%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/threadpool.cpp.o[0m
+[ 78%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/tls.cpp.o[0m
+[ 78%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/track.cpp.o[0m
+[ 80%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/utils.cpp.o[0m
+[ 80%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/processor.cpp.o[0m
+[ 82%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/sha.cpp.o[0m
+[ 82%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/pollinterrupter.cpp.o[0m
+[ 84%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/pollservice.cpp.o[0m
+[ 84%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/http.cpp.o[0m
+[ 85%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/httpproxytransport.cpp.o[0m
+[ 85%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/tcpserver.cpp.o[0m
+[ 87%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/tcptransport.cpp.o[0m
+[ 87%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/tlstransport.cpp.o[0m
+[ 89%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/transport.cpp.o[0m
+[ 89%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/verifiedtlstransport.cpp.o[0m
+[ 91%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/websocket.cpp.o[0m
+[ 92%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/websocketserver.cpp.o[0m
+[ 92%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/wstransport.cpp.o[0m
+[ 94%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/wshandshake.cpp.o[0m
+[ 94%] [32m[1mLinking CXX shared library libdatachannel.so[0m
+[ 94%] Built target datachannel
+[ 96%] [32mBuilding CXX object CMakeFiles/webrtc_lib.dir/src/webrtc.cpp.o[0m

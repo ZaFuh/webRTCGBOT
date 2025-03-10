@@ -1,0 +1,2505 @@
+[0.000000] (-) TimerEvent: {}
+[0.000479] (-) JobUnselected: {'identifier': 'gbot_navigation'}
+[0.000610] (-) JobUnselected: {'identifier': 'libdatachannel'}
+[0.000736] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.001127] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.014314] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.016146] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'build'}
+[0.017340] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hady/teleop/gbot_ws/build/teleop', '--', '-j8', '-l8'], 'cwd': '/home/hady/teleop/gbot_ws/build/teleop', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'hady'), ('LANGUAGE', 'en'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hady/teleop/gbot_ws/src/teleop'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1290'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1448'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1933'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hady'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:35530'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/hady'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS:/home/hady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hady/.local/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('GDM_LANG', 'en'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1428,unix/hady:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'b54ecc0a4dc94ba892f96e5c87622143'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-abf4ccb798.sock'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/hady/teleop/gbot_ws/build/teleop'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/home/hady'), ('STARSHIP_SESSION_KEY', '2315726273253101'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098791] (-) TimerEvent: {}
+[0.103796] (teleop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198881] (-) TimerEvent: {}
+[0.299256] (-) TimerEvent: {}
+[0.399691] (-) TimerEvent: {}
+[0.427228] (teleop) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.487682] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.491709] (teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.499734] (-) TimerEvent: {}
+[0.501727] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.519990] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.544927] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.599945] (-) TimerEvent: {}
+[0.601779] (teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.604175] (teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700048] (-) TimerEvent: {}
+[0.782550] (teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800293] (-) TimerEvent: {}
+[0.867712] (teleop) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.900497] (-) TimerEvent: {}
+[0.916533] (teleop) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.935430] (teleop) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[1.000684] (-) TimerEvent: {}
+[1.101313] (-) TimerEvent: {}
+[1.201737] (-) TimerEvent: {}
+[1.302140] (-) TimerEvent: {}
+[1.402535] (-) TimerEvent: {}
+[1.503015] (-) TimerEvent: {}
+[1.603664] (-) TimerEvent: {}
+[1.704102] (-) TimerEvent: {}
+[1.804540] (-) TimerEvent: {}
+[1.904941] (-) TimerEvent: {}
+[2.005296] (-) TimerEvent: {}
+[2.105652] (-) TimerEvent: {}
+[2.206014] (-) TimerEvent: {}
+[2.306402] (-) TimerEvent: {}
+[2.406835] (-) TimerEvent: {}
+[2.507241] (-) TimerEvent: {}
+[2.607654] (-) TimerEvent: {}
+[2.708040] (-) TimerEvent: {}
+[2.808439] (-) TimerEvent: {}
+[2.908826] (-) TimerEvent: {}
+[3.009203] (-) TimerEvent: {}
+[3.109604] (-) TimerEvent: {}
+[3.210063] (-) TimerEvent: {}
+[3.310492] (-) TimerEvent: {}
+[3.411046] (-) TimerEvent: {}
+[3.512623] (-) TimerEvent: {}
+[3.613943] (-) TimerEvent: {}
+[3.714981] (-) TimerEvent: {}
+[3.816343] (-) TimerEvent: {}
+[3.917185] (-) TimerEvent: {}
+[4.018015] (-) TimerEvent: {}
+[4.118971] (-) TimerEvent: {}
+[4.220031] (-) TimerEvent: {}
+[4.322014] (-) TimerEvent: {}
+[4.422828] (-) TimerEvent: {}
+[4.523676] (-) TimerEvent: {}
+[4.624545] (-) TimerEvent: {}
+[4.725327] (-) TimerEvent: {}
+[4.826908] (-) TimerEvent: {}
+[4.928900] (-) TimerEvent: {}
+[5.029720] (-) TimerEvent: {}
+[5.130532] (-) TimerEvent: {}
+[5.231347] (-) TimerEvent: {}
+[5.332113] (-) TimerEvent: {}
+[5.432880] (-) TimerEvent: {}
+[5.533691] (-) TimerEvent: {}
+[5.634477] (-) TimerEvent: {}
+[5.735387] (-) TimerEvent: {}
+[5.836648] (-) TimerEvent: {}
+[5.937861] (-) TimerEvent: {}
+[6.038987] (-) TimerEvent: {}
+[6.139810] (-) TimerEvent: {}
+[6.240613] (-) TimerEvent: {}
+[6.341595] (-) TimerEvent: {}
+[6.442838] (-) TimerEvent: {}
+[6.544050] (-) TimerEvent: {}
+[6.645311] (-) TimerEvent: {}
+[6.746548] (-) TimerEvent: {}
+[6.847790] (-) TimerEvent: {}
+[6.949026] (-) TimerEvent: {}
+[7.050214] (-) TimerEvent: {}
+[7.151408] (-) TimerEvent: {}
+[7.252606] (-) TimerEvent: {}
+[7.353853] (-) TimerEvent: {}
+[7.455212] (-) TimerEvent: {}
+[7.556442] (-) TimerEvent: {}
+[7.657710] (-) TimerEvent: {}
+[7.758958] (-) TimerEvent: {}
+[7.860178] (-) TimerEvent: {}
+[7.961433] (-) TimerEvent: {}
+[8.062694] (-) TimerEvent: {}
+[8.163937] (-) TimerEvent: {}
+[8.265196] (-) TimerEvent: {}
+[8.366432] (-) TimerEvent: {}
+[8.467693] (-) TimerEvent: {}
+[8.568877] (-) TimerEvent: {}
+[8.670114] (-) TimerEvent: {}
+[8.771388] (-) TimerEvent: {}
+[8.872626] (-) TimerEvent: {}
+[8.973869] (-) TimerEvent: {}
+[9.075123] (-) TimerEvent: {}
+[9.176314] (-) TimerEvent: {}
+[9.277631] (-) TimerEvent: {}
+[9.378829] (-) TimerEvent: {}
+[9.480138] (-) TimerEvent: {}
+[9.581473] (-) TimerEvent: {}
+[9.682757] (-) TimerEvent: {}
+[9.784146] (-) TimerEvent: {}
+[9.885291] (-) TimerEvent: {}
+[9.986087] (-) TimerEvent: {}
+[10.086938] (-) TimerEvent: {}
+[10.187900] (-) TimerEvent: {}
+[10.289200] (-) TimerEvent: {}
+[10.390491] (-) TimerEvent: {}
+[10.491796] (-) TimerEvent: {}
+[10.593104] (-) TimerEvent: {}
+[10.694421] (-) TimerEvent: {}
+[10.795707] (-) TimerEvent: {}
+[10.896986] (-) TimerEvent: {}
+[10.998210] (-) TimerEvent: {}
+[11.099466] (-) TimerEvent: {}
+[11.200734] (-) TimerEvent: {}
+[11.302005] (-) TimerEvent: {}
+[11.403226] (-) TimerEvent: {}
+[11.504319] (-) TimerEvent: {}
+[11.605113] (-) TimerEvent: {}
+[11.705879] (-) TimerEvent: {}
+[11.806800] (-) TimerEvent: {}
+[11.908035] (-) TimerEvent: {}
+[12.009214] (-) TimerEvent: {}
+[12.110502] (-) TimerEvent: {}
+[12.211834] (-) TimerEvent: {}
+[12.312927] (-) TimerEvent: {}
+[12.413753] (-) TimerEvent: {}
+[12.514738] (-) TimerEvent: {}
+[12.616015] (-) TimerEvent: {}
+[12.717245] (-) TimerEvent: {}
+[12.818494] (-) TimerEvent: {}
+[12.919728] (-) TimerEvent: {}
+[13.020999] (-) TimerEvent: {}
+[13.122256] (-) TimerEvent: {}
+[13.223495] (-) TimerEvent: {}
+[13.324735] (-) TimerEvent: {}
+[13.425946] (-) TimerEvent: {}
+[13.527097] (-) TimerEvent: {}
+[13.627959] (-) TimerEvent: {}
+[13.728741] (-) TimerEvent: {}
+[13.829521] (-) TimerEvent: {}
+[13.930301] (-) TimerEvent: {}
+[14.031102] (-) TimerEvent: {}
+[14.131886] (-) TimerEvent: {}
+[14.232711] (-) TimerEvent: {}
+[14.333500] (-) TimerEvent: {}
+[14.434296] (-) TimerEvent: {}
+[14.535080] (-) TimerEvent: {}
+[14.635863] (-) TimerEvent: {}
+[14.736643] (-) TimerEvent: {}
+[14.837427] (-) TimerEvent: {}
+[14.938294] (-) TimerEvent: {}
+[15.039135] (-) TimerEvent: {}
+[15.139976] (-) TimerEvent: {}
+[15.240835] (-) TimerEvent: {}
+[15.341668] (-) TimerEvent: {}
+[15.442646] (-) TimerEvent: {}
+[15.543791] (-) TimerEvent: {}
+[15.644633] (-) TimerEvent: {}
+[15.745455] (-) TimerEvent: {}
+[15.846360] (-) TimerEvent: {}
+[15.947412] (-) TimerEvent: {}
+[16.048223] (-) TimerEvent: {}
+[16.148981] (-) TimerEvent: {}
+[16.249875] (-) TimerEvent: {}
+[16.351149] (-) TimerEvent: {}
+[16.452255] (-) TimerEvent: {}
+[16.553032] (-) TimerEvent: {}
+[16.653927] (-) TimerEvent: {}
+[16.756170] (-) TimerEvent: {}
+[16.856988] (-) TimerEvent: {}
+[16.957793] (-) TimerEvent: {}
+[17.058571] (-) TimerEvent: {}
+[17.159356] (-) TimerEvent: {}
+[17.260194] (-) TimerEvent: {}
+[17.361168] (-) TimerEvent: {}
+[17.462476] (-) TimerEvent: {}
+[17.563776] (-) TimerEvent: {}
+[17.664937] (-) TimerEvent: {}
+[17.765760] (-) TimerEvent: {}
+[17.866586] (-) TimerEvent: {}
+[17.967613] (-) TimerEvent: {}
+[18.068923] (-) TimerEvent: {}
+[18.170197] (-) TimerEvent: {}
+[18.271509] (-) TimerEvent: {}
+[18.372812] (-) TimerEvent: {}
+[18.474160] (-) TimerEvent: {}
+[18.575472] (-) TimerEvent: {}
+[18.676753] (-) TimerEvent: {}
+[18.778066] (-) TimerEvent: {}
+[18.879357] (-) TimerEvent: {}
+[18.980653] (-) TimerEvent: {}
+[19.082007] (-) TimerEvent: {}
+[19.183257] (-) TimerEvent: {}
+[19.284392] (-) TimerEvent: {}
+[19.385235] (-) TimerEvent: {}
+[19.486175] (-) TimerEvent: {}
+[19.587501] (-) TimerEvent: {}
+[19.688742] (-) TimerEvent: {}
+[19.790062] (-) TimerEvent: {}
+[19.891321] (-) TimerEvent: {}
+[19.992193] (-) TimerEvent: {}
+[20.093048] (-) TimerEvent: {}
+[20.193889] (-) TimerEvent: {}
+[20.294914] (-) TimerEvent: {}
+[20.396212] (-) TimerEvent: {}
+[20.497545] (-) TimerEvent: {}
+[20.598856] (-) TimerEvent: {}
+[20.700158] (-) TimerEvent: {}
+[20.801530] (-) TimerEvent: {}
+[20.902838] (-) TimerEvent: {}
+[21.003978] (-) TimerEvent: {}
+[21.104933] (-) TimerEvent: {}
+[21.205908] (-) TimerEvent: {}
+[21.307094] (-) TimerEvent: {}
+[21.408425] (-) TimerEvent: {}
+[21.509734] (-) TimerEvent: {}
+[21.611013] (-) TimerEvent: {}
+[21.712140] (-) TimerEvent: {}
+[21.812968] (-) TimerEvent: {}
+[21.913948] (-) TimerEvent: {}
+[22.015101] (-) TimerEvent: {}
+[22.115872] (-) TimerEvent: {}
+[22.216726] (-) TimerEvent: {}
+[22.317731] (-) TimerEvent: {}
+[22.419022] (-) TimerEvent: {}
+[22.520302] (-) TimerEvent: {}
+[22.621643] (-) TimerEvent: {}
+[22.722939] (-) TimerEvent: {}
+[22.824241] (-) TimerEvent: {}
+[22.925371] (-) TimerEvent: {}
+[23.026237] (-) TimerEvent: {}
+[23.127154] (-) TimerEvent: {}
+[23.228500] (-) TimerEvent: {}
+[23.329614] (-) TimerEvent: {}
+[23.430441] (-) TimerEvent: {}
+[23.531222] (-) TimerEvent: {}
+[23.632215] (-) TimerEvent: {}
+[23.733463] (-) TimerEvent: {}
+[23.834726] (-) TimerEvent: {}
+[23.935982] (-) TimerEvent: {}
+[24.037141] (-) TimerEvent: {}
+[24.137956] (-) TimerEvent: {}
+[24.238805] (-) TimerEvent: {}
+[24.339627] (-) TimerEvent: {}
+[24.440418] (-) TimerEvent: {}
+[24.541372] (-) TimerEvent: {}
+[24.642739] (-) TimerEvent: {}
+[24.744154] (-) TimerEvent: {}
+[24.845461] (-) TimerEvent: {}
+[24.946668] (-) TimerEvent: {}
+[25.047486] (-) TimerEvent: {}
+[25.148532] (-) TimerEvent: {}
+[25.249837] (-) TimerEvent: {}
+[25.351210] (-) TimerEvent: {}
+[25.452602] (-) TimerEvent: {}
+[25.553821] (-) TimerEvent: {}
+[25.654607] (-) TimerEvent: {}
+[25.755386] (-) TimerEvent: {}
+[25.856361] (-) TimerEvent: {}
+[25.957426] (-) TimerEvent: {}
+[26.058223] (-) TimerEvent: {}
+[26.159201] (-) TimerEvent: {}
+[26.260461] (-) TimerEvent: {}
+[26.361688] (-) TimerEvent: {}
+[26.462968] (-) TimerEvent: {}
+[26.564261] (-) TimerEvent: {}
+[26.665477] (-) TimerEvent: {}
+[26.766730] (-) TimerEvent: {}
+[26.868029] (-) TimerEvent: {}
+[26.969182] (-) TimerEvent: {}
+[27.070054] (-) TimerEvent: {}
+[27.170867] (-) TimerEvent: {}
+[27.271826] (-) TimerEvent: {}
+[27.373074] (-) TimerEvent: {}
+[27.474342] (-) TimerEvent: {}
+[27.575440] (-) TimerEvent: {}
+[27.676206] (-) TimerEvent: {}
+[27.777179] (-) TimerEvent: {}
+[27.878399] (-) TimerEvent: {}
+[27.979632] (-) TimerEvent: {}
+[28.080876] (-) TimerEvent: {}
+[28.181981] (-) TimerEvent: {}
+[28.282823] (-) TimerEvent: {}
+[28.383790] (-) TimerEvent: {}
+[28.484990] (-) TimerEvent: {}
+[28.586070] (-) TimerEvent: {}
+[28.686822] (-) TimerEvent: {}
+[28.787649] (-) TimerEvent: {}
+[28.888493] (-) TimerEvent: {}
+[28.989326] (-) TimerEvent: {}
+[29.090161] (-) TimerEvent: {}
+[29.190982] (-) TimerEvent: {}
+[29.291812] (-) TimerEvent: {}
+[29.392656] (-) TimerEvent: {}
+[29.493484] (-) TimerEvent: {}
+[29.594340] (-) TimerEvent: {}
+[29.695137] (-) TimerEvent: {}
+[29.796084] (-) TimerEvent: {}
+[29.897273] (-) TimerEvent: {}
+[29.998174] (-) TimerEvent: {}
+[30.099041] (-) TimerEvent: {}
+[30.199911] (-) TimerEvent: {}
+[30.300780] (-) TimerEvent: {}
+[30.401596] (-) TimerEvent: {}
+[30.502593] (-) TimerEvent: {}
+[30.603768] (-) TimerEvent: {}
+[30.704600] (-) TimerEvent: {}
+[30.805414] (-) TimerEvent: {}
+[30.906322] (-) TimerEvent: {}
+[31.007425] (-) TimerEvent: {}
+[31.108392] (-) TimerEvent: {}
+[31.209310] (-) TimerEvent: {}
+[31.310389] (-) TimerEvent: {}
+[31.411723] (-) TimerEvent: {}
+[31.513032] (-) TimerEvent: {}
+[31.614552] (-) TimerEvent: {}
+[31.715869] (-) TimerEvent: {}
+[31.817153] (-) TimerEvent: {}
+[31.918577] (-) TimerEvent: {}
+[32.019900] (-) TimerEvent: {}
+[32.120995] (-) TimerEvent: {}
+[32.221800] (-) TimerEvent: {}
+[32.322697] (-) TimerEvent: {}
+[32.423842] (-) TimerEvent: {}
+[32.524697] (-) TimerEvent: {}
+[32.625684] (-) TimerEvent: {}
+[32.726921] (-) TimerEvent: {}
+[32.827775] (-) TimerEvent: {}
+[32.928754] (-) TimerEvent: {}
+[33.030044] (-) TimerEvent: {}
+[33.131239] (-) TimerEvent: {}
+[33.232062] (-) TimerEvent: {}
+[33.332864] (-) TimerEvent: {}
+[33.433731] (-) TimerEvent: {}
+[33.534725] (-) TimerEvent: {}
+[33.636030] (-) TimerEvent: {}
+[33.737328] (-) TimerEvent: {}
+[33.838666] (-) TimerEvent: {}
+[33.939839] (-) TimerEvent: {}
+[34.040669] (-) TimerEvent: {}
+[34.141684] (-) TimerEvent: {}
+[34.242982] (-) TimerEvent: {}
+[34.344337] (-) TimerEvent: {}
+[34.445587] (-) TimerEvent: {}
+[34.546826] (-) TimerEvent: {}
+[34.648113] (-) TimerEvent: {}
+[34.749175] (-) TimerEvent: {}
+[34.849995] (-) TimerEvent: {}
+[34.950805] (-) TimerEvent: {}
+[35.051791] (-) TimerEvent: {}
+[35.153076] (-) TimerEvent: {}
+[35.254395] (-) TimerEvent: {}
+[35.355513] (-) TimerEvent: {}
+[35.456359] (-) TimerEvent: {}
+[35.557336] (-) TimerEvent: {}
+[35.658675] (-) TimerEvent: {}
+[35.759819] (-) TimerEvent: {}
+[35.860671] (-) TimerEvent: {}
+[35.961624] (-) TimerEvent: {}
+[36.062940] (-) TimerEvent: {}
+[36.164262] (-) TimerEvent: {}
+[36.265558] (-) TimerEvent: {}
+[36.366868] (-) TimerEvent: {}
+[36.468191] (-) TimerEvent: {}
+[36.569498] (-) TimerEvent: {}
+[36.670779] (-) TimerEvent: {}
+[36.772110] (-) TimerEvent: {}
+[36.873445] (-) TimerEvent: {}
+[36.974620] (-) TimerEvent: {}
+[37.075279] (-) TimerEvent: {}
+[37.175806] (-) TimerEvent: {}
+[37.276266] (-) TimerEvent: {}
+[37.376959] (-) TimerEvent: {}
+[37.477353] (-) TimerEvent: {}
+[37.577762] (-) TimerEvent: {}
+[37.678221] (-) TimerEvent: {}
+[37.778766] (-) TimerEvent: {}
+[37.879153] (-) TimerEvent: {}
+[37.979578] (-) TimerEvent: {}
+[38.080124] (-) TimerEvent: {}
+[38.180509] (-) TimerEvent: {}
+[38.280947] (-) TimerEvent: {}
+[38.381579] (-) TimerEvent: {}
+[38.482365] (-) TimerEvent: {}
+[38.582933] (-) TimerEvent: {}
+[38.683325] (-) TimerEvent: {}
+[38.783924] (-) TimerEvent: {}
+[38.884661] (-) TimerEvent: {}
+[38.985345] (-) TimerEvent: {}
+[39.086169] (-) TimerEvent: {}
+[39.186914] (-) TimerEvent: {}
+[39.287616] (-) TimerEvent: {}
+[39.388535] (-) TimerEvent: {}
+[39.489394] (-) TimerEvent: {}
+[39.590018] (-) TimerEvent: {}
+[39.690647] (-) TimerEvent: {}
+[39.791297] (-) TimerEvent: {}
+[39.891876] (-) TimerEvent: {}
+[39.992272] (-) TimerEvent: {}
+[40.092732] (-) TimerEvent: {}
+[40.193354] (-) TimerEvent: {}
+[40.293904] (-) TimerEvent: {}
+[40.394298] (-) TimerEvent: {}
+[40.494755] (-) TimerEvent: {}
+[40.595506] (-) TimerEvent: {}
+[40.696066] (-) TimerEvent: {}
+[40.796442] (-) TimerEvent: {}
+[40.896816] (-) TimerEvent: {}
+[40.997189] (-) TimerEvent: {}
+[41.097566] (-) TimerEvent: {}
+[41.198021] (-) TimerEvent: {}
+[41.298579] (-) TimerEvent: {}
+[41.399174] (-) TimerEvent: {}
+[41.499766] (-) TimerEvent: {}
+[41.600244] (-) TimerEvent: {}
+[41.700695] (-) TimerEvent: {}
+[41.801191] (-) TimerEvent: {}
+[41.901663] (-) TimerEvent: {}
+[42.002129] (-) TimerEvent: {}
+[42.102568] (-) TimerEvent: {}
+[42.203165] (-) TimerEvent: {}
+[42.303625] (-) TimerEvent: {}
+[42.404079] (-) TimerEvent: {}
+[42.504810] (-) TimerEvent: {}
+[42.605536] (-) TimerEvent: {}
+[42.706369] (-) TimerEvent: {}
+[42.807182] (-) TimerEvent: {}
+[42.907792] (-) TimerEvent: {}
+[43.008468] (-) TimerEvent: {}
+[43.109193] (-) TimerEvent: {}
+[43.209820] (-) TimerEvent: {}
+[43.310321] (-) TimerEvent: {}
+[43.410769] (-) TimerEvent: {}
+[43.511430] (-) TimerEvent: {}
+[43.612062] (-) TimerEvent: {}
+[43.712970] (-) TimerEvent: {}
+[43.813460] (-) TimerEvent: {}
+[43.914149] (-) TimerEvent: {}
+[44.014775] (-) TimerEvent: {}
+[44.115387] (-) TimerEvent: {}
+[44.215990] (-) TimerEvent: {}
+[44.316695] (-) TimerEvent: {}
+[44.417338] (-) TimerEvent: {}
+[44.517887] (-) TimerEvent: {}
+[44.618259] (-) TimerEvent: {}
+[44.718806] (-) TimerEvent: {}
+[44.819329] (-) TimerEvent: {}
+[44.920059] (-) TimerEvent: {}
+[45.020927] (-) TimerEvent: {}
+[45.121532] (-) TimerEvent: {}
+[45.222335] (-) TimerEvent: {}
+[45.322935] (-) TimerEvent: {}
+[45.423538] (-) TimerEvent: {}
+[45.524228] (-) TimerEvent: {}
+[45.624969] (-) TimerEvent: {}
+[45.725585] (-) TimerEvent: {}
+[45.826142] (-) TimerEvent: {}
+[45.926675] (-) TimerEvent: {}
+[46.027408] (-) TimerEvent: {}
+[46.127809] (-) TimerEvent: {}
+[46.228351] (-) TimerEvent: {}
+[46.329063] (-) TimerEvent: {}
+[46.429802] (-) TimerEvent: {}
+[46.530322] (-) TimerEvent: {}
+[46.630729] (-) TimerEvent: {}
+[46.731193] (-) TimerEvent: {}
+[46.831798] (-) TimerEvent: {}
+[46.932479] (-) TimerEvent: {}
+[47.032952] (-) TimerEvent: {}
+[47.133398] (-) TimerEvent: {}
+[47.233866] (-) TimerEvent: {}
+[47.334212] (-) TimerEvent: {}
+[47.434593] (-) TimerEvent: {}
+[47.534977] (-) TimerEvent: {}
+[47.635358] (-) TimerEvent: {}
+[47.735743] (-) TimerEvent: {}
+[47.836217] (-) TimerEvent: {}
+[47.936691] (-) TimerEvent: {}
+[48.037453] (-) TimerEvent: {}
+[48.137854] (-) TimerEvent: {}
+[48.238263] (-) TimerEvent: {}
+[48.338643] (-) TimerEvent: {}
+[48.439107] (-) TimerEvent: {}
+[48.539966] (-) TimerEvent: {}
+[48.640615] (-) TimerEvent: {}
+[48.741298] (-) TimerEvent: {}
+[48.841952] (-) TimerEvent: {}
+[48.942609] (-) TimerEvent: {}
+[49.043269] (-) TimerEvent: {}
+[49.143918] (-) TimerEvent: {}
+[49.244612] (-) TimerEvent: {}
+[49.345235] (-) TimerEvent: {}
+[49.445943] (-) TimerEvent: {}
+[49.546564] (-) TimerEvent: {}
+[49.647125] (-) TimerEvent: {}
+[49.747521] (-) TimerEvent: {}
+[49.847985] (-) TimerEvent: {}
+[49.948621] (-) TimerEvent: {}
+[50.049248] (-) TimerEvent: {}
+[50.149863] (-) TimerEvent: {}
+[50.250488] (-) TimerEvent: {}
+[50.351054] (-) TimerEvent: {}
+[50.451444] (-) TimerEvent: {}
+[50.551835] (-) TimerEvent: {}
+[50.652229] (-) TimerEvent: {}
+[50.752616] (-) TimerEvent: {}
+[50.853004] (-) TimerEvent: {}
+[50.953401] (-) TimerEvent: {}
+[51.053826] (-) TimerEvent: {}
+[51.154212] (-) TimerEvent: {}
+[51.254603] (-) TimerEvent: {}
+[51.354990] (-) TimerEvent: {}
+[51.455519] (-) TimerEvent: {}
+[51.555900] (-) TimerEvent: {}
+[51.656279] (-) TimerEvent: {}
+[51.756661] (-) TimerEvent: {}
+[51.857041] (-) TimerEvent: {}
+[51.957424] (-) TimerEvent: {}
+[52.057816] (-) TimerEvent: {}
+[52.158244] (-) TimerEvent: {}
+[52.258628] (-) TimerEvent: {}
+[52.359014] (-) TimerEvent: {}
+[52.459403] (-) TimerEvent: {}
+[52.559794] (-) TimerEvent: {}
+[52.660204] (-) TimerEvent: {}
+[52.760678] (-) TimerEvent: {}
+[52.861123] (-) TimerEvent: {}
+[52.961648] (-) TimerEvent: {}
+[53.062037] (-) TimerEvent: {}
+[53.162428] (-) TimerEvent: {}
+[53.262821] (-) TimerEvent: {}
+[53.363210] (-) TimerEvent: {}
+[53.463759] (-) TimerEvent: {}
+[53.564230] (-) TimerEvent: {}
+[53.664873] (-) TimerEvent: {}
+[53.765489] (-) TimerEvent: {}
+[53.866106] (-) TimerEvent: {}
+[53.966721] (-) TimerEvent: {}
+[54.067367] (-) TimerEvent: {}
+[54.168084] (-) TimerEvent: {}
+[54.268702] (-) TimerEvent: {}
+[54.369311] (-) TimerEvent: {}
+[54.469949] (-) TimerEvent: {}
+[54.570612] (-) TimerEvent: {}
+[54.671330] (-) TimerEvent: {}
+[54.771713] (-) TimerEvent: {}
+[54.872115] (-) TimerEvent: {}
+[54.972587] (-) TimerEvent: {}
+[55.072978] (-) TimerEvent: {}
+[55.173370] (-) TimerEvent: {}
+[55.273762] (-) TimerEvent: {}
+[55.374160] (-) TimerEvent: {}
+[55.474550] (-) TimerEvent: {}
+[55.574992] (-) TimerEvent: {}
+[55.675448] (-) TimerEvent: {}
+[55.776116] (-) TimerEvent: {}
+[55.876666] (-) TimerEvent: {}
+[55.977244] (-) TimerEvent: {}
+[56.077649] (-) TimerEvent: {}
+[56.178197] (-) TimerEvent: {}
+[56.278811] (-) TimerEvent: {}
+[56.379433] (-) TimerEvent: {}
+[56.480053] (-) TimerEvent: {}
+[56.580669] (-) TimerEvent: {}
+[56.681328] (-) TimerEvent: {}
+[56.781948] (-) TimerEvent: {}
+[56.882571] (-) TimerEvent: {}
+[56.982958] (-) TimerEvent: {}
+[57.083427] (-) TimerEvent: {}
+[57.183977] (-) TimerEvent: {}
+[57.284381] (-) TimerEvent: {}
+[57.384855] (-) TimerEvent: {}
+[57.485476] (-) TimerEvent: {}
+[57.586049] (-) TimerEvent: {}
+[57.686463] (-) TimerEvent: {}
+[57.786852] (-) TimerEvent: {}
+[57.887318] (-) TimerEvent: {}
+[57.987888] (-) TimerEvent: {}
+[58.088274] (-) TimerEvent: {}
+[58.188688] (-) TimerEvent: {}
+[58.289076] (-) TimerEvent: {}
+[58.389535] (-) TimerEvent: {}
+[58.490155] (-) TimerEvent: {}
+[58.590883] (-) TimerEvent: {}
+[58.691272] (-) TimerEvent: {}
+[58.791823] (-) TimerEvent: {}
+[58.892281] (-) TimerEvent: {}
+[58.992824] (-) TimerEvent: {}
+[59.093217] (-) TimerEvent: {}
+[59.193675] (-) TimerEvent: {}
+[59.294290] (-) TimerEvent: {}
+[59.395121] (-) TimerEvent: {}
+[59.495742] (-) TimerEvent: {}
+[59.596432] (-) TimerEvent: {}
+[59.697057] (-) TimerEvent: {}
+[59.797755] (-) TimerEvent: {}
+[59.898343] (-) TimerEvent: {}
+[59.998736] (-) TimerEvent: {}
+[60.099228] (-) TimerEvent: {}
+[60.199862] (-) TimerEvent: {}
+[60.300312] (-) TimerEvent: {}
+[60.400699] (-) TimerEvent: {}
+[60.501167] (-) TimerEvent: {}
+[60.601775] (-) TimerEvent: {}
+[60.702319] (-) TimerEvent: {}
+[60.802704] (-) TimerEvent: {}
+[60.903216] (-) TimerEvent: {}
+[61.003795] (-) TimerEvent: {}
+[61.104192] (-) TimerEvent: {}
+[61.204605] (-) TimerEvent: {}
+[61.305006] (-) TimerEvent: {}
+[61.405461] (-) TimerEvent: {}
+[61.506112] (-) TimerEvent: {}
+[61.606775] (-) TimerEvent: {}
+[61.707378] (-) TimerEvent: {}
+[61.807830] (-) TimerEvent: {}
+[61.908289] (-) TimerEvent: {}
+[62.008965] (-) TimerEvent: {}
+[62.109598] (-) TimerEvent: {}
+[62.210179] (-) TimerEvent: {}
+[62.310575] (-) TimerEvent: {}
+[62.411055] (-) TimerEvent: {}
+[62.511605] (-) TimerEvent: {}
+[62.611996] (-) TimerEvent: {}
+[62.712447] (-) TimerEvent: {}
+[62.813061] (-) TimerEvent: {}
+[62.913680] (-) TimerEvent: {}
+[63.014302] (-) TimerEvent: {}
+[63.114928] (-) TimerEvent: {}
+[63.215550] (-) TimerEvent: {}
+[63.316098] (-) TimerEvent: {}
+[63.416488] (-) TimerEvent: {}
+[63.516946] (-) TimerEvent: {}
+[63.617539] (-) TimerEvent: {}
+[63.717926] (-) TimerEvent: {}
+[63.818378] (-) TimerEvent: {}
+[63.918986] (-) TimerEvent: {}
+[64.019601] (-) TimerEvent: {}
+[64.120148] (-) TimerEvent: {}
+[64.220532] (-) TimerEvent: {}
+[64.320923] (-) TimerEvent: {}
+[64.421384] (-) TimerEvent: {}
+[64.521927] (-) TimerEvent: {}
+[64.622312] (-) TimerEvent: {}
+[64.722712] (-) TimerEvent: {}
+[64.823172] (-) TimerEvent: {}
+[64.923732] (-) TimerEvent: {}
+[65.024133] (-) TimerEvent: {}
+[65.124590] (-) TimerEvent: {}
+[65.225217] (-) TimerEvent: {}
+[65.325829] (-) TimerEvent: {}
+[65.426379] (-) TimerEvent: {}
+[65.526767] (-) TimerEvent: {}
+[65.627225] (-) TimerEvent: {}
+[65.727863] (-) TimerEvent: {}
+[65.828478] (-) TimerEvent: {}
+[65.929103] (-) TimerEvent: {}
+[66.029652] (-) TimerEvent: {}
+[66.130052] (-) TimerEvent: {}
+[66.230518] (-) TimerEvent: {}
+[66.331155] (-) TimerEvent: {}
+[66.431776] (-) TimerEvent: {}
+[66.532395] (-) TimerEvent: {}
+[66.633010] (-) TimerEvent: {}
+[66.733564] (-) TimerEvent: {}
+[66.833958] (-) TimerEvent: {}
+[66.934430] (-) TimerEvent: {}
+[67.034990] (-) TimerEvent: {}
+[67.135375] (-) TimerEvent: {}
+[67.235835] (-) TimerEvent: {}
+[67.336456] (-) TimerEvent: {}
+[67.437081] (-) TimerEvent: {}
+[67.537711] (-) TimerEvent: {}
+[67.638262] (-) TimerEvent: {}
+[67.738644] (-) TimerEvent: {}
+[67.839102] (-) TimerEvent: {}
+[67.939726] (-) TimerEvent: {}
+[68.040344] (-) TimerEvent: {}
+[68.140891] (-) TimerEvent: {}
+[68.241323] (-) TimerEvent: {}
+[68.341714] (-) TimerEvent: {}
+[68.442082] (-) TimerEvent: {}
+[68.542385] (-) TimerEvent: {}
+[68.642672] (-) TimerEvent: {}
+[68.743028] (-) TimerEvent: {}
+[68.843245] (-) TimerEvent: {}
+[68.943447] (-) TimerEvent: {}
+[69.043649] (-) TimerEvent: {}
+[69.143847] (-) TimerEvent: {}
+[69.244046] (-) TimerEvent: {}
+[69.344263] (-) TimerEvent: {}
+[69.444508] (-) TimerEvent: {}
+[69.544829] (-) TimerEvent: {}
+[69.645121] (-) TimerEvent: {}
+[69.745495] (-) TimerEvent: {}
+[69.845869] (-) TimerEvent: {}
+[69.946263] (-) TimerEvent: {}
+[70.046643] (-) TimerEvent: {}
+[70.147039] (-) TimerEvent: {}
+[70.247476] (-) TimerEvent: {}
+[70.347864] (-) TimerEvent: {}
+[70.448246] (-) TimerEvent: {}
+[70.548603] (-) TimerEvent: {}
+[70.648941] (-) TimerEvent: {}
+[70.749275] (-) TimerEvent: {}
+[70.849603] (-) TimerEvent: {}
+[70.949931] (-) TimerEvent: {}
+[71.050282] (-) TimerEvent: {}
+[71.150651] (-) TimerEvent: {}
+[71.251007] (-) TimerEvent: {}
+[71.351394] (-) TimerEvent: {}
+[71.451839] (-) TimerEvent: {}
+[71.552446] (-) TimerEvent: {}
+[71.653045] (-) TimerEvent: {}
+[71.753641] (-) TimerEvent: {}
+[71.854255] (-) TimerEvent: {}
+[71.954797] (-) TimerEvent: {}
+[72.055177] (-) TimerEvent: {}
+[72.155627] (-) TimerEvent: {}
+[72.256224] (-) TimerEvent: {}
+[72.356830] (-) TimerEvent: {}
+[72.457365] (-) TimerEvent: {}
+[72.557747] (-) TimerEvent: {}
+[72.658141] (-) TimerEvent: {}
+[72.758587] (-) TimerEvent: {}
+[72.859192] (-) TimerEvent: {}
+[72.959724] (-) TimerEvent: {}
+[73.060106] (-) TimerEvent: {}
+[73.160489] (-) TimerEvent: {}
+[73.260874] (-) TimerEvent: {}
+[73.361260] (-) TimerEvent: {}
+[73.461710] (-) TimerEvent: {}
+[73.562307] (-) TimerEvent: {}
+[73.662907] (-) TimerEvent: {}
+[73.763512] (-) TimerEvent: {}
+[73.864114] (-) TimerEvent: {}
+[73.964730] (-) TimerEvent: {}
+[74.065339] (-) TimerEvent: {}
+[74.165958] (-) TimerEvent: {}
+[74.266500] (-) TimerEvent: {}
+[74.366878] (-) TimerEvent: {}
+[74.467328] (-) TimerEvent: {}
+[74.567952] (-) TimerEvent: {}
+[74.668558] (-) TimerEvent: {}
+[74.769182] (-) TimerEvent: {}
+[74.869755] (-) TimerEvent: {}
+[74.970154] (-) TimerEvent: {}
+[75.070536] (-) TimerEvent: {}
+[75.170994] (-) TimerEvent: {}
+[75.271541] (-) TimerEvent: {}
+[75.371917] (-) TimerEvent: {}
+[75.472294] (-) TimerEvent: {}
+[75.572750] (-) TimerEvent: {}
+[75.673365] (-) TimerEvent: {}
+[75.773991] (-) TimerEvent: {}
+[75.874623] (-) TimerEvent: {}
+[75.975242] (-) TimerEvent: {}
+[76.075814] (-) TimerEvent: {}
+[76.176201] (-) TimerEvent: {}
+[76.276657] (-) TimerEvent: {}
+[76.377287] (-) TimerEvent: {}
+[76.477846] (-) TimerEvent: {}
+[76.578230] (-) TimerEvent: {}
+[76.678608] (-) TimerEvent: {}
+[76.779066] (-) TimerEvent: {}
+[76.879679] (-) TimerEvent: {}
+[76.980286] (-) TimerEvent: {}
+[77.080901] (-) TimerEvent: {}
+[77.181505] (-) TimerEvent: {}
+[77.282119] (-) TimerEvent: {}
+[77.382736] (-) TimerEvent: {}
+[77.483355] (-) TimerEvent: {}
+[77.583977] (-) TimerEvent: {}
+[77.684600] (-) TimerEvent: {}
+[77.785263] (-) TimerEvent: {}
+[77.885796] (-) TimerEvent: {}
+[77.986174] (-) TimerEvent: {}
+[78.086621] (-) TimerEvent: {}
+[78.187155] (-) TimerEvent: {}
+[78.287524] (-) TimerEvent: {}
+[78.387936] (-) TimerEvent: {}
+[78.488486] (-) TimerEvent: {}
+[78.588968] (-) TimerEvent: {}
+[78.689377] (-) TimerEvent: {}
+[78.789667] (-) TimerEvent: {}
+[78.889947] (-) TimerEvent: {}
+[78.990280] (-) TimerEvent: {}
+[79.090732] (-) TimerEvent: {}
+[79.191199] (-) TimerEvent: {}
+[79.291655] (-) TimerEvent: {}
+[79.392102] (-) TimerEvent: {}
+[79.492547] (-) TimerEvent: {}
+[79.593004] (-) TimerEvent: {}
+[79.693460] (-) TimerEvent: {}
+[79.793960] (-) TimerEvent: {}
+[79.894446] (-) TimerEvent: {}
+[79.994835] (-) TimerEvent: {}
+[80.095193] (-) TimerEvent: {}
+[80.195537] (-) TimerEvent: {}
+[80.295929] (-) TimerEvent: {}
+[80.396471] (-) TimerEvent: {}
+[80.496935] (-) TimerEvent: {}
+[80.597262] (-) TimerEvent: {}
+[80.697654] (-) TimerEvent: {}
+[80.798176] (-) TimerEvent: {}
+[80.898686] (-) TimerEvent: {}
+[80.999136] (-) TimerEvent: {}
+[81.099583] (-) TimerEvent: {}
+[81.200169] (-) TimerEvent: {}
+[81.300710] (-) TimerEvent: {}
+[81.401198] (-) TimerEvent: {}
+[81.501524] (-) TimerEvent: {}
+[81.601916] (-) TimerEvent: {}
+[81.702439] (-) TimerEvent: {}
+[81.802980] (-) TimerEvent: {}
+[81.903527] (-) TimerEvent: {}
+[82.004083] (-) TimerEvent: {}
+[82.104553] (-) TimerEvent: {}
+[82.204878] (-) TimerEvent: {}
+[82.305225] (-) TimerEvent: {}
+[82.405573] (-) TimerEvent: {}
+[82.505913] (-) TimerEvent: {}
+[82.606332] (-) TimerEvent: {}
+[82.706844] (-) TimerEvent: {}
+[82.807378] (-) TimerEvent: {}
+[82.907914] (-) TimerEvent: {}
+[83.008389] (-) TimerEvent: {}
+[83.108778] (-) TimerEvent: {}
+[83.209124] (-) TimerEvent: {}
+[83.309507] (-) TimerEvent: {}
+[83.410046] (-) TimerEvent: {}
+[83.510534] (-) TimerEvent: {}
+[83.610861] (-) TimerEvent: {}
+[83.711227] (-) TimerEvent: {}
+[83.811625] (-) TimerEvent: {}
+[83.912135] (-) TimerEvent: {}
+[84.012656] (-) TimerEvent: {}
+[84.113189] (-) TimerEvent: {}
+[84.213712] (-) TimerEvent: {}
+[84.314242] (-) TimerEvent: {}
+[84.414812] (-) TimerEvent: {}
+[84.515344] (-) TimerEvent: {}
+[84.615887] (-) TimerEvent: {}
+[84.716413] (-) TimerEvent: {}
+[84.816887] (-) TimerEvent: {}
+[84.917247] (-) TimerEvent: {}
+[85.017664] (-) TimerEvent: {}
+[85.118151] (-) TimerEvent: {}
+[85.218569] (-) TimerEvent: {}
+[85.318965] (-) TimerEvent: {}
+[85.419377] (-) TimerEvent: {}
+[85.519756] (-) TimerEvent: {}
+[85.620157] (-) TimerEvent: {}
+[85.720565] (-) TimerEvent: {}
+[85.820952] (-) TimerEvent: {}
+[85.921399] (-) TimerEvent: {}
+[86.021829] (-) TimerEvent: {}
+[86.122182] (-) TimerEvent: {}
+[86.222540] (-) TimerEvent: {}
+[86.322946] (-) TimerEvent: {}
+[86.423231] (-) TimerEvent: {}
+[86.523522] (-) TimerEvent: {}
+[86.623848] (-) TimerEvent: {}
+[86.724306] (-) TimerEvent: {}
+[86.824758] (-) TimerEvent: {}
+[86.925187] (-) TimerEvent: {}
+[87.025625] (-) TimerEvent: {}
+[87.126080] (-) TimerEvent: {}
+[87.226498] (-) TimerEvent: {}
+[87.326767] (-) TimerEvent: {}
+[87.427019] (-) TimerEvent: {}
+[87.527343] (-) TimerEvent: {}
+[87.627786] (-) TimerEvent: {}
+[87.728230] (-) TimerEvent: {}
+[87.828683] (-) TimerEvent: {}
+[87.929105] (-) TimerEvent: {}
+[88.029534] (-) TimerEvent: {}
+[88.129899] (-) TimerEvent: {}
+[88.230224] (-) TimerEvent: {}
+[88.330730] (-) TimerEvent: {}
+[88.431349] (-) TimerEvent: {}
+[88.531961] (-) TimerEvent: {}
+[88.632579] (-) TimerEvent: {}
+[88.733194] (-) TimerEvent: {}
+[88.833810] (-) TimerEvent: {}
+[88.934437] (-) TimerEvent: {}
+[89.035050] (-) TimerEvent: {}
+[89.135660] (-) TimerEvent: {}
+[89.236207] (-) TimerEvent: {}
+[89.336592] (-) TimerEvent: {}
+[89.437046] (-) TimerEvent: {}
+[89.537603] (-) TimerEvent: {}
+[89.637987] (-) TimerEvent: {}
+[89.738439] (-) TimerEvent: {}
+[89.838985] (-) TimerEvent: {}
+[89.939382] (-) TimerEvent: {}
+[90.039762] (-) TimerEvent: {}
+[90.140217] (-) TimerEvent: {}
+[90.240793] (-) TimerEvent: {}
+[90.341164] (-) TimerEvent: {}
+[90.441602] (-) TimerEvent: {}
+[90.542186] (-) TimerEvent: {}
+[90.642773] (-) TimerEvent: {}
+[90.743369] (-) TimerEvent: {}
+[90.843956] (-) TimerEvent: {}
+[90.944578] (-) TimerEvent: {}
+[91.045209] (-) TimerEvent: {}
+[91.145746] (-) TimerEvent: {}
+[91.246181] (-) TimerEvent: {}
+[91.346771] (-) TimerEvent: {}
+[91.447359] (-) TimerEvent: {}
+[91.547973] (-) TimerEvent: {}
+[91.648566] (-) TimerEvent: {}
+[91.749157] (-) TimerEvent: {}
+[91.849753] (-) TimerEvent: {}
+[91.950370] (-) TimerEvent: {}
+[92.050932] (-) TimerEvent: {}
+[92.151307] (-) TimerEvent: {}
+[92.251700] (-) TimerEvent: {}
+[92.352093] (-) TimerEvent: {}
+[92.452492] (-) TimerEvent: {}
+[92.552944] (-) TimerEvent: {}
+[92.653572] (-) TimerEvent: {}
+[92.754210] (-) TimerEvent: {}
+[92.854748] (-) TimerEvent: {}
+[92.955137] (-) TimerEvent: {}
+[93.055521] (-) TimerEvent: {}
+[93.155978] (-) TimerEvent: {}
+[93.256602] (-) TimerEvent: {}
+[93.357229] (-) TimerEvent: {}
+[93.457834] (-) TimerEvent: {}
+[93.558231] (-) TimerEvent: {}
+[93.658616] (-) TimerEvent: {}
+[93.759005] (-) TimerEvent: {}
+[93.859386] (-) TimerEvent: {}
+[93.959771] (-) TimerEvent: {}
+[94.060169] (-) TimerEvent: {}
+[94.160619] (-) TimerEvent: {}
+[94.261295] (-) TimerEvent: {}
+[94.361930] (-) TimerEvent: {}
+[94.462605] (-) TimerEvent: {}
+[94.563225] (-) TimerEvent: {}
+[94.663846] (-) TimerEvent: {}
+[94.764491] (-) TimerEvent: {}
+[94.865086] (-) TimerEvent: {}
+[94.965551] (-) TimerEvent: {}
+[95.066226] (-) TimerEvent: {}
+[95.166829] (-) TimerEvent: {}
+[95.267234] (-) TimerEvent: {}
+[95.367669] (-) TimerEvent: {}
+[95.468185] (-) TimerEvent: {}
+[95.568598] (-) TimerEvent: {}
+[95.669047] (-) TimerEvent: {}
+[95.769426] (-) TimerEvent: {}
+[95.869692] (-) TimerEvent: {}
+[95.969990] (-) TimerEvent: {}
+[96.070408] (-) TimerEvent: {}
+[96.170854] (-) TimerEvent: {}
+[96.271227] (-) TimerEvent: {}
+[96.371697] (-) TimerEvent: {}
+[96.472330] (-) TimerEvent: {}
+[96.572945] (-) TimerEvent: {}
+[96.673547] (-) TimerEvent: {}
+[96.774168] (-) TimerEvent: {}
+[96.874731] (-) TimerEvent: {}
+[96.975103] (-) TimerEvent: {}
+[97.075534] (-) TimerEvent: {}
+[97.176121] (-) TimerEvent: {}
+[97.276719] (-) TimerEvent: {}
+[97.377247] (-) TimerEvent: {}
+[97.477641] (-) TimerEvent: {}
+[97.578109] (-) TimerEvent: {}
+[97.678674] (-) TimerEvent: {}
+[97.779092] (-) TimerEvent: {}
+[97.879449] (-) TimerEvent: {}
+[97.979954] (-) TimerEvent: {}
+[98.080434] (-) TimerEvent: {}
+[98.180929] (-) TimerEvent: {}
+[98.281409] (-) TimerEvent: {}
+[98.381840] (-) TimerEvent: {}
+[98.482157] (-) TimerEvent: {}
+[98.582535] (-) TimerEvent: {}
+[98.683021] (-) TimerEvent: {}
+[98.783360] (-) TimerEvent: {}
+[98.883762] (-) TimerEvent: {}
+[98.984321] (-) TimerEvent: {}
+[99.084833] (-) TimerEvent: {}
+[99.185468] (-) TimerEvent: {}
+[99.286434] (-) TimerEvent: {}
+[99.387442] (-) TimerEvent: {}
+[99.488437] (-) TimerEvent: {}
+[99.589434] (-) TimerEvent: {}
+[99.690429] (-) TimerEvent: {}
+[99.791378] (-) TimerEvent: {}
+[99.892280] (-) TimerEvent: {}
+[99.993196] (-) TimerEvent: {}
+[100.094147] (-) TimerEvent: {}
+[100.195162] (-) TimerEvent: {}
+[100.296109] (-) TimerEvent: {}
+[100.397085] (-) TimerEvent: {}
+[100.498001] (-) TimerEvent: {}
+[100.598980] (-) TimerEvent: {}
+[100.699914] (-) TimerEvent: {}
+[100.800887] (-) TimerEvent: {}
+[100.901745] (-) TimerEvent: {}
+[101.002602] (-) TimerEvent: {}
+[101.103514] (-) TimerEvent: {}
+[101.204398] (-) TimerEvent: {}
+[101.305216] (-) TimerEvent: {}
+[101.406028] (-) TimerEvent: {}
+[101.506832] (-) TimerEvent: {}
+[101.607659] (-) TimerEvent: {}
+[101.708498] (-) TimerEvent: {}
+[101.809345] (-) TimerEvent: {}
+[101.910168] (-) TimerEvent: {}
+[102.011015] (-) TimerEvent: {}
+[102.111863] (-) TimerEvent: {}
+[102.212834] (-) TimerEvent: {}
+[102.314107] (-) TimerEvent: {}
+[102.415421] (-) TimerEvent: {}
+[102.516548] (-) TimerEvent: {}
+[102.617352] (-) TimerEvent: {}
+[102.718202] (-) TimerEvent: {}
+[102.819167] (-) TimerEvent: {}
+[102.920440] (-) TimerEvent: {}
+[103.021740] (-) TimerEvent: {}
+[103.123016] (-) TimerEvent: {}
+[103.224317] (-) TimerEvent: {}
+[103.325456] (-) TimerEvent: {}
+[103.426259] (-) TimerEvent: {}
+[103.527225] (-) TimerEvent: {}
+[103.628463] (-) TimerEvent: {}
+[103.729523] (-) TimerEvent: {}
+[103.830163] (-) TimerEvent: {}
+[103.930765] (-) TimerEvent: {}
+[104.031169] (-) TimerEvent: {}
+[104.131562] (-) TimerEvent: {}
+[104.231949] (-) TimerEvent: {}
+[104.332340] (-) TimerEvent: {}
+[104.432811] (-) TimerEvent: {}
+[104.533445] (-) TimerEvent: {}
+[104.634078] (-) TimerEvent: {}
+[104.734717] (-) TimerEvent: {}
+[104.835357] (-) TimerEvent: {}
+[104.935936] (-) TimerEvent: {}
+[105.036331] (-) TimerEvent: {}
+[105.136789] (-) TimerEvent: {}
+[105.237419] (-) TimerEvent: {}
+[105.338056] (-) TimerEvent: {}
+[105.438623] (-) TimerEvent: {}
+[105.539049] (-) TimerEvent: {}
+[105.639530] (-) TimerEvent: {}
+[105.740160] (-) TimerEvent: {}
+[105.840721] (-) TimerEvent: {}
+[105.941124] (-) TimerEvent: {}
+[106.041546] (-) TimerEvent: {}
+[106.142031] (-) TimerEvent: {}
+[106.242655] (-) TimerEvent: {}
+[106.343322] (-) TimerEvent: {}
+[106.443998] (-) TimerEvent: {}
+[106.544579] (-) TimerEvent: {}
+[106.644986] (-) TimerEvent: {}
+[106.745693] (-) TimerEvent: {}
+[106.846355] (-) TimerEvent: {}
+[106.947001] (-) TimerEvent: {}
+[107.047610] (-) TimerEvent: {}
+[107.148146] (-) TimerEvent: {}
+[107.248525] (-) TimerEvent: {}
+[107.349047] (-) TimerEvent: {}
+[107.449727] (-) TimerEvent: {}
+[107.550276] (-) TimerEvent: {}
+[107.650758] (-) TimerEvent: {}
+[107.751377] (-) TimerEvent: {}
+[107.852011] (-) TimerEvent: {}
+[107.952565] (-) TimerEvent: {}
+[108.052948] (-) TimerEvent: {}
+[108.153331] (-) TimerEvent: {}
+[108.253709] (-) TimerEvent: {}
+[108.354110] (-) TimerEvent: {}
+[108.454509] (-) TimerEvent: {}
+[108.554955] (-) TimerEvent: {}
+[108.655549] (-) TimerEvent: {}
+[108.756183] (-) TimerEvent: {}
+[108.856736] (-) TimerEvent: {}
+[108.957111] (-) TimerEvent: {}
+[109.057514] (-) TimerEvent: {}
+[109.157908] (-) TimerEvent: {}
+[109.258312] (-) TimerEvent: {}
+[109.358777] (-) TimerEvent: {}
+[109.459409] (-) TimerEvent: {}
+[109.560037] (-) TimerEvent: {}
+[109.660668] (-) TimerEvent: {}
+[109.761299] (-) TimerEvent: {}
+[109.861862] (-) TimerEvent: {}
+[109.962250] (-) TimerEvent: {}
+[110.062702] (-) TimerEvent: {}
+[110.163338] (-) TimerEvent: {}
+[110.263985] (-) TimerEvent: {}
+[110.364641] (-) TimerEvent: {}
+[110.465273] (-) TimerEvent: {}
+[110.565998] (-) TimerEvent: {}
+[110.666637] (-) TimerEvent: {}
+[110.767280] (-) TimerEvent: {}
+[110.867904] (-) TimerEvent: {}
+[110.968437] (-) TimerEvent: {}
+[111.068821] (-) TimerEvent: {}
+[111.169222] (-) TimerEvent: {}
+[111.269613] (-) TimerEvent: {}
+[111.370008] (-) TimerEvent: {}
+[111.470410] (-) TimerEvent: {}
+[111.570880] (-) TimerEvent: {}
+[111.671523] (-) TimerEvent: {}
+[111.772171] (-) TimerEvent: {}
+[111.872750] (-) TimerEvent: {}
+[111.973146] (-) TimerEvent: {}
+[112.073564] (-) TimerEvent: {}
+[112.173958] (-) TimerEvent: {}
+[112.274368] (-) TimerEvent: {}
+[112.374762] (-) TimerEvent: {}
+[112.475165] (-) TimerEvent: {}
+[112.575570] (-) TimerEvent: {}
+[112.675980] (-) TimerEvent: {}
+[112.776444] (-) TimerEvent: {}
+[112.877079] (-) TimerEvent: {}
+[112.977724] (-) TimerEvent: {}
+[113.078359] (-) TimerEvent: {}
+[113.178994] (-) TimerEvent: {}
+[113.279633] (-) TimerEvent: {}
+[113.380223] (-) TimerEvent: {}
+[113.480824] (-) TimerEvent: {}
+[113.581357] (-) TimerEvent: {}
+[113.681799] (-) TimerEvent: {}
+[113.782407] (-) TimerEvent: {}
+[113.882944] (-) TimerEvent: {}
+[113.983313] (-) TimerEvent: {}
+[114.083755] (-) TimerEvent: {}
+[114.184294] (-) TimerEvent: {}
+[114.284663] (-) TimerEvent: {}
+[114.385036] (-) TimerEvent: {}
+[114.485484] (-) TimerEvent: {}
+[114.586094] (-) TimerEvent: {}
+[114.686701] (-) TimerEvent: {}
+[114.787310] (-) TimerEvent: {}
+[114.887954] (-) TimerEvent: {}
+[114.988551] (-) TimerEvent: {}
+[115.088928] (-) TimerEvent: {}
+[115.189373] (-) TimerEvent: {}
+[115.289978] (-) TimerEvent: {}
+[115.390581] (-) TimerEvent: {}
+[115.491193] (-) TimerEvent: {}
+[115.591718] (-) TimerEvent: {}
+[115.692086] (-) TimerEvent: {}
+[115.792469] (-) TimerEvent: {}
+[115.892931] (-) TimerEvent: {}
+[115.993560] (-) TimerEvent: {}
+[116.094197] (-) TimerEvent: {}
+[116.194767] (-) TimerEvent: {}
+[116.295137] (-) TimerEvent: {}
+[116.395519] (-) TimerEvent: {}
+[116.495978] (-) TimerEvent: {}
+[116.596618] (-) TimerEvent: {}
+[116.697240] (-) TimerEvent: {}
+[116.797908] (-) TimerEvent: {}
+[116.898565] (-) TimerEvent: {}
+[116.999149] (-) TimerEvent: {}
+[117.099536] (-) TimerEvent: {}
+[117.200000] (-) TimerEvent: {}
+[117.300645] (-) TimerEvent: {}
+[117.401313] (-) TimerEvent: {}
+[117.501701] (-) TimerEvent: {}
+[117.602161] (-) TimerEvent: {}
+[117.702793] (-) TimerEvent: {}
+[117.803433] (-) TimerEvent: {}
+[117.903986] (-) TimerEvent: {}
+[118.004380] (-) TimerEvent: {}
+[118.104838] (-) TimerEvent: {}
+[118.205470] (-) TimerEvent: {}
+[118.306046] (-) TimerEvent: {}
+[118.406475] (-) TimerEvent: {}
+[118.506876] (-) TimerEvent: {}
+[118.607343] (-) TimerEvent: {}
+[118.707904] (-) TimerEvent: {}
+[118.808278] (-) TimerEvent: {}
+[118.908637] (-) TimerEvent: {}
+[119.008992] (-) TimerEvent: {}
+[119.109378] (-) TimerEvent: {}
+[119.209777] (-) TimerEvent: {}
+[119.310191] (-) TimerEvent: {}
+[119.410939] (-) TimerEvent: {}
+[119.511740] (-) TimerEvent: {}
+[119.612131] (-) TimerEvent: {}
+[119.712594] (-) TimerEvent: {}
+[119.813237] (-) TimerEvent: {}
+[119.913814] (-) TimerEvent: {}
+[119.943813] (teleop) StdoutLine: {'line': b'-- No build type selected, using DEBUG\n'}
+[119.950382] (teleop) StdoutLine: {'line': b'-- Compiler flags (CMAKE_C_FLAGS):  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes\n'}
+[119.982838] (teleop) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[120.013899] (-) TimerEvent: {}
+[120.114311] (-) TimerEvent: {}
+[120.214871] (-) TimerEvent: {}
+[120.244715] (teleop) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[120.248512] (teleop) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[120.314961] (-) TimerEvent: {}
+[120.415383] (-) TimerEvent: {}
+[120.483677] (teleop) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[120.485021] (teleop) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[120.515448] (-) TimerEvent: {}
+[120.615804] (-) TimerEvent: {}
+[120.716279] (-) TimerEvent: {}
+[120.731651] (teleop) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[120.769965] (teleop) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[120.816430] (-) TimerEvent: {}
+[120.916981] (-) TimerEvent: {}
+[120.945571] (teleop) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[120.947827] (teleop) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/hady/teleop/gbot_ws/src/teleop/include\n'}
+[120.948058] (teleop) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[120.951731] (teleop) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[120.955821] (teleop) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[120.955955] (teleop) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[120.957195] (teleop) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[120.958971] (teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[121.017064] (-) TimerEvent: {}
+[121.043681] (teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[121.062692] (teleop) StdoutLine: {'line': b'-- Build files have been written to: /home/hady/teleop/gbot_ws/build/teleop\n'}
+[121.117316] (-) TimerEvent: {}
+[121.171964] (teleop) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_auth.c.o\x1b[0m\n'}
+[121.172828] (teleop) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/crc32.c.o\x1b[0m\n'}
+[121.173581] (teleop) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/conn.c.o\x1b[0m\n'}
+[121.174235] (teleop) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/agent.c.o\x1b[0m\n'}
+[121.182155] (teleop) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/const_time.c.o\x1b[0m\n'}
+[121.190271] (teleop) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_bsd_addr.c.o\x1b[0m\n'}
+[121.191276] (teleop) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/addr.c.o\x1b[0m\n'}
+[121.194911] (teleop) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_asconf.c.o\x1b[0m\n'}
+[121.217433] (-) TimerEvent: {}
+[121.250880] (teleop) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/conn_poll.c.o\x1b[0m\n'}
+[121.275904] (teleop) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/conn_thread.c.o\x1b[0m\n'}
+[121.311116] (teleop) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/conn_mux.c.o\x1b[0m\n'}
+[121.317583] (-) TimerEvent: {}
+[121.322243] (teleop) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_callout.c.o\x1b[0m\n'}
+[121.359888] (teleop) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/hash.c.o\x1b[0m\n'}
+[121.365758] (teleop) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/base64.c.o\x1b[0m\n'}
+[121.392891] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/hash.c:16\x1b[m\x1b[K:\n'}
+[121.393842] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kpicohash_init_md5\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.396557] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:635:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.397726] (teleop) StderrLine: {'line': b'  635 |     ctx->_reset = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_md5_init;\n'}
+[121.398406] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.399025] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:635:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.399769] (teleop) StderrLine: {'line': b'  635 |     ctx->_reset \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_md5_init;\n'}
+[121.400438] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.401132] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:636:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.401722] (teleop) StderrLine: {'line': b'  636 |     ctx->_update = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_md5_update;\n'}
+[121.402262] (teleop) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.402792] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:636:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.403328] (teleop) StderrLine: {'line': b'  636 |     ctx->_update \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_md5_update;\n'}
+[121.403835] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.404375] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:637:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.404916] (teleop) StderrLine: {'line': b'  637 |     ctx->_final = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_md5_final;\n'}
+[121.405398] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.405872] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:637:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.406352] (teleop) StderrLine: {'line': b'  637 |     ctx->_final \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_md5_final;\n'}
+[121.406817] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.407275] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kpicohash_init_sha1\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.407830] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:646:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.408435] (teleop) StderrLine: {'line': b'  646 |     ctx->_reset = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha1_init;\n'}
+[121.409052] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.409633] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:646:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.410212] (teleop) StderrLine: {'line': b'  646 |     ctx->_reset \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha1_init;\n'}
+[121.410776] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.420977] (-) TimerEvent: {}
+[121.421258] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:647:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.421581] (teleop) StderrLine: {'line': b'  647 |     ctx->_update = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha1_update;\n'}
+[121.421702] (teleop) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.421783] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:647:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.421866] (teleop) StderrLine: {'line': b'  647 |     ctx->_update \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha1_update;\n'}
+[121.421939] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.422011] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:648:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.422088] (teleop) StderrLine: {'line': b'  648 |     ctx->_final = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha1_final;\n'}
+[121.422188] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.422263] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:648:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.422355] (teleop) StderrLine: {'line': b'  648 |     ctx->_final \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha1_final;\n'}
+[121.422444] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.422515] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kpicohash_init_sha224\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.422591] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:656:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.422666] (teleop) StderrLine: {'line': b'  656 |     ctx->_reset = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha224_init;\n'}
+[121.422738] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.422807] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:656:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.422882] (teleop) StderrLine: {'line': b'  656 |     ctx->_reset \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha224_init;\n'}
+[121.422952] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.423022] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:657:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.423107] (teleop) StderrLine: {'line': b'  657 |     ctx->_update = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha256_update;\n'}
+[121.423181] (teleop) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.423253] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:657:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.423343] (teleop) StderrLine: {'line': b'  657 |     ctx->_update \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha256_update;\n'}
+[121.423415] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.423523] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:658:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.423606] (teleop) StderrLine: {'line': b'  658 |     ctx->_final = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha224_final;\n'}
+[121.423682] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.423766] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:658:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.423862] (teleop) StderrLine: {'line': b'  658 |     ctx->_final \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha224_final;\n'}
+[121.423935] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.424005] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kpicohash_init_sha256\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.424079] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:666:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.424214] (teleop) StderrLine: {'line': b'  666 |     ctx->_reset = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha256_init;\n'}
+[121.424296] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.424376] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:666:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.424460] (teleop) StderrLine: {'line': b'  666 |     ctx->_reset \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha256_init;\n'}
+[121.424536] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.424616] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:667:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.424698] (teleop) StderrLine: {'line': b'  667 |     ctx->_update = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha256_update;\n'}
+[121.424779] (teleop) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.424853] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:667:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.424944] (teleop) StderrLine: {'line': b'  667 |     ctx->_update \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha256_update;\n'}
+[121.425016] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.425089] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:668:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.425166] (teleop) StderrLine: {'line': b'  668 |     ctx->_final = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha256_final;\n'}
+[121.425252] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.425327] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:668:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.425415] (teleop) StderrLine: {'line': b'  668 |     ctx->_final \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha256_final;\n'}
+[121.425494] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.425572] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kpicohash_init_hmac\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.425655] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:734:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.425737] (teleop) StderrLine: {'line': b'  734 |     ctx->_reset = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_hmac_reset;\n'}
+[121.425809] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.425881] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:734:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.425991] (teleop) StderrLine: {'line': b'  734 |     ctx->_reset \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_hmac_reset;\n'}
+[121.426064] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.426133] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:735:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.426210] (teleop) StderrLine: {'line': b'  735 |     ctx->_final = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_hmac_final;\n'}
+[121.426280] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.426350] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:735:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.426425] (teleop) StderrLine: {'line': b'  735 |     ctx->_final \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_hmac_final;\n'}
+[121.426498] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.439197] (teleop) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/hmac.c.o\x1b[0m\n'}
+[121.489190] (teleop) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_cc_functions.c.o\x1b[0m\n'}
+[121.491408] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/hmac.c:14\x1b[m\x1b[K:\n'}
+[121.492465] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kpicohash_init_md5\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.493227] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:635:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.493870] (teleop) StderrLine: {'line': b'  635 |     ctx->_reset = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_md5_init;\n'}
+[121.495426] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.495981] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:635:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.496512] (teleop) StderrLine: {'line': b'  635 |     ctx->_reset \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_md5_init;\n'}
+[121.497057] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.497593] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:636:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.498114] (teleop) StderrLine: {'line': b'  636 |     ctx->_update = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_md5_update;\n'}
+[121.498589] (teleop) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.499047] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:636:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.499506] (teleop) StderrLine: {'line': b'  636 |     ctx->_update \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_md5_update;\n'}
+[121.499932] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.500341] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:637:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.500773] (teleop) StderrLine: {'line': b'  637 |     ctx->_final = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_md5_final;\n'}
+[121.501250] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.501681] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:637:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.502215] (teleop) StderrLine: {'line': b'  637 |     ctx->_final \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_md5_final;\n'}
+[121.502686] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.503165] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kpicohash_init_sha1\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.503590] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:646:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.504026] (teleop) StderrLine: {'line': b'  646 |     ctx->_reset = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha1_init;\n'}
+[121.504643] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.505059] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:646:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.505490] (teleop) StderrLine: {'line': b'  646 |     ctx->_reset \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha1_init;\n'}
+[121.505905] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.506316] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:647:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.506740] (teleop) StderrLine: {'line': b'  647 |     ctx->_update = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha1_update;\n'}
+[121.507489] (teleop) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.508063] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:647:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.508516] (teleop) StderrLine: {'line': b'  647 |     ctx->_update \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha1_update;\n'}
+[121.508950] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.509406] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:648:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.509854] (teleop) StderrLine: {'line': b'  648 |     ctx->_final = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha1_final;\n'}
+[121.510287] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.510713] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:648:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.511235] (teleop) StderrLine: {'line': b'  648 |     ctx->_final \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha1_final;\n'}
+[121.512222] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.512687] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kpicohash_init_sha224\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.513127] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:656:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.513565] (teleop) StderrLine: {'line': b'  656 |     ctx->_reset = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha224_init;\n'}
+[121.513990] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.514529] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:656:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.514990] (teleop) StderrLine: {'line': b'  656 |     ctx->_reset \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha224_init;\n'}
+[121.515427] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.515853] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:657:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.516624] (teleop) StderrLine: {'line': b'  657 |     ctx->_update = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha256_update;\n'}
+[121.517067] (teleop) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.517526] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:657:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.518005] (teleop) StderrLine: {'line': b'  657 |     ctx->_update \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha256_update;\n'}
+[121.518443] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.519098] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:658:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.519627] (teleop) StderrLine: {'line': b'  658 |     ctx->_final = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha224_final;\n'}
+[121.520140] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.520668] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:658:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.521198] (-) TimerEvent: {}
+[121.521903] (teleop) StderrLine: {'line': b'  658 |     ctx->_final \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha224_final;\n'}
+[121.522589] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.523056] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kpicohash_init_sha256\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.523540] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:666:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.524005] (teleop) StderrLine: {'line': b'  666 |     ctx->_reset = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha256_init;\n'}
+[121.524548] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.524997] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:666:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.525451] (teleop) StderrLine: {'line': b'  666 |     ctx->_reset \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha256_init;\n'}
+[121.525866] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.526265] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:667:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.526673] (teleop) StderrLine: {'line': b'  667 |     ctx->_update = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha256_update;\n'}
+[121.527067] (teleop) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.527677] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:667:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.528219] (teleop) StderrLine: {'line': b'  667 |     ctx->_update \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha256_update;\n'}
+[121.528786] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.529240] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:668:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.529990] (teleop) StderrLine: {'line': b'  668 |     ctx->_final = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_sha256_final;\n'}
+[121.530469] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.530991] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:668:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.531479] (teleop) StderrLine: {'line': b'  668 |     ctx->_final \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_sha256_final;\n'}
+[121.531897] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.532306] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kpicohash_init_hmac\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[121.532709] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:734:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.533132] (teleop) StderrLine: {'line': b'  734 |     ctx->_reset = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_hmac_reset;\n'}
+[121.533520] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.533902] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:734:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.534353] (teleop) StderrLine: {'line': b'  734 |     ctx->_reset \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_hmac_reset;\n'}
+[121.535014] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.535431] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:735:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids conversion of function pointer to object pointer type [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.535834] (teleop) StderrLine: {'line': b'  735 |     ctx->_final = \x1b[01;35m\x1b[K(\x1b[m\x1b[Kvoid *)_picohash_hmac_final;\n'}
+[121.536222] (teleop) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.536610] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice/src/picohash.h:735:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C forbids assignment between function pointer and \xe2\x80\x98\x1b[01m\x1b[Kvoid *\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[121.537012] (teleop) StderrLine: {'line': b'  735 |     ctx->_final \x1b[01;35m\x1b[K=\x1b[m\x1b[K (void *)_picohash_hmac_final;\n'}
+[121.537390] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[121.537819] (teleop) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/ice.c.o\x1b[0m\n'}
+[121.538294] (teleop) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/juice.c.o\x1b[0m\n'}
+[121.538715] (teleop) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/log.c.o\x1b[0m\n'}
+[121.579610] (teleop) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_crc32.c.o\x1b[0m\n'}
+[121.608512] (teleop) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_indata.c.o\x1b[0m\n'}
+[121.621476] (-) TimerEvent: {}
+[121.627754] (teleop) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_input.c.o\x1b[0m\n'}
+[121.669185] (teleop) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/random.c.o\x1b[0m\n'}
+[121.716054] (teleop) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/server.c.o\x1b[0m\n'}
+[121.721703] (-) TimerEvent: {}
+[121.797686] (teleop) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/stun.c.o\x1b[0m\n'}
+[121.813994] (teleop) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/timestamp.c.o\x1b[0m\n'}
+[121.821968] (-) TimerEvent: {}
+[121.825824] (teleop) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_output.c.o\x1b[0m\n'}
+[121.887775] (teleop) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/turn.c.o\x1b[0m\n'}
+[121.907836] (teleop) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_pcb.c.o\x1b[0m\n'}
+[121.915623] (teleop) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/libjuice/CMakeFiles/juice-static.dir/src/udp.c.o\x1b[0m\n'}
+[121.922208] (-) TimerEvent: {}
+[121.945322] (teleop) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_peeloff.c.o\x1b[0m\n'}
+[122.022461] (-) TimerEvent: {}
+[122.118040] (teleop) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sha1.c.o\x1b[0m\n'}
+[122.119142] (teleop) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_ss_functions.c.o\x1b[0m\n'}
+[122.122653] (-) TimerEvent: {}
+[122.173449] (teleop) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking C static library libjuice-static.a\x1b[0m\n'}
+[122.203314] (teleop) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sysctl.c.o\x1b[0m\n'}
+[122.215759] (teleop) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_timer.c.o\x1b[0m\n'}
+[122.222899] (-) TimerEvent: {}
+[122.310828] (teleop) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_usrreq.c.o\x1b[0m\n'}
+[122.313497] (teleop) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_userspace.c.o\x1b[0m\n'}
+[122.323189] (-) TimerEvent: {}
+[122.331357] (teleop) StdoutLine: {'line': b'[ 37%] Built target juice-static\n'}
+[122.334906] (teleop) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctputil.c.o\x1b[0m\n'}
+[122.389947] (teleop) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet6/sctp6_usrreq.c.o\x1b[0m\n'}
+[122.397791] (teleop) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_environment.c.o\x1b[0m\n'}
+[122.423459] (-) TimerEvent: {}
+[122.518127] (teleop) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_mbuf.c.o\x1b[0m\n'}
+[122.523711] (-) TimerEvent: {}
+[122.599884] (teleop) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_recv_thread.c.o\x1b[0m\n'}
+[122.603792] (teleop) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object _deps/libdatachannel-build/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_socket.c.o\x1b[0m\n'}
+[122.624037] (-) TimerEvent: {}
+[122.726485] (-) TimerEvent: {}
+[122.827548] (-) TimerEvent: {}
+[122.928464] (-) TimerEvent: {}
+[123.029328] (-) TimerEvent: {}
+[123.065835] (teleop) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking C static library libusrsctp.a\x1b[0m\n'}
+[123.129582] (-) TimerEvent: {}
+[123.229652] (teleop) StdoutLine: {'line': b'[ 43%] Built target usrsctp\n'}
+[123.230306] (-) TimerEvent: {}
+[123.277930] (teleop) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/configuration.cpp.o\x1b[0m\n'}
+[123.278992] (teleop) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/description.cpp.o\x1b[0m\n'}
+[123.279693] (teleop) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/channel.cpp.o\x1b[0m\n'}
+[123.282572] (teleop) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/global.cpp.o\x1b[0m\n'}
+[123.294796] (teleop) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/mediahandler.cpp.o\x1b[0m\n'}
+[123.295844] (teleop) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/datachannel.cpp.o\x1b[0m\n'}
+[123.296934] (teleop) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/candidate.cpp.o\x1b[0m\n'}
+[123.304617] (teleop) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/message.cpp.o\x1b[0m\n'}
+[123.330463] (-) TimerEvent: {}
+[123.431432] (-) TimerEvent: {}
+[123.531880] (-) TimerEvent: {}
+[123.632390] (-) TimerEvent: {}
+[123.732908] (-) TimerEvent: {}
+[123.833419] (-) TimerEvent: {}
+[123.934002] (-) TimerEvent: {}
+[124.034539] (-) TimerEvent: {}
+[124.135070] (-) TimerEvent: {}
+[124.235591] (-) TimerEvent: {}
+[124.336100] (-) TimerEvent: {}
+[124.436630] (-) TimerEvent: {}
+[124.537174] (-) TimerEvent: {}
+[124.637672] (-) TimerEvent: {}
+[124.738180] (-) TimerEvent: {}
+[124.838681] (-) TimerEvent: {}
+[124.939158] (-) TimerEvent: {}
+[125.035569] (teleop) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/peerconnection.cpp.o\x1b[0m\n'}
+[125.039307] (-) TimerEvent: {}
+[125.139836] (-) TimerEvent: {}
+[125.240358] (-) TimerEvent: {}
+[125.340890] (-) TimerEvent: {}
+[125.429324] (teleop) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/rtcpreceivingsession.cpp.o\x1b[0m\n'}
+[125.441036] (-) TimerEvent: {}
+[125.480135] (teleop) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/track.cpp.o\x1b[0m\n'}
+[125.541192] (-) TimerEvent: {}
+[125.642341] (-) TimerEvent: {}
+[125.742846] (-) TimerEvent: {}
+[125.843929] (-) TimerEvent: {}
+[125.905217] (teleop) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/websocket.cpp.o\x1b[0m\n'}
+[125.944104] (-) TimerEvent: {}
+[126.045251] (-) TimerEvent: {}
+[126.146324] (-) TimerEvent: {}
+[126.149677] (teleop) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/websocketserver.cpp.o\x1b[0m\n'}
+[126.246476] (-) TimerEvent: {}
+[126.347533] (-) TimerEvent: {}
+[126.448581] (-) TimerEvent: {}
+[126.549648] (-) TimerEvent: {}
+[126.586826] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/sctptransport.hpp:24\x1b[m\x1b[K,\n'}
+[126.587144] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/datachannel.hpp:18\x1b[m\x1b[K,\n'}
+[126.587247] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/peerconnection.hpp:13\x1b[m\x1b[K,\n'}
+[126.587331] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/icetransport.hpp:17\x1b[m\x1b[K,\n'}
+[126.587567] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/peerconnection.cpp:16\x1b[m\x1b[K:\n'}
+[126.587711] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:273:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksac_info\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[126.587829] (teleop) StderrLine: {'line': b'  273 |         uint8_t \x1b[01;35m\x1b[Ksac_info\x1b[m\x1b[K[]; /* not available yet */\n'}
+[126.587908] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[126.588231] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:319:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksre_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[126.588456] (teleop) StderrLine: {'line': b'  319 |         uint8_t \x1b[01;35m\x1b[Ksre_data\x1b[m\x1b[K[];\n'}
+[126.588630] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[126.589155] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:383:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kstrreset_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[126.589446] (teleop) StderrLine: {'line': b'  383 |         uint16_t \x1b[01;35m\x1b[Kstrreset_stream_list\x1b[m\x1b[K[];\n'}
+[126.589652] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[126.590103] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:433:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kssfe_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[126.590364] (teleop) StderrLine: {'line': b'  433 |         uint8_t  \x1b[01;35m\x1b[Kssfe_data\x1b[m\x1b[K[];\n'}
+[126.590572] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[126.591421] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:666:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksrs_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[126.591774] (teleop) StderrLine: {'line': b'  666 |         uint16_t \x1b[01;35m\x1b[Ksrs_stream_list\x1b[m\x1b[K[];   /* list if strrst_num_streams is not 0 */\n'}
+[126.592072] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[126.592890] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:677:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kshmac_idents\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[126.595142] (teleop) StderrLine: {'line': b'  677 |         uint16_t \x1b[01;35m\x1b[Kshmac_idents\x1b[m\x1b[K[];\n'}
+[126.595557] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[126.598985] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:746:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgauth_chunks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[126.599462] (teleop) StderrLine: {'line': b'  746 |         uint8_t  \x1b[01;35m\x1b[Kgauth_chunks\x1b[m\x1b[K[];\n'}
+[126.599793] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[126.600228] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:751:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgaids_assoc_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[126.600536] (teleop) StderrLine: {'line': b'  751 |         sctp_assoc_t \x1b[01;35m\x1b[Kgaids_assoc_id\x1b[m\x1b[K[];\n'}
+[126.600825] (teleop) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[126.601353] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:820:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksca_key\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[126.601637] (teleop) StderrLine: {'line': b'  820 |         uint8_t  \x1b[01;35m\x1b[Ksca_key\x1b[m\x1b[K[];\n'}
+[126.601886] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[126.649791] (-) TimerEvent: {}
+[126.750355] (-) TimerEvent: {}
+[126.850874] (-) TimerEvent: {}
+[126.951365] (-) TimerEvent: {}
+[127.052090] (-) TimerEvent: {}
+[127.153513] (-) TimerEvent: {}
+[127.254639] (-) TimerEvent: {}
+[127.355700] (-) TimerEvent: {}
+[127.408179] (teleop) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/rtppacketizationconfig.cpp.o\x1b[0m\n'}
+[127.444696] (teleop) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/rtcpsrreporter.cpp.o\x1b[0m\n'}
+[127.455866] (-) TimerEvent: {}
+[127.481576] (teleop) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/rtppacketizer.cpp.o\x1b[0m\n'}
+[127.521755] (teleop) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/h264rtppacketizer.cpp.o\x1b[0m\n'}
+[127.556217] (-) TimerEvent: {}
+[127.620452] (teleop) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/nalunit.cpp.o\x1b[0m\n'}
+[127.656369] (-) TimerEvent: {}
+[127.720243] (teleop) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/h265rtppacketizer.cpp.o\x1b[0m\n'}
+[127.756530] (-) TimerEvent: {}
+[127.809104] (teleop) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/av1rtppacketizer.cpp.o\x1b[0m\n'}
+[127.824256] (teleop) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/h265nalunit.cpp.o\x1b[0m\n'}
+[127.856687] (-) TimerEvent: {}
+[127.867324] (teleop) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/rtcpnackresponder.cpp.o\x1b[0m\n'}
+[127.888030] (teleop) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/rtp.cpp.o\x1b[0m\n'}
+[127.907733] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/sctptransport.hpp:24\x1b[m\x1b[K,\n'}
+[127.908246] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/peerconnection.hpp:18\x1b[m\x1b[K,\n'}
+[127.908607] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/datachannel.hpp:15\x1b[m\x1b[K,\n'}
+[127.908932] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/datachannel.cpp:13\x1b[m\x1b[K:\n'}
+[127.909268] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:273:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksac_info\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[127.909537] (teleop) StderrLine: {'line': b'  273 |         uint8_t \x1b[01;35m\x1b[Ksac_info\x1b[m\x1b[K[]; /* not available yet */\n'}
+[127.909765] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[127.910270] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:319:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksre_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[127.910568] (teleop) StderrLine: {'line': b'  319 |         uint8_t \x1b[01;35m\x1b[Ksre_data\x1b[m\x1b[K[];\n'}
+[127.910795] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[127.911326] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:383:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kstrreset_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[127.911608] (teleop) StderrLine: {'line': b'  383 |         uint16_t \x1b[01;35m\x1b[Kstrreset_stream_list\x1b[m\x1b[K[];\n'}
+[127.911810] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[127.912242] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:433:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kssfe_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[127.912486] (teleop) StderrLine: {'line': b'  433 |         uint8_t  \x1b[01;35m\x1b[Kssfe_data\x1b[m\x1b[K[];\n'}
+[127.912680] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[127.913418] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:666:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksrs_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[127.913720] (teleop) StderrLine: {'line': b'  666 |         uint16_t \x1b[01;35m\x1b[Ksrs_stream_list\x1b[m\x1b[K[];   /* list if strrst_num_streams is not 0 */\n'}
+[127.913944] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[127.914398] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:677:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kshmac_idents\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[127.914682] (teleop) StderrLine: {'line': b'  677 |         uint16_t \x1b[01;35m\x1b[Kshmac_idents\x1b[m\x1b[K[];\n'}
+[127.914899] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[127.916099] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:746:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgauth_chunks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[127.916581] (teleop) StderrLine: {'line': b'  746 |         uint8_t  \x1b[01;35m\x1b[Kgauth_chunks\x1b[m\x1b[K[];\n'}
+[127.916929] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[127.917392] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:751:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgaids_assoc_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[127.917781] (teleop) StderrLine: {'line': b'  751 |         sctp_assoc_t \x1b[01;35m\x1b[Kgaids_assoc_id\x1b[m\x1b[K[];\n'}
+[127.918050] (teleop) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[127.918597] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:820:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksca_key\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[127.918873] (teleop) StderrLine: {'line': b'  820 |         uint8_t  \x1b[01;35m\x1b[Ksca_key\x1b[m\x1b[K[];\n'}
+[127.919088] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[127.927871] (teleop) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/capi.cpp.o\x1b[0m\n'}
+[127.956846] (-) TimerEvent: {}
+[127.986203] (teleop) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/plihandler.cpp.o\x1b[0m\n'}
+[128.057017] (-) TimerEvent: {}
+[128.157758] (-) TimerEvent: {}
+[128.260257] (-) TimerEvent: {}
+[128.327924] (teleop) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/certificate.cpp.o\x1b[0m\n'}
+[128.340697] (teleop) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/channel.cpp.o\x1b[0m\n'}
+[128.360556] (-) TimerEvent: {}
+[128.461564] (-) TimerEvent: {}
+[128.562536] (-) TimerEvent: {}
+[128.663521] (-) TimerEvent: {}
+[128.718700] (teleop) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/datachannel.cpp.o\x1b[0m\n'}
+[128.763826] (-) TimerEvent: {}
+[128.864853] (-) TimerEvent: {}
+[128.965779] (-) TimerEvent: {}
+[129.066748] (-) TimerEvent: {}
+[129.167732] (-) TimerEvent: {}
+[129.268730] (-) TimerEvent: {}
+[129.269428] (teleop) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/dtlssrtptransport.cpp.o\x1b[0m\n'}
+[129.368867] (-) TimerEvent: {}
+[129.392601] (teleop) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/dtlstransport.cpp.o\x1b[0m\n'}
+[129.469033] (-) TimerEvent: {}
+[129.569524] (-) TimerEvent: {}
+[129.670014] (-) TimerEvent: {}
+[129.770517] (-) TimerEvent: {}
+[129.871008] (-) TimerEvent: {}
+[129.972081] (-) TimerEvent: {}
+[130.069501] (teleop) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/icetransport.cpp.o\x1b[0m\n'}
+[130.072218] (-) TimerEvent: {}
+[130.173291] (-) TimerEvent: {}
+[130.274402] (-) TimerEvent: {}
+[130.375498] (-) TimerEvent: {}
+[130.476568] (-) TimerEvent: {}
+[130.481323] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/sctptransport.hpp:24\x1b[m\x1b[K,\n'}
+[130.482736] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/peerconnection.hpp:18\x1b[m\x1b[K,\n'}
+[130.482846] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/datachannel.hpp:15\x1b[m\x1b[K,\n'}
+[130.482927] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/datachannel.cpp:9\x1b[m\x1b[K:\n'}
+[130.483002] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:273:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksac_info\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.483122] (teleop) StderrLine: {'line': b'  273 |         uint8_t \x1b[01;35m\x1b[Ksac_info\x1b[m\x1b[K[]; /* not available yet */\n'}
+[130.483199] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[130.483272] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:319:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksre_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.483351] (teleop) StderrLine: {'line': b'  319 |         uint8_t \x1b[01;35m\x1b[Ksre_data\x1b[m\x1b[K[];\n'}
+[130.483423] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[130.483493] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:383:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kstrreset_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.483589] (teleop) StderrLine: {'line': b'  383 |         uint16_t \x1b[01;35m\x1b[Kstrreset_stream_list\x1b[m\x1b[K[];\n'}
+[130.483664] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[130.483734] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:433:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kssfe_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.483810] (teleop) StderrLine: {'line': b'  433 |         uint8_t  \x1b[01;35m\x1b[Kssfe_data\x1b[m\x1b[K[];\n'}
+[130.483880] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[130.483949] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:666:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksrs_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.484025] (teleop) StderrLine: {'line': b'  666 |         uint16_t \x1b[01;35m\x1b[Ksrs_stream_list\x1b[m\x1b[K[];   /* list if strrst_num_streams is not 0 */\n'}
+[130.484097] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[130.484205] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:677:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kshmac_idents\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.484285] (teleop) StderrLine: {'line': b'  677 |         uint16_t \x1b[01;35m\x1b[Kshmac_idents\x1b[m\x1b[K[];\n'}
+[130.484355] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[130.484425] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:746:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgauth_chunks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.484516] (teleop) StderrLine: {'line': b'  746 |         uint8_t  \x1b[01;35m\x1b[Kgauth_chunks\x1b[m\x1b[K[];\n'}
+[130.484587] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[130.484656] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:751:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgaids_assoc_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.484733] (teleop) StderrLine: {'line': b'  751 |         sctp_assoc_t \x1b[01;35m\x1b[Kgaids_assoc_id\x1b[m\x1b[K[];\n'}
+[130.484804] (teleop) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[130.484874] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:820:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksca_key\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.484947] (teleop) StderrLine: {'line': b'  820 |         uint8_t  \x1b[01;35m\x1b[Ksca_key\x1b[m\x1b[K[];\n'}
+[130.485017] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[130.565949] (teleop) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/init.cpp.o\x1b[0m\n'}
+[130.576749] (-) TimerEvent: {}
+[130.677937] (-) TimerEvent: {}
+[130.778993] (-) TimerEvent: {}
+[130.880103] (-) TimerEvent: {}
+[130.935534] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/sctptransport.hpp:24\x1b[m\x1b[K,\n'}
+[130.935957] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/datachannel.hpp:18\x1b[m\x1b[K,\n'}
+[130.936290] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/peerconnection.hpp:13\x1b[m\x1b[K,\n'}
+[130.936418] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/icetransport.hpp:17\x1b[m\x1b[K,\n'}
+[130.936500] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/dtlstransport.cpp:11\x1b[m\x1b[K:\n'}
+[130.936575] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:273:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksac_info\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.936810] (teleop) StderrLine: {'line': b'  273 |         uint8_t \x1b[01;35m\x1b[Ksac_info\x1b[m\x1b[K[]; /* not available yet */\n'}
+[130.936980] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[130.937156] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:319:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksre_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.937319] (teleop) StderrLine: {'line': b'  319 |         uint8_t \x1b[01;35m\x1b[Ksre_data\x1b[m\x1b[K[];\n'}
+[130.937434] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[130.937542] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:383:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kstrreset_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.937628] (teleop) StderrLine: {'line': b'  383 |         uint16_t \x1b[01;35m\x1b[Kstrreset_stream_list\x1b[m\x1b[K[];\n'}
+[130.937704] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[130.937780] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:433:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kssfe_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.937868] (teleop) StderrLine: {'line': b'  433 |         uint8_t  \x1b[01;35m\x1b[Kssfe_data\x1b[m\x1b[K[];\n'}
+[130.937949] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[130.938030] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:666:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksrs_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.938115] (teleop) StderrLine: {'line': b'  666 |         uint16_t \x1b[01;35m\x1b[Ksrs_stream_list\x1b[m\x1b[K[];   /* list if strrst_num_streams is not 0 */\n'}
+[130.938198] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[130.938279] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:677:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kshmac_idents\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.938365] (teleop) StderrLine: {'line': b'  677 |         uint16_t \x1b[01;35m\x1b[Kshmac_idents\x1b[m\x1b[K[];\n'}
+[130.938448] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[130.938530] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:746:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgauth_chunks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.938615] (teleop) StderrLine: {'line': b'  746 |         uint8_t  \x1b[01;35m\x1b[Kgauth_chunks\x1b[m\x1b[K[];\n'}
+[130.938696] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[130.938776] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:751:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgaids_assoc_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.939035] (teleop) StderrLine: {'line': b'  751 |         sctp_assoc_t \x1b[01;35m\x1b[Kgaids_assoc_id\x1b[m\x1b[K[];\n'}
+[130.939130] (teleop) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[130.939209] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:820:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksca_key\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[130.939321] (teleop) StderrLine: {'line': b'  820 |         uint8_t  \x1b[01;35m\x1b[Ksca_key\x1b[m\x1b[K[];\n'}
+[130.939400] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[130.980270] (-) TimerEvent: {}
+[131.081369] (-) TimerEvent: {}
+[131.182430] (-) TimerEvent: {}
+[131.283499] (-) TimerEvent: {}
+[131.384606] (-) TimerEvent: {}
+[131.485749] (-) TimerEvent: {}
+[131.586799] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/sctptransport.hpp:24\x1b[m\x1b[K,\n'}
+[131.587128] (-) TimerEvent: {}
+[131.588057] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/datachannel.hpp:18\x1b[m\x1b[K,\n'}
+[131.588318] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/peerconnection.hpp:13\x1b[m\x1b[K,\n'}
+[131.588411] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/icetransport.hpp:17\x1b[m\x1b[K,\n'}
+[131.588510] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/icetransport.cpp:9\x1b[m\x1b[K:\n'}
+[131.588588] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:273:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksac_info\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[131.588685] (teleop) StderrLine: {'line': b'  273 |         uint8_t \x1b[01;35m\x1b[Ksac_info\x1b[m\x1b[K[]; /* not available yet */\n'}
+[131.588761] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[131.588833] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:319:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksre_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[131.588909] (teleop) StderrLine: {'line': b'  319 |         uint8_t \x1b[01;35m\x1b[Ksre_data\x1b[m\x1b[K[];\n'}
+[131.588981] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[131.589051] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:383:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kstrreset_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[131.589147] (teleop) StderrLine: {'line': b'  383 |         uint16_t \x1b[01;35m\x1b[Kstrreset_stream_list\x1b[m\x1b[K[];\n'}
+[131.589221] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[131.589292] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:433:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kssfe_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[131.589376] (teleop) StderrLine: {'line': b'  433 |         uint8_t  \x1b[01;35m\x1b[Kssfe_data\x1b[m\x1b[K[];\n'}
+[131.589448] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[131.589519] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:666:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksrs_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[131.589595] (teleop) StderrLine: {'line': b'  666 |         uint16_t \x1b[01;35m\x1b[Ksrs_stream_list\x1b[m\x1b[K[];   /* list if strrst_num_streams is not 0 */\n'}
+[131.589668] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[131.589739] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:677:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kshmac_idents\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[131.589813] (teleop) StderrLine: {'line': b'  677 |         uint16_t \x1b[01;35m\x1b[Kshmac_idents\x1b[m\x1b[K[];\n'}
+[131.589883] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[131.589953] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:746:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgauth_chunks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[131.590039] (teleop) StderrLine: {'line': b'  746 |         uint8_t  \x1b[01;35m\x1b[Kgauth_chunks\x1b[m\x1b[K[];\n'}
+[131.590123] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[131.590195] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:751:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgaids_assoc_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[131.590279] (teleop) StderrLine: {'line': b'  751 |         sctp_assoc_t \x1b[01;35m\x1b[Kgaids_assoc_id\x1b[m\x1b[K[];\n'}
+[131.590350] (teleop) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[131.590421] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:820:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksca_key\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[131.590515] (teleop) StderrLine: {'line': b'  820 |         uint8_t  \x1b[01;35m\x1b[Ksca_key\x1b[m\x1b[K[];\n'}
+[131.590587] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[131.687486] (-) TimerEvent: {}
+[131.729683] (teleop) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/peerconnection.cpp.o\x1b[0m\n'}
+[131.787706] (-) TimerEvent: {}
+[131.889657] (-) TimerEvent: {}
+[131.992287] (-) TimerEvent: {}
+[132.095040] (-) TimerEvent: {}
+[132.197572] (-) TimerEvent: {}
+[132.200995] (teleop) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/logcounter.cpp.o\x1b[0m\n'}
+[132.297826] (-) TimerEvent: {}
+[132.357018] (teleop) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/sctptransport.cpp.o\x1b[0m\n'}
+[132.398103] (-) TimerEvent: {}
+[132.500912] (-) TimerEvent: {}
+[132.603173] (-) TimerEvent: {}
+[132.640527] (teleop) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/threadpool.cpp.o\x1b[0m\n'}
+[132.703553] (-) TimerEvent: {}
+[132.806745] (-) TimerEvent: {}
+[132.902597] (teleop) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/tls.cpp.o\x1b[0m\n'}
+[132.906971] (-) TimerEvent: {}
+[133.009464] (-) TimerEvent: {}
+[133.051442] (teleop) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/track.cpp.o\x1b[0m\n'}
+[133.109741] (-) TimerEvent: {}
+[133.212037] (-) TimerEvent: {}
+[133.313135] (-) TimerEvent: {}
+[133.414277] (-) TimerEvent: {}
+[133.427150] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/sctptransport.hpp:24\x1b[m\x1b[K,\n'}
+[133.427508] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/datachannel.hpp:18\x1b[m\x1b[K,\n'}
+[133.427632] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/peerconnection.hpp:13\x1b[m\x1b[K,\n'}
+[133.427714] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/icetransport.hpp:17\x1b[m\x1b[K,\n'}
+[133.427790] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/init.cpp:12\x1b[m\x1b[K:\n'}
+[133.427867] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:273:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksac_info\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.427955] (teleop) StderrLine: {'line': b'  273 |         uint8_t \x1b[01;35m\x1b[Ksac_info\x1b[m\x1b[K[]; /* not available yet */\n'}
+[133.428029] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[133.428528] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:319:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksre_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.428790] (teleop) StderrLine: {'line': b'  319 |         uint8_t \x1b[01;35m\x1b[Ksre_data\x1b[m\x1b[K[];\n'}
+[133.428878] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[133.429390] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:383:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kstrreset_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.429604] (teleop) StderrLine: {'line': b'  383 |         uint16_t \x1b[01;35m\x1b[Kstrreset_stream_list\x1b[m\x1b[K[];\n'}
+[133.429691] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[133.430143] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:433:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kssfe_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.430413] (teleop) StderrLine: {'line': b'  433 |         uint8_t  \x1b[01;35m\x1b[Kssfe_data\x1b[m\x1b[K[];\n'}
+[133.430527] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[133.432323] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:666:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksrs_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.432639] (teleop) StderrLine: {'line': b'  666 |         uint16_t \x1b[01;35m\x1b[Ksrs_stream_list\x1b[m\x1b[K[];   /* list if strrst_num_streams is not 0 */\n'}
+[133.432733] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[133.433153] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:677:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kshmac_idents\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.433400] (teleop) StderrLine: {'line': b'  677 |         uint16_t \x1b[01;35m\x1b[Kshmac_idents\x1b[m\x1b[K[];\n'}
+[133.433500] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[133.434035] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:746:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgauth_chunks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.434291] (teleop) StderrLine: {'line': b'  746 |         uint8_t  \x1b[01;35m\x1b[Kgauth_chunks\x1b[m\x1b[K[];\n'}
+[133.434377] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[133.434451] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:751:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgaids_assoc_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.434557] (teleop) StderrLine: {'line': b'  751 |         sctp_assoc_t \x1b[01;35m\x1b[Kgaids_assoc_id\x1b[m\x1b[K[];\n'}
+[133.434634] (teleop) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[133.435125] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:820:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksca_key\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.435313] (teleop) StderrLine: {'line': b'  820 |         uint8_t  \x1b[01;35m\x1b[Ksca_key\x1b[m\x1b[K[];\n'}
+[133.435397] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[133.514374] (-) TimerEvent: {}
+[133.614829] (-) TimerEvent: {}
+[133.715318] (-) TimerEvent: {}
+[133.815836] (-) TimerEvent: {}
+[133.912294] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/sctptransport.hpp:24\x1b[m\x1b[K,\n'}
+[133.912600] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/datachannel.hpp:18\x1b[m\x1b[K,\n'}
+[133.912696] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/peerconnection.hpp:13\x1b[m\x1b[K,\n'}
+[133.912775] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/peerconnection.cpp:10\x1b[m\x1b[K:\n'}
+[133.912849] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:273:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksac_info\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.912932] (teleop) StderrLine: {'line': b'  273 |         uint8_t \x1b[01;35m\x1b[Ksac_info\x1b[m\x1b[K[]; /* not available yet */\n'}
+[133.913005] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[133.913075] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:319:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksre_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.913176] (teleop) StderrLine: {'line': b'  319 |         uint8_t \x1b[01;35m\x1b[Ksre_data\x1b[m\x1b[K[];\n'}
+[133.913253] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[133.913537] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:383:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kstrreset_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.913671] (teleop) StderrLine: {'line': b'  383 |         uint16_t \x1b[01;35m\x1b[Kstrreset_stream_list\x1b[m\x1b[K[];\n'}
+[133.913749] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[133.913844] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:433:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kssfe_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.913922] (teleop) StderrLine: {'line': b'  433 |         uint8_t  \x1b[01;35m\x1b[Kssfe_data\x1b[m\x1b[K[];\n'}
+[133.913994] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[133.914065] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:666:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksrs_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.914186] (teleop) StderrLine: {'line': b'  666 |         uint16_t \x1b[01;35m\x1b[Ksrs_stream_list\x1b[m\x1b[K[];   /* list if strrst_num_streams is not 0 */\n'}
+[133.914278] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[133.914354] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:677:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kshmac_idents\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.914431] (teleop) StderrLine: {'line': b'  677 |         uint16_t \x1b[01;35m\x1b[Kshmac_idents\x1b[m\x1b[K[];\n'}
+[133.914501] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[133.914570] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:746:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgauth_chunks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.914643] (teleop) StderrLine: {'line': b'  746 |         uint8_t  \x1b[01;35m\x1b[Kgauth_chunks\x1b[m\x1b[K[];\n'}
+[133.914712] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[133.914781] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:751:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgaids_assoc_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.914854] (teleop) StderrLine: {'line': b'  751 |         sctp_assoc_t \x1b[01;35m\x1b[Kgaids_assoc_id\x1b[m\x1b[K[];\n'}
+[133.914925] (teleop) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[133.914995] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:820:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksca_key\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[133.915067] (teleop) StderrLine: {'line': b'  820 |         uint8_t  \x1b[01;35m\x1b[Ksca_key\x1b[m\x1b[K[];\n'}
+[133.915149] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[133.915961] (-) TimerEvent: {}
+[134.016379] (-) TimerEvent: {}
+[134.117425] (-) TimerEvent: {}
+[134.197913] (teleop) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/utils.cpp.o\x1b[0m\n'}
+[134.217585] (-) TimerEvent: {}
+[134.318593] (-) TimerEvent: {}
+[134.419735] (-) TimerEvent: {}
+[134.520976] (-) TimerEvent: {}
+[134.621564] (-) TimerEvent: {}
+[134.722669] (-) TimerEvent: {}
+[134.823901] (-) TimerEvent: {}
+[134.924433] (-) TimerEvent: {}
+[135.024971] (-) TimerEvent: {}
+[135.032679] (teleop) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/processor.cpp.o\x1b[0m\n'}
+[135.125133] (-) TimerEvent: {}
+[135.225600] (-) TimerEvent: {}
+[135.326065] (-) TimerEvent: {}
+[135.426557] (-) TimerEvent: {}
+[135.527062] (-) TimerEvent: {}
+[135.629778] (-) TimerEvent: {}
+[135.730255] (-) TimerEvent: {}
+[135.830734] (-) TimerEvent: {}
+[135.931226] (-) TimerEvent: {}
+[135.968338] (teleop) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/sha.cpp.o\x1b[0m\n'}
+[136.031511] (-) TimerEvent: {}
+[136.132656] (-) TimerEvent: {}
+[136.152017] (teleop) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/pollinterrupter.cpp.o\x1b[0m\n'}
+[136.232916] (-) TimerEvent: {}
+[136.334098] (-) TimerEvent: {}
+[136.422479] (teleop) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/pollservice.cpp.o\x1b[0m\n'}
+[136.431324] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/sctptransport.hpp:24\x1b[m\x1b[K,\n'}
+[136.432438] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/sctptransport.cpp:9\x1b[m\x1b[K:\n'}
+[136.433316] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:273:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksac_info\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[136.434213] (-) TimerEvent: {}
+[136.434986] (teleop) StderrLine: {'line': b'  273 |         uint8_t \x1b[01;35m\x1b[Ksac_info\x1b[m\x1b[K[]; /* not available yet */\n'}
+[136.435663] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[136.436233] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:319:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksre_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[136.436901] (teleop) StderrLine: {'line': b'  319 |         uint8_t \x1b[01;35m\x1b[Ksre_data\x1b[m\x1b[K[];\n'}
+[136.437439] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[136.438015] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:383:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kstrreset_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[136.438545] (teleop) StderrLine: {'line': b'  383 |         uint16_t \x1b[01;35m\x1b[Kstrreset_stream_list\x1b[m\x1b[K[];\n'}
+[136.439122] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[136.439661] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:433:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kssfe_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[136.440267] (teleop) StderrLine: {'line': b'  433 |         uint8_t  \x1b[01;35m\x1b[Kssfe_data\x1b[m\x1b[K[];\n'}
+[136.440997] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[136.442231] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:666:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksrs_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[136.442904] (teleop) StderrLine: {'line': b'  666 |         uint16_t \x1b[01;35m\x1b[Ksrs_stream_list\x1b[m\x1b[K[];   /* list if strrst_num_streams is not 0 */\n'}
+[136.443492] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[136.444052] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:677:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kshmac_idents\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[136.444684] (teleop) StderrLine: {'line': b'  677 |         uint16_t \x1b[01;35m\x1b[Kshmac_idents\x1b[m\x1b[K[];\n'}
+[136.445256] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[136.445879] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:746:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgauth_chunks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[136.446502] (teleop) StderrLine: {'line': b'  746 |         uint8_t  \x1b[01;35m\x1b[Kgauth_chunks\x1b[m\x1b[K[];\n'}
+[136.447277] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[136.447909] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:751:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgaids_assoc_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[136.448514] (teleop) StderrLine: {'line': b'  751 |         sctp_assoc_t \x1b[01;35m\x1b[Kgaids_assoc_id\x1b[m\x1b[K[];\n'}
+[136.449041] (teleop) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[136.449559] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:820:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksca_key\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[136.450130] (teleop) StderrLine: {'line': b'  820 |         uint8_t  \x1b[01;35m\x1b[Ksca_key\x1b[m\x1b[K[];\n'}
+[136.450615] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[136.534495] (-) TimerEvent: {}
+[136.635587] (-) TimerEvent: {}
+[136.738280] (-) TimerEvent: {}
+[136.839386] (-) TimerEvent: {}
+[136.940425] (-) TimerEvent: {}
+[137.041436] (-) TimerEvent: {}
+[137.142490] (-) TimerEvent: {}
+[137.197606] (teleop) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/http.cpp.o\x1b[0m\n'}
+[137.242781] (-) TimerEvent: {}
+[137.343933] (-) TimerEvent: {}
+[137.444933] (-) TimerEvent: {}
+[137.545978] (-) TimerEvent: {}
+[137.647028] (-) TimerEvent: {}
+[137.689840] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/sctptransport.hpp:24\x1b[m\x1b[K,\n'}
+[137.690962] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/datachannel.hpp:18\x1b[m\x1b[K,\n'}
+[137.691783] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/peerconnection.hpp:13\x1b[m\x1b[K,\n'}
+[137.692269] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/src/impl/track.cpp:12\x1b[m\x1b[K:\n'}
+[137.692882] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:273:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksac_info\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[137.693601] (teleop) StderrLine: {'line': b'  273 |         uint8_t \x1b[01;35m\x1b[Ksac_info\x1b[m\x1b[K[]; /* not available yet */\n'}
+[137.694011] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[137.694449] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:319:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksre_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[137.694851] (teleop) StderrLine: {'line': b'  319 |         uint8_t \x1b[01;35m\x1b[Ksre_data\x1b[m\x1b[K[];\n'}
+[137.695601] (teleop) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[137.696189] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:383:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kstrreset_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[137.696798] (teleop) StderrLine: {'line': b'  383 |         uint16_t \x1b[01;35m\x1b[Kstrreset_stream_list\x1b[m\x1b[K[];\n'}
+[137.697572] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[137.698141] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:433:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kssfe_data\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[137.698734] (teleop) StderrLine: {'line': b'  433 |         uint8_t  \x1b[01;35m\x1b[Kssfe_data\x1b[m\x1b[K[];\n'}
+[137.699127] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[137.699500] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:666:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksrs_stream_list\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[137.699885] (teleop) StderrLine: {'line': b'  666 |         uint16_t \x1b[01;35m\x1b[Ksrs_stream_list\x1b[m\x1b[K[];   /* list if strrst_num_streams is not 0 */\n'}
+[137.700260] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[137.700624] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:677:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kshmac_idents\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[137.701110] (teleop) StderrLine: {'line': b'  677 |         uint16_t \x1b[01;35m\x1b[Kshmac_idents\x1b[m\x1b[K[];\n'}
+[137.701495] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[137.701868] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:746:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgauth_chunks\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[137.702267] (teleop) StderrLine: {'line': b'  746 |         uint8_t  \x1b[01;35m\x1b[Kgauth_chunks\x1b[m\x1b[K[];\n'}
+[137.702655] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[137.703051] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:751:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Kgaids_assoc_id\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[137.703472] (teleop) StderrLine: {'line': b'  751 |         sctp_assoc_t \x1b[01;35m\x1b[Kgaids_assoc_id\x1b[m\x1b[K[];\n'}
+[137.703880] (teleop) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[137.711465] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp/usrsctplib/usrsctp.h:820:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids flexible array member \xe2\x80\x98\x1b[01m\x1b[Ksca_key\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[137.712092] (teleop) StderrLine: {'line': b'  820 |         uint8_t  \x1b[01;35m\x1b[Ksca_key\x1b[m\x1b[K[];\n'}
+[137.712528] (teleop) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[137.747320] (-) TimerEvent: {}
+[137.848382] (-) TimerEvent: {}
+[137.898965] (teleop) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/httpproxytransport.cpp.o\x1b[0m\n'}
+[137.948671] (-) TimerEvent: {}
+[137.998691] (teleop) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/tcpserver.cpp.o\x1b[0m\n'}
+[138.048933] (-) TimerEvent: {}
+[138.149954] (-) TimerEvent: {}
+[138.251024] (-) TimerEvent: {}
+[138.352085] (-) TimerEvent: {}
+[138.409258] (teleop) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/tcptransport.cpp.o\x1b[0m\n'}
+[138.452210] (-) TimerEvent: {}
+[138.463764] (teleop) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/tlstransport.cpp.o\x1b[0m\n'}
+[138.552373] (-) TimerEvent: {}
+[138.652852] (-) TimerEvent: {}
+[138.753547] (teleop) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/transport.cpp.o\x1b[0m\n'}
+[138.754390] (-) TimerEvent: {}
+[138.856621] (-) TimerEvent: {}
+[138.958894] (-) TimerEvent: {}
+[139.061383] (-) TimerEvent: {}
+[139.164107] (-) TimerEvent: {}
+[139.266924] (-) TimerEvent: {}
+[139.369921] (-) TimerEvent: {}
+[139.472654] (-) TimerEvent: {}
+[139.575420] (-) TimerEvent: {}
+[139.596706] (teleop) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/verifiedtlstransport.cpp.o\x1b[0m\n'}
+[139.675712] (-) TimerEvent: {}
+[139.778209] (-) TimerEvent: {}
+[139.884809] (-) TimerEvent: {}
+[139.986093] (-) TimerEvent: {}
+[140.087165] (-) TimerEvent: {}
+[140.189503] (-) TimerEvent: {}
+[140.291039] (-) TimerEvent: {}
+[140.392379] (-) TimerEvent: {}
+[140.494431] (-) TimerEvent: {}
+[140.595679] (-) TimerEvent: {}
+[140.697692] (teleop) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/websocket.cpp.o\x1b[0m\n'}
+[140.698608] (-) TimerEvent: {}
+[140.801061] (-) TimerEvent: {}
+[140.903404] (-) TimerEvent: {}
+[140.982742] (teleop) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/websocketserver.cpp.o\x1b[0m\n'}
+[141.003629] (-) TimerEvent: {}
+[141.106045] (-) TimerEvent: {}
+[141.207138] (-) TimerEvent: {}
+[141.294688] (teleop) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/wstransport.cpp.o\x1b[0m\n'}
+[141.307380] (-) TimerEvent: {}
+[141.408528] (-) TimerEvent: {}
+[141.509609] (-) TimerEvent: {}
+[141.610718] (-) TimerEvent: {}
+[141.711867] (-) TimerEvent: {}
+[141.821104] (-) TimerEvent: {}
+[141.922148] (-) TimerEvent: {}
+[142.023146] (-) TimerEvent: {}
+[142.124161] (-) TimerEvent: {}
+[142.142977] (teleop) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object _deps/libdatachannel-build/CMakeFiles/datachannel.dir/src/impl/wshandshake.cpp.o\x1b[0m\n'}
+[142.224396] (-) TimerEvent: {}
+[142.325502] (-) TimerEvent: {}
+[142.426527] (-) TimerEvent: {}
+[142.528938] (-) TimerEvent: {}
+[142.631360] (-) TimerEvent: {}
+[142.733574] (-) TimerEvent: {}
+[142.834702] (-) TimerEvent: {}
+[142.935611] (-) TimerEvent: {}
+[143.036641] (-) TimerEvent: {}
+[143.137694] (-) TimerEvent: {}
+[143.238667] (-) TimerEvent: {}
+[143.339710] (-) TimerEvent: {}
+[143.440713] (-) TimerEvent: {}
+[143.541955] (-) TimerEvent: {}
+[143.643026] (-) TimerEvent: {}
+[143.744053] (-) TimerEvent: {}
+[143.844969] (-) TimerEvent: {}
+[143.945825] (-) TimerEvent: {}
+[144.046671] (-) TimerEvent: {}
+[144.147668] (-) TimerEvent: {}
+[144.248525] (-) TimerEvent: {}
+[144.349525] (-) TimerEvent: {}
+[144.450465] (-) TimerEvent: {}
+[144.551417] (-) TimerEvent: {}
+[144.652435] (-) TimerEvent: {}
+[144.753330] (-) TimerEvent: {}
+[144.854296] (-) TimerEvent: {}
+[144.955138] (-) TimerEvent: {}
+[145.056045] (-) TimerEvent: {}
+[145.156907] (-) TimerEvent: {}
+[145.257764] (-) TimerEvent: {}
+[145.358549] (-) TimerEvent: {}
+[145.459444] (-) TimerEvent: {}
+[145.560429] (-) TimerEvent: {}
+[145.661297] (-) TimerEvent: {}
+[145.762051] (-) TimerEvent: {}
+[145.862897] (-) TimerEvent: {}
+[145.963697] (-) TimerEvent: {}
+[146.064594] (-) TimerEvent: {}
+[146.165420] (-) TimerEvent: {}
+[146.266286] (-) TimerEvent: {}
+[146.367104] (-) TimerEvent: {}
+[146.467965] (-) TimerEvent: {}
+[146.568721] (-) TimerEvent: {}
+[146.669531] (-) TimerEvent: {}
+[146.770285] (-) TimerEvent: {}
+[146.871153] (-) TimerEvent: {}
+[146.971968] (-) TimerEvent: {}
+[147.072804] (-) TimerEvent: {}
+[147.173635] (-) TimerEvent: {}
+[147.274499] (-) TimerEvent: {}
+[147.375315] (-) TimerEvent: {}
+[147.476157] (-) TimerEvent: {}
+[147.576973] (-) TimerEvent: {}
+[147.677828] (-) TimerEvent: {}
+[147.778661] (-) TimerEvent: {}
+[147.879483] (-) TimerEvent: {}
+[147.980318] (-) TimerEvent: {}
+[148.081153] (-) TimerEvent: {}
+[148.181952] (-) TimerEvent: {}
+[148.282777] (-) TimerEvent: {}
+[148.383743] (-) TimerEvent: {}
+[148.484923] (-) TimerEvent: {}
+[148.585822] (-) TimerEvent: {}
+[148.686719] (-) TimerEvent: {}
+[148.703868] (teleop) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library libdatachannel.so\x1b[0m\n'}
+[148.786999] (-) TimerEvent: {}
+[148.887947] (-) TimerEvent: {}
+[148.988798] (-) TimerEvent: {}
+[149.089768] (-) TimerEvent: {}
+[149.190731] (-) TimerEvent: {}
+[149.291660] (-) TimerEvent: {}
+[149.392669] (-) TimerEvent: {}
+[149.493578] (-) TimerEvent: {}
+[149.594404] (-) TimerEvent: {}
+[149.695291] (-) TimerEvent: {}
+[149.796229] (-) TimerEvent: {}
+[149.897155] (-) TimerEvent: {}
+[149.998227] (-) TimerEvent: {}
+[150.099213] (-) TimerEvent: {}
+[150.200166] (-) TimerEvent: {}
+[150.301010] (-) TimerEvent: {}
+[150.401956] (-) TimerEvent: {}
+[150.502854] (-) TimerEvent: {}
+[150.558566] (teleop) StdoutLine: {'line': b'[ 94%] Built target datachannel\n'}
+[150.591114] (teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target webrtc_lib\x1b[0m\n'}
+[150.603021] (-) TimerEvent: {}
+[150.686316] (teleop) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/webrtc_lib.dir/src/webrtc.cpp.o\x1b[0m\n'}
+[150.703251] (-) TimerEvent: {}
+[150.804081] (-) TimerEvent: {}
+[150.904958] (-) TimerEvent: {}
+[151.005847] (-) TimerEvent: {}
+[151.106713] (-) TimerEvent: {}
+[151.207634] (-) TimerEvent: {}
+[151.308510] (-) TimerEvent: {}
+[151.409398] (-) TimerEvent: {}
+[151.510277] (-) TimerEvent: {}
+[151.611127] (-) TimerEvent: {}
+[151.711909] (-) TimerEvent: {}
+[151.812695] (-) TimerEvent: {}
+[151.913535] (-) TimerEvent: {}
+[152.014456] (-) TimerEvent: {}
+[152.115312] (-) TimerEvent: {}
+[152.216097] (-) TimerEvent: {}
+[152.316930] (-) TimerEvent: {}
+[152.417814] (-) TimerEvent: {}
+[152.518698] (-) TimerEvent: {}
+[152.619597] (-) TimerEvent: {}
+[152.720456] (-) TimerEvent: {}
+[152.821353] (-) TimerEvent: {}
+[152.922238] (-) TimerEvent: {}
+[153.023130] (-) TimerEvent: {}
+[153.124019] (-) TimerEvent: {}
+[153.224925] (-) TimerEvent: {}
+[153.325806] (-) TimerEvent: {}
+[153.426700] (-) TimerEvent: {}
+[153.527533] (-) TimerEvent: {}
+[153.628411] (-) TimerEvent: {}
+[153.729277] (-) TimerEvent: {}
+[153.830167] (-) TimerEvent: {}
+[153.931057] (-) TimerEvent: {}
+[154.031936] (-) TimerEvent: {}
+[154.132808] (-) TimerEvent: {}
+[154.233681] (-) TimerEvent: {}
+[154.334574] (-) TimerEvent: {}
+[154.435456] (-) TimerEvent: {}
+[154.536336] (-) TimerEvent: {}
+[154.637224] (-) TimerEvent: {}
+[154.738194] (-) TimerEvent: {}
+[154.838924] (-) TimerEvent: {}
+[154.939344] (-) TimerEvent: {}
+[155.039756] (-) TimerEvent: {}
+[155.140168] (-) TimerEvent: {}
+[155.240579] (-) TimerEvent: {}
+[155.341012] (-) TimerEvent: {}
+[155.441431] (-) TimerEvent: {}
+[155.541841] (-) TimerEvent: {}
+[155.642244] (-) TimerEvent: {}
+[155.742654] (-) TimerEvent: {}
+[155.843071] (-) TimerEvent: {}
+[155.943482] (-) TimerEvent: {}
+[156.043895] (-) TimerEvent: {}
+[156.144329] (-) TimerEvent: {}
+[156.244746] (-) TimerEvent: {}
+[156.345161] (-) TimerEvent: {}
+[156.445570] (-) TimerEvent: {}
+[156.545991] (-) TimerEvent: {}
+[156.646406] (-) TimerEvent: {}
+[156.746817] (-) TimerEvent: {}
+[156.847226] (-) TimerEvent: {}
+[156.947650] (-) TimerEvent: {}
+[157.048054] (-) TimerEvent: {}
+[157.148465] (-) TimerEvent: {}
+[157.248876] (-) TimerEvent: {}
+[157.349290] (-) TimerEvent: {}
+[157.449705] (-) TimerEvent: {}
+[157.550119] (-) TimerEvent: {}
+[157.650562] (-) TimerEvent: {}
+[157.750987] (-) TimerEvent: {}
+[157.851405] (-) TimerEvent: {}
+[157.951824] (-) TimerEvent: {}
+[158.052237] (-) TimerEvent: {}
+[158.152649] (-) TimerEvent: {}
+[158.253063] (-) TimerEvent: {}
+[158.353486] (-) TimerEvent: {}
+[158.453898] (-) TimerEvent: {}
+[158.554322] (-) TimerEvent: {}
+[158.654731] (-) TimerEvent: {}
+[158.755141] (-) TimerEvent: {}
+[158.855548] (-) TimerEvent: {}
+[158.955958] (-) TimerEvent: {}
+[159.056359] (-) TimerEvent: {}
+[159.156773] (-) TimerEvent: {}
+[159.257187] (-) TimerEvent: {}
+[159.357620] (-) TimerEvent: {}
+[159.458046] (-) TimerEvent: {}
+[159.558451] (-) TimerEvent: {}
+[159.658853] (-) TimerEvent: {}
+[159.759265] (-) TimerEvent: {}
+[159.859698] (-) TimerEvent: {}
+[159.960116] (-) TimerEvent: {}
+[160.060532] (-) TimerEvent: {}
+[160.160915] (-) TimerEvent: {}
+[160.261295] (-) TimerEvent: {}
+[160.361745] (-) TimerEvent: {}
+[160.462390] (-) TimerEvent: {}
+[160.562940] (-) TimerEvent: {}
+[160.663316] (-) TimerEvent: {}
+[160.763703] (-) TimerEvent: {}
+[160.864085] (-) TimerEvent: {}
+[160.964489] (-) TimerEvent: {}
+[161.064876] (-) TimerEvent: {}
+[161.165277] (-) TimerEvent: {}
+[161.265657] (-) TimerEvent: {}
+[161.366049] (-) TimerEvent: {}
+[161.466440] (-) TimerEvent: {}
+[161.566829] (-) TimerEvent: {}
+[161.667223] (-) TimerEvent: {}
+[161.767622] (-) TimerEvent: {}
+[161.868013] (-) TimerEvent: {}
+[161.968407] (-) TimerEvent: {}
+[162.068799] (-) TimerEvent: {}
+[162.169195] (-) TimerEvent: {}
+[162.269594] (-) TimerEvent: {}
+[162.369981] (-) TimerEvent: {}
+[162.470374] (-) TimerEvent: {}
+[162.570761] (-) TimerEvent: {}
+[162.671158] (-) TimerEvent: {}
+[162.771583] (-) TimerEvent: {}
+[162.871993] (-) TimerEvent: {}
+[162.972412] (-) TimerEvent: {}
+[163.072828] (-) TimerEvent: {}
+[163.173230] (-) TimerEvent: {}
+[163.273650] (-) TimerEvent: {}
+[163.374066] (-) TimerEvent: {}
+[163.474491] (-) TimerEvent: {}
+[163.574875] (-) TimerEvent: {}
+[163.675250] (-) TimerEvent: {}
+[163.775639] (-) TimerEvent: {}
+[163.876028] (-) TimerEvent: {}
+[163.976417] (-) TimerEvent: {}
+[164.076802] (-) TimerEvent: {}
+[164.177190] (-) TimerEvent: {}
+[164.277578] (-) TimerEvent: {}
+[164.377963] (-) TimerEvent: {}
+[164.478354] (-) TimerEvent: {}
+[164.578735] (-) TimerEvent: {}
+[164.679128] (-) TimerEvent: {}
+[164.779516] (-) TimerEvent: {}
+[164.879918] (-) TimerEvent: {}
+[164.980307] (-) TimerEvent: {}
+[165.080704] (-) TimerEvent: {}
+[165.181100] (-) TimerEvent: {}
+[165.281489] (-) TimerEvent: {}
+[165.381877] (-) TimerEvent: {}
+[165.482271] (-) TimerEvent: {}
+[165.582657] (-) TimerEvent: {}
+[165.683045] (-) TimerEvent: {}
+[165.783427] (-) TimerEvent: {}
+[165.883806] (-) TimerEvent: {}
+[165.984199] (-) TimerEvent: {}
+[166.084597] (-) TimerEvent: {}
+[166.184992] (-) TimerEvent: {}
+[166.285404] (-) TimerEvent: {}
+[166.385793] (-) TimerEvent: {}
+[166.486262] (-) TimerEvent: {}
+[166.586932] (-) TimerEvent: {}
+[166.687610] (-) TimerEvent: {}
+[166.788284] (-) TimerEvent: {}
+[166.888954] (-) TimerEvent: {}
+[166.989606] (-) TimerEvent: {}
+[167.090182] (-) TimerEvent: {}
+[167.190582] (-) TimerEvent: {}
+[167.290997] (-) TimerEvent: {}
+[167.391474] (-) TimerEvent: {}
+[167.492180] (-) TimerEvent: {}
+[167.592873] (-) TimerEvent: {}
+[167.693290] (-) TimerEvent: {}
+[167.793696] (-) TimerEvent: {}
+[167.894082] (-) TimerEvent: {}
+[167.918325] (teleop) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library libwebrtc_lib.so\x1b[0m\n'}
+[167.994207] (-) TimerEvent: {}
+[168.094622] (-) TimerEvent: {}
+[168.195058] (-) TimerEvent: {}
+[168.295507] (-) TimerEvent: {}
+[168.395952] (-) TimerEvent: {}
+[168.496394] (-) TimerEvent: {}
+[168.596844] (-) TimerEvent: {}
+[168.697314] (-) TimerEvent: {}
+[168.797746] (-) TimerEvent: {}
+[168.898137] (-) TimerEvent: {}
+[168.998530] (-) TimerEvent: {}
+[169.098930] (-) TimerEvent: {}
+[169.199341] (-) TimerEvent: {}
+[169.299728] (-) TimerEvent: {}
+[169.357477] (teleop) StdoutLine: {'line': b'[ 98%] Built target webrtc_lib\n'}
+[169.393396] (teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_subscriber\x1b[0m\n'}
+[169.399785] (-) TimerEvent: {}
+[169.480374] (teleop) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o\x1b[0m\n'}
+[169.499878] (-) TimerEvent: {}
+[169.600229] (-) TimerEvent: {}
+[169.700625] (-) TimerEvent: {}
+[169.801049] (-) TimerEvent: {}
+[169.901446] (-) TimerEvent: {}
+[170.001853] (-) TimerEvent: {}
+[170.102265] (-) TimerEvent: {}
+[170.202693] (-) TimerEvent: {}
+[170.303102] (-) TimerEvent: {}
+[170.403519] (-) TimerEvent: {}
+[170.503925] (-) TimerEvent: {}
+[170.604347] (-) TimerEvent: {}
+[170.704759] (-) TimerEvent: {}
+[170.805178] (-) TimerEvent: {}
+[170.905578] (-) TimerEvent: {}
+[171.005978] (-) TimerEvent: {}
+[171.106373] (-) TimerEvent: {}
+[171.206790] (-) TimerEvent: {}
+[171.307214] (-) TimerEvent: {}
+[171.407629] (-) TimerEvent: {}
+[171.508029] (-) TimerEvent: {}
+[171.608435] (-) TimerEvent: {}
+[171.708838] (-) TimerEvent: {}
+[171.809245] (-) TimerEvent: {}
+[171.909646] (-) TimerEvent: {}
+[172.010054] (-) TimerEvent: {}
+[172.110454] (-) TimerEvent: {}
+[172.210869] (-) TimerEvent: {}
+[172.311274] (-) TimerEvent: {}
+[172.411689] (-) TimerEvent: {}
+[172.512091] (-) TimerEvent: {}
+[172.612499] (-) TimerEvent: {}
+[172.712911] (-) TimerEvent: {}
+[172.813322] (-) TimerEvent: {}
+[172.913733] (-) TimerEvent: {}
+[173.014152] (-) TimerEvent: {}
+[173.114564] (-) TimerEvent: {}
+[173.214974] (-) TimerEvent: {}
+[173.315385] (-) TimerEvent: {}
+[173.415794] (-) TimerEvent: {}
+[173.516208] (-) TimerEvent: {}
+[173.616622] (-) TimerEvent: {}
+[173.717033] (-) TimerEvent: {}
+[173.817461] (-) TimerEvent: {}
+[173.917873] (-) TimerEvent: {}
+[174.018279] (-) TimerEvent: {}
+[174.118690] (-) TimerEvent: {}
+[174.219100] (-) TimerEvent: {}
+[174.319507] (-) TimerEvent: {}
+[174.419921] (-) TimerEvent: {}
+[174.520333] (-) TimerEvent: {}
+[174.620745] (-) TimerEvent: {}
+[174.721172] (-) TimerEvent: {}
+[174.821579] (-) TimerEvent: {}
+[174.921989] (-) TimerEvent: {}
+[175.022391] (-) TimerEvent: {}
+[175.122808] (-) TimerEvent: {}
+[175.223229] (-) TimerEvent: {}
+[175.323653] (-) TimerEvent: {}
+[175.424079] (-) TimerEvent: {}
+[175.524508] (-) TimerEvent: {}
+[175.624914] (-) TimerEvent: {}
+[175.725325] (-) TimerEvent: {}
+[175.825731] (-) TimerEvent: {}
+[175.926143] (-) TimerEvent: {}
+[176.026552] (-) TimerEvent: {}
+[176.126959] (-) TimerEvent: {}
+[176.227365] (-) TimerEvent: {}
+[176.327784] (-) TimerEvent: {}
+[176.428195] (-) TimerEvent: {}
+[176.528603] (-) TimerEvent: {}
+[176.629016] (-) TimerEvent: {}
+[176.729421] (-) TimerEvent: {}
+[176.829839] (-) TimerEvent: {}
+[176.930250] (-) TimerEvent: {}
+[177.030656] (-) TimerEvent: {}
+[177.131085] (-) TimerEvent: {}
+[177.231494] (-) TimerEvent: {}
+[177.331903] (-) TimerEvent: {}
+[177.432309] (-) TimerEvent: {}
+[177.532713] (-) TimerEvent: {}
+[177.633111] (-) TimerEvent: {}
+[177.733517] (-) TimerEvent: {}
+[177.833928] (-) TimerEvent: {}
+[177.934347] (-) TimerEvent: {}
+[178.034766] (-) TimerEvent: {}
+[178.135172] (-) TimerEvent: {}
+[178.235573] (-) TimerEvent: {}
+[178.335981] (-) TimerEvent: {}
+[178.436393] (-) TimerEvent: {}
+[178.536794] (-) TimerEvent: {}
+[178.637202] (-) TimerEvent: {}
+[178.737626] (-) TimerEvent: {}
+[178.838043] (-) TimerEvent: {}
+[178.938452] (-) TimerEvent: {}
+[179.038855] (-) TimerEvent: {}
+[179.139262] (-) TimerEvent: {}
+[179.239664] (-) TimerEvent: {}
+[179.340076] (-) TimerEvent: {}
+[179.440484] (-) TimerEvent: {}
+[179.540880] (-) TimerEvent: {}
+[179.641286] (-) TimerEvent: {}
+[179.741695] (-) TimerEvent: {}
+[179.842110] (-) TimerEvent: {}
+[179.942529] (-) TimerEvent: {}
+[180.042942] (-) TimerEvent: {}
+[180.143356] (-) TimerEvent: {}
+[180.243779] (-) TimerEvent: {}
+[180.344197] (-) TimerEvent: {}
+[180.444636] (-) TimerEvent: {}
+[180.545051] (-) TimerEvent: {}
+[180.645460] (-) TimerEvent: {}
+[180.745876] (-) TimerEvent: {}
+[180.846288] (-) TimerEvent: {}
+[180.946709] (-) TimerEvent: {}
+[181.047116] (-) TimerEvent: {}
+[181.147529] (-) TimerEvent: {}
+[181.247935] (-) TimerEvent: {}
+[181.348343] (-) TimerEvent: {}
+[181.448762] (-) TimerEvent: {}
+[181.549172] (-) TimerEvent: {}
+[181.649585] (-) TimerEvent: {}
+[181.749997] (-) TimerEvent: {}
+[181.850430] (-) TimerEvent: {}
+[181.950850] (-) TimerEvent: {}
+[182.051254] (-) TimerEvent: {}
+[182.151650] (-) TimerEvent: {}
+[182.252058] (-) TimerEvent: {}
+[182.352505] (-) TimerEvent: {}
+[182.452977] (-) TimerEvent: {}
+[182.553384] (-) TimerEvent: {}
+[182.653791] (-) TimerEvent: {}
+[182.754216] (-) TimerEvent: {}
+[182.854624] (-) TimerEvent: {}
+[182.955026] (-) TimerEvent: {}
+[183.055449] (-) TimerEvent: {}
+[183.155897] (-) TimerEvent: {}
+[183.256310] (-) TimerEvent: {}
+[183.356769] (-) TimerEvent: {}
+[183.457405] (-) TimerEvent: {}
+[183.557997] (-) TimerEvent: {}
+[183.658382] (-) TimerEvent: {}
+[183.758840] (-) TimerEvent: {}
+[183.859397] (-) TimerEvent: {}
+[183.959774] (-) TimerEvent: {}
+[184.060155] (-) TimerEvent: {}
+[184.160542] (-) TimerEvent: {}
+[184.260953] (-) TimerEvent: {}
+[184.361339] (-) TimerEvent: {}
+[184.461724] (-) TimerEvent: {}
+[184.562110] (-) TimerEvent: {}
+[184.662494] (-) TimerEvent: {}
+[184.762882] (-) TimerEvent: {}
+[184.863267] (-) TimerEvent: {}
+[184.963654] (-) TimerEvent: {}
+[185.064038] (-) TimerEvent: {}
+[185.164434] (-) TimerEvent: {}
+[185.264817] (-) TimerEvent: {}
+[185.365205] (-) TimerEvent: {}
+[185.465589] (-) TimerEvent: {}
+[185.565978] (-) TimerEvent: {}
+[185.666360] (-) TimerEvent: {}
+[185.766742] (-) TimerEvent: {}
+[185.867127] (-) TimerEvent: {}
+[185.967514] (-) TimerEvent: {}
+[186.067899] (-) TimerEvent: {}
+[186.168280] (-) TimerEvent: {}
+[186.268671] (-) TimerEvent: {}
+[186.369061] (-) TimerEvent: {}
+[186.469445] (-) TimerEvent: {}
+[186.569833] (-) TimerEvent: {}
+[186.670209] (-) TimerEvent: {}
+[186.770591] (-) TimerEvent: {}
+[186.870988] (-) TimerEvent: {}
+[186.971373] (-) TimerEvent: {}
+[187.071757] (-) TimerEvent: {}
+[187.172149] (-) TimerEvent: {}
+[187.272526] (-) TimerEvent: {}
+[187.372905] (-) TimerEvent: {}
+[187.473321] (-) TimerEvent: {}
+[187.573730] (-) TimerEvent: {}
+[187.674218] (-) TimerEvent: {}
+[187.774875] (-) TimerEvent: {}
+[187.875409] (-) TimerEvent: {}
+[187.975798] (-) TimerEvent: {}
+[188.076195] (-) TimerEvent: {}
+[188.176671] (-) TimerEvent: {}
+[188.277369] (-) TimerEvent: {}
+[188.378060] (-) TimerEvent: {}
+[188.478470] (-) TimerEvent: {}
+[188.578888] (-) TimerEvent: {}
+[188.679305] (-) TimerEvent: {}
+[188.681701] (teleop) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_subscriber\x1b[0m\n'}
+[188.779434] (-) TimerEvent: {}
+[188.879881] (-) TimerEvent: {}
+[188.980349] (-) TimerEvent: {}
+[189.080797] (-) TimerEvent: {}
+[189.181247] (-) TimerEvent: {}
+[189.281720] (-) TimerEvent: {}
+[189.382147] (-) TimerEvent: {}
+[189.482589] (-) TimerEvent: {}
+[189.583042] (-) TimerEvent: {}
+[189.683499] (-) TimerEvent: {}
+[189.754614] (teleop) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: undefined reference to symbol '_ZNK3rtc11DataChannel8isClosedEv'\n"}
+[189.754915] (teleop) StderrLine: {'line': b'/usr/bin/ld: /home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-build/libdatachannel.so.0.20: error adding symbols: DSO missing from command line\n'}
+[189.762516] (teleop) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[189.765486] (teleop) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_subscriber.dir/build.make:233: image_subscriber] Error 1\n'}
+[189.765745] (teleop) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:247: CMakeFiles/image_subscriber.dir/all] Error 2\n'}
+[189.766464] (teleop) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[189.770966] (teleop) CommandEnded: {'returncode': 2}
+[189.783552] (-) TimerEvent: {}
+[189.825067] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 2}
+[189.837635] (-) EventReactorShutdown: {}

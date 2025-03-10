@@ -1,0 +1,22 @@
+[0.035s] Invoking command in '/home/hady/teleop/gbot_ws/build/gbot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/gbot_navigation -- -j8 -l8
+[0.177s] [100%] Built target path_planner
+[0.196s] Invoked command in '/home/hady/teleop/gbot_ws/build/gbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/gbot_navigation -- -j8 -l8
+[0.212s] Invoking command in '/home/hady/teleop/gbot_ws/build/gbot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/gbot_navigation
+[0.237s] -- Install configuration: ""
+[0.237s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/lib/gbot_navigation/path_planner
+[0.238s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/package_run_dependencies/gbot_navigation
+[0.238s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/parent_prefix_path/gbot_navigation
+[0.239s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/ament_prefix_path.sh
+[0.239s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/ament_prefix_path.dsv
+[0.239s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/path.sh
+[0.239s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/path.dsv
+[0.239s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.bash
+[0.240s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.sh
+[0.240s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.zsh
+[0.240s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.dsv
+[0.240s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.dsv
+[0.241s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/packages/gbot_navigation
+[0.241s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/cmake/gbot_navigationConfig.cmake
+[0.241s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/cmake/gbot_navigationConfig-version.cmake
+[0.241s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.xml
+[0.248s] Invoked command in '/home/hady/teleop/gbot_ws/build/gbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/gbot_navigation

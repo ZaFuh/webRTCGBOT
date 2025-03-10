@@ -1,0 +1,13 @@
+[0.023s] Invoking command in '/home/hady/teleop/gbot_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/teleop -- -j8 -l8
+[0.242s] [ 19%] Built target juice
+[0.246s] [ 40%] Built target usrsctp
+[0.415s] [ 94%] Built target datachannel
+[0.533s] [ 98%] Built target webrtc_lib
+[0.669s] [100%] [32m[1mLinking CXX executable image_subscriber[0m
+[1.714s] /usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: undefined reference to symbol '_ZNK3rtc11DataChannel8isClosedEv'
+[1.715s] /usr/bin/ld: /home/hady/teleop/gbot_ws/build/teleop/libdatachannel/libdatachannel.so.0.22: error adding symbols: DSO missing from command line
+[1.721s] collect2: error: ld returned 1 exit status
+[1.726s] gmake[2]: *** [CMakeFiles/image_subscriber.dir/build.make:233: image_subscriber] Error 1
+[1.727s] gmake[1]: *** [CMakeFiles/Makefile2:247: CMakeFiles/image_subscriber.dir/all] Error 2
+[1.727s] gmake: *** [Makefile:146: all] Error 2
+[1.732s] Invoked command in '/home/hady/teleop/gbot_ws/build/teleop' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/teleop -- -j8 -l8

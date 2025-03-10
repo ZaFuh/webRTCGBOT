@@ -1,0 +1,2 @@
+Invoking command in '/home/hady/teleop/gbot_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/teleop -- -j8 -l8
+Invoked command in '/home/hady/teleop/gbot_ws/build/teleop' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/teleop -- -j8 -l8

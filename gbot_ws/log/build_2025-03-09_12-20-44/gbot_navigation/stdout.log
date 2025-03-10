@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target path_planner[0m
+[100%] Built target path_planner
+-- Install configuration: ""
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/lib/gbot_navigation/path_planner
+-- Set runtime path of "/home/hady/teleop/gbot_ws/install/gbot_navigation/lib/gbot_navigation/path_planner" to ""
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/package_run_dependencies/gbot_navigation
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/parent_prefix_path/gbot_navigation
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/ament_prefix_path.sh
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/ament_prefix_path.dsv
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/path.sh
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/path.dsv
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.bash
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.sh
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.zsh
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.dsv
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.dsv
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/packages/gbot_navigation
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/cmake/gbot_navigationConfig.cmake
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/cmake/gbot_navigationConfig-version.cmake
+-- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.xml

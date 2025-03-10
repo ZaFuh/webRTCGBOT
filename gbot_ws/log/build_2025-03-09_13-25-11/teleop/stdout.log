@@ -1,0 +1,62 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+-- No build type selected, using DEBUG
+-- Looking for include file sys/queue.h
+-- Looking for include file sys/queue.h - found
+-- Looking for include files sys/socket.h, linux/if_addr.h
+-- Looking for include files sys/socket.h, linux/if_addr.h - found
+-- Looking for include files sys/socket.h, linux/rtnetlink.h
+-- Looking for include files sys/socket.h, linux/rtnetlink.h - found
+-- Looking for 4 include files sys/types.h, ..., netinet/ip_icmp.h
+-- Looking for 4 include files sys/types.h, ..., netinet/ip_icmp.h - found
+-- Looking for 3 include files sys/types.h, ..., net/route.h
+-- Looking for 3 include files sys/types.h, ..., net/route.h - found
+-- Looking for include file stdatomic.h
+-- Looking for include file stdatomic.h - found
+-- Looking for usrsctp.h
+-- Looking for usrsctp.h - found
+-- Performing Test have_sa_len
+-- Performing Test have_sa_len - Failed
+-- Performing Test have_sin_len
+-- Performing Test have_sin_len - Failed
+-- Performing Test have_sin6_len
+-- Performing Test have_sin6_len - Failed
+-- Performing Test have_sconn_len
+-- Performing Test have_sconn_len - Failed
+-- Performing Test has_wfloat_equal
+-- Performing Test has_wfloat_equal - Success
+-- Performing Test has_wshadow
+-- Performing Test has_wshadow - Success
+-- Performing Test has_wpointer_aritih
+-- Performing Test has_wpointer_aritih - Success
+-- Performing Test has_wunreachable_code
+-- Performing Test has_wunreachable_code - Success
+-- Performing Test has_winit_self
+-- Performing Test has_winit_self - Success
+-- Performing Test has_wno_unused_function
+-- Performing Test has_wno_unused_function - Success
+-- Performing Test has_wno_unused_parameter
+-- Performing Test has_wno_unused_parameter - Success
+-- Performing Test has_wno_unreachable_code
+-- Performing Test has_wno_unreachable_code - Success
+-- Performing Test has_wstrict_prototypes
+-- Performing Test has_wstrict_prototypes - Success
+-- Compiler flags (CMAKE_C_FLAGS):  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes
+-- Performing Test has_wno_address_of_packed_member
+-- Performing Test has_wno_address_of_packed_member - Success
+-- Performing Test has_wno_deprecated_declarations
+-- Performing Test has_wno_deprecated_declarations - Success
+-- Configuring incomplete, errors occurred!
+See also "/home/hady/teleop/gbot_ws/build/teleop/CMakeFiles/CMakeOutput.log".
+See also "/home/hady/teleop/gbot_ws/build/teleop/CMakeFiles/CMakeError.log".

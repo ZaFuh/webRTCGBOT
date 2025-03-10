@@ -1,0 +1,179 @@
+[0.149s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.149s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb207d810>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb207d210>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb207d210>>, mixin_verb=('build',))
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.382s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.383s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hady/teleop/gbot_ws'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/gbot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/gbot_navigation) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/gbot_navigation) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/gbot_navigation) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gbot_navigation) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gbot_navigation) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gbot_navigation) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gbot_navigation) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/gbot_navigation) by extension 'ros'
+[0.404s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gbot_navigation' with type 'ros.ament_cmake' and name 'gbot_navigation'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop) by extension 'ros'
+[0.407s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop' with type 'ros.ament_cmake' and name 'teleop'
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.407s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.459s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.462s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'gbot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'gbot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'gbot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'gbot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'gbot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'gbot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'gbot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'gbot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.517s] Level 5:colcon.colcon_core.verb:set package 'gbot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.517s] DEBUG:colcon.colcon_core.verb:Building package 'gbot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hady/teleop/gbot_ws/build/gbot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hady/teleop/gbot_ws/install/gbot_navigation', 'merge_install': False, 'path': '/home/hady/teleop/gbot_ws/src/gbot_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_target' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.518s] Level 5:colcon.colcon_core.verb:set package 'teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.518s] DEBUG:colcon.colcon_core.verb:Building package 'teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hady/teleop/gbot_ws/build/teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hady/teleop/gbot_ws/install/teleop', 'merge_install': False, 'path': '/home/hady/teleop/gbot_ws/src/teleop', 'symlink_install': False, 'test_result_base': None}
+[0.519s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.520s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.520s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hady/teleop/gbot_ws/src/gbot_navigation' with build type 'ament_cmake'
+[0.521s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hady/teleop/gbot_ws/src/gbot_navigation'
+[0.524s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.525s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.525s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.530s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hady/teleop/gbot_ws/src/teleop' with build type 'ament_cmake'
+[0.530s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hady/teleop/gbot_ws/src/teleop'
+[0.530s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hady/teleop/gbot_ws/build/gbot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/gbot_navigation -- -j8 -l8
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hady/teleop/gbot_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop
+[0.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hady/teleop/gbot_ws/build/gbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/gbot_navigation -- -j8 -l8
+[0.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hady/teleop/gbot_ws/build/gbot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/gbot_navigation
+[0.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gbot_navigation)
+[0.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hady/teleop/gbot_ws/build/gbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/gbot_navigation
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation' for CMake module files
+[0.882s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation' for CMake config files
+[0.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('gbot_navigation', 'cmake_prefix_path')
+[0.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/hook/cmake_prefix_path.ps1'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/hook/cmake_prefix_path.dsv'
+[0.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/hook/cmake_prefix_path.sh'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation/lib'
+[0.895s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation/bin'
+[0.896s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation/lib/pkgconfig/gbot_navigation.pc'
+[0.897s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation/lib/python3.10/site-packages'
+[0.898s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation/bin'
+[0.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.ps1'
+[0.903s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.dsv'
+[0.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.sh'
+[0.908s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.bash'
+[0.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.zsh'
+[0.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hady/teleop/gbot_ws/install/gbot_navigation/share/colcon-core/packages/gbot_navigation)
+[0.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gbot_navigation)
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation' for CMake module files
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation' for CMake config files
+[0.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('gbot_navigation', 'cmake_prefix_path')
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/hook/cmake_prefix_path.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/hook/cmake_prefix_path.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/hook/cmake_prefix_path.sh'
+[0.929s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation/lib'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation/bin'
+[0.930s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation/lib/pkgconfig/gbot_navigation.pc'
+[0.932s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation/lib/python3.10/site-packages'
+[0.933s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/gbot_navigation/bin'
+[0.934s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.ps1'
+[0.936s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.dsv'
+[0.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.sh'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.bash'
+[0.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.zsh'
+[0.943s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hady/teleop/gbot_ws/install/gbot_navigation/share/colcon-core/packages/gbot_navigation)
+[137.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hady/teleop/gbot_ws/build/teleop' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop
+[137.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop)
+[137.472s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/teleop' for CMake module files
+[137.474s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/teleop' for CMake config files
+[137.476s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/teleop/bin'
+[137.476s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/teleop/lib/pkgconfig/teleop.pc'
+[137.477s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/teleop/lib/python3.10/site-packages'
+[137.479s] Level 1:colcon.colcon_core.environment:checking '/home/hady/teleop/gbot_ws/install/teleop/bin'
+[137.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/teleop/share/teleop/package.ps1'
+[137.482s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hady/teleop/gbot_ws/install/teleop/share/teleop/package.dsv'
+[137.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/teleop/share/teleop/package.sh'
+[137.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/teleop/share/teleop/package.bash'
+[137.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/hady/teleop/gbot_ws/install/teleop/share/teleop/package.zsh'
+[137.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hady/teleop/gbot_ws/install/teleop/share/colcon-core/packages/teleop)
+[137.502s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[137.503s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[137.503s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[137.504s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[137.533s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[137.534s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[137.534s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[137.585s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[137.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hady/teleop/gbot_ws/install/local_setup.ps1'
+[137.588s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hady/teleop/gbot_ws/install/_local_setup_util_ps1.py'
+[137.591s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hady/teleop/gbot_ws/install/setup.ps1'
+[137.593s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hady/teleop/gbot_ws/install/local_setup.sh'
+[137.595s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hady/teleop/gbot_ws/install/_local_setup_util_sh.py'
+[137.596s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hady/teleop/gbot_ws/install/setup.sh'
+[137.600s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hady/teleop/gbot_ws/install/local_setup.bash'
+[137.602s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hady/teleop/gbot_ws/install/setup.bash'
+[137.603s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hady/teleop/gbot_ws/install/local_setup.zsh'
+[137.604s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hady/teleop/gbot_ws/install/setup.zsh'

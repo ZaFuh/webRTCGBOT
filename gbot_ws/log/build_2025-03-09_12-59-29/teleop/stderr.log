@@ -1,0 +1,38 @@
+[ 11%] Performing download step (git clone) for 'libdatachannel-populate'
+Cloning into 'libdatachannel-src'...
+HEAD is now at 0b1074a9 Bumped version to 0.20.2
+Submodule 'deps/json' (https://github.com/nlohmann/json.git) registered for path 'deps/json'
+Submodule 'deps/libjuice' (https://github.com/paullouisageneau/libjuice.git) registered for path 'deps/libjuice'
+Submodule 'deps/libsrtp' (https://github.com/cisco/libsrtp.git) registered for path 'deps/libsrtp'
+Submodule 'deps/plog' (https://github.com/SergiusTheBest/plog.git) registered for path 'deps/plog'
+Submodule 'deps/usrsctp' (https://github.com/sctplab/usrsctp.git) registered for path 'deps/usrsctp'
+Cloning into '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/json'...
+Cloning into '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libjuice'...
+Cloning into '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/libsrtp'...
+Cloning into '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/plog'...
+Cloning into '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src/deps/usrsctp'...
+error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+error: 2545 bytes of body are still expected
+fetch-pack: unexpected disconnect while reading sideband packet
+fatal: early EOF
+fatal: fetch-pack: invalid index-pack output
+fatal: Fetched in submodule path 'deps/json', but it did not contain 9cca280a4d0ccf0c08f47a99aa71d1b0e52f8d03. Direct fetching of that commit failed.
+fatal: 
+CMake Error at libdatachannel-subbuild/libdatachannel-populate-prefix/tmp/libdatachannel-populate-gitclone.cmake:52 (message):
+  Failed to update submodules in:
+  '/home/hady/teleop/gbot_ws/build/teleop/_deps/libdatachannel-src'
+
+
+gmake[2]: *** [CMakeFiles/libdatachannel-populate.dir/build.make:102: libdatachannel-populate-prefix/src/libdatachannel-populate-stamp/libdatachannel-populate-download] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/libdatachannel-populate.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
+
+CMake Error at /usr/share/cmake-3.22/Modules/FetchContent.cmake:1087 (message):
+  Build step for libdatachannel failed: 2
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216:EVAL:2 (__FetchContent_directPopulate)
+  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216 (cmake_language)
+  /usr/share/cmake-3.22/Modules/FetchContent.cmake:1259 (FetchContent_Populate)
+  CMakeLists.txt:47 (FetchContent_MakeAvailable)
+
+

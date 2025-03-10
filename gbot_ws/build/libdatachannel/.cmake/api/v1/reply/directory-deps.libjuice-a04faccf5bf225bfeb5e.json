@@ -1,0 +1,102 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/libjuice/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 156,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 159,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 180,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/libjuice/libjuice.a"
+			],
+			"targetId" : "juice::@254282e62f09b98453fb",
+			"targetIndex" : 15,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/juice",
+			"paths" : 
+			[
+				"deps/libjuice/include/juice/juice.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/LibJuice",
+			"exportName" : "LibJuiceTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "juice::@254282e62f09b98453fb",
+					"index" : 15
+				}
+			],
+			"paths" : 
+			[
+				"deps/libjuice/CMakeFiles/Export/lib/cmake/LibJuice/LibJuiceTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/LibJuice",
+			"paths" : 
+			[
+				"/home/hady/teleop/gbot_ws/build/libdatachannel/LibJuiceConfig.cmake",
+				"/home/hady/teleop/gbot_ws/build/libdatachannel/LibJuiceConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/libjuice",
+		"source" : "deps/libjuice"
+	}
+}

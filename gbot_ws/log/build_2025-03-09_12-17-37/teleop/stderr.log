@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:28 (find_package):
+  By not providing "Findwebsocketpp.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "websocketpp", but CMake did not find one.
+
+  Could not find a package configuration file provided by "websocketpp" with
+  any of the following names:
+
+    websocketppConfig.cmake
+    websocketpp-config.cmake
+
+  Add the installation prefix of "websocketpp" to CMAKE_PREFIX_PATH or set
+  "websocketpp_DIR" to a directory containing one of the above files.  If
+  "websocketpp" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

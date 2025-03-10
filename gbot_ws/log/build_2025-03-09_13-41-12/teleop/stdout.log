@@ -1,0 +1,7 @@
+[ 19%] Built target juice
+[ 40%] Built target usrsctp
+[ 94%] Built target datachannel
+[35m[1mConsolidate compiler generated dependencies of target webrtc_lib[0m
+[ 98%] Built target webrtc_lib
+[35m[1mConsolidate compiler generated dependencies of target image_subscriber[0m
+[100%] [32m[1mLinking CXX executable image_subscriber[0m

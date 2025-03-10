@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/datachannel-client-benchmark.dir/main.cpp.o CMakeFiles/datachannel-client-benchmark.dir/parse_cl.cpp.o -o client-benchmark  -Wl,-rpath,/home/hady/teleop/gbot_ws/build/libdatachannel ../../libdatachannel.so.0.22.5 

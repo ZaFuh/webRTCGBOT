@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: undefined reference to symbol '_ZNK3rtc11DataChannel8isClosedEv'
+/usr/bin/ld: /home/hady/teleop/gbot_ws/build/teleop/libdatachannel/libdatachannel.so.0.22: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/image_subscriber.dir/build.make:233: image_subscriber] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:247: CMakeFiles/image_subscriber.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

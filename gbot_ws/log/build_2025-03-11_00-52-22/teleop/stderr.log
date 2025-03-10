@@ -1,0 +1,22 @@
+In file included from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/message.hpp:13[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/mediahandler.hpp:15[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/track.hpp:15[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/peerconnection.hpp:18[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/rtc.hpp:17[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/include/teleop/webrtc.hpp:8[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/src/webrtc.cpp:1[m[K:
+[01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   20 | ame Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+      |                                                                                                                        [01;35m[K^[m[K
+      |                                                                                                                        [31m[K-[m[K
+In file included from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/message.hpp:13[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/mediahandler.hpp:15[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/track.hpp:15[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/peerconnection.hpp:18[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/rtc.hpp:17[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/include/teleop/webrtc.hpp:8[m[K,
+                 from [01m[K/home/hady/teleop/gbot_ws/src/teleop/src/image_subscriber.cpp:7[m[K:
+[01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   20 | ame Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+      |                                                                                                                        [01;35m[K^[m[K
+      |                                                                                                                        [31m[K-[m[K

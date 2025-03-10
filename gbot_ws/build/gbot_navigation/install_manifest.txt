@@ -1,0 +1,16 @@
+/home/hady/teleop/gbot_ws/install/gbot_navigation/lib/gbot_navigation/path_planner
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/package_run_dependencies/gbot_navigation
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/parent_prefix_path/gbot_navigation
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/ament_prefix_path.sh
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/ament_prefix_path.dsv
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/path.sh
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/path.dsv
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.bash
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.sh
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.zsh
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.dsv
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.dsv
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/packages/gbot_navigation
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/cmake/gbot_navigationConfig.cmake
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/cmake/gbot_navigationConfig-version.cmake
+/home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.xml

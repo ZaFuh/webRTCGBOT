@@ -1,0 +1,56 @@
+[0.018s] Invoking command in '/home/hady/teleop/gbot_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop
+[0.047s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.306s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.347s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.351s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.359s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.374s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.392s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.438s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.439s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.603s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.682s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.728s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.742s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[157.289s] [ 11%] Performing download step (git clone) for 'libdatachannel-populate'
+[157.289s] Cloning into 'libdatachannel-src'...
+[157.290s] error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+[157.290s] error: 2234 bytes of body are still expected
+[157.291s] fetch-pack: unexpected disconnect while reading sideband packet
+[157.291s] fatal: early EOF
+[157.291s] fatal: fetch-pack: invalid index-pack output
+[157.292s] Cloning into 'libdatachannel-src'...
+[157.292s] error: RPC failed; curl 56 GnuTLS recv error (-9): Error decoding the received TLS packet.
+[157.293s] error: 2000 bytes of body are still expected
+[157.293s] fetch-pack: unexpected disconnect while reading sideband packet
+[157.293s] fatal: early EOF
+[157.294s] fatal: fetch-pack: invalid index-pack output
+[157.294s] Cloning into 'libdatachannel-src'...
+[157.294s] error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: CANCEL (err 8)
+[157.295s] error: 10 bytes of body are still expected
+[157.295s] fetch-pack: unexpected disconnect while reading sideband packet
+[157.295s] fatal: early EOF
+[157.296s] fatal: fetch-pack: invalid index-pack output
+[157.296s] -- Had to git clone more than once:
+[157.296s]           3 times.
+[157.297s] CMake Error at libdatachannel-subbuild/libdatachannel-populate-prefix/tmp/libdatachannel-populate-gitclone.cmake:31 (message):
+[157.298s]   Failed to clone repository:
+[157.298s]   'https://github.com/paullouisageneau/libdatachannel.git'
+[157.298s] 
+[157.299s] 
+[157.299s] gmake[2]: *** [CMakeFiles/libdatachannel-populate.dir/build.make:102: libdatachannel-populate-prefix/src/libdatachannel-populate-stamp/libdatachannel-populate-download] Error 1
+[157.300s] gmake[1]: *** [CMakeFiles/Makefile2:83: CMakeFiles/libdatachannel-populate.dir/all] Error 2
+[157.300s] gmake: *** [Makefile:91: all] Error 2
+[157.300s] 
+[157.301s] CMake Error at /usr/share/cmake-3.22/Modules/FetchContent.cmake:1087 (message):
+[157.301s]   Build step for libdatachannel failed: 2
+[157.301s] Call Stack (most recent call first):
+[157.302s]   /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216:EVAL:2 (__FetchContent_directPopulate)
+[157.302s]   /usr/share/cmake-3.22/Modules/FetchContent.cmake:1216 (cmake_language)
+[157.302s]   /usr/share/cmake-3.22/Modules/FetchContent.cmake:1259 (FetchContent_Populate)
+[157.303s]   CMakeLists.txt:47 (FetchContent_MakeAvailable)
+[157.303s] 
+[157.303s] 
+[157.304s] -- Configuring incomplete, errors occurred!
+[157.304s] See also "/home/hady/teleop/gbot_ws/build/teleop/CMakeFiles/CMakeOutput.log".
+[157.349s] Invoked command in '/home/hady/teleop/gbot_ws/build/teleop' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop

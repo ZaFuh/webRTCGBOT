@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:33 (find_package):
+  By not providing "Findlibdatachannel.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "libdatachannel", but CMake did not find one.
+
+  Could not find a package configuration file provided by "libdatachannel"
+  with any of the following names:
+
+    libdatachannelConfig.cmake
+    libdatachannel-config.cmake
+
+  Add the installation prefix of "libdatachannel" to CMAKE_PREFIX_PATH or set
+  "libdatachannel_DIR" to a directory containing one of the above files.  If
+  "libdatachannel" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

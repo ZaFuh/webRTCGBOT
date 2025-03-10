@@ -1,0 +1,4 @@
+Invoking command in '/home/hady/teleop/gbot_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop
+Invoked command in '/home/hady/teleop/gbot_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop
+Invoking command in '/home/hady/teleop/gbot_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/teleop -- -j8 -l8
+Invoked command in '/home/hady/teleop/gbot_ws/build/teleop' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/teleop -- -j8 -l8

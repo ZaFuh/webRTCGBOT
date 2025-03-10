@@ -1,0 +1,4 @@
+Invoking command in '/home/hady/teleop/gbot_ws/build/gbot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/gbot_navigation -- -j8 -l8
+Invoked command in '/home/hady/teleop/gbot_ws/build/gbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/gbot_navigation -- -j8 -l8
+Invoking command in '/home/hady/teleop/gbot_ws/build/gbot_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/gbot_navigation
+Invoked command in '/home/hady/teleop/gbot_ws/build/gbot_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/gbot_navigation

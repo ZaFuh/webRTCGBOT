@@ -1,0 +1,6 @@
+Invoking command in '/home/hady/teleop/gbot_ws/build/libdatachannel': /usr/bin/cmake /home/hady/teleop/gbot_ws/libdatachannel -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/libdatachannel
+Invoked command in '/home/hady/teleop/gbot_ws/build/libdatachannel' returned '0': /usr/bin/cmake /home/hady/teleop/gbot_ws/libdatachannel -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/libdatachannel
+Invoking command in '/home/hady/teleop/gbot_ws/build/libdatachannel': /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/libdatachannel -- -j8 -l8
+Invoked command in '/home/hady/teleop/gbot_ws/build/libdatachannel' returned '0': /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/libdatachannel -- -j8 -l8
+Invoking command in '/home/hady/teleop/gbot_ws/build/libdatachannel': /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/libdatachannel
+Invoked command in '/home/hady/teleop/gbot_ws/build/libdatachannel' returned '0': /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/libdatachannel

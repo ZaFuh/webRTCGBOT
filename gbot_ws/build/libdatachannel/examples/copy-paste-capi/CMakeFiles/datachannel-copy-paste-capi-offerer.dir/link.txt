@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/datachannel-copy-paste-capi-offerer.dir/offerer.c.o -o offerer-capi  -Wl,-rpath,/home/hady/teleop/gbot_ws/build/libdatachannel ../../libdatachannel.so.0.22.5 

@@ -1,0 +1,294 @@
+[0.000000] (-) TimerEvent: {}
+[0.000739] (gbot_navigation) JobQueued: {'identifier': 'gbot_navigation', 'dependencies': OrderedDict()}
+[0.000891] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.001545] (gbot_navigation) JobStarted: {'identifier': 'gbot_navigation'}
+[0.011827] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.020025] (gbot_navigation) JobProgress: {'identifier': 'gbot_navigation', 'progress': 'cmake'}
+[0.020842] (gbot_navigation) Command: {'cmd': ['/usr/bin/cmake', '/home/hady/teleop/gbot_ws/src/gbot_navigation', '-DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/gbot_navigation'], 'cwd': '/home/hady/teleop/gbot_ws/build/gbot_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'hady'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('TERMINFO', '/usr/share/terminfo'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/hady/teleop'), ('TERM_PROGRAM_VERSION', '1.0.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.mitchellh.ghostty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1332'), ('SYSTEMD_EXEC_PID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7541'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hady'), ('JOURNAL_STREAM', '8:39971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-ghostty'), ('GHOSTTY_SHELL_INTEGRATION_NO_SUDO', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1465,unix/hady:/tmp/.ICE-unix/1465'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '4b87f6b42dc544c8aaa1eb941669cec4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'ghostty'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hady/teleop/gbot_ws/build/gbot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2245589461208410'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029620] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.030400] (teleop) Command: {'cmd': ['/usr/bin/cmake', '/home/hady/teleop/gbot_ws/src/teleop', '-DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop'], 'cwd': '/home/hady/teleop/gbot_ws/build/teleop', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'hady'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('TERMINFO', '/usr/share/terminfo'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/hady/teleop'), ('TERM_PROGRAM_VERSION', '1.0.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.mitchellh.ghostty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1332'), ('SYSTEMD_EXEC_PID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7541'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hady'), ('JOURNAL_STREAM', '8:39971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-ghostty'), ('GHOSTTY_SHELL_INTEGRATION_NO_SUDO', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1465,unix/hady:/tmp/.ICE-unix/1465'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '4b87f6b42dc544c8aaa1eb941669cec4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'ghostty'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hady/teleop/gbot_ws/build/teleop'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2245589461208410'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097989] (-) TimerEvent: {}
+[0.172460] (teleop) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.192388] (gbot_navigation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.198138] (-) TimerEvent: {}
+[0.298891] (-) TimerEvent: {}
+[0.332142] (teleop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.355054] (gbot_navigation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.360920] (teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.367183] (gbot_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.398962] (-) TimerEvent: {}
+[0.499471] (-) TimerEvent: {}
+[0.590698] (gbot_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.599667] (-) TimerEvent: {}
+[0.602373] (gbot_navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.602956] (gbot_navigation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.603627] (gbot_navigation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.610551] (gbot_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.626544] (teleop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.666980] (teleop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.668097] (teleop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.668954] (teleop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.672771] (teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700089] (-) TimerEvent: {}
+[0.801385] (-) TimerEvent: {}
+[0.882357] (gbot_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.894022] (gbot_navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.895099] (gbot_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.895902] (gbot_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.900757] (gbot_navigation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.901665] (-) TimerEvent: {}
+[0.917332] (teleop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.960227] (teleop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.961409] (teleop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.963908] (teleop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.968084] (teleop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.001994] (-) TimerEvent: {}
+[1.103136] (-) TimerEvent: {}
+[1.204032] (-) TimerEvent: {}
+[1.251230] (gbot_navigation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.301254] (teleop) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.304179] (-) TimerEvent: {}
+[1.404958] (-) TimerEvent: {}
+[1.420440] (gbot_navigation) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.486084] (gbot_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.493573] (gbot_navigation) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.495549] (teleop) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.505229] (-) TimerEvent: {}
+[1.507444] (gbot_navigation) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.529481] (gbot_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.555314] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.556463] (gbot_navigation) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.562113] (teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.574055] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.591447] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.605543] (-) TimerEvent: {}
+[1.614951] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.630861] (gbot_navigation) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.634887] (gbot_navigation) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.678651] (teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.681885] (teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.705859] (-) TimerEvent: {}
+[1.807117] (-) TimerEvent: {}
+[1.842088] (gbot_navigation) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.886786] (teleop) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.897621] (gbot_navigation) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.907361] (-) TimerEvent: {}
+[1.945870] (teleop) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.981352] (gbot_navigation) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.996245] (gbot_navigation) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.007539] (-) TimerEvent: {}
+[2.029503] (teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.042672] (teleop) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.107692] (-) TimerEvent: {}
+[2.208392] (-) TimerEvent: {}
+[2.250358] (gbot_navigation) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.251127] (gbot_navigation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.303520] (teleop) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.304329] (teleop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.308433] (-) TimerEvent: {}
+[2.409040] (-) TimerEvent: {}
+[2.509831] (-) TimerEvent: {}
+[2.513744] (gbot_navigation) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.519638] (gbot_navigation) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.569402] (teleop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.570972] (teleop) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.610293] (-) TimerEvent: {}
+[2.639706] (gbot_navigation) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.659473] (teleop) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.710657] (-) TimerEvent: {}
+[2.719013] (teleop) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[2.745876] (teleop) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[2.811121] (-) TimerEvent: {}
+[2.814380] (teleop) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[2.815845] (gbot_navigation) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.816794] (gbot_navigation) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/hady/teleop/gbot_ws/src/gbot_navigation/include\n'}
+[2.817431] (gbot_navigation) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.817941] (gbot_navigation) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.818599] (gbot_navigation) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.819046] (gbot_navigation) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.819521] (gbot_navigation) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.822841] (gbot_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.826416] (teleop) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[2.842791] (gbot_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[2.849444] (gbot_navigation) StdoutLine: {'line': b'-- Build files have been written to: /home/hady/teleop/gbot_ws/build/gbot_navigation\n'}
+[2.870885] (teleop) StderrLine: {'line': b'CMake Error at CMakeLists.txt:28 (find_package):\n'}
+[2.872307] (teleop) StderrLine: {'line': b'  By not providing "Findwebsocketpp.cmake" in CMAKE_MODULE_PATH this project\n'}
+[2.873034] (teleop) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[2.873730] (teleop) StderrLine: {'line': b'  "websocketpp", but CMake did not find one.\n'}
+[2.874282] (teleop) StderrLine: {'line': b'\n'}
+[2.874771] (teleop) StderrLine: {'line': b'  Could not find a package configuration file provided by "websocketpp" with\n'}
+[2.875222] (teleop) StderrLine: {'line': b'  any of the following names:\n'}
+[2.875634] (teleop) StderrLine: {'line': b'\n'}
+[2.876025] (teleop) StderrLine: {'line': b'    websocketppConfig.cmake\n'}
+[2.876407] (teleop) StderrLine: {'line': b'    websocketpp-config.cmake\n'}
+[2.876807] (teleop) StderrLine: {'line': b'\n'}
+[2.877181] (teleop) StderrLine: {'line': b'  Add the installation prefix of "websocketpp" to CMAKE_PREFIX_PATH or set\n'}
+[2.877553] (teleop) StderrLine: {'line': b'  "websocketpp_DIR" to a directory containing one of the above files.  If\n'}
+[2.877918] (teleop) StderrLine: {'line': b'  "websocketpp" provides a separate development package or SDK, be sure it\n'}
+[2.878285] (teleop) StderrLine: {'line': b'  has been installed.\n'}
+[2.878655] (teleop) StderrLine: {'line': b'\n'}
+[2.879017] (teleop) StderrLine: {'line': b'\n'}
+[2.879379] (teleop) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[2.880375] (teleop) StdoutLine: {'line': b'See also "/home/hady/teleop/gbot_ws/build/teleop/CMakeFiles/CMakeOutput.log".\n'}
+[2.881668] (gbot_navigation) CommandEnded: {'returncode': 0}
+[2.885668] (gbot_navigation) JobProgress: {'identifier': 'gbot_navigation', 'progress': 'build'}
+[2.887065] (gbot_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hady/teleop/gbot_ws/build/gbot_navigation', '--', '-j8', '-l8'], 'cwd': '/home/hady/teleop/gbot_ws/build/gbot_navigation', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'hady'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('TERMINFO', '/usr/share/terminfo'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/hady/teleop'), ('TERM_PROGRAM_VERSION', '1.0.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/com.mitchellh.ghostty.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '1332'), ('SYSTEMD_EXEC_PID', '1494'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7541'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'hady'), ('JOURNAL_STREAM', '8:39971'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-ghostty'), ('GHOSTTY_SHELL_INTEGRATION_NO_SUDO', '1'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1465,unix/hady:/tmp/.ICE-unix/1465'), ('GDM_LANG', 'en'), ('INVOCATION_ID', '4b87f6b42dc544c8aaa1eb941669cec4'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'ghostty'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hady/teleop/gbot_ws/build/gbot_navigation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('STARSHIP_SESSION_KEY', '2245589461208410'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.905384] (teleop) CommandEnded: {'returncode': 1}
+[2.911112] (-) TimerEvent: {}
+[2.966303] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 1}
+[3.011251] (-) TimerEvent: {}
+[3.049383] (gbot_navigation) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/path_planner.dir/src/object_subscriber.cpp.o\x1b[0m\n'}
+[3.062674] (gbot_navigation) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/path_planner.dir/src/coordinates.cpp.o\x1b[0m\n'}
+[3.063873] (gbot_navigation) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/path_planner.dir/src/main.cpp.o\x1b[0m\n'}
+[3.111619] (-) TimerEvent: {}
+[3.213108] (-) TimerEvent: {}
+[3.313996] (-) TimerEvent: {}
+[3.414847] (-) TimerEvent: {}
+[3.515838] (-) TimerEvent: {}
+[3.616779] (-) TimerEvent: {}
+[3.717717] (-) TimerEvent: {}
+[3.818613] (-) TimerEvent: {}
+[3.919592] (-) TimerEvent: {}
+[4.020628] (-) TimerEvent: {}
+[4.121608] (-) TimerEvent: {}
+[4.222577] (-) TimerEvent: {}
+[4.323568] (-) TimerEvent: {}
+[4.424478] (-) TimerEvent: {}
+[4.525450] (-) TimerEvent: {}
+[4.626429] (-) TimerEvent: {}
+[4.727469] (-) TimerEvent: {}
+[4.828436] (-) TimerEvent: {}
+[4.929420] (-) TimerEvent: {}
+[5.030415] (-) TimerEvent: {}
+[5.131389] (-) TimerEvent: {}
+[5.232380] (-) TimerEvent: {}
+[5.333326] (-) TimerEvent: {}
+[5.434233] (-) TimerEvent: {}
+[5.535211] (-) TimerEvent: {}
+[5.636191] (-) TimerEvent: {}
+[5.737202] (-) TimerEvent: {}
+[5.838190] (-) TimerEvent: {}
+[5.939223] (-) TimerEvent: {}
+[6.040224] (-) TimerEvent: {}
+[6.141173] (-) TimerEvent: {}
+[6.242151] (-) TimerEvent: {}
+[6.343137] (-) TimerEvent: {}
+[6.444164] (-) TimerEvent: {}
+[6.545148] (-) TimerEvent: {}
+[6.646121] (-) TimerEvent: {}
+[6.747128] (-) TimerEvent: {}
+[6.848019] (-) TimerEvent: {}
+[6.949003] (-) TimerEvent: {}
+[7.049951] (-) TimerEvent: {}
+[7.150949] (-) TimerEvent: {}
+[7.251914] (-) TimerEvent: {}
+[7.352924] (-) TimerEvent: {}
+[7.453852] (-) TimerEvent: {}
+[7.554805] (-) TimerEvent: {}
+[7.655746] (-) TimerEvent: {}
+[7.756672] (-) TimerEvent: {}
+[7.857626] (-) TimerEvent: {}
+[7.958742] (-) TimerEvent: {}
+[8.060264] (-) TimerEvent: {}
+[8.161800] (-) TimerEvent: {}
+[8.263295] (-) TimerEvent: {}
+[8.364775] (-) TimerEvent: {}
+[8.466258] (-) TimerEvent: {}
+[8.567818] (-) TimerEvent: {}
+[8.669346] (-) TimerEvent: {}
+[8.770901] (-) TimerEvent: {}
+[8.872404] (-) TimerEvent: {}
+[8.973944] (-) TimerEvent: {}
+[9.075447] (-) TimerEvent: {}
+[9.177000] (-) TimerEvent: {}
+[9.278396] (-) TimerEvent: {}
+[9.379921] (-) TimerEvent: {}
+[9.481469] (-) TimerEvent: {}
+[9.583002] (-) TimerEvent: {}
+[9.684562] (-) TimerEvent: {}
+[9.786106] (-) TimerEvent: {}
+[9.887785] (-) TimerEvent: {}
+[9.989389] (-) TimerEvent: {}
+[10.090972] (-) TimerEvent: {}
+[10.192495] (-) TimerEvent: {}
+[10.294014] (-) TimerEvent: {}
+[10.395484] (-) TimerEvent: {}
+[10.497034] (-) TimerEvent: {}
+[10.598559] (-) TimerEvent: {}
+[10.700110] (-) TimerEvent: {}
+[10.801572] (-) TimerEvent: {}
+[10.903062] (-) TimerEvent: {}
+[11.004509] (-) TimerEvent: {}
+[11.105961] (-) TimerEvent: {}
+[11.207531] (-) TimerEvent: {}
+[11.308999] (-) TimerEvent: {}
+[11.410481] (-) TimerEvent: {}
+[11.511996] (-) TimerEvent: {}
+[11.613498] (-) TimerEvent: {}
+[11.715049] (-) TimerEvent: {}
+[11.816794] (-) TimerEvent: {}
+[11.918097] (-) TimerEvent: {}
+[12.019012] (-) TimerEvent: {}
+[12.119966] (-) TimerEvent: {}
+[12.220977] (-) TimerEvent: {}
+[12.321839] (-) TimerEvent: {}
+[12.422644] (-) TimerEvent: {}
+[12.523727] (-) TimerEvent: {}
+[12.625149] (-) TimerEvent: {}
+[12.726562] (-) TimerEvent: {}
+[12.827907] (-) TimerEvent: {}
+[12.929322] (-) TimerEvent: {}
+[13.030755] (-) TimerEvent: {}
+[13.132160] (-) TimerEvent: {}
+[13.233637] (-) TimerEvent: {}
+[13.335027] (-) TimerEvent: {}
+[13.436449] (-) TimerEvent: {}
+[13.537901] (-) TimerEvent: {}
+[13.639301] (-) TimerEvent: {}
+[13.740745] (-) TimerEvent: {}
+[13.842173] (-) TimerEvent: {}
+[13.943631] (-) TimerEvent: {}
+[14.045044] (-) TimerEvent: {}
+[14.146420] (-) TimerEvent: {}
+[14.247866] (-) TimerEvent: {}
+[14.349280] (-) TimerEvent: {}
+[14.450633] (-) TimerEvent: {}
+[14.552004] (-) TimerEvent: {}
+[14.653460] (-) TimerEvent: {}
+[14.754879] (-) TimerEvent: {}
+[14.856288] (-) TimerEvent: {}
+[14.957672] (-) TimerEvent: {}
+[15.059073] (-) TimerEvent: {}
+[15.160483] (-) TimerEvent: {}
+[15.261904] (-) TimerEvent: {}
+[15.363294] (-) TimerEvent: {}
+[15.464745] (-) TimerEvent: {}
+[15.566144] (-) TimerEvent: {}
+[15.667612] (-) TimerEvent: {}
+[15.769005] (-) TimerEvent: {}
+[15.870419] (-) TimerEvent: {}
+[15.971854] (-) TimerEvent: {}
+[16.073217] (-) TimerEvent: {}
+[16.174782] (-) TimerEvent: {}
+[16.276245] (-) TimerEvent: {}
+[16.377735] (-) TimerEvent: {}
+[16.479130] (-) TimerEvent: {}
+[16.580522] (-) TimerEvent: {}
+[16.681914] (-) TimerEvent: {}
+[16.783430] (-) TimerEvent: {}
+[16.884994] (-) TimerEvent: {}
+[16.986374] (-) TimerEvent: {}
+[17.087255] (-) TimerEvent: {}
+[17.188141] (-) TimerEvent: {}
+[17.199089] (gbot_navigation) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable path_planner\x1b[0m\n'}
+[17.288334] (-) TimerEvent: {}
+[17.389559] (-) TimerEvent: {}
+[17.491098] (-) TimerEvent: {}
+[17.592080] (-) TimerEvent: {}
+[17.692952] (-) TimerEvent: {}
+[17.793926] (-) TimerEvent: {}
+[17.894891] (-) TimerEvent: {}
+[17.995914] (-) TimerEvent: {}
+[18.039953] (gbot_navigation) StdoutLine: {'line': b'[100%] Built target path_planner\n'}
+[18.072180] (gbot_navigation) JobEnded: {'identifier': 'gbot_navigation', 'rc': 'SIGINT'}
+[18.084352] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libwebrtc_lib.a CMakeFiles/webrtc_lib.dir/src/webrtc.cpp.o
+/usr/bin/ranlib libwebrtc_lib.a

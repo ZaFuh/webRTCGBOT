@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/datachannel-media-sfu.dir/main.cpp.o -o media-sfu  -Wl,-rpath,/home/hady/teleop/gbot_ws/build/libdatachannel ../../libdatachannel.so.0.22.5 

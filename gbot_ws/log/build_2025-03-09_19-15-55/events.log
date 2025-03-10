@@ -1,0 +1,481 @@
+[0.000000] (-) TimerEvent: {}
+[0.000859] (-) JobUnselected: {'identifier': 'gbot_navigation'}
+[0.001213] (-) JobUnselected: {'identifier': 'libdatachannel'}
+[0.001346] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.001472] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.012578] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.013806] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'build'}
+[0.017803] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hady/teleop/gbot_ws/build/teleop', '--', '-j8', '-l8'], 'cwd': '/home/hady/teleop/gbot_ws/build/teleop', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'hady'), ('LANGUAGE', 'en'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hady/teleop/gbot_ws/src/teleop'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1290'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1448'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1933'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hady'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:35530'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/hady'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS:/home/hady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hady/.local/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('GDM_LANG', 'en'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1428,unix/hady:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'b54ecc0a4dc94ba892f96e5c87622143'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-abf4ccb798.sock'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/hady/teleop/gbot_ws/build/teleop'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/home/hady'), ('STARSHIP_SESSION_KEY', '2315726273253101'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.093343] (teleop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098728] (-) TimerEvent: {}
+[0.199724] (-) TimerEvent: {}
+[0.300810] (-) TimerEvent: {}
+[0.355927] (teleop) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.395753] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.399038] (teleop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400900] (-) TimerEvent: {}
+[0.407862] (teleop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.421638] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.439919] (teleop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.485307] (teleop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.486929] (teleop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.501089] (-) TimerEvent: {}
+[0.601806] (-) TimerEvent: {}
+[0.657478] (teleop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.702061] (-) TimerEvent: {}
+[0.731582] (teleop) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.775990] (teleop) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.788492] (teleop) StdoutLine: {'line': b'-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.802229] (-) TimerEvent: {}
+[0.861731] (teleop) StdoutLine: {'line': b'-- No build type selected, using DEBUG\n'}
+[0.866258] (teleop) StdoutLine: {'line': b'-- Compiler flags (CMAKE_C_FLAGS):  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes\n'}
+[0.899151] (teleop) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.902416] (-) TimerEvent: {}
+[1.003199] (-) TimerEvent: {}
+[1.017742] (teleop) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.018611] (teleop) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/hady/teleop/gbot_ws/src/teleop/include\n'}
+[1.019188] (teleop) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.019650] (teleop) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.020137] (teleop) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.020560] (teleop) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.021116] (teleop) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.021977] (teleop) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.103450] (-) TimerEvent: {}
+[1.111355] (teleop) StdoutLine: {'line': b'-- Generating done\n'}
+[1.131477] (teleop) StdoutLine: {'line': b'-- Build files have been written to: /home/hady/teleop/gbot_ws/build/teleop\n'}
+[1.203703] (-) TimerEvent: {}
+[1.233719] (teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target juice\x1b[0m\n'}
+[1.238869] (teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target usrsctp\x1b[0m\n'}
+[1.299371] (teleop) StdoutLine: {'line': b'[ 19%] Built target juice\n'}
+[1.303854] (-) TimerEvent: {}
+[1.316371] (teleop) StdoutLine: {'line': b'[ 40%] Built target usrsctp\n'}
+[1.383349] (teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target datachannel\x1b[0m\n'}
+[1.404124] (-) TimerEvent: {}
+[1.504944] (-) TimerEvent: {}
+[1.516650] (teleop) StdoutLine: {'line': b'[ 94%] Built target datachannel\n'}
+[1.551137] (teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target webrtc_lib\x1b[0m\n'}
+[1.605233] (-) TimerEvent: {}
+[1.625800] (teleop) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/webrtc_lib.dir/src/webrtc.cpp.o\x1b[0m\n'}
+[1.705555] (-) TimerEvent: {}
+[1.806491] (-) TimerEvent: {}
+[1.907329] (-) TimerEvent: {}
+[2.008208] (-) TimerEvent: {}
+[2.109063] (-) TimerEvent: {}
+[2.209950] (-) TimerEvent: {}
+[2.310826] (-) TimerEvent: {}
+[2.411719] (-) TimerEvent: {}
+[2.512647] (-) TimerEvent: {}
+[2.613569] (-) TimerEvent: {}
+[2.714453] (-) TimerEvent: {}
+[2.815285] (-) TimerEvent: {}
+[2.916135] (-) TimerEvent: {}
+[3.017022] (-) TimerEvent: {}
+[3.117906] (-) TimerEvent: {}
+[3.218842] (-) TimerEvent: {}
+[3.319754] (-) TimerEvent: {}
+[3.420623] (-) TimerEvent: {}
+[3.521521] (-) TimerEvent: {}
+[3.622448] (-) TimerEvent: {}
+[3.723362] (-) TimerEvent: {}
+[3.824271] (-) TimerEvent: {}
+[3.925146] (-) TimerEvent: {}
+[4.026080] (-) TimerEvent: {}
+[4.126905] (-) TimerEvent: {}
+[4.227795] (-) TimerEvent: {}
+[4.328659] (-) TimerEvent: {}
+[4.429488] (-) TimerEvent: {}
+[4.506647] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13\x1b[m\x1b[K,\n'}
+[4.507387] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/mediahandler.hpp:15\x1b[m\x1b[K,\n'}
+[4.507771] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/track.hpp:15\x1b[m\x1b[K,\n'}
+[4.508135] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/peerconnection.hpp:18\x1b[m\x1b[K,\n'}
+[4.508497] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/rtc.hpp:17\x1b[m\x1b[K,\n'}
+[4.508906] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/src/teleop/include/teleop/webrtc.hpp:8\x1b[m\x1b[K,\n'}
+[4.509280] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/src/teleop/src/webrtc.cpp:1\x1b[m\x1b[K:\n'}
+[4.509640] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.510009] (teleop) StderrLine: {'line': b'   20 |       template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[4.510413] (teleop) StderrLine: {'line': b'      |                                                                                                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.510777] (teleop) StderrLine: {'line': b'      |                                                                                                                                            \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[4.529735] (-) TimerEvent: {}
+[4.630639] (-) TimerEvent: {}
+[4.731653] (-) TimerEvent: {}
+[4.832538] (-) TimerEvent: {}
+[4.933428] (-) TimerEvent: {}
+[5.034329] (-) TimerEvent: {}
+[5.135233] (-) TimerEvent: {}
+[5.236126] (-) TimerEvent: {}
+[5.337021] (-) TimerEvent: {}
+[5.437962] (-) TimerEvent: {}
+[5.538977] (-) TimerEvent: {}
+[5.639873] (-) TimerEvent: {}
+[5.740683] (-) TimerEvent: {}
+[5.841542] (-) TimerEvent: {}
+[5.942470] (-) TimerEvent: {}
+[6.043374] (-) TimerEvent: {}
+[6.144267] (-) TimerEvent: {}
+[6.245170] (-) TimerEvent: {}
+[6.346097] (-) TimerEvent: {}
+[6.446984] (-) TimerEvent: {}
+[6.547871] (-) TimerEvent: {}
+[6.648792] (-) TimerEvent: {}
+[6.749672] (-) TimerEvent: {}
+[6.850563] (-) TimerEvent: {}
+[6.951427] (-) TimerEvent: {}
+[7.052319] (-) TimerEvent: {}
+[7.153132] (-) TimerEvent: {}
+[7.253993] (-) TimerEvent: {}
+[7.354897] (-) TimerEvent: {}
+[7.455852] (-) TimerEvent: {}
+[7.556734] (-) TimerEvent: {}
+[7.657625] (-) TimerEvent: {}
+[7.758494] (-) TimerEvent: {}
+[7.859429] (-) TimerEvent: {}
+[7.960320] (-) TimerEvent: {}
+[8.061223] (-) TimerEvent: {}
+[8.162141] (-) TimerEvent: {}
+[8.263023] (-) TimerEvent: {}
+[8.363904] (-) TimerEvent: {}
+[8.464783] (-) TimerEvent: {}
+[8.565662] (-) TimerEvent: {}
+[8.666462] (-) TimerEvent: {}
+[8.767351] (-) TimerEvent: {}
+[8.868264] (-) TimerEvent: {}
+[8.969179] (-) TimerEvent: {}
+[9.070093] (-) TimerEvent: {}
+[9.170967] (-) TimerEvent: {}
+[9.271858] (-) TimerEvent: {}
+[9.372787] (-) TimerEvent: {}
+[9.473655] (-) TimerEvent: {}
+[9.574539] (-) TimerEvent: {}
+[9.675489] (-) TimerEvent: {}
+[9.778986] (-) TimerEvent: {}
+[9.879890] (-) TimerEvent: {}
+[9.980777] (-) TimerEvent: {}
+[10.081527] (-) TimerEvent: {}
+[10.181966] (-) TimerEvent: {}
+[10.282422] (-) TimerEvent: {}
+[10.382914] (-) TimerEvent: {}
+[10.483340] (-) TimerEvent: {}
+[10.583760] (-) TimerEvent: {}
+[10.684163] (-) TimerEvent: {}
+[10.784598] (-) TimerEvent: {}
+[10.885059] (-) TimerEvent: {}
+[10.985487] (-) TimerEvent: {}
+[11.085883] (-) TimerEvent: {}
+[11.186269] (-) TimerEvent: {}
+[11.286682] (-) TimerEvent: {}
+[11.387120] (-) TimerEvent: {}
+[11.487517] (-) TimerEvent: {}
+[11.587918] (-) TimerEvent: {}
+[11.688331] (-) TimerEvent: {}
+[11.788764] (-) TimerEvent: {}
+[11.889181] (-) TimerEvent: {}
+[11.989618] (-) TimerEvent: {}
+[12.090074] (-) TimerEvent: {}
+[12.190484] (-) TimerEvent: {}
+[12.290879] (-) TimerEvent: {}
+[12.391280] (-) TimerEvent: {}
+[12.491678] (-) TimerEvent: {}
+[12.592104] (-) TimerEvent: {}
+[12.692499] (-) TimerEvent: {}
+[12.792898] (-) TimerEvent: {}
+[12.893383] (-) TimerEvent: {}
+[12.993788] (-) TimerEvent: {}
+[13.094183] (-) TimerEvent: {}
+[13.194588] (-) TimerEvent: {}
+[13.294984] (-) TimerEvent: {}
+[13.395384] (-) TimerEvent: {}
+[13.495801] (-) TimerEvent: {}
+[13.596198] (-) TimerEvent: {}
+[13.696592] (-) TimerEvent: {}
+[13.797008] (-) TimerEvent: {}
+[13.897433] (-) TimerEvent: {}
+[13.997864] (-) TimerEvent: {}
+[14.098296] (-) TimerEvent: {}
+[14.198726] (-) TimerEvent: {}
+[14.299152] (-) TimerEvent: {}
+[14.399577] (-) TimerEvent: {}
+[14.499995] (-) TimerEvent: {}
+[14.600395] (-) TimerEvent: {}
+[14.700792] (-) TimerEvent: {}
+[14.801189] (-) TimerEvent: {}
+[14.901586] (-) TimerEvent: {}
+[15.002001] (-) TimerEvent: {}
+[15.102414] (-) TimerEvent: {}
+[15.202816] (-) TimerEvent: {}
+[15.303202] (-) TimerEvent: {}
+[15.403623] (-) TimerEvent: {}
+[15.504082] (-) TimerEvent: {}
+[15.604483] (-) TimerEvent: {}
+[15.704945] (-) TimerEvent: {}
+[15.805505] (-) TimerEvent: {}
+[15.905902] (-) TimerEvent: {}
+[16.006323] (-) TimerEvent: {}
+[16.106710] (-) TimerEvent: {}
+[16.207109] (-) TimerEvent: {}
+[16.307518] (-) TimerEvent: {}
+[16.407962] (-) TimerEvent: {}
+[16.508379] (-) TimerEvent: {}
+[16.608791] (-) TimerEvent: {}
+[16.709199] (-) TimerEvent: {}
+[16.809598] (-) TimerEvent: {}
+[16.910005] (-) TimerEvent: {}
+[17.010409] (-) TimerEvent: {}
+[17.110823] (-) TimerEvent: {}
+[17.211221] (-) TimerEvent: {}
+[17.311617] (-) TimerEvent: {}
+[17.412042] (-) TimerEvent: {}
+[17.512476] (-) TimerEvent: {}
+[17.612892] (-) TimerEvent: {}
+[17.713313] (-) TimerEvent: {}
+[17.813751] (-) TimerEvent: {}
+[17.914186] (-) TimerEvent: {}
+[18.014600] (-) TimerEvent: {}
+[18.115008] (-) TimerEvent: {}
+[18.215435] (-) TimerEvent: {}
+[18.315841] (-) TimerEvent: {}
+[18.416248] (-) TimerEvent: {}
+[18.516671] (-) TimerEvent: {}
+[18.617114] (-) TimerEvent: {}
+[18.717567] (-) TimerEvent: {}
+[18.818019] (-) TimerEvent: {}
+[18.918422] (-) TimerEvent: {}
+[18.928551] (teleop) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library libwebrtc_lib.so\x1b[0m\n'}
+[19.018564] (-) TimerEvent: {}
+[19.119044] (-) TimerEvent: {}
+[19.219481] (-) TimerEvent: {}
+[19.319942] (-) TimerEvent: {}
+[19.420440] (-) TimerEvent: {}
+[19.520896] (-) TimerEvent: {}
+[19.621386] (-) TimerEvent: {}
+[19.721859] (-) TimerEvent: {}
+[19.822282] (-) TimerEvent: {}
+[19.922681] (-) TimerEvent: {}
+[20.023082] (-) TimerEvent: {}
+[20.123483] (-) TimerEvent: {}
+[20.223902] (-) TimerEvent: {}
+[20.325428] (-) TimerEvent: {}
+[20.354638] (teleop) StdoutLine: {'line': b'[ 98%] Built target webrtc_lib\n'}
+[20.395517] (teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_subscriber\x1b[0m\n'}
+[20.425504] (-) TimerEvent: {}
+[20.486475] (teleop) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o\x1b[0m\n'}
+[20.525651] (-) TimerEvent: {}
+[20.626146] (-) TimerEvent: {}
+[20.726555] (-) TimerEvent: {}
+[20.826956] (-) TimerEvent: {}
+[20.927361] (-) TimerEvent: {}
+[21.027799] (-) TimerEvent: {}
+[21.128259] (-) TimerEvent: {}
+[21.228690] (-) TimerEvent: {}
+[21.329134] (-) TimerEvent: {}
+[21.429573] (-) TimerEvent: {}
+[21.529997] (-) TimerEvent: {}
+[21.630408] (-) TimerEvent: {}
+[21.730818] (-) TimerEvent: {}
+[21.831259] (-) TimerEvent: {}
+[21.931705] (-) TimerEvent: {}
+[22.032164] (-) TimerEvent: {}
+[22.132574] (-) TimerEvent: {}
+[22.233000] (-) TimerEvent: {}
+[22.333415] (-) TimerEvent: {}
+[22.433838] (-) TimerEvent: {}
+[22.534267] (-) TimerEvent: {}
+[22.634679] (-) TimerEvent: {}
+[22.735089] (-) TimerEvent: {}
+[22.835508] (-) TimerEvent: {}
+[22.935934] (-) TimerEvent: {}
+[23.036357] (-) TimerEvent: {}
+[23.136775] (-) TimerEvent: {}
+[23.237204] (-) TimerEvent: {}
+[23.337655] (-) TimerEvent: {}
+[23.438089] (-) TimerEvent: {}
+[23.538519] (-) TimerEvent: {}
+[23.638966] (-) TimerEvent: {}
+[23.739401] (-) TimerEvent: {}
+[23.839839] (-) TimerEvent: {}
+[23.940271] (-) TimerEvent: {}
+[24.040702] (-) TimerEvent: {}
+[24.141113] (-) TimerEvent: {}
+[24.241538] (-) TimerEvent: {}
+[24.341957] (-) TimerEvent: {}
+[24.442392] (-) TimerEvent: {}
+[24.542811] (-) TimerEvent: {}
+[24.643229] (-) TimerEvent: {}
+[24.743663] (-) TimerEvent: {}
+[24.844087] (-) TimerEvent: {}
+[24.944511] (-) TimerEvent: {}
+[25.044940] (-) TimerEvent: {}
+[25.145372] (-) TimerEvent: {}
+[25.245815] (-) TimerEvent: {}
+[25.346241] (-) TimerEvent: {}
+[25.446674] (-) TimerEvent: {}
+[25.547107] (-) TimerEvent: {}
+[25.647553] (-) TimerEvent: {}
+[25.747974] (-) TimerEvent: {}
+[25.848382] (-) TimerEvent: {}
+[25.948810] (-) TimerEvent: {}
+[26.049233] (-) TimerEvent: {}
+[26.149653] (-) TimerEvent: {}
+[26.250086] (-) TimerEvent: {}
+[26.350519] (-) TimerEvent: {}
+[26.450936] (-) TimerEvent: {}
+[26.551347] (-) TimerEvent: {}
+[26.651873] (-) TimerEvent: {}
+[26.752846] (-) TimerEvent: {}
+[26.785938] (teleop) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13\x1b[m\x1b[K,\n'}
+[26.786647] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/mediahandler.hpp:15\x1b[m\x1b[K,\n'}
+[26.787125] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/track.hpp:15\x1b[m\x1b[K,\n'}
+[26.787546] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/peerconnection.hpp:18\x1b[m\x1b[K,\n'}
+[26.787935] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/rtc.hpp:17\x1b[m\x1b[K,\n'}
+[26.788354] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/src/teleop/include/teleop/webrtc.hpp:8\x1b[m\x1b[K,\n'}
+[26.788723] (teleop) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hady/teleop/gbot_ws/src/teleop/src/image_subscriber.cpp:7\x1b[m\x1b[K:\n'}
+[26.789139] (teleop) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.789518] (teleop) StderrLine: {'line': b'   20 |       template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[26.789885] (teleop) StderrLine: {'line': b'      |                                                                                                                                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[26.790248] (teleop) StderrLine: {'line': b'      |                                                                                                                                            \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[26.853135] (-) TimerEvent: {}
+[26.954056] (-) TimerEvent: {}
+[27.054990] (-) TimerEvent: {}
+[27.155943] (-) TimerEvent: {}
+[27.256798] (-) TimerEvent: {}
+[27.357737] (-) TimerEvent: {}
+[27.458670] (-) TimerEvent: {}
+[27.559636] (-) TimerEvent: {}
+[27.660581] (-) TimerEvent: {}
+[27.761514] (-) TimerEvent: {}
+[27.862425] (-) TimerEvent: {}
+[27.963376] (-) TimerEvent: {}
+[28.064335] (-) TimerEvent: {}
+[28.165270] (-) TimerEvent: {}
+[28.266241] (-) TimerEvent: {}
+[28.367182] (-) TimerEvent: {}
+[28.468132] (-) TimerEvent: {}
+[28.569046] (-) TimerEvent: {}
+[28.669923] (-) TimerEvent: {}
+[28.770822] (-) TimerEvent: {}
+[28.871749] (-) TimerEvent: {}
+[28.972710] (-) TimerEvent: {}
+[29.073646] (-) TimerEvent: {}
+[29.174555] (-) TimerEvent: {}
+[29.275523] (-) TimerEvent: {}
+[29.376459] (-) TimerEvent: {}
+[29.477379] (-) TimerEvent: {}
+[29.578317] (-) TimerEvent: {}
+[29.679235] (-) TimerEvent: {}
+[29.780138] (-) TimerEvent: {}
+[29.881033] (-) TimerEvent: {}
+[29.981926] (-) TimerEvent: {}
+[30.082768] (-) TimerEvent: {}
+[30.183644] (-) TimerEvent: {}
+[30.284554] (-) TimerEvent: {}
+[30.385522] (-) TimerEvent: {}
+[30.486390] (-) TimerEvent: {}
+[30.587306] (-) TimerEvent: {}
+[30.688263] (-) TimerEvent: {}
+[30.789183] (-) TimerEvent: {}
+[30.890180] (-) TimerEvent: {}
+[30.991119] (-) TimerEvent: {}
+[31.091950] (-) TimerEvent: {}
+[31.192838] (-) TimerEvent: {}
+[31.293681] (-) TimerEvent: {}
+[31.394644] (-) TimerEvent: {}
+[31.495537] (-) TimerEvent: {}
+[31.596460] (-) TimerEvent: {}
+[31.697412] (-) TimerEvent: {}
+[31.798335] (-) TimerEvent: {}
+[31.899303] (-) TimerEvent: {}
+[32.000145] (-) TimerEvent: {}
+[32.100987] (-) TimerEvent: {}
+[32.201922] (-) TimerEvent: {}
+[32.302798] (-) TimerEvent: {}
+[32.403823] (-) TimerEvent: {}
+[32.504867] (-) TimerEvent: {}
+[32.605852] (-) TimerEvent: {}
+[32.706788] (-) TimerEvent: {}
+[32.807640] (-) TimerEvent: {}
+[32.908621] (-) TimerEvent: {}
+[33.009661] (-) TimerEvent: {}
+[33.110559] (-) TimerEvent: {}
+[33.211440] (-) TimerEvent: {}
+[33.312363] (-) TimerEvent: {}
+[33.413233] (-) TimerEvent: {}
+[33.514218] (-) TimerEvent: {}
+[33.615142] (-) TimerEvent: {}
+[33.716166] (-) TimerEvent: {}
+[33.817087] (-) TimerEvent: {}
+[33.918024] (-) TimerEvent: {}
+[34.018950] (-) TimerEvent: {}
+[34.119969] (-) TimerEvent: {}
+[34.220951] (-) TimerEvent: {}
+[34.321817] (-) TimerEvent: {}
+[34.422668] (-) TimerEvent: {}
+[34.523591] (-) TimerEvent: {}
+[34.624476] (-) TimerEvent: {}
+[34.725284] (-) TimerEvent: {}
+[34.826171] (-) TimerEvent: {}
+[34.926956] (-) TimerEvent: {}
+[35.027819] (-) TimerEvent: {}
+[35.128688] (-) TimerEvent: {}
+[35.229568] (-) TimerEvent: {}
+[35.330451] (-) TimerEvent: {}
+[35.431316] (-) TimerEvent: {}
+[35.532202] (-) TimerEvent: {}
+[35.633035] (-) TimerEvent: {}
+[35.733963] (-) TimerEvent: {}
+[35.834793] (-) TimerEvent: {}
+[35.935641] (-) TimerEvent: {}
+[36.036658] (-) TimerEvent: {}
+[36.137818] (-) TimerEvent: {}
+[36.238670] (-) TimerEvent: {}
+[36.339543] (-) TimerEvent: {}
+[36.440409] (-) TimerEvent: {}
+[36.541274] (-) TimerEvent: {}
+[36.642155] (-) TimerEvent: {}
+[36.743002] (-) TimerEvent: {}
+[36.843863] (-) TimerEvent: {}
+[36.944724] (-) TimerEvent: {}
+[37.045587] (-) TimerEvent: {}
+[37.146422] (-) TimerEvent: {}
+[37.247264] (-) TimerEvent: {}
+[37.348123] (-) TimerEvent: {}
+[37.449000] (-) TimerEvent: {}
+[37.549776] (-) TimerEvent: {}
+[37.650624] (-) TimerEvent: {}
+[37.751451] (-) TimerEvent: {}
+[37.852312] (-) TimerEvent: {}
+[37.953163] (-) TimerEvent: {}
+[38.053998] (-) TimerEvent: {}
+[38.154846] (-) TimerEvent: {}
+[38.255718] (-) TimerEvent: {}
+[38.356596] (-) TimerEvent: {}
+[38.457445] (-) TimerEvent: {}
+[38.558310] (-) TimerEvent: {}
+[38.659218] (-) TimerEvent: {}
+[38.760099] (-) TimerEvent: {}
+[38.860954] (-) TimerEvent: {}
+[38.961847] (-) TimerEvent: {}
+[39.062725] (-) TimerEvent: {}
+[39.163640] (-) TimerEvent: {}
+[39.264582] (-) TimerEvent: {}
+[39.365555] (-) TimerEvent: {}
+[39.466456] (-) TimerEvent: {}
+[39.524714] (teleop) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_subscriber\x1b[0m\n'}
+[39.566666] (-) TimerEvent: {}
+[39.667644] (-) TimerEvent: {}
+[39.768688] (-) TimerEvent: {}
+[39.869802] (-) TimerEvent: {}
+[39.970838] (-) TimerEvent: {}
+[40.071847] (-) TimerEvent: {}
+[40.172815] (-) TimerEvent: {}
+[40.273696] (-) TimerEvent: {}
+[40.374721] (-) TimerEvent: {}
+[40.475617] (-) TimerEvent: {}
+[40.576067] (-) TimerEvent: {}
+[40.595893] (teleop) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: undefined reference to symbol '_ZNK3rtc11DataChannel8isClosedEv'\n"}
+[40.596193] (teleop) StderrLine: {'line': b'/usr/bin/ld: /home/hady/teleop/gbot_ws/build/teleop/libdatachannel/libdatachannel.so.0.22: error adding symbols: DSO missing from command line\n'}
+[40.606407] (teleop) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[40.609366] (teleop) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_subscriber.dir/build.make:233: image_subscriber] Error 1\n'}
+[40.610802] (teleop) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:247: CMakeFiles/image_subscriber.dir/all] Error 2\n'}
+[40.611473] (teleop) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[40.623457] (teleop) CommandEnded: {'returncode': 2}
+[40.627943] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 2}
+[40.629536] (-) EventReactorShutdown: {}

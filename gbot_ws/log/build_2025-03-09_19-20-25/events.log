@@ -1,0 +1,42 @@
+[0.000000] (-) TimerEvent: {}
+[0.001383] (-) JobUnselected: {'identifier': 'gbot_navigation'}
+[0.001740] (-) JobUnselected: {'identifier': 'libdatachannel'}
+[0.001871] (teleop) JobQueued: {'identifier': 'teleop', 'dependencies': OrderedDict()}
+[0.002223] (teleop) JobStarted: {'identifier': 'teleop'}
+[0.012959] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'cmake'}
+[0.014172] (teleop) JobProgress: {'identifier': 'teleop', 'progress': 'build'}
+[0.015244] (teleop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hady/teleop/gbot_ws/build/teleop', '--', '-j8', '-l8'], 'cwd': '/home/hady/teleop/gbot_ws/build/teleop', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('USER', 'hady'), ('LANGUAGE', 'en'), ('STARSHIP_SHELL', 'zsh'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hady'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/hady/teleop/gbot_ws/src/teleop'), ('DESKTOP_SESSION', 'ubuntu'), ('TERM_PROGRAM_VERSION', '1.97.2'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('GTK_MODULES', 'gail:atk-bridge'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('MANAGERPID', '1290'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '1448'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '1933'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hady'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('JOURNAL_STREAM', '8:35530'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('USER_ZDOTDIR', '/home/hady'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/hady/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hady/.local/bin:/home/hady/.fzf/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS:/home/hady/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/hady/.local/bin:/Users/hadymashhour/Developer/flutter/bin:/home/hady/.pub-cache/bin:/Users/hadymashhour/Library/Android/sdk/emulator:/Users/hadymashhour/Developer/butler:/usr/local/texlive/2021/bin:/usr/local/texlive/2021/bin/universal-darwin:/usr/local/smlnj/bin:/Users/hadymashhour/Developer/nuclio:/Applications/Blender.app/Contents/MacOS'), ('GDM_LANG', 'en'), ('SESSION_MANAGER', 'local/hady:@/tmp/.ICE-unix/1428,unix/hady:/tmp/.ICE-unix/1428'), ('INVOCATION_ID', 'b54ecc0a4dc94ba892f96e5c87622143'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('VSCODE_INJECTION', '1'), ('XAUTHORITY', '/home/hady/.Xauthority'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-abf4ccb798.sock'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/hady'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/usr/bin/zsh'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/hady/teleop/gbot_ws/build/teleop'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZDOTDIR', '/home/hady'), ('STARSHIP_SESSION_KEY', '2315726273253101'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099330] (-) TimerEvent: {}
+[0.199968] (-) TimerEvent: {}
+[0.210896] (teleop) StdoutLine: {'line': b'[ 19%] Built target juice\n'}
+[0.236971] (teleop) StdoutLine: {'line': b'[ 40%] Built target usrsctp\n'}
+[0.300087] (-) TimerEvent: {}
+[0.396851] (teleop) StdoutLine: {'line': b'[ 94%] Built target datachannel\n'}
+[0.400215] (-) TimerEvent: {}
+[0.436257] (teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target webrtc_lib\x1b[0m\n'}
+[0.498233] (teleop) StdoutLine: {'line': b'[ 98%] Built target webrtc_lib\n'}
+[0.500358] (-) TimerEvent: {}
+[0.560529] (teleop) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target image_subscriber\x1b[0m\n'}
+[0.600968] (-) TimerEvent: {}
+[0.635514] (teleop) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable image_subscriber\x1b[0m\n'}
+[0.701224] (-) TimerEvent: {}
+[0.802143] (-) TimerEvent: {}
+[0.903113] (-) TimerEvent: {}
+[1.004175] (-) TimerEvent: {}
+[1.105256] (-) TimerEvent: {}
+[1.205951] (-) TimerEvent: {}
+[1.306537] (-) TimerEvent: {}
+[1.407025] (-) TimerEvent: {}
+[1.507508] (-) TimerEvent: {}
+[1.607974] (-) TimerEvent: {}
+[1.708477] (-) TimerEvent: {}
+[1.783404] (teleop) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: undefined reference to symbol '_ZNK3rtc11DataChannel8isClosedEv'\n"}
+[1.783825] (teleop) StderrLine: {'line': b'/usr/bin/ld: /home/hady/teleop/gbot_ws/build/teleop/libdatachannel/libdatachannel.so.0.22: error adding symbols: DSO missing from command line\n'}
+[1.791588] (teleop) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[1.794413] (teleop) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/image_subscriber.dir/build.make:233: image_subscriber] Error 1\n'}
+[1.795167] (teleop) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:247: CMakeFiles/image_subscriber.dir/all] Error 2\n'}
+[1.795724] (teleop) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.800000] (teleop) CommandEnded: {'returncode': 2}
+[1.808727] (-) TimerEvent: {}
+[1.816009] (teleop) JobEnded: {'identifier': 'teleop', 'rc': 2}
+[1.826890] (-) EventReactorShutdown: {}

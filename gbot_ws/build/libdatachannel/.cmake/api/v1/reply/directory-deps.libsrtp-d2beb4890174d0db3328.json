@@ -1,0 +1,105 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"deps/libsrtp/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 281,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 408,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"deps/libsrtp/libsrtp2.a"
+			],
+			"targetId" : "srtp2::@0aa5481a157497b0445e",
+			"targetIndex" : 23,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/srtp2",
+			"paths" : 
+			[
+				"deps/libsrtp/include/srtp.h",
+				"deps/libsrtp/crypto/include/auth.h",
+				"deps/libsrtp/crypto/include/cipher.h",
+				"deps/libsrtp/crypto/include/crypto_types.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libSRTP",
+			"exportName" : "libSRTPTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "srtp2::@0aa5481a157497b0445e",
+					"index" : 23
+				}
+			],
+			"paths" : 
+			[
+				"deps/libsrtp/CMakeFiles/Export/lib/cmake/libSRTP/libSRTPTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libSRTP",
+			"paths" : 
+			[
+				"/home/hady/teleop/gbot_ws/build/libdatachannel/deps/libsrtp/libSRTPConfig.cmake",
+				"/home/hady/teleop/gbot_ws/build/libdatachannel/deps/libsrtp/libSRTPConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "deps/libsrtp",
+		"source" : "deps/libsrtp"
+	}
+}

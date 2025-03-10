@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/datachannel-benchmark.dir/test/benchmark.cpp.o -o benchmark-0.22.5  -Wl,-rpath,/home/hady/teleop/gbot_ws/build/libdatachannel libdatachannel.so.0.22.5 

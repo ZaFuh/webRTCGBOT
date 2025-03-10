@@ -1,0 +1,826 @@
+[0.025s] Invoking command in '/home/hady/teleop/gbot_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop
+[0.065s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.295s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.336s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.339s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.348s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.364s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.385s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.436s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.439s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.605s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.680s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.727s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.741s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[0.827s] -- No build type selected, using DEBUG
+[0.832s] -- Compiler flags (CMAKE_C_FLAGS):  -std=c99 -pedantic -Wall -Wextra -Wfloat-equal -Wshadow -Wpointer-arith -Wunreachable-code -Winit-self -Wno-unused-function -Wno-unused-parameter -Wno-unreachable-code -Wstrict-prototypes
+[0.871s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.035s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.036s] -- Configured cppcheck include dirs: /home/hady/teleop/gbot_ws/src/teleop/include
+[1.036s] -- Configured cppcheck exclude dirs and/or files: 
+[1.037s] -- Added test 'lint_cmake' to check CMake code style
+[1.038s] -- Added test 'uncrustify' to check C / C++ code style
+[1.038s] -- Configured uncrustify additional arguments: 
+[1.039s] -- Added test 'xmllint' to check XML markup files
+[1.041s] -- Configuring done
+[1.129s] -- Generating done
+[1.148s] -- Build files have been written to: /home/hady/teleop/gbot_ws/build/teleop
+[1.186s] Invoked command in '/home/hady/teleop/gbot_ws/build/teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/teleop
+[1.193s] Invoking command in '/home/hady/teleop/gbot_ws/build/teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/teleop -- -j8 -l8
+[1.344s] [  1%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_callout.c.o[0m
+[1.345s] [  3%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_asconf.c.o[0m
+[1.346s] [  3%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_auth.c.o[0m
+[1.346s] [  5%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_indata.c.o[0m
+[1.353s] [  5%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_bsd_addr.c.o[0m
+[1.359s] [  5%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_cc_functions.c.o[0m
+[1.365s] [  7%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_crc32.c.o[0m
+[1.366s] [  7%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/addr.c.o[0m
+[1.462s] [  8%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/agent.c.o[0m
+[1.488s] [  8%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_input.c.o[0m
+[1.521s] [ 10%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_output.c.o[0m
+[1.678s] [ 10%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_pcb.c.o[0m
+[1.755s] [ 12%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_peeloff.c.o[0m
+[1.808s] [ 12%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sha1.c.o[0m
+[1.915s] [ 12%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/crc32.c.o[0m
+[1.939s] [ 14%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_ss_functions.c.o[0m
+[1.973s] [ 15%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/const_time.c.o[0m
+[2.031s] [ 15%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/conn.c.o[0m
+[2.035s] [ 15%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_sysctl.c.o[0m
+[2.038s] [ 17%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_timer.c.o[0m
+[2.095s] [ 19%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_usrreq.c.o[0m
+[2.110s] [ 19%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctp_userspace.c.o[0m
+[2.137s] [ 21%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/conn_poll.c.o[0m
+[2.225s] [ 21%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet/sctputil.c.o[0m
+[2.255s] [ 21%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/conn_thread.c.o[0m
+[2.270s] [ 22%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/netinet6/sctp6_usrreq.c.o[0m
+[2.372s] [ 24%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/conn_mux.c.o[0m
+[2.375s] [ 24%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_environment.c.o[0m
+[2.383s] [ 26%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_mbuf.c.o[0m
+[2.398s] [ 26%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_recv_thread.c.o[0m
+[2.522s] [ 28%] [32mBuilding C object libdatachannel/deps/usrsctp/usrsctplib/CMakeFiles/usrsctp.dir/user_socket.c.o[0m
+[2.589s] [ 28%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/base64.c.o[0m
+[2.650s] [ 29%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/hash.c.o[0m
+[2.673s] [ 31%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/hmac.c.o[0m
+[2.686s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/hash.c:16[m[K:
+[2.688s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:[m[K In function ‘[01m[Kpicohash_init_md5[m[K’:
+[2.689s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:641:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.689s]   641 |     ctx->_reset = [01;35m[K([m[Kvoid *)_picohash_md5_init;
+[2.690s]       |                   [01;35m[K^[m[K
+[2.690s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:641:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.691s]   641 |     ctx->_reset [01;35m[K=[m[K (void *)_picohash_md5_init;
+[2.691s]       |                 [01;35m[K^[m[K
+[2.691s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:642:20:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.692s]   642 |     ctx->_update = [01;35m[K([m[Kvoid *)_picohash_md5_update;
+[2.692s]       |                    [01;35m[K^[m[K
+[2.693s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:642:18:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.693s]   642 |     ctx->_update [01;35m[K=[m[K (void *)_picohash_md5_update;
+[2.694s]       |                  [01;35m[K^[m[K
+[2.694s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:643:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.695s]   643 |     ctx->_final = [01;35m[K([m[Kvoid *)_picohash_md5_final;
+[2.695s]       |                   [01;35m[K^[m[K
+[2.696s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:643:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.698s]   643 |     ctx->_final [01;35m[K=[m[K (void *)_picohash_md5_final;
+[2.698s]       |                 [01;35m[K^[m[K
+[2.699s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:[m[K In function ‘[01m[Kpicohash_init_sha1[m[K’:
+[2.699s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:652:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.700s]   652 |     ctx->_reset = [01;35m[K([m[Kvoid *)_picohash_sha1_init;
+[2.700s]       |                   [01;35m[K^[m[K
+[2.701s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:652:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.701s]   652 |     ctx->_reset [01;35m[K=[m[K (void *)_picohash_sha1_init;
+[2.707s]       |                 [01;35m[K^[m[K
+[2.708s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:653:20:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.709s]   653 |     ctx->_update = [01;35m[K([m[Kvoid *)_picohash_sha1_update;
+[2.709s]       |                    [01;35m[K^[m[K
+[2.710s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:653:18:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.710s]   653 |     ctx->_update [01;35m[K=[m[K (void *)_picohash_sha1_update;
+[2.711s]       |                  [01;35m[K^[m[K
+[2.711s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:654:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.712s]   654 |     ctx->_final = [01;35m[K([m[Kvoid *)_picohash_sha1_final;
+[2.712s]       |                   [01;35m[K^[m[K
+[2.712s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:654:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.713s]   654 |     ctx->_final [01;35m[K=[m[K (void *)_picohash_sha1_final;
+[2.713s]       |                 [01;35m[K^[m[K
+[2.714s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:[m[K In function ‘[01m[Kpicohash_init_sha224[m[K’:
+[2.714s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:662:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.715s]   662 |     ctx->_reset = [01;35m[K([m[Kvoid *)_picohash_sha224_init;
+[2.715s]       |                   [01;35m[K^[m[K
+[2.715s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:662:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.716s]   662 |     ctx->_reset [01;35m[K=[m[K (void *)_picohash_sha224_init;
+[2.716s]       |                 [01;35m[K^[m[K
+[2.717s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:663:20:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.717s]   663 |     ctx->_update = [01;35m[K([m[Kvoid *)_picohash_sha256_update;
+[2.718s]       |                    [01;35m[K^[m[K
+[2.718s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:663:18:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.719s]   663 |     ctx->_update [01;35m[K=[m[K (void *)_picohash_sha256_update;
+[2.719s]       |                  [01;35m[K^[m[K
+[2.719s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:664:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.720s]   664 |     ctx->_final = [01;35m[K([m[Kvoid *)_picohash_sha224_final;
+[2.720s]       |                   [01;35m[K^[m[K
+[2.721s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:664:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.721s]   664 |     ctx->_final [01;35m[K=[m[K (void *)_picohash_sha224_final;
+[2.722s]       |                 [01;35m[K^[m[K
+[2.723s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:[m[K In function ‘[01m[Kpicohash_init_sha256[m[K’:
+[2.723s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:672:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.724s]   672 |     ctx->_reset = [01;35m[K([m[Kvoid *)_picohash_sha256_init;
+[2.724s]       |                   [01;35m[K^[m[K
+[2.725s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:672:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.726s]   672 |     ctx->_reset [01;35m[K=[m[K (void *)_picohash_sha256_init;
+[2.726s]       |                 [01;35m[K^[m[K
+[2.726s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:673:20:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.727s]   673 |     ctx->_update = [01;35m[K([m[Kvoid *)_picohash_sha256_update;
+[2.727s]       |                    [01;35m[K^[m[K
+[2.728s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:673:18:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.728s]   673 |     ctx->_update [01;35m[K=[m[K (void *)_picohash_sha256_update;
+[2.729s]       |                  [01;35m[K^[m[K
+[2.729s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:674:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.730s]   674 |     ctx->_final = [01;35m[K([m[Kvoid *)_picohash_sha256_final;
+[2.730s]       |                   [01;35m[K^[m[K
+[2.731s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:674:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.731s]   674 |     ctx->_final [01;35m[K=[m[K (void *)_picohash_sha256_final;
+[2.732s]       |                 [01;35m[K^[m[K
+[2.732s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:[m[K In function ‘[01m[Kpicohash_init_hmac[m[K’:
+[2.733s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:740:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.733s]   740 |     ctx->_reset = [01;35m[K([m[Kvoid *)_picohash_hmac_reset;
+[2.734s]       |                   [01;35m[K^[m[K
+[2.734s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:740:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.735s]   740 |     ctx->_reset [01;35m[K=[m[K (void *)_picohash_hmac_reset;
+[2.735s]       |                 [01;35m[K^[m[K
+[2.736s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:741:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.737s]   741 |     ctx->_final = [01;35m[K([m[Kvoid *)_picohash_hmac_final;
+[2.737s]       |                   [01;35m[K^[m[K
+[2.738s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:741:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.738s]   741 |     ctx->_final [01;35m[K=[m[K (void *)_picohash_hmac_final;
+[2.739s]       |                 [01;35m[K^[m[K
+[2.766s] [ 31%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/ice.c.o[0m
+[2.791s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/hmac.c:14[m[K:
+[2.792s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:[m[K In function ‘[01m[Kpicohash_init_md5[m[K’:
+[2.793s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:641:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.793s]   641 |     ctx->_reset = [01;35m[K([m[Kvoid *)_picohash_md5_init;
+[2.794s]       |                   [01;35m[K^[m[K
+[2.794s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:641:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.795s]   641 |     ctx->_reset [01;35m[K=[m[K (void *)_picohash_md5_init;
+[2.795s]       |                 [01;35m[K^[m[K
+[2.796s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:642:20:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.796s]   642 |     ctx->_update = [01;35m[K([m[Kvoid *)_picohash_md5_update;
+[2.796s]       |                    [01;35m[K^[m[K
+[2.797s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:642:18:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.797s]   642 |     ctx->_update [01;35m[K=[m[K (void *)_picohash_md5_update;
+[2.798s]       |                  [01;35m[K^[m[K
+[2.798s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:643:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.798s]   643 |     ctx->_final = [01;35m[K([m[Kvoid *)_picohash_md5_final;
+[2.799s]       |                   [01;35m[K^[m[K
+[2.799s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:643:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.800s]   643 |     ctx->_final [01;35m[K=[m[K (void *)_picohash_md5_final;
+[2.800s]       |                 [01;35m[K^[m[K
+[2.800s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:[m[K In function ‘[01m[Kpicohash_init_sha1[m[K’:
+[2.801s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:652:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.801s]   652 |     ctx->_reset = [01;35m[K([m[Kvoid *)_picohash_sha1_init;
+[2.806s]       |                   [01;35m[K^[m[K
+[2.807s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:652:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.808s]   652 |     ctx->_reset [01;35m[K=[m[K (void *)_picohash_sha1_init;
+[2.808s]       |                 [01;35m[K^[m[K
+[2.812s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:653:20:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.813s]   653 |     ctx->_update = [01;35m[K([m[Kvoid *)_picohash_sha1_update;
+[2.813s]       |                    [01;35m[K^[m[K
+[2.814s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:653:18:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.815s]   653 |     ctx->_update [01;35m[K=[m[K (void *)_picohash_sha1_update;
+[2.815s]       |                  [01;35m[K^[m[K
+[2.816s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:654:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.816s]   654 |     ctx->_final = [01;35m[K([m[Kvoid *)_picohash_sha1_final;
+[2.817s]       |                   [01;35m[K^[m[K
+[2.817s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:654:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.818s]   654 |     ctx->_final [01;35m[K=[m[K (void *)_picohash_sha1_final;
+[2.819s]       |                 [01;35m[K^[m[K
+[2.819s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:[m[K In function ‘[01m[Kpicohash_init_sha224[m[K’:
+[2.820s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:662:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.820s]   662 |     ctx->_reset = [01;35m[K([m[Kvoid *)_picohash_sha224_init;
+[2.821s]       |                   [01;35m[K^[m[K
+[2.821s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:662:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.822s]   662 |     ctx->_reset [01;35m[K=[m[K (void *)_picohash_sha224_init;
+[2.822s]       |                 [01;35m[K^[m[K
+[2.823s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:663:20:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.823s]   663 |     ctx->_update = [01;35m[K([m[Kvoid *)_picohash_sha256_update;
+[2.824s]       |                    [01;35m[K^[m[K
+[2.824s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:663:18:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.825s]   663 |     ctx->_update [01;35m[K=[m[K (void *)_picohash_sha256_update;
+[2.825s]       |                  [01;35m[K^[m[K
+[2.826s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:664:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.826s]   664 |     ctx->_final = [01;35m[K([m[Kvoid *)_picohash_sha224_final;
+[2.826s]       |                   [01;35m[K^[m[K
+[2.827s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:664:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.827s]   664 |     ctx->_final [01;35m[K=[m[K (void *)_picohash_sha224_final;
+[2.828s]       |                 [01;35m[K^[m[K
+[2.828s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:[m[K In function ‘[01m[Kpicohash_init_sha256[m[K’:
+[2.829s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:672:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.829s]   672 |     ctx->_reset = [01;35m[K([m[Kvoid *)_picohash_sha256_init;
+[2.830s]       |                   [01;35m[K^[m[K
+[2.830s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:672:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.831s]   672 |     ctx->_reset [01;35m[K=[m[K (void *)_picohash_sha256_init;
+[2.831s]       |                 [01;35m[K^[m[K
+[2.832s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:673:20:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.832s]   673 |     ctx->_update = [01;35m[K([m[Kvoid *)_picohash_sha256_update;
+[2.833s]       |                    [01;35m[K^[m[K
+[2.833s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:673:18:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.834s]   673 |     ctx->_update [01;35m[K=[m[K (void *)_picohash_sha256_update;
+[2.834s]       |                  [01;35m[K^[m[K
+[2.834s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:674:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.835s]   674 |     ctx->_final = [01;35m[K([m[Kvoid *)_picohash_sha256_final;
+[2.835s]       |                   [01;35m[K^[m[K
+[2.836s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:674:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.837s]   674 |     ctx->_final [01;35m[K=[m[K (void *)_picohash_sha256_final;
+[2.837s]       |                 [01;35m[K^[m[K
+[2.837s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:[m[K In function ‘[01m[Kpicohash_init_hmac[m[K’:
+[2.838s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:740:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.838s]   740 |     ctx->_reset = [01;35m[K([m[Kvoid *)_picohash_hmac_reset;
+[2.839s]       |                   [01;35m[K^[m[K
+[2.839s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:740:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.840s]   740 |     ctx->_reset [01;35m[K=[m[K (void *)_picohash_hmac_reset;
+[2.840s]       |                 [01;35m[K^[m[K
+[2.841s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:741:19:[m[K [01;35m[Kwarning: [m[KISO C forbids conversion of function pointer to object pointer type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.841s]   741 |     ctx->_final = [01;35m[K([m[Kvoid *)_picohash_hmac_final;
+[2.842s]       |                   [01;35m[K^[m[K
+[2.842s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/libjuice/src/picohash.h:741:17:[m[K [01;35m[Kwarning: [m[KISO C forbids assignment between function pointer and ‘[01m[Kvoid *[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.842s]   741 |     ctx->_final [01;35m[K=[m[K (void *)_picohash_hmac_final;
+[2.843s]       |                 [01;35m[K^[m[K
+[2.843s] [ 33%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/juice.c.o[0m
+[2.855s] [ 33%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/log.c.o[0m
+[2.867s] [ 35%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/random.c.o[0m
+[2.880s] [ 35%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/server.c.o[0m
+[2.910s] [ 35%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/timestamp.c.o[0m
+[2.915s] [ 36%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/stun.c.o[0m
+[2.928s] [ 38%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/turn.c.o[0m
+[2.931s] [ 38%] [32mBuilding C object libdatachannel/deps/libjuice/CMakeFiles/juice.dir/src/udp.c.o[0m
+[3.169s] [ 40%] [32m[1mLinking C static library libjuice.a[0m
+[3.172s] [ 40%] [32m[1mLinking C static library libusrsctp.a[0m
+[3.314s] [ 40%] Built target juice
+[3.355s] [ 40%] Built target usrsctp
+[3.428s] [ 42%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/candidate.cpp.o[0m
+[3.429s] [ 42%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/channel.cpp.o[0m
+[3.430s] [ 43%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/message.cpp.o[0m
+[3.436s] [ 45%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/mediahandler.cpp.o[0m
+[3.444s] [ 45%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/configuration.cpp.o[0m
+[3.451s] [ 45%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/global.cpp.o[0m
+[3.454s] [ 45%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/description.cpp.o[0m
+[3.461s] [ 47%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/datachannel.cpp.o[0m
+[4.099s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[4.101s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/channel.hpp:13[m[K,
+[4.101s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/channel.cpp:11[m[K:
+[4.102s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.103s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[4.104s]       |                                                                                                                                              [01;35m[K^[m[K
+[4.105s]       |                                                                                                                                              [31m[K-[m[K
+[4.210s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[4.210s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/message.cpp:9[m[K:
+[4.211s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[4.212s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[4.213s]       |                                                                                                                                              [01;35m[K^[m[K
+[4.214s]       |                                                                                                                                              [31m[K-[m[K
+[4.770s] [ 47%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/peerconnection.cpp.o[0m
+[4.941s] [ 49%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtcpreceivingsession.cpp.o[0m
+[5.034s] [ 49%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/track.cpp.o[0m
+[5.106s] [ 50%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/websocket.cpp.o[0m
+[5.499s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[5.500s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/mediahandler.hpp:15[m[K,
+[5.501s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/track.hpp:15[m[K,
+[5.501s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/peerconnection.hpp:18[m[K,
+[5.502s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/datachannel.cpp:11[m[K:
+[5.502s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.503s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[5.503s]       |                                                                                                                                              [01;35m[K^[m[K
+[5.504s]       |                                                                                                                                              [31m[K-[m[K
+[5.783s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[5.783s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/mediahandler.hpp:15[m[K,
+[5.784s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/track.hpp:15[m[K,
+[5.785s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/peerconnection.hpp:18[m[K,
+[5.785s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/peerconnection.cpp:10[m[K:
+[5.789s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.789s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[5.789s]       |                                                                                                                                              [01;35m[K^[m[K
+[5.789s]       |                                                                                                                                              [31m[K-[m[K
+[5.874s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.hpp:24[m[K,
+[5.874s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.hpp:18[m[K,
+[5.874s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:15[m[K,
+[5.875s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/datachannel.cpp:13[m[K:
+[5.875s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:273:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksac_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.875s]   273 |         uint8_t [01;35m[Ksac_info[m[K[]; /* not available yet */
+[5.875s]       |                 [01;35m[K^~~~~~~~[m[K
+[5.875s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:319:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksre_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.875s]   319 |         uint8_t [01;35m[Ksre_data[m[K[];
+[5.875s]       |                 [01;35m[K^~~~~~~~[m[K
+[5.875s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:383:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kstrreset_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.875s]   383 |         uint16_t [01;35m[Kstrreset_stream_list[m[K[];
+[5.876s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.876s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:433:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kssfe_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.876s]   433 |         uint8_t  [01;35m[Kssfe_data[m[K[];
+[5.876s]       |                  [01;35m[K^~~~~~~~~[m[K
+[5.876s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:666:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksrs_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.876s]   666 |         uint16_t [01;35m[Ksrs_stream_list[m[K[];   /* list if strrst_num_streams is not 0 */
+[5.876s]       |                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[5.876s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:677:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kshmac_idents[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.877s]   677 |         uint16_t [01;35m[Kshmac_idents[m[K[];
+[5.877s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[5.877s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:746:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgauth_chunks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.877s]   746 |         uint8_t  [01;35m[Kgauth_chunks[m[K[];
+[5.877s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[5.877s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:751:22:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgaids_assoc_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.877s]   751 |         sctp_assoc_t [01;35m[Kgaids_assoc_id[m[K[];
+[5.877s]       |                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.877s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:820:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksca_key[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.877s]   820 |         uint8_t  [01;35m[Ksca_key[m[K[];
+[5.877s]       |                  [01;35m[K^~~~~~~[m[K
+[6.102s] [ 50%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/websocketserver.cpp.o[0m
+[6.149s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[6.149s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/channel.hpp:13[m[K,
+[6.149s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/websocket.hpp:14[m[K,
+[6.149s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/websocket.cpp:15[m[K:
+[6.149s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.149s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[6.149s]       |                                                                                                                                              [01;35m[K^[m[K
+[6.149s]       |                                                                                                                                              [31m[K-[m[K
+[6.507s] [ 52%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtppacketizationconfig.cpp.o[0m
+[6.592s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[6.592s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/mediahandler.hpp:15[m[K,
+[6.592s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/mediahandler.cpp:9[m[K:
+[6.592s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.592s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[6.592s]       |                                                                                                                                              [01;35m[K^[m[K
+[6.592s]       |                                                                                                                                              [31m[K-[m[K
+[6.603s] [ 52%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtcpsrreporter.cpp.o[0m
+[6.720s] [ 54%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtppacketizer.cpp.o[0m
+[6.868s] [ 54%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtpdepacketizer.cpp.o[0m
+[7.098s] [ 56%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/h264rtppacketizer.cpp.o[0m
+[7.155s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.hpp:24[m[K,
+[7.155s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:18[m[K,
+[7.155s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.hpp:13[m[K,
+[7.155s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/icetransport.hpp:17[m[K,
+[7.155s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/peerconnection.cpp:16[m[K:
+[7.155s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:273:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksac_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.156s]   273 |         uint8_t [01;35m[Ksac_info[m[K[]; /* not available yet */
+[7.156s]       |                 [01;35m[K^~~~~~~~[m[K
+[7.156s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:319:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksre_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.156s]   319 |         uint8_t [01;35m[Ksre_data[m[K[];
+[7.156s]       |                 [01;35m[K^~~~~~~~[m[K
+[7.156s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:383:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kstrreset_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.156s]   383 |         uint16_t [01;35m[Kstrreset_stream_list[m[K[];
+[7.156s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[7.156s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:433:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kssfe_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.156s]   433 |         uint8_t  [01;35m[Kssfe_data[m[K[];
+[7.157s]       |                  [01;35m[K^~~~~~~~~[m[K
+[7.158s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:666:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksrs_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.158s]   666 |         uint16_t [01;35m[Ksrs_stream_list[m[K[];   /* list if strrst_num_streams is not 0 */
+[7.158s]       |                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.158s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:677:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kshmac_idents[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.158s]   677 |         uint16_t [01;35m[Kshmac_idents[m[K[];
+[7.159s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[7.159s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:746:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgauth_chunks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.159s]   746 |         uint8_t  [01;35m[Kgauth_chunks[m[K[];
+[7.159s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[7.159s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:751:22:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgaids_assoc_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.159s]   751 |         sctp_assoc_t [01;35m[Kgaids_assoc_id[m[K[];
+[7.159s]       |                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[7.159s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:820:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksca_key[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.159s]   820 |         uint8_t  [01;35m[Ksca_key[m[K[];
+[7.159s]       |                  [01;35m[K^~~~~~~[m[K
+[7.307s] [ 57%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/h264rtpdepacketizer.cpp.o[0m
+[7.440s] [ 59%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/h265rtppacketizer.cpp.o[0m
+[7.455s] [ 59%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/nalunit.cpp.o[0m
+[7.510s] [ 59%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/h265rtpdepacketizer.cpp.o[0m
+[7.516s] [ 61%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/h265nalunit.cpp.o[0m
+[7.582s] [ 61%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/av1rtppacketizer.cpp.o[0m
+[7.613s] [ 63%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtcpnackresponder.cpp.o[0m
+[7.616s] [ 63%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rtp.cpp.o[0m
+[7.691s] [ 64%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/capi.cpp.o[0m
+[7.716s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[7.716s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/websocketserver.hpp:17[m[K,
+[7.716s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/websocketserver.cpp:15[m[K:
+[7.716s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.716s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[7.716s]       |                                                                                                                                              [01;35m[K^[m[K
+[7.716s]       |                                                                                                                                              [31m[K-[m[K
+[7.727s] [ 64%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/plihandler.cpp.o[0m
+[7.985s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[7.986s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/mediahandler.hpp:15[m[K,
+[7.986s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/track.hpp:15[m[K,
+[7.986s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/track.cpp:9[m[K:
+[7.986s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[7.986s]    20 | (std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[7.986s]       |                                                                                   [01;35m[K^[m[K
+[7.986s]       |                                                                                   [31m[K-[m[K
+[8.035s] [ 66%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/pacinghandler.cpp.o[0m
+[8.071s] [ 66%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/rembhandler.cpp.o[0m
+[8.346s] [ 68%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/certificate.cpp.o[0m
+[8.874s] [ 68%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/channel.cpp.o[0m
+[9.027s] [ 70%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/datachannel.cpp.o[0m
+[9.687s] [ 70%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/dtlssrtptransport.cpp.o[0m
+[9.731s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[9.731s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/channel.hpp:13[m[K,
+[9.731s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/channel.cpp:9[m[K:
+[9.731s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[9.731s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[9.731s]       |                                                                                                                                              [01;35m[K^[m[K
+[9.731s]       |                                                                                                                                              [31m[K-[m[K
+[10.139s] [ 71%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/dtlstransport.cpp.o[0m
+[10.370s] [ 71%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/icetransport.cpp.o[0m
+[10.650s] [ 73%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/init.cpp.o[0m
+[10.684s] [ 75%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/peerconnection.cpp.o[0m
+[11.073s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[11.073s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[11.073s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/dtlstransport.hpp:16[m[K,
+[11.073s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/dtlssrtptransport.hpp:13[m[K,
+[11.073s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/dtlssrtptransport.cpp:9[m[K:
+[11.073s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.073s]    20 | (std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[11.073s]       |                                                                                   [01;35m[K^[m[K
+[11.073s]       |                                                                                   [31m[K-[m[K
+[11.223s] [ 75%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/logcounter.cpp.o[0m
+[11.229s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[11.229s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/mediahandler.hpp:15[m[K,
+[11.230s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/track.hpp:15[m[K,
+[11.230s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/peerconnection.hpp:18[m[K,
+[11.230s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/rtc.hpp:17[m[K,
+[11.230s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/capi.cpp:10[m[K:
+[11.230s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.230s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[11.230s]       |                                                                                                                                              [01;35m[K^[m[K
+[11.230s]       |                                                                                                                                              [31m[K-[m[K
+[11.367s] [ 77%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/sctptransport.cpp.o[0m
+[11.553s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[11.554s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[11.555s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/dtlstransport.hpp:16[m[K,
+[11.555s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/dtlstransport.cpp:9[m[K:
+[11.555s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.555s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[11.555s]       |                                                                                                                                              [01;35m[K^[m[K
+[11.555s]       |                                                                                                                                              [31m[K-[m[K
+[11.697s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.hpp:24[m[K,
+[11.697s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:18[m[K,
+[11.698s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.hpp:13[m[K,
+[11.698s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/icetransport.hpp:17[m[K,
+[11.698s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/dtlstransport.cpp:11[m[K:
+[11.698s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:273:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksac_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.698s]   273 |         uint8_t [01;35m[Ksac_info[m[K[]; /* not available yet */
+[11.698s]       |                 [01;35m[K^~~~~~~~[m[K
+[11.698s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:319:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksre_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.698s]   319 |         uint8_t [01;35m[Ksre_data[m[K[];
+[11.698s]       |                 [01;35m[K^~~~~~~~[m[K
+[11.699s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:383:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kstrreset_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.699s]   383 |         uint16_t [01;35m[Kstrreset_stream_list[m[K[];
+[11.699s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[11.699s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:433:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kssfe_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.699s]   433 |         uint8_t  [01;35m[Kssfe_data[m[K[];
+[11.699s]       |                  [01;35m[K^~~~~~~~~[m[K
+[11.699s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:666:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksrs_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.699s]   666 |         uint16_t [01;35m[Ksrs_stream_list[m[K[];   /* list if strrst_num_streams is not 0 */
+[11.699s]       |                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[11.699s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:677:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kshmac_idents[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.699s]   677 |         uint16_t [01;35m[Kshmac_idents[m[K[];
+[11.700s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[11.700s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:746:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgauth_chunks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.700s]   746 |         uint8_t  [01;35m[Kgauth_chunks[m[K[];
+[11.700s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[11.700s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:751:22:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgaids_assoc_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.700s]   751 |         sctp_assoc_t [01;35m[Kgaids_assoc_id[m[K[];
+[11.700s]       |                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[11.700s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:820:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksca_key[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.700s]   820 |         uint8_t  [01;35m[Ksca_key[m[K[];
+[11.700s]       |                  [01;35m[K^~~~~~~[m[K
+[11.833s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[11.834s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/channel.hpp:13[m[K,
+[11.835s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:12[m[K,
+[11.836s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.cpp:9[m[K:
+[11.837s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[11.838s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[11.839s]       |                                                                                                                                              [01;35m[K^[m[K
+[11.840s]       |                                                                                                                                              [31m[K-[m[K
+[12.061s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[12.062s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[12.062s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/dtlstransport.hpp:16[m[K,
+[12.063s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/init.cpp:11[m[K:
+[12.064s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.064s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[12.065s]       |                                                                                                                                              [01;35m[K^[m[K
+[12.065s]       |                                                                                                                                              [31m[K-[m[K
+[12.161s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.hpp:24[m[K,
+[12.162s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:18[m[K,
+[12.163s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.hpp:13[m[K,
+[12.163s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/icetransport.hpp:17[m[K,
+[12.164s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/init.cpp:12[m[K:
+[12.165s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:273:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksac_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.165s]   273 |         uint8_t [01;35m[Ksac_info[m[K[]; /* not available yet */
+[12.166s]       |                 [01;35m[K^~~~~~~~[m[K
+[12.166s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:319:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksre_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.167s]   319 |         uint8_t [01;35m[Ksre_data[m[K[];
+[12.168s]       |                 [01;35m[K^~~~~~~~[m[K
+[12.168s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:383:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kstrreset_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.169s]   383 |         uint16_t [01;35m[Kstrreset_stream_list[m[K[];
+[12.169s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.170s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:433:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kssfe_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.171s]   433 |         uint8_t  [01;35m[Kssfe_data[m[K[];
+[12.171s]       |                  [01;35m[K^~~~~~~~~[m[K
+[12.172s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:666:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksrs_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.172s]   666 |         uint16_t [01;35m[Ksrs_stream_list[m[K[];   /* list if strrst_num_streams is not 0 */
+[12.173s]       |                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[12.174s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:677:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kshmac_idents[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.174s]   677 |         uint16_t [01;35m[Kshmac_idents[m[K[];
+[12.175s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[12.189s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:746:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgauth_chunks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.190s]   746 |         uint8_t  [01;35m[Kgauth_chunks[m[K[];
+[12.191s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[12.191s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:751:22:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgaids_assoc_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.192s]   751 |         sctp_assoc_t [01;35m[Kgaids_assoc_id[m[K[];
+[12.193s]       |                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[12.193s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:820:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksca_key[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.194s]   820 |         uint8_t  [01;35m[Ksca_key[m[K[];
+[12.194s]       |                  [01;35m[K^~~~~~~[m[K
+[12.207s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[12.208s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/channel.hpp:13[m[K,
+[12.208s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:12[m[K,
+[12.209s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.hpp:13[m[K,
+[12.209s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/icetransport.hpp:17[m[K,
+[12.210s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/icetransport.cpp:9[m[K:
+[12.210s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.211s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[12.211s]       |                                                                                                                                              [01;35m[K^[m[K
+[12.212s]       |                                                                                                                                              [31m[K-[m[K
+[12.364s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.hpp:24[m[K,
+[12.365s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:18[m[K,
+[12.366s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.hpp:13[m[K,
+[12.366s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/icetransport.hpp:17[m[K,
+[12.367s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/icetransport.cpp:9[m[K:
+[12.367s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:273:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksac_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.368s]   273 |         uint8_t [01;35m[Ksac_info[m[K[]; /* not available yet */
+[12.369s]       |                 [01;35m[K^~~~~~~~[m[K
+[12.369s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:319:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksre_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.370s]   319 |         uint8_t [01;35m[Ksre_data[m[K[];
+[12.370s]       |                 [01;35m[K^~~~~~~~[m[K
+[12.371s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:383:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kstrreset_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.371s]   383 |         uint16_t [01;35m[Kstrreset_stream_list[m[K[];
+[12.372s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.372s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:433:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kssfe_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.373s]   433 |         uint8_t  [01;35m[Kssfe_data[m[K[];
+[12.373s]       |                  [01;35m[K^~~~~~~~~[m[K
+[12.374s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:666:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksrs_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.375s]   666 |         uint16_t [01;35m[Ksrs_stream_list[m[K[];   /* list if strrst_num_streams is not 0 */
+[12.375s]       |                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[12.376s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:677:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kshmac_idents[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.376s]   677 |         uint16_t [01;35m[Kshmac_idents[m[K[];
+[12.377s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[12.377s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:746:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgauth_chunks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.378s]   746 |         uint8_t  [01;35m[Kgauth_chunks[m[K[];
+[12.378s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[12.392s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:751:22:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgaids_assoc_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.393s]   751 |         sctp_assoc_t [01;35m[Kgaids_assoc_id[m[K[];
+[12.394s]       |                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[12.394s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:820:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksca_key[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.395s]   820 |         uint8_t  [01;35m[Ksca_key[m[K[];
+[12.396s]       |                  [01;35m[K^~~~~~~[m[K
+[12.543s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[12.544s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[12.544s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.hpp:17[m[K,
+[12.545s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.cpp:9[m[K:
+[12.545s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.546s]    20 | (std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[12.546s]       |                                                                                   [01;35m[K^[m[K
+[12.547s]       |                                                                                   [31m[K-[m[K
+[12.621s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.hpp:24[m[K,
+[12.621s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.cpp:9[m[K:
+[12.622s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:273:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksac_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.623s]   273 |         uint8_t [01;35m[Ksac_info[m[K[]; /* not available yet */
+[12.623s]       |                 [01;35m[K^~~~~~~~[m[K
+[12.624s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:319:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksre_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.625s]   319 |         uint8_t [01;35m[Ksre_data[m[K[];
+[12.625s]       |                 [01;35m[K^~~~~~~~[m[K
+[12.626s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:383:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kstrreset_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.626s]   383 |         uint16_t [01;35m[Kstrreset_stream_list[m[K[];
+[12.627s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[12.628s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:433:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kssfe_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.628s]   433 |         uint8_t  [01;35m[Kssfe_data[m[K[];
+[12.629s]       |                  [01;35m[K^~~~~~~~~[m[K
+[12.629s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:666:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksrs_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.630s]   666 |         uint16_t [01;35m[Ksrs_stream_list[m[K[];   /* list if strrst_num_streams is not 0 */
+[12.630s]       |                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[12.631s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:677:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kshmac_idents[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.631s]   677 |         uint16_t [01;35m[Kshmac_idents[m[K[];
+[12.632s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[12.633s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:746:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgauth_chunks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.633s]   746 |         uint8_t  [01;35m[Kgauth_chunks[m[K[];
+[12.634s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[12.634s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:751:22:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgaids_assoc_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.635s]   751 |         sctp_assoc_t [01;35m[Kgaids_assoc_id[m[K[];
+[12.649s]       |                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[12.650s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:820:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksca_key[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.650s]   820 |         uint8_t  [01;35m[Ksca_key[m[K[];
+[12.651s]       |                  [01;35m[K^~~~~~~[m[K
+[12.978s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[12.979s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/channel.hpp:13[m[K,
+[12.980s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:12[m[K,
+[12.980s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.hpp:13[m[K,
+[12.981s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.cpp:10[m[K:
+[12.982s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[12.982s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[12.983s]       |                                                                                                                                              [01;35m[K^[m[K
+[12.983s]       |                                                                                                                                              [31m[K-[m[K
+[13.432s] [ 77%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/threadpool.cpp.o[0m
+[13.959s] [ 78%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/tls.cpp.o[0m
+[14.207s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.hpp:24[m[K,
+[14.208s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.hpp:18[m[K,
+[14.210s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:15[m[K,
+[14.212s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.cpp:9[m[K:
+[14.213s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:273:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksac_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.215s]   273 |         uint8_t [01;35m[Ksac_info[m[K[]; /* not available yet */
+[14.217s]       |                 [01;35m[K^~~~~~~~[m[K
+[14.219s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:319:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksre_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.221s]   319 |         uint8_t [01;35m[Ksre_data[m[K[];
+[14.222s]       |                 [01;35m[K^~~~~~~~[m[K
+[14.225s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:383:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kstrreset_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.228s]   383 |         uint16_t [01;35m[Kstrreset_stream_list[m[K[];
+[14.229s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.229s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:433:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kssfe_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.230s]   433 |         uint8_t  [01;35m[Kssfe_data[m[K[];
+[14.231s]       |                  [01;35m[K^~~~~~~~~[m[K
+[14.232s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:666:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksrs_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.233s]   666 |         uint16_t [01;35m[Ksrs_stream_list[m[K[];   /* list if strrst_num_streams is not 0 */
+[14.233s]       |                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[14.234s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:677:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kshmac_idents[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.235s]   677 |         uint16_t [01;35m[Kshmac_idents[m[K[];
+[14.235s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[14.236s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:746:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgauth_chunks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.237s]   746 |         uint8_t  [01;35m[Kgauth_chunks[m[K[];
+[14.237s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[14.238s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:751:22:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgaids_assoc_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.239s]   751 |         sctp_assoc_t [01;35m[Kgaids_assoc_id[m[K[];
+[14.240s]       |                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[14.240s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:820:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksca_key[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.241s]   820 |         uint8_t  [01;35m[Ksca_key[m[K[];
+[14.242s]       |                  [01;35m[K^~~~~~~[m[K
+[14.271s] [ 78%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/track.cpp.o[0m
+[14.566s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.hpp:24[m[K,
+[14.567s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:18[m[K,
+[14.568s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.hpp:13[m[K,
+[14.569s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.cpp:10[m[K:
+[14.569s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:273:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksac_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.570s]   273 |         uint8_t [01;35m[Ksac_info[m[K[]; /* not available yet */
+[14.571s]       |                 [01;35m[K^~~~~~~~[m[K
+[14.572s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:319:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksre_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.573s]   319 |         uint8_t [01;35m[Ksre_data[m[K[];
+[14.574s]       |                 [01;35m[K^~~~~~~~[m[K
+[14.574s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:383:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kstrreset_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.575s]   383 |         uint16_t [01;35m[Kstrreset_stream_list[m[K[];
+[14.575s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[14.576s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:433:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kssfe_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.577s]   433 |         uint8_t  [01;35m[Kssfe_data[m[K[];
+[14.578s]       |                  [01;35m[K^~~~~~~~~[m[K
+[14.578s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:666:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksrs_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.579s]   666 |         uint16_t [01;35m[Ksrs_stream_list[m[K[];   /* list if strrst_num_streams is not 0 */
+[14.581s]       |                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[14.584s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:677:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kshmac_idents[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.585s]   677 |         uint16_t [01;35m[Kshmac_idents[m[K[];
+[14.586s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[14.587s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:746:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgauth_chunks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.587s]   746 |         uint8_t  [01;35m[Kgauth_chunks[m[K[];
+[14.588s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[14.593s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:751:22:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgaids_assoc_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.595s]   751 |         sctp_assoc_t [01;35m[Kgaids_assoc_id[m[K[];
+[14.597s]       |                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[14.599s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:820:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksca_key[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[14.599s]   820 |         uint8_t  [01;35m[Ksca_key[m[K[];
+[14.600s]       |                  [01;35m[K^~~~~~~[m[K
+[15.329s] [ 80%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/utils.cpp.o[0m
+[15.343s] [ 80%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/processor.cpp.o[0m
+[15.963s] [ 82%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/sha.cpp.o[0m
+[16.739s] [ 82%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/pollinterrupter.cpp.o[0m
+[16.920s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[16.921s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/channel.hpp:13[m[K,
+[16.921s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/track.hpp:12[m[K,
+[16.921s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/track.cpp:9[m[K:
+[16.921s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[16.921s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[16.921s]       |                                                                                                                                              [01;35m[K^[m[K
+[16.921s]       |                                                                                                                                              [31m[K-[m[K
+[17.161s] [ 84%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/pollservice.cpp.o[0m
+[17.316s] [ 84%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/http.cpp.o[0m
+[17.366s] [ 85%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/httpproxytransport.cpp.o[0m
+[17.670s] [ 85%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/tcpserver.cpp.o[0m
+[17.691s] [ 87%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/tcptransport.cpp.o[0m
+[17.833s] [ 87%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/tlstransport.cpp.o[0m
+[18.321s] [ 89%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/transport.cpp.o[0m
+[18.343s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[18.343s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[18.343s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/httpproxytransport.hpp:14[m[K,
+[18.343s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/httpproxytransport.cpp:10[m[K:
+[18.343s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.343s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[18.343s]       |                                                                                                                                              [01;35m[K^[m[K
+[18.344s]       |                                                                                                                                              [31m[K-[m[K
+[18.682s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/sctptransport.hpp:24[m[K,
+[18.683s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/datachannel.hpp:18[m[K,
+[18.684s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/peerconnection.hpp:13[m[K,
+[18.685s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/track.cpp:12[m[K:
+[18.686s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:273:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksac_info[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.687s]   273 |         uint8_t [01;35m[Ksac_info[m[K[]; /* not available yet */
+[18.687s]       |                 [01;35m[K^~~~~~~~[m[K
+[18.689s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:319:17:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksre_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.690s]   319 |         uint8_t [01;35m[Ksre_data[m[K[];
+[18.691s]       |                 [01;35m[K^~~~~~~~[m[K
+[18.693s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:383:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kstrreset_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.694s]   383 |         uint16_t [01;35m[Kstrreset_stream_list[m[K[];
+[18.696s]       |                  [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[18.697s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:433:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kssfe_data[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.698s]   433 |         uint8_t  [01;35m[Kssfe_data[m[K[];
+[18.700s]       |                  [01;35m[K^~~~~~~~~[m[K
+[18.703s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:666:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksrs_stream_list[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.704s]   666 |         uint16_t [01;35m[Ksrs_stream_list[m[K[];   /* list if strrst_num_streams is not 0 */
+[18.705s]       |                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[18.706s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:677:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kshmac_idents[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.707s]   677 |         uint16_t [01;35m[Kshmac_idents[m[K[];
+[18.708s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[18.710s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:746:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgauth_chunks[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.711s]   746 |         uint8_t  [01;35m[Kgauth_chunks[m[K[];
+[18.714s]       |                  [01;35m[K^~~~~~~~~~~~[m[K
+[18.714s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:751:22:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Kgaids_assoc_id[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.720s]   751 |         sctp_assoc_t [01;35m[Kgaids_assoc_id[m[K[];
+[18.723s]       |                      [01;35m[K^~~~~~~~~~~~~~[m[K
+[18.723s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/deps/usrsctp/usrsctplib/usrsctp.h:820:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids flexible array member ‘[01m[Ksca_key[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[18.724s]   820 |         uint8_t  [01;35m[Ksca_key[m[K[];
+[18.724s]       |                  [01;35m[K^~~~~~~[m[K
+[19.075s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[19.075s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[19.076s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/tcptransport.hpp:16[m[K,
+[19.076s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/tcptransport.cpp:9[m[K:
+[19.076s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[19.076s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[19.077s]       |                                                                                                                                              [01;35m[K^[m[K
+[19.077s]       |                                                                                                                                              [31m[K-[m[K
+[19.208s] [ 89%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/verifiedtlstransport.cpp.o[0m
+[19.384s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[19.384s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[19.384s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/tlstransport.hpp:16[m[K,
+[19.384s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/tlstransport.cpp:9[m[K:
+[19.385s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[19.385s]    20 | (std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[19.385s]       |                                                                                   [01;35m[K^[m[K
+[19.385s]       |                                                                                   [31m[K-[m[K
+[19.864s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[19.865s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[19.865s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.cpp:9[m[K:
+[19.865s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[19.865s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[19.865s]       |                                                                                                                                              [01;35m[K^[m[K
+[19.865s]       |                                                                                                                                              [31m[K-[m[K
+[20.535s] [ 91%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/websocket.cpp.o[0m
+[20.846s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[20.846s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[20.846s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/tlstransport.hpp:16[m[K,
+[20.846s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/verifiedtlstransport.hpp:12[m[K,
+[20.846s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/verifiedtlstransport.cpp:9[m[K:
+[20.847s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[20.848s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[20.848s]       |                                                                                                                                              [01;35m[K^[m[K
+[20.848s]       |                                                                                                                                              [31m[K-[m[K
+[21.136s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[21.136s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[21.136s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/tcptransport.hpp:16[m[K,
+[21.136s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/tcpserver.hpp:16[m[K,
+[21.136s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/tcpserver.cpp:9[m[K:
+[21.136s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.137s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[21.137s]       |                                                                                                                                              [01;35m[K^[m[K
+[21.137s]       |                                                                                                                                              [31m[K-[m[K
+[21.152s] [ 92%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/websocketserver.cpp.o[0m
+[21.413s] [ 92%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/wstransport.cpp.o[0m
+[21.528s] [ 94%] [32mBuilding CXX object libdatachannel/CMakeFiles/datachannel.dir/src/impl/wshandshake.cpp.o[0m
+[21.849s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[21.849s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/channel.hpp:13[m[K,
+[21.850s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/websocket.hpp:14[m[K,
+[21.850s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/websocket.cpp:11[m[K:
+[21.850s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.850s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[21.851s]       |                                                                                                                                              [01;35m[K^[m[K
+[21.851s]       |                                                                                                                                              [31m[K-[m[K
+[22.588s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[22.588s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/websocketserver.hpp:17[m[K,
+[22.588s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/websocketserver.cpp:11[m[K:
+[22.588s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[22.588s]    20 | (std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[22.588s]       |                                                                                   [01;35m[K^[m[K
+[22.589s]       |                                                                                   [31m[K-[m[K
+[22.716s] In file included from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/message.hpp:13[m[K,
+[22.716s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/transport.hpp:15[m[K,
+[22.717s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/wstransport.hpp:13[m[K,
+[22.717s]                  from [01m[K/home/hady/teleop/gbot_ws/libdatachannel/src/impl/wstransport.cpp:9[m[K:
+[22.717s] [01m[K/home/hady/teleop/gbot_ws/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[22.717s]    20 |         template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[22.717s]       |                                                                                                                                              [01;35m[K^[m[K
+[22.717s]       |                                                                                                                                              [31m[K-[m[K
+[28.737s] [ 94%] [32m[1mLinking CXX shared library libdatachannel.so[0m
+[30.735s] [ 94%] Built target datachannel
+[30.801s] [ 96%] [32mBuilding CXX object CMakeFiles/webrtc_lib.dir/src/webrtc.cpp.o[0m
+[30.890s] In file included from [01m[K/home/hady/teleop/gbot_ws/src/teleop/src/webrtc.cpp:1[m[K:
+[30.890s] [01m[K/home/hady/teleop/gbot_ws/src/teleop/include/teleop/webrtc.hpp:6:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: No such file or directory
+[30.890s]     6 | #include [01;31m[K<nlohmann/json.hpp>[m[K
+[30.890s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[30.890s] compilation terminated.
+[30.895s] gmake[2]: *** [CMakeFiles/webrtc_lib.dir/build.make:76: CMakeFiles/webrtc_lib.dir/src/webrtc.cpp.o] Error 1
+[30.896s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/webrtc_lib.dir/all] Error 2
+[30.897s] gmake: *** [Makefile:146: all] Error 2
+[30.903s] Invoked command in '/home/hady/teleop/gbot_ws/build/teleop' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/teleop -- -j8 -l8

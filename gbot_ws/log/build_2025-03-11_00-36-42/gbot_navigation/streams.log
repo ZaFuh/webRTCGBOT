@@ -1,0 +1,70 @@
+[0.045s] Invoking command in '/home/hady/teleop/gbot_ws/build/gbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/gbot_navigation -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/gbot_navigation
+[0.222s] -- The C compiler identification is GNU 11.4.0
+[0.406s] -- The CXX compiler identification is GNU 11.4.0
+[0.437s] -- Detecting C compiler ABI info
+[0.615s] -- Detecting C compiler ABI info - done
+[0.655s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.656s] -- Detecting C compile features
+[0.657s] -- Detecting C compile features - done
+[0.666s] -- Detecting CXX compiler ABI info
+[0.861s] -- Detecting CXX compiler ABI info - done
+[0.872s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.873s] -- Detecting CXX compile features
+[0.873s] -- Detecting CXX compile features - done
+[0.876s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.397s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.639s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.701s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.709s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.723s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.742s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.767s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.836s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.839s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.012s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.061s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.137s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.150s] -- Looking for pthread.h
+[2.312s] -- Looking for pthread.h - found
+[2.314s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.543s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.544s] -- Found Threads: TRUE  
+[2.628s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.786s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.786s] -- Configured cppcheck include dirs: /home/hady/teleop/gbot_ws/src/gbot_navigation/include
+[2.787s] -- Configured cppcheck exclude dirs and/or files: 
+[2.787s] -- Added test 'lint_cmake' to check CMake code style
+[2.788s] -- Added test 'uncrustify' to check C / C++ code style
+[2.788s] -- Configured uncrustify additional arguments: 
+[2.789s] -- Added test 'xmllint' to check XML markup files
+[2.791s] -- Configuring done
+[2.806s] -- Generating done
+[2.813s] -- Build files have been written to: /home/hady/teleop/gbot_ws/build/gbot_navigation
+[2.841s] Invoked command in '/home/hady/teleop/gbot_ws/build/gbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/gbot_navigation -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/gbot_ws/install/gbot_navigation
+[2.844s] Invoking command in '/home/hady/teleop/gbot_ws/build/gbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/gbot_navigation -- -j8 -l8
+[2.950s] [ 50%] [32mBuilding CXX object CMakeFiles/path_planner.dir/src/object_subscriber.cpp.o[0m
+[2.951s] [ 50%] [32mBuilding CXX object CMakeFiles/path_planner.dir/src/coordinates.cpp.o[0m
+[2.965s] [ 75%] [32mBuilding CXX object CMakeFiles/path_planner.dir/src/main.cpp.o[0m
+[23.262s] [100%] [32m[1mLinking CXX executable path_planner[0m
+[24.544s] [100%] Built target path_planner
+[24.567s] Invoked command in '/home/hady/teleop/gbot_ws/build/gbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/gbot_ws/build/gbot_navigation -- -j8 -l8
+[24.584s] Invoking command in '/home/hady/teleop/gbot_ws/build/gbot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/gbot_navigation
+[24.598s] -- Install configuration: ""
+[24.598s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/lib/gbot_navigation/path_planner
+[24.610s] -- Set runtime path of "/home/hady/teleop/gbot_ws/install/gbot_navigation/lib/gbot_navigation/path_planner" to ""
+[24.611s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/package_run_dependencies/gbot_navigation
+[24.611s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/parent_prefix_path/gbot_navigation
+[24.611s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/ament_prefix_path.sh
+[24.612s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/ament_prefix_path.dsv
+[24.612s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/path.sh
+[24.612s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/environment/path.dsv
+[24.612s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.bash
+[24.612s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.sh
+[24.612s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.zsh
+[24.613s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/local_setup.dsv
+[24.613s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.dsv
+[24.613s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/ament_index/resource_index/packages/gbot_navigation
+[24.613s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/cmake/gbot_navigationConfig.cmake
+[24.614s] -- Installing: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/cmake/gbot_navigationConfig-version.cmake
+[24.614s] -- Up-to-date: /home/hady/teleop/gbot_ws/install/gbot_navigation/share/gbot_navigation/package.xml
+[24.625s] Invoked command in '/home/hady/teleop/gbot_ws/build/gbot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hady/teleop/gbot_ws/build/gbot_navigation
