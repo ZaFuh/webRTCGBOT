@@ -1,0 +1,99 @@
+[0.021s] Invoking command in '/home/hady/teleop/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/install/teleop
+[0.227s] -- The C compiler identification is GNU 11.4.0
+[0.362s] -- The CXX compiler identification is GNU 11.4.0
+[0.383s] -- Detecting C compiler ABI info
+[0.635s] -- Detecting C compiler ABI info - done
+[0.646s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.647s] -- Detecting C compile features
+[0.647s] -- Detecting C compile features - done
+[0.652s] -- Detecting CXX compiler ABI info
+[0.875s] -- Detecting CXX compiler ABI info - done
+[0.886s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.886s] -- Detecting CXX compile features
+[0.887s] -- Detecting CXX compile features - done
+[0.893s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.236s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.450s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.522s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.531s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.546s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.592s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.687s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.694s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.910s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.958s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.028s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.047s] -- Looking for pthread.h
+[2.243s] -- Looking for pthread.h - found
+[2.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.442s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.443s] -- Found Threads: TRUE  
+[2.534s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.588s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.609s] -- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+[2.671s] -- Found OpenCV: /usr (found version "4.5.4") 
+[2.679s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.708s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.859s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.860s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.861s] -- Configured cppcheck include dirs: /home/hady/teleop/gbot_ws/src/teleop/include;/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include;/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/build/include
+[2.861s] -- Configured cppcheck exclude dirs and/or files: 
+[2.862s] -- Added test 'lint_cmake' to check CMake code style
+[2.864s] -- Added test 'uncrustify' to check C / C++ code style
+[2.865s] -- Configured uncrustify additional arguments: 
+[2.865s] -- Added test 'xmllint' to check XML markup files
+[2.867s] -- Configuring done
+[2.897s] -- Generating done
+[2.905s] -- Build files have been written to: /home/hady/teleop/build/teleop
+[2.931s] Invoked command in '/home/hady/teleop/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hady/teleop/gbot_ws/src/teleop -DCMAKE_INSTALL_PREFIX=/home/hady/teleop/install/teleop
+[2.932s] Invoking command in '/home/hady/teleop/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/build/teleop -- -j8 -l8
+[3.129s] [ 25%] [32mBuilding CXX object CMakeFiles/webrtc_lib.dir/src/webrtc.cpp.o[0m
+[6.307s] In file included from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/message.hpp:13[m[K,
+[6.308s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/mediahandler.hpp:15[m[K,
+[6.308s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/track.hpp:15[m[K,
+[6.309s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/peerconnection.hpp:18[m[K,
+[6.309s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/rtc.hpp:17[m[K,
+[6.310s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/include/teleop/webrtc.hpp:8[m[K,
+[6.310s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/src/webrtc.cpp:1[m[K:
+[6.310s] [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[6.311s]    20 |      template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[6.311s]       |                                                                                                                                           [01;35m[K^[m[K
+[6.312s]       |                                                                                                                                           [31m[K-[m[K
+[21.151s] [ 50%] [32m[1mLinking CXX static library libwebrtc_lib.a[0m
+[21.520s] [ 50%] Built target webrtc_lib
+[21.592s] [ 75%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[28.103s] In file included from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/message.hpp:13[m[K,
+[28.103s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/mediahandler.hpp:15[m[K,
+[28.104s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/track.hpp:15[m[K,
+[28.104s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/peerconnection.hpp:18[m[K,
+[28.104s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/rtc.hpp:17[m[K,
+[28.104s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/include/teleop/webrtc.hpp:8[m[K,
+[28.104s]                  from [01m[K/home/hady/teleop/gbot_ws/src/teleop/src/image_subscriber.cpp:7[m[K:
+[28.104s] [01m[K/home/hady/teleop/gbot_ws/src/teleop/../../install/libdatachannel/include/rtc/frameinfo.hpp:20:142:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[28.104s]    20 |      template<typename Period = std::ratio<1>> FrameInfo(std::chrono::duration<double, Period> timestamp) : timestampSeconds(timestamp) {}[01;35m[K;[m[K
+[28.104s]       |                                                                                                                                           [01;35m[K^[m[K
+[28.104s]       |                                                                                                                                           [31m[K-[m[K
+[41.121s] [100%] [32m[1mLinking CXX executable image_subscriber[0m
+[43.899s] [100%] Built target image_subscriber
+[43.932s] Invoked command in '/home/hady/teleop/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hady/teleop/build/teleop -- -j8 -l8
+[43.967s] Invoking command in '/home/hady/teleop/build/teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hady/teleop/build/teleop
+[43.994s] -- Install configuration: ""
+[43.995s] -- Installing: /home/hady/teleop/install/teleop/lib/teleop/image_subscriber
+[44.016s] -- Set runtime path of "/home/hady/teleop/install/teleop/lib/teleop/image_subscriber" to ""
+[44.016s] -- Installing: /home/hady/teleop/install/teleop/share/ament_index/resource_index/package_run_dependencies/teleop
+[44.017s] -- Installing: /home/hady/teleop/install/teleop/share/ament_index/resource_index/parent_prefix_path/teleop
+[44.018s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/environment/ament_prefix_path.sh
+[44.018s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/environment/ament_prefix_path.dsv
+[44.019s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/environment/path.sh
+[44.019s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/environment/path.dsv
+[44.020s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/local_setup.bash
+[44.020s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/local_setup.sh
+[44.021s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/local_setup.zsh
+[44.022s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/local_setup.dsv
+[44.023s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/package.dsv
+[44.024s] -- Installing: /home/hady/teleop/install/teleop/share/ament_index/resource_index/packages/teleop
+[44.024s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/cmake/teleopConfig.cmake
+[44.025s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/cmake/teleopConfig-version.cmake
+[44.026s] -- Installing: /home/hady/teleop/install/teleop/share/teleop/package.xml
+[44.027s] Invoked command in '/home/hady/teleop/build/teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hady/teleop/build/teleop
