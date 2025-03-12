@@ -68,7 +68,7 @@ public:
                 "Data channel message callback registered successfully");
     RCLCPP_INFO(this->get_logger(), "Data channel message callback registered");
     subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
-        "camera/image_raw", 10,
+        "/image_raw", 10,
         std::bind(&ImageSubscriber::image_callback, this,
                   std::placeholders::_1));
 
