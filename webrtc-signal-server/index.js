@@ -1,5 +1,10 @@
 import WebSocket, { WebSocketServer } from "ws";
 
+// Initialize the WebSocket server
+const wss = new WebSocketServer({
+  port: 8080,
+  host: '0.0.0.0'  // Allow connections from any IP
+});
 
 let connections = new Set();
 
